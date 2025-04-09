@@ -1,0 +1,502 @@
+[
+  {
+    "question": "Cho phép tính: 26 + x - 29 = 33. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "36",
+      "40",
+      "38"
+    ],
+    "answer": 0,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: 59 - 30 + x = 43. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "16",
+      "17",
+      "14"
+    ],
+    "answer": 2,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: (30 + x) - 34 = 22. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "24",
+      "26",
+      "28"
+    ],
+    "answer": 1,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: x + 52 - 18 = 68. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "29",
+      "37",
+      "34"
+    ],
+    "answer": 2,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: (13 + 16) - x = -12. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "41",
+      "36",
+      "43"
+    ],
+    "answer": 0,
+    "guide": "👉 Đây là bài tìm x trong phép tính có nhiều bước.<br/>1. Làm ngược lại phép cộng và trừ để tìm x.<br/>✅ Con có thể thử thay các đáp án vào để kiểm tra!"
+  },
+  {
+    "question": "Cho phép tính: 51 + x - 28 = 45. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "20",
+      "22",
+      "24"
+    ],
+    "answer": 1,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: (10 + x) - 25 = 34. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "52",
+      "49",
+      "46"
+    ],
+    "answer": 1,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: (38 + 18) - x = 21. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "37",
+      "33",
+      "35"
+    ],
+    "answer": 2,
+    "guide": "👉 Đây là bài tìm x trong phép tính có nhiều bước.<br/>1. Làm ngược lại phép cộng và trừ để tìm x.<br/>✅ Con có thể thử thay các đáp án vào để kiểm tra!"
+  },
+  {
+    "question": "Cho phép tính: (12 + x) - 8 = 35. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "34",
+      "29",
+      "31"
+    ],
+    "answer": 2,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: (16 + 23) - x = 5. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "36",
+      "38",
+      "34"
+    ],
+    "answer": 2,
+    "guide": "👉 Đây là bài tìm x trong phép tính có nhiều bước.<br/>1. Làm ngược lại phép cộng và trừ để tìm x.<br/>✅ Con có thể thử thay các đáp án vào để kiểm tra!"
+  },
+  {
+    "question": "Cho phép tính: 54 - 31 + x = 40. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "21",
+      "17",
+      "19"
+    ],
+    "answer": 1,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: x - 42 + 34 = 15. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "26",
+      "23",
+      "20"
+    ],
+    "answer": 1,
+    "guide": "👉 Trong phép tính này, x là số lớn ban đầu.<br/>1. Sau khi trừ và cộng thì ra kết quả<br/>➡️ Làm ngược lại: lấy kết quả trừ số đã cộng, rồi cộng lại số đã trừ để tìm x.<br/>✅ Thử lại phép tính để kiểm tra kết quả!"
+  },
+  {
+    "question": "Cho phép tính: x - 49 + 10 = 1. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "40",
+      "43",
+      "42"
+    ],
+    "answer": 0,
+    "guide": "👉 Trong phép tính này, x là số lớn ban đầu.<br/>1. Sau khi trừ và cộng thì ra kết quả<br/>➡️ Làm ngược lại: lấy kết quả trừ số đã cộng, rồi cộng lại số đã trừ để tìm x.<br/>✅ Thử lại phép tính để kiểm tra kết quả!"
+  },
+  {
+    "question": "Cho phép tính: 17 - 9 + x = 23. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "12",
+      "15",
+      "13"
+    ],
+    "answer": 1,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: x - 39 + 7 = 11. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "47",
+      "43",
+      "45"
+    ],
+    "answer": 1,
+    "guide": "👉 Trong phép tính này, x là số lớn ban đầu.<br/>1. Sau khi trừ và cộng thì ra kết quả<br/>➡️ Làm ngược lại: lấy kết quả trừ số đã cộng, rồi cộng lại số đã trừ để tìm x.<br/>✅ Thử lại phép tính để kiểm tra kết quả!"
+  },
+  {
+    "question": "Cho phép tính: x + 53 - 13 = 50. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "8",
+      "10",
+      "13"
+    ],
+    "answer": 1,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: 13 + x - 34 = 8. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "24",
+      "27",
+      "29"
+    ],
+    "answer": 2,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: x - 14 + 5 = 4. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "13",
+      "11",
+      "17"
+    ],
+    "answer": 0,
+    "guide": "👉 Trong phép tính này, x là số lớn ban đầu.<br/>1. Sau khi trừ và cộng thì ra kết quả<br/>➡️ Làm ngược lại: lấy kết quả trừ số đã cộng, rồi cộng lại số đã trừ để tìm x.<br/>✅ Thử lại phép tính để kiểm tra kết quả!"
+  },
+  {
+    "question": "Cho phép tính: 39 - 34 + x = 29. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "19",
+      "22",
+      "24"
+    ],
+    "answer": 2,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: 47 - 27 + x = 62. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "39",
+      "46",
+      "42"
+    ],
+    "answer": 2,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: x - 46 + 16 = -17. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "15",
+      "17",
+      "13"
+    ],
+    "answer": 2,
+    "guide": "👉 Trong phép tính này, x là số lớn ban đầu.<br/>1. Sau khi trừ và cộng thì ra kết quả<br/>➡️ Làm ngược lại: lấy kết quả trừ số đã cộng, rồi cộng lại số đã trừ để tìm x.<br/>✅ Thử lại phép tính để kiểm tra kết quả!"
+  },
+  {
+    "question": "Cho phép tính: 36 - 7 + x = 51. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "26",
+      "25",
+      "22"
+    ],
+    "answer": 2,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: 32 + (9 - x) = 11. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "25",
+      "27",
+      "30"
+    ],
+    "answer": 2,
+    "guide": "👉 Đây là bài tìm x trong phép tính có nhiều bước.<br/>1. Làm ngược lại phép cộng và trừ để tìm x.<br/>✅ Con có thể thử thay các đáp án vào để kiểm tra!"
+  },
+  {
+    "question": "Cho phép tính: 19 + (38 - x) = 29. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "30",
+      "32",
+      "28"
+    ],
+    "answer": 2,
+    "guide": "👉 Đây là bài tìm x trong phép tính có nhiều bước.<br/>1. Làm ngược lại phép cộng và trừ để tìm x.<br/>✅ Con có thể thử thay các đáp án vào để kiểm tra!"
+  },
+  {
+    "question": "Cho phép tính: (34 + 22) - x = 44. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "12",
+      "14",
+      "9"
+    ],
+    "answer": 0,
+    "guide": "👉 Đây là bài tìm x trong phép tính có nhiều bước.<br/>1. Làm ngược lại phép cộng và trừ để tìm x.<br/>✅ Con có thể thử thay các đáp án vào để kiểm tra!"
+  },
+  {
+    "question": "Cho phép tính: x + 29 - 39 = 37. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "50",
+      "51",
+      "47"
+    ],
+    "answer": 2,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: 51 - 18 + x = 58. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "23",
+      "25",
+      "29"
+    ],
+    "answer": 1,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: 29 - 32 + x = 23. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "26",
+      "24",
+      "28"
+    ],
+    "answer": 0,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: 45 + x - 37 = 26. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "18",
+      "21",
+      "22"
+    ],
+    "answer": 0,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: (17 - x) + 23 = 9. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "33",
+      "28",
+      "31"
+    ],
+    "answer": 2,
+    "guide": "👉 Đây là bài tìm x trong phép tính có nhiều bước.<br/>1. Làm ngược lại phép cộng và trừ để tìm x.<br/>✅ Con có thể thử thay các đáp án vào để kiểm tra!"
+  },
+  {
+    "question": "Cho phép tính: 57 - 32 + x = 69. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "39",
+      "46",
+      "44"
+    ],
+    "answer": 2,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: 42 + x - 9 = 54. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "21",
+      "24",
+      "23"
+    ],
+    "answer": 0,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: (47 + x) - 32 = 64. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "46",
+      "49",
+      "52"
+    ],
+    "answer": 1,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: (19 + 29) - x = 17. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "34",
+      "29",
+      "31"
+    ],
+    "answer": 2,
+    "guide": "👉 Đây là bài tìm x trong phép tính có nhiều bước.<br/>1. Làm ngược lại phép cộng và trừ để tìm x.<br/>✅ Con có thể thử thay các đáp án vào để kiểm tra!"
+  },
+  {
+    "question": "Cho phép tính: (43 + x) - 11 = 78. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "50",
+      "43",
+      "46"
+    ],
+    "answer": 2,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: (54 + x) - 35 = 42. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "23",
+      "25",
+      "26"
+    ],
+    "answer": 0,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: (36 + x) - 17 = 33. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "17",
+      "9",
+      "14"
+    ],
+    "answer": 2,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: (58 + 16) - x = 61. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "10",
+      "13",
+      "11"
+    ],
+    "answer": 1,
+    "guide": "👉 Đây là bài tìm x trong phép tính có nhiều bước.<br/>1. Làm ngược lại phép cộng và trừ để tìm x.<br/>✅ Con có thể thử thay các đáp án vào để kiểm tra!"
+  },
+  {
+    "question": "Cho phép tính: 60 + x - 25 = 68. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "30",
+      "33",
+      "31"
+    ],
+    "answer": 1,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: 41 + x - 10 = 43. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "9",
+      "16",
+      "12"
+    ],
+    "answer": 2,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: x - 58 + 40 = 9. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "27",
+      "31",
+      "30"
+    ],
+    "answer": 0,
+    "guide": "👉 Trong phép tính này, x là số lớn ban đầu.<br/>1. Sau khi trừ và cộng thì ra kết quả<br/>➡️ Làm ngược lại: lấy kết quả trừ số đã cộng, rồi cộng lại số đã trừ để tìm x.<br/>✅ Thử lại phép tính để kiểm tra kết quả!"
+  },
+  {
+    "question": "Cho phép tính: (23 + 21) - x = 24. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "20",
+      "23",
+      "22"
+    ],
+    "answer": 0,
+    "guide": "👉 Đây là bài tìm x trong phép tính có nhiều bước.<br/>1. Làm ngược lại phép cộng và trừ để tìm x.<br/>✅ Con có thể thử thay các đáp án vào để kiểm tra!"
+  },
+  {
+    "question": "Cho phép tính: x - 24 + 5 = 20. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "41",
+      "39",
+      "34"
+    ],
+    "answer": 1,
+    "guide": "👉 Trong phép tính này, x là số lớn ban đầu.<br/>1. Sau khi trừ và cộng thì ra kết quả<br/>➡️ Làm ngược lại: lấy kết quả trừ số đã cộng, rồi cộng lại số đã trừ để tìm x.<br/>✅ Thử lại phép tính để kiểm tra kết quả!"
+  },
+  {
+    "question": "Cho phép tính: 18 + x - 39 = 19. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "37",
+      "40",
+      "42"
+    ],
+    "answer": 1,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: (41 + 23) - x = 16. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "45",
+      "48",
+      "46"
+    ],
+    "answer": 1,
+    "guide": "👉 Đây là bài tìm x trong phép tính có nhiều bước.<br/>1. Làm ngược lại phép cộng và trừ để tìm x.<br/>✅ Con có thể thử thay các đáp án vào để kiểm tra!"
+  },
+  {
+    "question": "Cho phép tính: x - 41 + 15 = 7. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "33",
+      "30",
+      "36"
+    ],
+    "answer": 0,
+    "guide": "👉 Trong phép tính này, x là số lớn ban đầu.<br/>1. Sau khi trừ và cộng thì ra kết quả<br/>➡️ Làm ngược lại: lấy kết quả trừ số đã cộng, rồi cộng lại số đã trừ để tìm x.<br/>✅ Thử lại phép tính để kiểm tra kết quả!"
+  },
+  {
+    "question": "Cho phép tính: 55 - 24 + x = 76. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "47",
+      "45",
+      "49"
+    ],
+    "answer": 1,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: 48 + (27 - x) = 43. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "27",
+      "36",
+      "32"
+    ],
+    "answer": 2,
+    "guide": "👉 Đây là bài tìm x trong phép tính có nhiều bước.<br/>1. Làm ngược lại phép cộng và trừ để tìm x.<br/>✅ Con có thể thử thay các đáp án vào để kiểm tra!"
+  },
+  {
+    "question": "Cho phép tính: 51 - 15 + x = 70. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "32",
+      "34",
+      "38"
+    ],
+    "answer": 1,
+    "guide": "👉 Con hãy viết lại phép tính và giải từng bước:<br/>1. Cộng x với số đã biết<br/>2. Trừ số còn lại để ra kết quả<br/>➡️ Làm ngược lại: cộng ngược → trừ ngược để tìm x.<br/>✅ Thay kết quả vào và kiểm tra lại nhé!"
+  },
+  {
+    "question": "Cho phép tính: 32 + (35 - x) = 32. Hỏi x bằng bao nhiêu?",
+    "options": [
+      "35",
+      "32",
+      "33"
+    ],
+    "answer": 0,
+    "guide": "👉 Đây là bài tìm x trong phép tính có nhiều bước.<br/>1. Làm ngược lại phép cộng và trừ để tìm x.<br/>✅ Con có thể thử thay các đáp án vào để kiểm tra!"
+  }
+]

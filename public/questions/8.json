@@ -1,0 +1,468 @@
+[
+  {
+    "question": "Hình sau có tất cả bao nhiêu hình vuông?",
+    "diagram": {
+      "type": "grid",
+      "points": [
+        4,
+        4
+      ]
+    },
+    "options": [
+      "16",
+      "14",
+      "13"
+    ],
+    "answer": 1,
+    "guide": "👉 Hình là một lưới điểm tạo thành 3 hàng và 3 cột ô vuông nhỏ.<br/>➡️ Con hãy đếm số hình vuông theo từng kích thước từ nhỏ đến lớn.<br/>✅ Cộng tất cả lại để được tổng số hình vuông là ..."
+  },
+  {
+    "question": "Hình sau có tất cả bao nhiêu hình tam giác nhỏ?",
+    "diagram": {
+      "type": "triangle-grid",
+      "rows": 4
+    },
+    "options": [
+      "10",
+      "11",
+      "12"
+    ],
+    "answer": 0,
+    "guide": "👉 Hình là một tam giác đều tạo bởi 4 hàng tam giác nhỏ.<br/>➡️ Số lượng tam giác ở mỗi hàng tăng dần: 1 + 2 + 3 + ... + 4.<br/>✅ Cộng tất cả lại để ra tổng số hình tam giác là ..."
+  },
+  {
+    "question": "Hình sau có tất cả bao nhiêu hình tam giác nhỏ?",
+    "diagram": {
+      "type": "triangle-grid",
+      "rows": 4
+    },
+    "options": [
+      "10",
+      "11",
+      "8"
+    ],
+    "answer": 0,
+    "guide": "👉 Hình là một tam giác đều tạo bởi 4 hàng tam giác nhỏ.<br/>➡️ Số lượng tam giác ở mỗi hàng tăng dần: 1 + 2 + 3 + ... + 4.<br/>✅ Cộng tất cả lại để ra tổng số hình tam giác là ..."
+  },
+  {
+    "question": "Hình sau có tất cả bao nhiêu hình vuông?",
+    "diagram": {
+      "type": "grid",
+      "points": [
+        3,
+        3
+      ]
+    },
+    "options": [
+      "8",
+      "6",
+      "5"
+    ],
+    "answer": 2,
+    "guide": "👉 Hình là một lưới điểm tạo thành 2 hàng và 2 cột ô vuông nhỏ.<br/>➡️ Con hãy đếm số hình vuông theo từng kích thước từ nhỏ đến lớn.<br/>✅ Cộng tất cả lại để được tổng số hình vuông là ..."
+  },
+  {
+    "question": "Hình sau có tất cả bao nhiêu hình tam giác nhỏ?",
+    "diagram": {
+      "type": "triangle-grid",
+      "rows": 4
+    },
+    "options": [
+      "10",
+      "11",
+      "8"
+    ],
+    "answer": 0,
+    "guide": "👉 Hình là một tam giác đều tạo bởi 4 hàng tam giác nhỏ.<br/>➡️ Số lượng tam giác ở mỗi hàng tăng dần: 1 + 2 + 3 + ... + 4.<br/>✅ Cộng tất cả lại để ra tổng số hình tam giác là ..."
+  },
+  {
+    "question": "Có bao nhiêu hình tròn trong hình sau?",
+    "diagram": {
+      "type": "circle-row",
+      "count": 7
+    },
+    "options": [
+      "8",
+      "10",
+      "7"
+    ],
+    "answer": 2,
+    "guide": "👉 Hình có 7 hình tròn được xếp thành một hàng ngang.<br/>✅ Đếm từng hình tròn là ra kết quả ..."
+  },
+  {
+    "question": "Hình sau có tất cả bao nhiêu hình tam giác nhỏ?",
+    "diagram": {
+      "type": "triangle-grid",
+      "rows": 4
+    },
+    "options": [
+      "13",
+      "12",
+      "10"
+    ],
+    "answer": 2,
+    "guide": "👉 Hình là một tam giác đều tạo bởi 4 hàng tam giác nhỏ.<br/>➡️ Số lượng tam giác ở mỗi hàng tăng dần: 1 + 2 + 3 + ... + 4.<br/>✅ Cộng tất cả lại để ra tổng số hình tam giác là ..."
+  },
+  {
+    "question": "Có bao nhiêu hình tròn trong hình sau?",
+    "diagram": {
+      "type": "circle-row",
+      "count": 4
+    },
+    "options": [
+      "4",
+      "6",
+      "3"
+    ],
+    "answer": 0,
+    "guide": "👉 Hình có 4 hình tròn được xếp thành một hàng ngang.<br/>✅ Đếm từng hình tròn là ra kết quả ..."
+  },
+  {
+    "question": "Có bao nhiêu hình tròn trong hình sau?",
+    "diagram": {
+      "type": "circle-row",
+      "count": 4
+    },
+    "options": [
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 1,
+    "guide": "👉 Hình có 4 hình tròn được xếp thành một hàng ngang.<br/>✅ Đếm từng hình tròn là ra kết quả ..."
+  },
+  {
+    "question": "Hình sau có tất cả bao nhiêu hình tam giác nhỏ?",
+    "diagram": {
+      "type": "triangle-grid",
+      "rows": 5
+    },
+    "options": [
+      "14",
+      "13",
+      "15"
+    ],
+    "answer": 2,
+    "guide": "👉 Hình là một tam giác đều tạo bởi 5 hàng tam giác nhỏ.<br/>➡️ Số lượng tam giác ở mỗi hàng tăng dần: 1 + 2 + 3 + ... + 5.<br/>✅ Cộng tất cả lại để ra tổng số hình tam giác là ..."
+  },
+  {
+    "question": "Hình sau có tất cả bao nhiêu hình vuông?",
+    "diagram": {
+      "type": "grid",
+      "points": [
+        3,
+        3
+      ]
+    },
+    "options": [
+      "8",
+      "7",
+      "5"
+    ],
+    "answer": 2,
+    "guide": "👉 Hình là một lưới điểm tạo thành 2 hàng và 2 cột ô vuông nhỏ.<br/>➡️ Con hãy đếm số hình vuông theo từng kích thước từ nhỏ đến lớn.<br/>✅ Cộng tất cả lại để được tổng số hình vuông là ..."
+  },
+  {
+    "question": "Hình sau có tất cả bao nhiêu hình vuông?",
+    "diagram": {
+      "type": "grid",
+      "points": [
+        3,
+        3
+      ]
+    },
+    "options": [
+      "7",
+      "3",
+      "5"
+    ],
+    "answer": 2,
+    "guide": "👉 Hình là một lưới điểm tạo thành 2 hàng và 2 cột ô vuông nhỏ.<br/>➡️ Con hãy đếm số hình vuông theo từng kích thước từ nhỏ đến lớn.<br/>✅ Cộng tất cả lại để được tổng số hình vuông là ..."
+  },
+  {
+    "question": "Hình sau có tất cả bao nhiêu hình tam giác nhỏ?",
+    "diagram": {
+      "type": "triangle-grid",
+      "rows": 2
+    },
+    "options": [
+      "2",
+      "3",
+      "1"
+    ],
+    "answer": 1,
+    "guide": "👉 Hình là một tam giác đều tạo bởi 2 hàng tam giác nhỏ.<br/>➡️ Số lượng tam giác ở mỗi hàng tăng dần: 1 + 2 + 3 + ... + 2.<br/>✅ Cộng tất cả lại để ra tổng số hình tam giác là ..."
+  },
+  {
+    "question": "Hình sau có tất cả bao nhiêu hình tam giác nhỏ?",
+    "diagram": {
+      "type": "triangle-grid",
+      "rows": 3
+    },
+    "options": [
+      "7",
+      "6",
+      "4"
+    ],
+    "answer": 1,
+    "guide": "👉 Hình là một tam giác đều tạo bởi 3 hàng tam giác nhỏ.<br/>➡️ Số lượng tam giác ở mỗi hàng tăng dần: 1 + 2 + 3 + ... + 3.<br/>✅ Cộng tất cả lại để ra tổng số hình tam giác là ..."
+  },
+  {
+    "question": "Có bao nhiêu hình tròn trong hình sau?",
+    "diagram": {
+      "type": "circle-row",
+      "count": 8
+    },
+    "options": [
+      "10",
+      "8",
+      "6"
+    ],
+    "answer": 1,
+    "guide": "👉 Hình có 8 hình tròn được xếp thành một hàng ngang.<br/>✅ Đếm từng hình tròn là ra kết quả ..."
+  },
+  {
+    "question": "Có bao nhiêu hình tròn trong hình sau?",
+    "diagram": {
+      "type": "circle-row",
+      "count": 8
+    },
+    "options": [
+      "7",
+      "8",
+      "11"
+    ],
+    "answer": 1,
+    "guide": "👉 Hình có 8 hình tròn được xếp thành một hàng ngang.<br/>✅ Đếm từng hình tròn là ra kết quả ..."
+  },
+  {
+    "question": "Hình sau có tất cả bao nhiêu hình tam giác nhỏ?",
+    "diagram": {
+      "type": "triangle-grid",
+      "rows": 3
+    },
+    "options": [
+      "9",
+      "5",
+      "6"
+    ],
+    "answer": 2,
+    "guide": "👉 Hình là một tam giác đều tạo bởi 3 hàng tam giác nhỏ.<br/>➡️ Số lượng tam giác ở mỗi hàng tăng dần: 1 + 2 + 3 + ... + 3.<br/>✅ Cộng tất cả lại để ra tổng số hình tam giác là ..."
+  },
+  {
+    "question": "Hình sau có tất cả bao nhiêu hình vuông?",
+    "diagram": {
+      "type": "grid",
+      "points": [
+        4,
+        4
+      ]
+    },
+    "options": [
+      "14",
+      "16",
+      "12"
+    ],
+    "answer": 0,
+    "guide": "👉 Hình là một lưới điểm tạo thành 3 hàng và 3 cột ô vuông nhỏ.<br/>➡️ Con hãy đếm số hình vuông theo từng kích thước từ nhỏ đến lớn.<br/>✅ Cộng tất cả lại để được tổng số hình vuông là ..."
+  },
+  {
+    "question": "Có bao nhiêu hình tròn trong hình sau?",
+    "diagram": {
+      "type": "circle-row",
+      "count": 6
+    },
+    "options": [
+      "4",
+      "6",
+      "5"
+    ],
+    "answer": 1,
+    "guide": "👉 Hình có 6 hình tròn được xếp thành một hàng ngang.<br/>✅ Đếm từng hình tròn là ra kết quả ..."
+  },
+  {
+    "question": "Hình sau có tất cả bao nhiêu hình tam giác nhỏ?",
+    "diagram": {
+      "type": "triangle-grid",
+      "rows": 2
+    },
+    "options": [
+      "2",
+      "4",
+      "3"
+    ],
+    "answer": 2,
+    "guide": "👉 Hình là một tam giác đều tạo bởi 2 hàng tam giác nhỏ.<br/>➡️ Số lượng tam giác ở mỗi hàng tăng dần: 1 + 2 + 3 + ... + 2.<br/>✅ Cộng tất cả lại để ra tổng số hình tam giác là ..."
+  },
+  {
+    "question": "Hình sau có tất cả bao nhiêu hình tam giác nhỏ?",
+    "diagram": {
+      "type": "triangle-grid",
+      "rows": 3
+    },
+    "options": [
+      "6",
+      "9",
+      "7"
+    ],
+    "answer": 0,
+    "guide": "👉 Hình là một tam giác đều tạo bởi 3 hàng tam giác nhỏ.<br/>➡️ Số lượng tam giác ở mỗi hàng tăng dần: 1 + 2 + 3 + ... + 3.<br/>✅ Cộng tất cả lại để ra tổng số hình tam giác là ..."
+  },
+  {
+    "question": "Có bao nhiêu hình tròn trong hình sau?",
+    "diagram": {
+      "type": "circle-row",
+      "count": 7
+    },
+    "options": [
+      "7",
+      "10",
+      "9"
+    ],
+    "answer": 0,
+    "guide": "👉 Hình có 7 hình tròn được xếp thành một hàng ngang.<br/>✅ Đếm từng hình tròn là ra kết quả ..."
+  },
+  {
+    "question": "Hình sau có tất cả bao nhiêu hình tam giác nhỏ?",
+    "diagram": {
+      "type": "triangle-grid",
+      "rows": 3
+    },
+    "options": [
+      "5",
+      "4",
+      "6"
+    ],
+    "answer": 2,
+    "guide": "👉 Hình là một tam giác đều tạo bởi 3 hàng tam giác nhỏ.<br/>➡️ Số lượng tam giác ở mỗi hàng tăng dần: 1 + 2 + 3 + ... + 3.<br/>✅ Cộng tất cả lại để ra tổng số hình tam giác là ..."
+  },
+  {
+    "question": "Hình sau có tất cả bao nhiêu hình vuông?",
+    "diagram": {
+      "type": "grid",
+      "points": [
+        3,
+        3
+      ]
+    },
+    "options": [
+      "7",
+      "4",
+      "5"
+    ],
+    "answer": 2,
+    "guide": "👉 Hình là một lưới điểm tạo thành 2 hàng và 2 cột ô vuông nhỏ.<br/>➡️ Con hãy đếm số hình vuông theo từng kích thước từ nhỏ đến lớn.<br/>✅ Cộng tất cả lại để được tổng số hình vuông là ..."
+  },
+  {
+    "question": "Có bao nhiêu hình tròn trong hình sau?",
+    "diagram": {
+      "type": "circle-row",
+      "count": 9
+    },
+    "options": [
+      "10",
+      "9",
+      "11"
+    ],
+    "answer": 1,
+    "guide": "👉 Hình có 9 hình tròn được xếp thành một hàng ngang.<br/>✅ Đếm từng hình tròn là ra kết quả ..."
+  },
+  {
+    "question": "Hình sau có tất cả bao nhiêu hình tam giác nhỏ?",
+    "diagram": {
+      "type": "triangle-grid",
+      "rows": 4
+    },
+    "options": [
+      "9",
+      "10",
+      "8"
+    ],
+    "answer": 1,
+    "guide": "👉 Hình là một tam giác đều tạo bởi 4 hàng tam giác nhỏ.<br/>➡️ Số lượng tam giác ở mỗi hàng tăng dần: 1 + 2 + 3 + ... + 4.<br/>✅ Cộng tất cả lại để ra tổng số hình tam giác là ..."
+  },
+  {
+    "question": "Hình sau có tất cả bao nhiêu hình tam giác nhỏ?",
+    "diagram": {
+      "type": "triangle-grid",
+      "rows": 2
+    },
+    "options": [
+      "5",
+      "6",
+      "3"
+    ],
+    "answer": 2,
+    "guide": "👉 Hình là một tam giác đều tạo bởi 2 hàng tam giác nhỏ.<br/>➡️ Số lượng tam giác ở mỗi hàng tăng dần: 1 + 2 + 3 + ... + 2.<br/>✅ Cộng tất cả lại để ra tổng số hình tam giác là ..."
+  },
+  {
+    "question": "Có bao nhiêu hình tròn trong hình sau?",
+    "diagram": {
+      "type": "circle-row",
+      "count": 5
+    },
+    "options": [
+      "3",
+      "7",
+      "5"
+    ],
+    "answer": 2,
+    "guide": "👉 Hình có 5 hình tròn được xếp thành một hàng ngang.<br/>✅ Đếm từng hình tròn là ra kết quả ..."
+  },
+  {
+    "question": "Hình sau có tất cả bao nhiêu hình tam giác nhỏ?",
+    "diagram": {
+      "type": "triangle-grid",
+      "rows": 3
+    },
+    "options": [
+      "7",
+      "6",
+      "8"
+    ],
+    "answer": 1,
+    "guide": "👉 Hình là một tam giác đều tạo bởi 3 hàng tam giác nhỏ.<br/>➡️ Số lượng tam giác ở mỗi hàng tăng dần: 1 + 2 + 3 + ... + 3.<br/>✅ Cộng tất cả lại để ra tổng số hình tam giác là ..."
+  },
+  {
+    "question": "Hình sau có tất cả bao nhiêu hình tam giác nhỏ?",
+    "diagram": {
+      "type": "triangle-grid",
+      "rows": 5
+    },
+    "options": [
+      "13",
+      "15",
+      "14"
+    ],
+    "answer": 1,
+    "guide": "👉 Hình là một tam giác đều tạo bởi 5 hàng tam giác nhỏ.<br/>➡️ Số lượng tam giác ở mỗi hàng tăng dần: 1 + 2 + 3 + ... + 5.<br/>✅ Cộng tất cả lại để ra tổng số hình tam giác là ..."
+  },
+  {
+    "question": "Có bao nhiêu hình tròn trong hình sau?",
+    "diagram": {
+      "type": "circle-row",
+      "count": 7
+    },
+    "options": [
+      "10",
+      "9",
+      "7"
+    ],
+    "answer": 2,
+    "guide": "👉 Hình có 7 hình tròn được xếp thành một hàng ngang.<br/>✅ Đếm từng hình tròn là ra kết quả ..."
+  },
+  {
+    "question": "Hình sau có tất cả bao nhiêu hình tam giác nhỏ?",
+    "diagram": {
+      "type": "triangle-grid",
+      "rows": 5
+    },
+    "options": [
+      "17",
+      "16",
+      "15"
+    ],
+    "answer": 2,
+    "guide": "👉 Hình là một tam giác đều tạo bởi 5 hàng tam giác nhỏ.<br/>➡️ Số lượng tam giác ở mỗi hàng tăng dần: 1 + 2 + 3 + ... + 5.<br/>✅ Cộng tất cả lại để ra tổng số hình tam giác là ..."
+  }
+]
