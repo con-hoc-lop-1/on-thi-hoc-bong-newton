@@ -1,0 +1,502 @@
+[
+  {
+    "question": "Bác nông dân thu hoạch 56 chiếc kẹo và chia đều lên 7 hộp. Hỏi mỗi hộp được bao nhiêu chiếc kẹo?",
+    "options": [
+      "7",
+      "8",
+      "11"
+    ],
+    "answer": 1,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Nhà trường phát 50 chai nước cho 2 người bạn, mỗi người bạn được bao nhiêu chai nước nếu chia đều?",
+    "options": [
+      "27",
+      "28",
+      "25"
+    ],
+    "answer": 2,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Cô giáo chuẩn bị 56 chiếc bánh và phân chia đều cho 8 em nhỏ. Mỗi em nhỏ sẽ nhận được bao nhiêu chiếc bánh?",
+    "options": [
+      "4",
+      "7",
+      "5"
+    ],
+    "answer": 1,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Bác nông dân thu hoạch 32 chai nước và chia đều lên 8 người bạn. Hỏi mỗi người bạn được bao nhiêu chai nước?",
+    "options": [
+      "2",
+      "1",
+      "4"
+    ],
+    "answer": 2,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Có 24 hộp bút màu được chia thành 3 bàn học bằng nhau. Hỏi mỗi bàn học có bao nhiêu hộp bút màu?",
+    "options": [
+      "8",
+      "10",
+      "7"
+    ],
+    "answer": 0,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Bé Na có 42 bút chì và muốn phân đều vào 7 ngăn kéo. Hỏi mỗi ngăn kéo sẽ có bao nhiêu bút chì?",
+    "options": [
+      "6",
+      "4",
+      "3"
+    ],
+    "answer": 0,
+    "guide": "👉 Con hãy đọc kỹ đề, xác định phép tính cần làm và thực hiện từng bước để tìm đáp án nhé!"
+  },
+  {
+    "question": "Cô giáo chuẩn bị 40 chiếc bánh và phân chia đều cho 4 em nhỏ. Mỗi em nhỏ sẽ nhận được bao nhiêu chiếc bánh?",
+    "options": [
+      "11",
+      "8",
+      "10"
+    ],
+    "answer": 2,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Trong lớp học có 60 chiếc bánh được chia đều cho 5 em nhỏ. Mỗi em nhỏ nhận được mấy chiếc bánh?",
+    "options": [
+      "13",
+      "12",
+      "14"
+    ],
+    "answer": 1,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Trong lớp học có 42 bút chì được chia đều cho 7 ngăn kéo. Mỗi ngăn kéo nhận được mấy bút chì?",
+    "options": [
+      "6",
+      "7",
+      "4"
+    ],
+    "answer": 0,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Trong buổi dã ngoại, các bạn nhỏ mang theo 27 viên phấn để chia đều vào 3 bảng. Hỏi mỗi bảng có bao nhiêu viên phấn?",
+    "options": [
+      "9",
+      "7",
+      "11"
+    ],
+    "answer": 0,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Trong lớp học có 24 quả bóng được chia đều cho 3 đội. Mỗi đội nhận được mấy quả bóng?",
+    "options": [
+      "11",
+      "7",
+      "8"
+    ],
+    "answer": 2,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Cô giáo chuẩn bị 40 quả táo và phân chia đều cho 5 giỏ. Mỗi giỏ sẽ nhận được bao nhiêu quả táo?",
+    "options": [
+      "9",
+      "8",
+      "7"
+    ],
+    "answer": 1,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Một cửa hàng xếp đều 32 quyển truyện vào 4 bạn để trưng bày. Hỏi mỗi bạn có bao nhiêu quyển truyện?",
+    "options": [
+      "8",
+      "5",
+      "7"
+    ],
+    "answer": 0,
+    "guide": "👉 Con hãy đọc kỹ đề, xác định phép tính cần làm và thực hiện từng bước để tìm đáp án nhé!"
+  },
+  {
+    "question": "Số lượng chiếc xe đồ chơi là 24, được chia đều vào 3 kệ. Mỗi kệ có bao nhiêu chiếc xe đồ chơi?",
+    "options": [
+      "11",
+      "8",
+      "10"
+    ],
+    "answer": 1,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Trong buổi dã ngoại, các bạn nhỏ mang theo 54 quả cam để chia đều vào 6 túi. Hỏi mỗi túi có bao nhiêu quả cam?",
+    "options": [
+      "9",
+      "12",
+      "10"
+    ],
+    "answer": 0,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Mẹ mua 48 quả cam và chia đều vào 3 túi để tặng các bạn. Hỏi mỗi túi nhận được bao nhiêu quả cam?",
+    "options": [
+      "16",
+      "17",
+      "19"
+    ],
+    "answer": 0,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Mẹ mua 30 quyển vở và chia đều vào 2 học sinh để tặng các bạn. Hỏi mỗi học sinh nhận được bao nhiêu quyển vở?",
+    "options": [
+      "15",
+      "16",
+      "18"
+    ],
+    "answer": 0,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Bé Na có 42 viên phấn và muốn phân đều vào 6 bảng. Hỏi mỗi bảng sẽ có bao nhiêu viên phấn?",
+    "options": [
+      "10",
+      "9",
+      "7"
+    ],
+    "answer": 2,
+    "guide": "👉 Con hãy đọc kỹ đề, xác định phép tính cần làm và thực hiện từng bước để tìm đáp án nhé!"
+  },
+  {
+    "question": "Nhà trường phát 42 chiếc xe đồ chơi cho 3 kệ, mỗi kệ được bao nhiêu chiếc xe đồ chơi nếu chia đều?",
+    "options": [
+      "11",
+      "17",
+      "14"
+    ],
+    "answer": 2,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Số lượng hộp bút màu là 42, được chia đều vào 6 bàn học. Mỗi bàn học có bao nhiêu hộp bút màu?",
+    "options": [
+      "10",
+      "6",
+      "7"
+    ],
+    "answer": 2,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Cô giáo chuẩn bị 56 quả táo và phân chia đều cho 4 giỏ. Mỗi giỏ sẽ nhận được bao nhiêu quả táo?",
+    "options": [
+      "12",
+      "16",
+      "14"
+    ],
+    "answer": 2,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Trong buổi dã ngoại, các bạn nhỏ mang theo 42 chai nước để chia đều vào 2 người bạn. Hỏi mỗi người bạn có bao nhiêu chai nước?",
+    "options": [
+      "18",
+      "21",
+      "22"
+    ],
+    "answer": 1,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Trong lớp học có 24 chiếc bánh được chia đều cho 8 em nhỏ. Mỗi em nhỏ nhận được mấy chiếc bánh?",
+    "options": [
+      "5",
+      "6",
+      "3"
+    ],
+    "answer": 2,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Nhà trường phát 42 quả cam cho 7 túi, mỗi túi được bao nhiêu quả cam nếu chia đều?",
+    "options": [
+      "9",
+      "7",
+      "6"
+    ],
+    "answer": 2,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Bé Na có 24 viên phấn và muốn phân đều vào 4 bảng. Hỏi mỗi bảng sẽ có bao nhiêu viên phấn?",
+    "options": [
+      "5",
+      "7",
+      "6"
+    ],
+    "answer": 2,
+    "guide": "👉 Con hãy đọc kỹ đề, xác định phép tính cần làm và thực hiện từng bước để tìm đáp án nhé!"
+  },
+  {
+    "question": "Trong buổi dã ngoại, các bạn nhỏ mang theo 40 quả táo để chia đều vào 2 giỏ. Hỏi mỗi giỏ có bao nhiêu quả táo?",
+    "options": [
+      "19",
+      "20",
+      "17"
+    ],
+    "answer": 1,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Bác nông dân thu hoạch 32 chai nước và chia đều lên 4 người bạn. Hỏi mỗi người bạn được bao nhiêu chai nước?",
+    "options": [
+      "11",
+      "8",
+      "7"
+    ],
+    "answer": 1,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Số lượng quyển truyện là 48, được chia đều vào 2 bạn. Mỗi bạn có bao nhiêu quyển truyện?",
+    "options": [
+      "24",
+      "22",
+      "27"
+    ],
+    "answer": 0,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Bé Na có 24 quyển vở và muốn phân đều vào 8 học sinh. Hỏi mỗi học sinh sẽ có bao nhiêu quyển vở?",
+    "options": [
+      "6",
+      "5",
+      "3"
+    ],
+    "answer": 2,
+    "guide": "👉 Con hãy đọc kỹ đề, xác định phép tính cần làm và thực hiện từng bước để tìm đáp án nhé!"
+  },
+  {
+    "question": "Một cửa hàng xếp đều 60 chiếc bánh vào 2 em nhỏ để trưng bày. Hỏi mỗi em nhỏ có bao nhiêu chiếc bánh?",
+    "options": [
+      "27",
+      "30",
+      "32"
+    ],
+    "answer": 1,
+    "guide": "👉 Con hãy đọc kỹ đề, xác định phép tính cần làm và thực hiện từng bước để tìm đáp án nhé!"
+  },
+  {
+    "question": "Có 36 quả táo được chia thành 2 giỏ bằng nhau. Hỏi mỗi giỏ có bao nhiêu quả táo?",
+    "options": [
+      "18",
+      "17",
+      "15"
+    ],
+    "answer": 0,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Nhà trường phát 48 quyển truyện cho 6 bạn, mỗi bạn được bao nhiêu quyển truyện nếu chia đều?",
+    "options": [
+      "8",
+      "10",
+      "9"
+    ],
+    "answer": 0,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Trong lớp học có 54 quyển vở được chia đều cho 3 học sinh. Mỗi học sinh nhận được mấy quyển vở?",
+    "options": [
+      "19",
+      "16",
+      "18"
+    ],
+    "answer": 2,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Bé Na có 42 quả cam và muốn phân đều vào 2 túi. Hỏi mỗi túi sẽ có bao nhiêu quả cam?",
+    "options": [
+      "21",
+      "20",
+      "24"
+    ],
+    "answer": 0,
+    "guide": "👉 Con hãy đọc kỹ đề, xác định phép tính cần làm và thực hiện từng bước để tìm đáp án nhé!"
+  },
+  {
+    "question": "Bé Na có 48 quả táo và muốn phân đều vào 6 giỏ. Hỏi mỗi giỏ sẽ có bao nhiêu quả táo?",
+    "options": [
+      "6",
+      "9",
+      "8"
+    ],
+    "answer": 2,
+    "guide": "👉 Con hãy đọc kỹ đề, xác định phép tính cần làm và thực hiện từng bước để tìm đáp án nhé!"
+  },
+  {
+    "question": "Trong buổi dã ngoại, các bạn nhỏ mang theo 42 chiếc kẹo để chia đều vào 2 hộp. Hỏi mỗi hộp có bao nhiêu chiếc kẹo?",
+    "options": [
+      "22",
+      "19",
+      "21"
+    ],
+    "answer": 2,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Bác nông dân thu hoạch 48 chiếc xe đồ chơi và chia đều lên 8 kệ. Hỏi mỗi kệ được bao nhiêu chiếc xe đồ chơi?",
+    "options": [
+      "6",
+      "4",
+      "7"
+    ],
+    "answer": 0,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Bác nông dân thu hoạch 42 chiếc xe đồ chơi và chia đều lên 2 kệ. Hỏi mỗi kệ được bao nhiêu chiếc xe đồ chơi?",
+    "options": [
+      "20",
+      "22",
+      "21"
+    ],
+    "answer": 2,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Mẹ mua 56 hộp bút màu và chia đều vào 8 bàn học để tặng các bạn. Hỏi mỗi bàn học nhận được bao nhiêu hộp bút màu?",
+    "options": [
+      "8",
+      "9",
+      "7"
+    ],
+    "answer": 2,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Bé Na có 36 chai nước và muốn phân đều vào 6 người bạn. Hỏi mỗi người bạn sẽ có bao nhiêu chai nước?",
+    "options": [
+      "6",
+      "5",
+      "4"
+    ],
+    "answer": 0,
+    "guide": "👉 Con hãy đọc kỹ đề, xác định phép tính cần làm và thực hiện từng bước để tìm đáp án nhé!"
+  },
+  {
+    "question": "Số lượng chiếc xe đồ chơi là 48, được chia đều vào 4 kệ. Mỗi kệ có bao nhiêu chiếc xe đồ chơi?",
+    "options": [
+      "12",
+      "10",
+      "13"
+    ],
+    "answer": 0,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Mẹ mua 48 quyển vở và chia đều vào 3 học sinh để tặng các bạn. Hỏi mỗi học sinh nhận được bao nhiêu quyển vở?",
+    "options": [
+      "19",
+      "16",
+      "14"
+    ],
+    "answer": 1,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Có 56 hộp bút màu được chia thành 2 bàn học bằng nhau. Hỏi mỗi bàn học có bao nhiêu hộp bút màu?",
+    "options": [
+      "28",
+      "30",
+      "26"
+    ],
+    "answer": 0,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Trong lớp học có 32 chiếc kẹo được chia đều cho 2 hộp. Mỗi hộp nhận được mấy chiếc kẹo?",
+    "options": [
+      "15",
+      "16",
+      "14"
+    ],
+    "answer": 1,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Bác nông dân thu hoạch 32 hộp bút màu và chia đều lên 4 bàn học. Hỏi mỗi bàn học được bao nhiêu hộp bút màu?",
+    "options": [
+      "11",
+      "8",
+      "6"
+    ],
+    "answer": 1,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Cô giáo chuẩn bị 24 quả bóng và phân chia đều cho 3 đội. Mỗi đội sẽ nhận được bao nhiêu quả bóng?",
+    "options": [
+      "8",
+      "11",
+      "5"
+    ],
+    "answer": 0,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Một cửa hàng xếp đều 54 quả táo vào 3 giỏ để trưng bày. Hỏi mỗi giỏ có bao nhiêu quả táo?",
+    "options": [
+      "20",
+      "15",
+      "18"
+    ],
+    "answer": 2,
+    "guide": "👉 Con hãy đọc kỹ đề, xác định phép tính cần làm và thực hiện từng bước để tìm đáp án nhé!"
+  },
+  {
+    "question": "Nhà trường phát 24 chai nước cho 6 người bạn, mỗi người bạn được bao nhiêu chai nước nếu chia đều?",
+    "options": [
+      "5",
+      "4",
+      "6"
+    ],
+    "answer": 1,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Mẹ mua 40 quyển vở và chia đều vào 5 học sinh để tặng các bạn. Hỏi mỗi học sinh nhận được bao nhiêu quyển vở?",
+    "options": [
+      "11",
+      "7",
+      "8"
+    ],
+    "answer": 2,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  },
+  {
+    "question": "Trong lớp học có 30 chai nước được chia đều cho 2 người bạn. Mỗi người bạn nhận được mấy chai nước?",
+    "options": [
+      "12",
+      "15",
+      "14"
+    ],
+    "answer": 1,
+    "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
+  }
+]

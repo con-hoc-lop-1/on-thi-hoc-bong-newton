@@ -1,0 +1,502 @@
+[
+  {
+    "question": "Một dãy xe đạp đang đỗ. Biết có 5 cái ở trước xe cần tìm, và xe cần tìm nằm ở vị trí thứ 6 từ dưới lên. Hỏi cả dãy có tất cả bao nhiêu xe đạps?",
+    "options": [
+      "11",
+      "12",
+      "9"
+    ],
+    "answer": 0,
+    "guide": "👉 Bài toán cho biết có 5 đối tượng ở phía trước và đang đứng thứ 6 từ dưới lên. ➡️ Con hãy lấy 5 + 6 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Một dãy con vịt đang đi theo hàng. Biết có 3 cái ở trước con cần tìm, và con cần tìm nằm ở vị trí thứ 10 từ dưới lên. Hỏi cả dãy có tất cả bao nhiêu con vịt?",
+    "options": [
+      "13",
+      "10",
+      "16"
+    ],
+    "answer": 0,
+    "guide": "👉 Bài toán cho biết có 3 đối tượng ở phía trước và đang đứng thứ 10 từ dưới lên. ➡️ Con hãy lấy 3 + 10 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Có 8 xe đạp ở phía trước xe cần tìm trong dãy đang đỗ. xe cần tìm lại ở vị trí thứ 7 tính từ cuối lên. Hỏi có tất cả bao nhiêu xe đạp trong dãy?",
+    "options": [
+      "15",
+      "12",
+      "18"
+    ],
+    "answer": 0,
+    "guide": "👉 Bài toán cho biết có 8 đối tượng ở phía trước và đang đứng thứ 7 từ dưới lên. ➡️ Con hãy lấy 8 + 7 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Có 3 con mèo ở phía trước con mèo cần tìm trong dãy đang nằm trên sàn. con mèo cần tìm lại ở vị trí thứ 3 tính từ cuối lên. Hỏi có tất cả bao nhiêu con mèo trong dãy?",
+    "options": [
+      "8",
+      "3",
+      "6"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết có 3 đối tượng ở phía trước và đang đứng thứ 3 từ dưới lên. ➡️ Con hãy lấy 3 + 3 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Trong một dãy cây đang trồng theo hàng, có 2 cái nằm trước cây thứ. Nếu tính từ cuối lên thì cây thứ là thứ 8. Vậy dãy có tất cả bao nhiêu câys?",
+    "options": [
+      "9",
+      "10",
+      "12"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết có 2 đối tượng ở phía trước và đang đứng thứ 8 từ dưới lên. ➡️ Con hãy lấy 2 + 8 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "ghế số đang nằm sau 6 chiếc ghế và nếu đếm ngược từ cuối dãy đang xếp trong phòng thì nó ở vị trí thứ 2. Có tất cả bao nhiêu chiếc ghế trong dãy?",
+    "options": [
+      "6",
+      "8",
+      "5"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết có 6 đối tượng ở phía trước và đang đứng thứ 2 từ dưới lên. ➡️ Con hãy lấy 6 + 2 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "chậu thứ đang nằm sau 9 chậu hoa và nếu đếm ngược từ cuối dãy đang xếp trên bệ thì nó ở vị trí thứ 9. Có tất cả bao nhiêu chậu hoa trong dãy?",
+    "options": [
+      "18",
+      "20",
+      "21"
+    ],
+    "answer": 0,
+    "guide": "👉 Bài toán cho biết có 9 đối tượng ở phía trước và đang đứng thứ 9 từ dưới lên. ➡️ Con hãy lấy 9 + 9 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Có 3 quyển sách ở phía trước cuốn trong dãy đang xếp trên giá. cuốn lại ở vị trí thứ 5 tính từ cuối lên. Hỏi có tất cả bao nhiêu quyển sách trong dãy?",
+    "options": [
+      "11",
+      "8",
+      "5"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết có 3 đối tượng ở phía trước và đang đứng thứ 5 từ dưới lên. ➡️ Con hãy lấy 3 + 5 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Trong một dãy quyển sách đang xếp trên giá, có 7 cái nằm trước cuốn. Nếu tính từ cuối lên thì cuốn là thứ 8. Vậy dãy có tất cả bao nhiêu quyển sách?",
+    "options": [
+      "18",
+      "15",
+      "14"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết có 7 đối tượng ở phía trước và đang đứng thứ 8 từ dưới lên. ➡️ Con hãy lấy 7 + 8 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Trong một dãy cây đang trồng theo hàng, có 9 cái nằm trước cây thứ. Nếu tính từ cuối lên thì cây thứ là thứ 7. Vậy dãy có tất cả bao nhiêu câys?",
+    "options": [
+      "18",
+      "16",
+      "17"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết có 9 đối tượng ở phía trước và đang đứng thứ 7 từ dưới lên. ➡️ Con hãy lấy 9 + 7 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Một dãy quyển sách đang xếp trên giá. Biết có 10 cái ở trước cuốn, và cuốn nằm ở vị trí thứ 4 từ dưới lên. Hỏi cả dãy có tất cả bao nhiêu quyển sách?",
+    "options": [
+      "14",
+      "17",
+      "13"
+    ],
+    "answer": 0,
+    "guide": "👉 Bài toán cho biết có 10 đối tượng ở phía trước và đang đứng thứ 4 từ dưới lên. ➡️ Con hãy lấy 10 + 4 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "ghế số được đặt sau 3 chiếc ghế trong khi đang xếp trong phòng. Nếu tính từ cuối lên thì ghế số đứng thứ 7. Hỏi dãy đó có tất cả bao nhiêu chiếc ghế?",
+    "options": [
+      "13",
+      "11",
+      "10"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết có 3 đối tượng ở phía trước và đang đứng thứ 7 từ dưới lên. ➡️ Con hãy lấy 3 + 7 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Một dãy chiếc ghế đang xếp trong phòng. Biết có 10 cái ở trước ghế số, và ghế số nằm ở vị trí thứ 9 từ dưới lên. Hỏi cả dãy có tất cả bao nhiêu chiếc ghế?",
+    "options": [
+      "17",
+      "20",
+      "19"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết có 10 đối tượng ở phía trước và đang đứng thứ 9 từ dưới lên. ➡️ Con hãy lấy 10 + 9 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "hộp đang nằm sau 7 hộp quà và nếu đếm ngược từ cuối dãy đang xếp trên bàn thì nó ở vị trí thứ 6. Có tất cả bao nhiêu hộp quà trong dãy?",
+    "options": [
+      "15",
+      "12",
+      "13"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết có 7 đối tượng ở phía trước và đang đứng thứ 6 từ dưới lên. ➡️ Con hãy lấy 7 + 6 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Có 3 con búp bê ở phía trước búp bê trong dãy đang đặt trên kệ. búp bê lại ở vị trí thứ 5 tính từ cuối lên. Hỏi có tất cả bao nhiêu con búp bê trong dãy?",
+    "options": [
+      "9",
+      "8",
+      "7"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết có 3 đối tượng ở phía trước và đang đứng thứ 5 từ dưới lên. ➡️ Con hãy lấy 3 + 5 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Có 5 cái bánh ở phía trước bánh số trong dãy đang bày trên khay. bánh số lại ở vị trí thứ 4 tính từ cuối lên. Hỏi có tất cả bao nhiêu cái bánh trong dãy?",
+    "options": [
+      "9",
+      "12",
+      "8"
+    ],
+    "answer": 0,
+    "guide": "👉 Bài toán cho biết có 5 đối tượng ở phía trước và đang đứng thứ 4 từ dưới lên. ➡️ Con hãy lấy 5 + 4 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Một dãy con mèo đang nằm trên sàn. Biết có 4 con ở trước con mèo cần tìm, và con mèo cần tìm nằm ở vị trí thứ 3 từ dưới lên. Hỏi cả dãy có tất cả bao nhiêu con mèo?",
+    "options": [
+      "7",
+      "8",
+      "10"
+    ],
+    "answer": 0,
+    "guide": "👉 Bài toán cho biết có 4 đối tượng ở phía trước và đang đứng thứ 3 từ dưới lên. ➡️ Con hãy lấy 4 + 3 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "bánh số được đặt sau 7 cái bánh trong khi đang bày trên khay. Nếu tính từ cuối lên thì bánh số đứng thứ 9. Hỏi dãy đó có tất cả bao nhiêu cái bánh?",
+    "options": [
+      "13",
+      "16",
+      "18"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết có 7 đối tượng ở phía trước và đang đứng thứ 9 từ dưới lên. ➡️ Con hãy lấy 7 + 9 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "chậu thứ được đặt sau 7 chậu hoa trong khi đang xếp trên bệ. Nếu tính từ cuối lên thì chậu thứ đứng thứ 3. Hỏi dãy đó có tất cả bao nhiêu chậu hoa?",
+    "options": [
+      "8",
+      "10",
+      "13"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết có 7 đối tượng ở phía trước và đang đứng thứ 3 từ dưới lên. ➡️ Con hãy lấy 7 + 3 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "xe cần tìm đang nằm sau 3 xe đạp và nếu đếm ngược từ cuối dãy đang đỗ thì nó ở vị trí thứ 5. Có tất cả bao nhiêu xe đạp trong dãy?",
+    "options": [
+      "6",
+      "11",
+      "8"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết có 3 đối tượng ở phía trước và đang đứng thứ 5 từ dưới lên. ➡️ Con hãy lấy 3 + 5 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Một dãy xe đạp đang đỗ. Biết có 9 cái ở trước xe cần tìm, và xe cần tìm nằm ở vị trí thứ 8 từ dưới lên. Hỏi cả dãy có tất cả bao nhiêu xe đạps?",
+    "options": [
+      "17",
+      "19",
+      "15"
+    ],
+    "answer": 0,
+    "guide": "👉 Bài toán cho biết có 9 đối tượng ở phía trước và đang đứng thứ 8 từ dưới lên. ➡️ Con hãy lấy 9 + 8 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "cây thứ được đặt sau 7 cây trong khi đang trồng theo hàng. Nếu tính từ cuối lên thì cây thứ đứng thứ 10. Hỏi dãy đó có tất cả bao nhiêu câys?",
+    "options": [
+      "16",
+      "19",
+      "17"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết có 7 đối tượng ở phía trước và đang đứng thứ 10 từ dưới lên. ➡️ Con hãy lấy 7 + 10 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Trong một dãy xe đạp đang đỗ, có 8 cái nằm trước xe cần tìm. Nếu tính từ cuối lên thì xe cần tìm là thứ 4. Vậy dãy có tất cả bao nhiêu xe đạps?",
+    "options": [
+      "9",
+      "11",
+      "12"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết có 8 đối tượng ở phía trước và đang đứng thứ 4 từ dưới lên. ➡️ Con hãy lấy 8 + 4 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Một dãy chậu hoa đang xếp trên bệ. Biết có 6 cái ở trước chậu thứ, và chậu thứ nằm ở vị trí thứ 7 từ dưới lên. Hỏi cả dãy có tất cả bao nhiêu chậu hoa?",
+    "options": [
+      "15",
+      "14",
+      "13"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết có 6 đối tượng ở phía trước và đang đứng thứ 7 từ dưới lên. ➡️ Con hãy lấy 6 + 7 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Một dãy con mèo đang nằm trên sàn. Biết có 4 con ở trước con mèo cần tìm, và con mèo cần tìm nằm ở vị trí thứ 7 từ dưới lên. Hỏi cả dãy có tất cả bao nhiêu con mèo?",
+    "options": [
+      "11",
+      "9",
+      "10"
+    ],
+    "answer": 0,
+    "guide": "👉 Bài toán cho biết có 4 đối tượng ở phía trước và đang đứng thứ 7 từ dưới lên. ➡️ Con hãy lấy 4 + 7 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Có 3 cây ở phía trước cây thứ trong dãy đang trồng theo hàng. cây thứ lại ở vị trí thứ 2 tính từ cuối lên. Hỏi có tất cả bao nhiêu cây trong dãy?",
+    "options": [
+      "4",
+      "5",
+      "7"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết có 3 đối tượng ở phía trước và đang đứng thứ 2 từ dưới lên. ➡️ Con hãy lấy 3 + 2 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Trong một dãy con búp bê đang đặt trên kệ, có 8 chiếc nằm trước búp bê. Nếu tính từ cuối lên thì búp bê là thứ 10. Vậy dãy có tất cả bao nhiêu con búp bê?",
+    "options": [
+      "17",
+      "18",
+      "20"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết có 8 đối tượng ở phía trước và đang đứng thứ 10 từ dưới lên. ➡️ Con hãy lấy 8 + 10 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Trong một dãy cây đang trồng theo hàng, có 7 cái nằm trước cây thứ. Nếu tính từ cuối lên thì cây thứ là thứ 7. Vậy dãy có tất cả bao nhiêu câys?",
+    "options": [
+      "15",
+      "14",
+      "13"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết có 7 đối tượng ở phía trước và đang đứng thứ 7 từ dưới lên. ➡️ Con hãy lấy 7 + 7 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Có 10 con vịt ở phía trước con cần tìm trong dãy đang đi theo hàng. con cần tìm lại ở vị trí thứ 9 tính từ cuối lên. Hỏi có tất cả bao nhiêu con vịt trong dãy?",
+    "options": [
+      "19",
+      "16",
+      "17"
+    ],
+    "answer": 0,
+    "guide": "👉 Bài toán cho biết có 10 đối tượng ở phía trước và đang đứng thứ 9 từ dưới lên. ➡️ Con hãy lấy 10 + 9 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "ghế số đang nằm sau 9 chiếc ghế và nếu đếm ngược từ cuối dãy đang xếp trong phòng thì nó ở vị trí thứ 7. Có tất cả bao nhiêu chiếc ghế trong dãy?",
+    "options": [
+      "17",
+      "14",
+      "16"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết có 9 đối tượng ở phía trước và đang đứng thứ 7 từ dưới lên. ➡️ Con hãy lấy 9 + 7 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "cuốn đang nằm sau 9 quyển sách và nếu đếm ngược từ cuối dãy đang xếp trên giá thì nó ở vị trí thứ 8. Có tất cả bao nhiêu quyển sách trong dãy?",
+    "options": [
+      "19",
+      "15",
+      "17"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết có 9 đối tượng ở phía trước và đang đứng thứ 8 từ dưới lên. ➡️ Con hãy lấy 9 + 8 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Có 7 con mèo ở phía trước con mèo cần tìm trong dãy đang nằm trên sàn. con mèo cần tìm lại ở vị trí thứ 2 tính từ cuối lên. Hỏi có tất cả bao nhiêu con mèo trong dãy?",
+    "options": [
+      "9",
+      "10",
+      "6"
+    ],
+    "answer": 0,
+    "guide": "👉 Bài toán cho biết có 7 đối tượng ở phía trước và đang đứng thứ 2 từ dưới lên. ➡️ Con hãy lấy 7 + 2 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "cây thứ được đặt sau 8 cây trong khi đang trồng theo hàng. Nếu tính từ cuối lên thì cây thứ đứng thứ 9. Hỏi dãy đó có tất cả bao nhiêu câys?",
+    "options": [
+      "19",
+      "17",
+      "18"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết có 8 đối tượng ở phía trước và đang đứng thứ 9 từ dưới lên. ➡️ Con hãy lấy 8 + 9 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Trong một dãy cái bánh đang bày trên khay, có 3 cái nằm trước bánh số. Nếu tính từ cuối lên thì bánh số là thứ 4. Vậy dãy có tất cả bao nhiêu cái bánh?",
+    "options": [
+      "4",
+      "7",
+      "8"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết có 3 đối tượng ở phía trước và đang đứng thứ 4 từ dưới lên. ➡️ Con hãy lấy 3 + 4 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "búp bê được đặt sau 6 con búp bê trong khi đang đặt trên kệ. Nếu tính từ cuối lên thì búp bê đứng thứ 6. Hỏi dãy đó có tất cả bao nhiêu con búp bê?",
+    "options": [
+      "9",
+      "15",
+      "12"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết có 6 đối tượng ở phía trước và đang đứng thứ 6 từ dưới lên. ➡️ Con hãy lấy 6 + 6 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Có 5 con búp bê ở phía trước búp bê trong dãy đang đặt trên kệ. búp bê lại ở vị trí thứ 2 tính từ cuối lên. Hỏi có tất cả bao nhiêu con búp bê trong dãy?",
+    "options": [
+      "5",
+      "7",
+      "8"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết có 5 đối tượng ở phía trước và đang đứng thứ 2 từ dưới lên. ➡️ Con hãy lấy 5 + 2 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "cây thứ được đặt sau 10 cây trong khi đang trồng theo hàng. Nếu tính từ cuối lên thì cây thứ đứng thứ 3. Hỏi dãy đó có tất cả bao nhiêu câys?",
+    "options": [
+      "15",
+      "13",
+      "14"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết có 10 đối tượng ở phía trước và đang đứng thứ 3 từ dưới lên. ➡️ Con hãy lấy 10 + 3 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Một dãy cây đang trồng theo hàng. Biết có 7 cái ở trước cây thứ, và cây thứ nằm ở vị trí thứ 2 từ dưới lên. Hỏi cả dãy có tất cả bao nhiêu cây?",
+    "options": [
+      "8",
+      "10",
+      "9"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết có 7 đối tượng ở phía trước và đang đứng thứ 2 từ dưới lên. ➡️ Con hãy lấy 7 + 2 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Có 7 xe đạp ở phía trước xe cần tìm trong dãy đang đỗ. xe cần tìm lại ở vị trí thứ 2 tính từ cuối lên. Hỏi có tất cả bao nhiêu xe đạp trong dãy?",
+    "options": [
+      "11",
+      "9",
+      "7"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết có 7 đối tượng ở phía trước và đang đứng thứ 2 từ dưới lên. ➡️ Con hãy lấy 7 + 2 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "con mèo cần tìm đang nằm sau 7 con mèo và nếu đếm ngược từ cuối dãy đang nằm trên sàn thì nó ở vị trí thứ 4. Có tất cả bao nhiêu con mèo trong dãy?",
+    "options": [
+      "10",
+      "9",
+      "11"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết có 7 đối tượng ở phía trước và đang đứng thứ 4 từ dưới lên. ➡️ Con hãy lấy 7 + 4 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "hộp được đặt sau 5 hộp quà trong khi đang xếp trên bàn. Nếu tính từ cuối lên thì hộp đứng thứ 4. Hỏi dãy đó có tất cả bao nhiêu hộp quàs?",
+    "options": [
+      "9",
+      "10",
+      "7"
+    ],
+    "answer": 0,
+    "guide": "👉 Bài toán cho biết có 5 đối tượng ở phía trước và đang đứng thứ 4 từ dưới lên. ➡️ Con hãy lấy 5 + 4 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Một dãy chậu hoa đang xếp trên bệ. Biết có 9 cái ở trước chậu thứ, và chậu thứ nằm ở vị trí thứ 9 từ dưới lên. Hỏi cả dãy có tất cả bao nhiêu chậu hoa?",
+    "options": [
+      "17",
+      "21",
+      "18"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết có 9 đối tượng ở phía trước và đang đứng thứ 9 từ dưới lên. ➡️ Con hãy lấy 9 + 9 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Trong một dãy con mèo đang nằm trên sàn, có 9 con nằm trước con mèo cần tìm. Nếu tính từ cuối lên thì con mèo cần tìm là thứ 4. Vậy dãy có tất cả bao nhiêu con mèo?",
+    "options": [
+      "13",
+      "15",
+      "12"
+    ],
+    "answer": 0,
+    "guide": "👉 Bài toán cho biết có 9 đối tượng ở phía trước và đang đứng thứ 4 từ dưới lên. ➡️ Con hãy lấy 9 + 4 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Trong một dãy quyển sách đang xếp trên giá, có 3 cái nằm trước cuốn. Nếu tính từ cuối lên thì cuốn là thứ 10. Vậy dãy có tất cả bao nhiêu quyển sách?",
+    "options": [
+      "13",
+      "10",
+      "15"
+    ],
+    "answer": 0,
+    "guide": "👉 Bài toán cho biết có 3 đối tượng ở phía trước và đang đứng thứ 10 từ dưới lên. ➡️ Con hãy lấy 3 + 10 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "búp bê đang nằm sau 5 con búp bê và nếu đếm ngược từ cuối dãy đang đặt trên kệ thì nó ở vị trí thứ 7. Có tất cả bao nhiêu con búp bê trong dãy?",
+    "options": [
+      "11",
+      "12",
+      "10"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết có 5 đối tượng ở phía trước và đang đứng thứ 7 từ dưới lên. ➡️ Con hãy lấy 5 + 7 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "cuốn đang nằm sau 7 quyển sách và nếu đếm ngược từ cuối dãy đang xếp trên giá thì nó ở vị trí thứ 6. Có tất cả bao nhiêu quyển sách trong dãy?",
+    "options": [
+      "13",
+      "12",
+      "10"
+    ],
+    "answer": 0,
+    "guide": "👉 Bài toán cho biết có 7 đối tượng ở phía trước và đang đứng thứ 6 từ dưới lên. ➡️ Con hãy lấy 7 + 6 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Một dãy con búp bê đang đặt trên kệ. Biết có 4 cái ở trước búp bê, và búp bê nằm ở vị trí thứ 6 từ dưới lên. Hỏi cả dãy có tất cả bao nhiêu con búp bê?",
+    "options": [
+      "7",
+      "10",
+      "11"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết có 4 đối tượng ở phía trước và đang đứng thứ 6 từ dưới lên. ➡️ Con hãy lấy 4 + 6 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "Có 10 con búp bê ở phía trước búp bê trong dãy đang đặt trên kệ. búp bê lại ở vị trí thứ 3 tính từ cuối lên. Hỏi có tất cả bao nhiêu con búp bê trong dãy?",
+    "options": [
+      "13",
+      "12",
+      "15"
+    ],
+    "answer": 0,
+    "guide": "👉 Bài toán cho biết có 10 đối tượng ở phía trước và đang đứng thứ 3 từ dưới lên. ➡️ Con hãy lấy 10 + 3 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "cuốn được đặt sau 2 quyển sách trong khi đang xếp trên giá. Nếu tính từ cuối lên thì cuốn đứng thứ 7. Hỏi dãy đó có tất cả bao nhiêu quyển sách?",
+    "options": [
+      "11",
+      "12",
+      "9"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết có 2 đối tượng ở phía trước và đang đứng thứ 7 từ dưới lên. ➡️ Con hãy lấy 2 + 7 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  },
+  {
+    "question": "xe cần tìm đang nằm sau 9 xe đạp và nếu đếm ngược từ cuối dãy đang đỗ thì nó ở vị trí thứ 9. Có tất cả bao nhiêu xe đạp trong dãy?",
+    "options": [
+      "19",
+      "18",
+      "16"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết có 9 đối tượng ở phía trước và đang đứng thứ 9 từ dưới lên. ➡️ Con hãy lấy 9 + 9 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
+  }
+]

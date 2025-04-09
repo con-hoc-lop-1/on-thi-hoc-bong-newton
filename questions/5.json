@@ -1,0 +1,502 @@
+[
+  {
+    "question": "Mỗi bàn học đựng 5 hộp bút màu. Nếu có 3 bàn học như vậy thì tổng số hộp bút màu là bao nhiêu?",
+    "options": [
+      "15",
+      "20",
+      "12"
+    ],
+    "answer": 0,
+    "guide": "👉 Mỗi nhóm có 3 phần, có 5 nhóm như vậy.<br/>➡️ Con hãy lấy 5 × 3 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi bàn học đựng 6 hộp bút màu. Nếu có 7 bàn học như vậy thì tổng số hộp bút màu là bao nhiêu?",
+    "options": [
+      "40",
+      "47",
+      "42"
+    ],
+    "answer": 2,
+    "guide": "👉 Mỗi nhóm có 7 phần, có 6 nhóm như vậy.<br/>➡️ Con hãy lấy 6 × 7 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi em nhỏ chứa 4 chiếc bánh. Tính tổng số chiếc bánh trong 6 em nhỏ.",
+    "options": [
+      "21",
+      "24",
+      "26"
+    ],
+    "answer": 1,
+    "guide": "👉 Mỗi nhóm có 6 phần, có 4 nhóm như vậy.<br/>➡️ Con hãy lấy 4 × 6 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi học sinh chứa 6 quyển vở. Tính tổng số quyển vở trong 5 học sinh.",
+    "options": [
+      "27",
+      "33",
+      "30"
+    ],
+    "answer": 2,
+    "guide": "👉 Mỗi nhóm có 5 phần, có 6 nhóm như vậy.<br/>➡️ Con hãy lấy 6 × 5 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi bàn học chứa 7 hộp bút màu. Tính tổng số hộp bút màu trong 5 bàn học.",
+    "options": [
+      "32",
+      "35",
+      "33"
+    ],
+    "answer": 1,
+    "guide": "👉 Mỗi nhóm có 5 phần, có 7 nhóm như vậy.<br/>➡️ Con hãy lấy 7 × 5 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi đội có 8 quả bóng. Hỏi 3 đội có tất cả bao nhiêu quả bóng?",
+    "options": [
+      "26",
+      "24",
+      "29"
+    ],
+    "answer": 1,
+    "guide": "👉 Mỗi nhóm có 3 phần, có 8 nhóm như vậy.<br/>➡️ Con hãy lấy 8 × 3 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi học sinh có 4 quyển vở. Hỏi 3 học sinh có tất cả bao nhiêu quyển vở?",
+    "options": [
+      "10",
+      "7",
+      "12"
+    ],
+    "answer": 2,
+    "guide": "👉 Mỗi nhóm có 3 phần, có 4 nhóm như vậy.<br/>➡️ Con hãy lấy 4 × 3 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Có 3 em nhỏ, mỗi em nhỏ đều nhận được 8 chiếc bánh. Hỏi tổng cộng có bao nhiêu chiếc bánh?",
+    "options": [
+      "21",
+      "24",
+      "26"
+    ],
+    "answer": 1,
+    "guide": "👉 Mỗi nhóm có 8 phần, có 3 nhóm như vậy.<br/>➡️ Con hãy lấy 3 × 8 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi học sinh chứa 3 quyển vở. Tính tổng số quyển vở trong 7 học sinh.",
+    "options": [
+      "21",
+      "18",
+      "23"
+    ],
+    "answer": 0,
+    "guide": "👉 Mỗi nhóm có 7 phần, có 3 nhóm như vậy.<br/>➡️ Con hãy lấy 3 × 7 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi em nhỏ có 5 chiếc bánh. Hỏi 8 em nhỏ có tất cả bao nhiêu chiếc bánh?",
+    "options": [
+      "40",
+      "45",
+      "37"
+    ],
+    "answer": 0,
+    "guide": "👉 Mỗi nhóm có 8 phần, có 5 nhóm như vậy.<br/>➡️ Con hãy lấy 5 × 8 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi người bạn có 4 chai nước. Hỏi 3 người bạn có tất cả bao nhiêu chai nước?",
+    "options": [
+      "7",
+      "10",
+      "12"
+    ],
+    "answer": 2,
+    "guide": "👉 Mỗi nhóm có 3 phần, có 4 nhóm như vậy.<br/>➡️ Con hãy lấy 4 × 3 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi em nhỏ đựng 8 chiếc bánh. Nếu có 3 em nhỏ như vậy thì tổng số chiếc bánh là bao nhiêu?",
+    "options": [
+      "26",
+      "29",
+      "24"
+    ],
+    "answer": 2,
+    "guide": "👉 Mỗi nhóm có 3 phần, có 8 nhóm như vậy.<br/>➡️ Con hãy lấy 8 × 3 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Có 6 người bạn, mỗi người bạn đều nhận được 9 chai nước. Hỏi tổng cộng có bao nhiêu chai nước?",
+    "options": [
+      "52",
+      "49",
+      "54"
+    ],
+    "answer": 2,
+    "guide": "👉 Mỗi nhóm có 9 phần, có 6 nhóm như vậy.<br/>➡️ Con hãy lấy 6 × 9 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi túi có 5 quả cam. Hỏi 6 túi có tất cả bao nhiêu quả cam?",
+    "options": [
+      "30",
+      "35",
+      "27"
+    ],
+    "answer": 0,
+    "guide": "👉 Mỗi nhóm có 6 phần, có 5 nhóm như vậy.<br/>➡️ Con hãy lấy 5 × 6 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi kệ đựng 4 chiếc xe đồ chơi. Nếu có 7 kệ như vậy thì tổng số chiếc xe đồ chơi là bao nhiêu?",
+    "options": [
+      "33",
+      "28",
+      "31"
+    ],
+    "answer": 1,
+    "guide": "👉 Mỗi nhóm có 7 phần, có 4 nhóm như vậy.<br/>➡️ Con hãy lấy 4 × 7 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi bảng đựng 4 viên phấn. Nếu có 5 bảng như vậy thì tổng số viên phấn là bao nhiêu?",
+    "options": [
+      "22",
+      "20",
+      "17"
+    ],
+    "answer": 1,
+    "guide": "👉 Mỗi nhóm có 5 phần, có 4 nhóm như vậy.<br/>➡️ Con hãy lấy 4 × 5 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "3 kệ giống nhau, mỗi cái có 7 chiếc xe đồ chơi. Vậy tất cả có bao nhiêu chiếc xe đồ chơi?",
+    "options": [
+      "16",
+      "21",
+      "24"
+    ],
+    "answer": 1,
+    "guide": "👉 Mỗi nhóm có 7 phần, có 3 nhóm như vậy.<br/>➡️ Con hãy lấy 3 × 7 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Có 7 bàn học, mỗi bàn học đều nhận được 4 hộp bút màu. Hỏi tổng cộng có bao nhiêu hộp bút màu?",
+    "options": [
+      "28",
+      "31",
+      "33"
+    ],
+    "answer": 0,
+    "guide": "👉 Mỗi nhóm có 4 phần, có 7 nhóm như vậy.<br/>➡️ Con hãy lấy 7 × 4 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi học sinh có 3 quyển vở. Hỏi 7 học sinh có tất cả bao nhiêu quyển vở?",
+    "options": [
+      "24",
+      "16",
+      "21"
+    ],
+    "answer": 2,
+    "guide": "👉 Mỗi nhóm có 7 phần, có 3 nhóm như vậy.<br/>➡️ Con hãy lấy 3 × 7 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Có 7 ngăn kéo, mỗi ngăn kéo đều nhận được 8 bút chì. Hỏi tổng cộng có bao nhiêu bút chì?",
+    "options": [
+      "58",
+      "54",
+      "56"
+    ],
+    "answer": 2,
+    "guide": "👉 Mỗi nhóm có 8 phần, có 7 nhóm như vậy.<br/>➡️ Con hãy lấy 7 × 8 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi ngăn kéo đựng 9 bút chì. Nếu có 3 ngăn kéo như vậy thì tổng số bút chì là bao nhiêu?",
+    "options": [
+      "32",
+      "22",
+      "27"
+    ],
+    "answer": 2,
+    "guide": "👉 Mỗi nhóm có 3 phần, có 9 nhóm như vậy.<br/>➡️ Con hãy lấy 9 × 3 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi người bạn đựng 7 chai nước. Nếu có 4 người bạn như vậy thì tổng số chai nước là bao nhiêu?",
+    "options": [
+      "25",
+      "23",
+      "28"
+    ],
+    "answer": 2,
+    "guide": "👉 Mỗi nhóm có 4 phần, có 7 nhóm như vậy.<br/>➡️ Con hãy lấy 7 × 4 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "4 giỏ giống nhau, mỗi cái có 3 quả táo. Vậy tất cả có bao nhiêu quả táo?",
+    "options": [
+      "7",
+      "15",
+      "12"
+    ],
+    "answer": 2,
+    "guide": "👉 Mỗi nhóm có 3 phần, có 4 nhóm như vậy.<br/>➡️ Con hãy lấy 4 × 3 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Có 3 kệ, mỗi kệ đều nhận được 4 chiếc xe đồ chơi. Hỏi tổng cộng có bao nhiêu chiếc xe đồ chơi?",
+    "options": [
+      "12",
+      "14",
+      "15"
+    ],
+    "answer": 0,
+    "guide": "👉 Mỗi nhóm có 4 phần, có 3 nhóm như vậy.<br/>➡️ Con hãy lấy 3 × 4 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi bạn đựng 7 quyển truyện. Nếu có 3 bạn như vậy thì tổng số quyển truyện là bao nhiêu?",
+    "options": [
+      "23",
+      "26",
+      "21"
+    ],
+    "answer": 2,
+    "guide": "👉 Mỗi nhóm có 3 phần, có 7 nhóm như vậy.<br/>➡️ Con hãy lấy 7 × 3 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi em nhỏ có 8 chiếc bánh. Hỏi 7 em nhỏ có tất cả bao nhiêu chiếc bánh?",
+    "options": [
+      "56",
+      "54",
+      "53"
+    ],
+    "answer": 0,
+    "guide": "👉 Mỗi nhóm có 7 phần, có 8 nhóm như vậy.<br/>➡️ Con hãy lấy 8 × 7 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Có 2 em nhỏ, mỗi em nhỏ đều nhận được 9 chiếc bánh. Hỏi tổng cộng có bao nhiêu chiếc bánh?",
+    "options": [
+      "20",
+      "13",
+      "18"
+    ],
+    "answer": 2,
+    "guide": "👉 Mỗi nhóm có 9 phần, có 2 nhóm như vậy.<br/>➡️ Con hãy lấy 2 × 9 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Có 8 giỏ, mỗi giỏ đều nhận được 7 quả táo. Hỏi tổng cộng có bao nhiêu quả táo?",
+    "options": [
+      "56",
+      "51",
+      "61"
+    ],
+    "answer": 0,
+    "guide": "👉 Mỗi nhóm có 7 phần, có 8 nhóm như vậy.<br/>➡️ Con hãy lấy 8 × 7 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi túi chứa 7 quả cam. Tính tổng số quả cam trong 8 túi.",
+    "options": [
+      "58",
+      "59",
+      "56"
+    ],
+    "answer": 2,
+    "guide": "👉 Mỗi nhóm có 8 phần, có 7 nhóm như vậy.<br/>➡️ Con hãy lấy 7 × 8 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "3 đội giống nhau, mỗi cái có 9 quả bóng. Vậy tất cả có bao nhiêu quả bóng?",
+    "options": [
+      "22",
+      "27",
+      "32"
+    ],
+    "answer": 1,
+    "guide": "👉 Mỗi nhóm có 9 phần, có 3 nhóm như vậy.<br/>➡️ Con hãy lấy 3 × 9 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "3 kệ giống nhau, mỗi cái có 9 chiếc xe đồ chơi. Vậy tất cả có bao nhiêu chiếc xe đồ chơi?",
+    "options": [
+      "32",
+      "29",
+      "27"
+    ],
+    "answer": 2,
+    "guide": "👉 Mỗi nhóm có 9 phần, có 3 nhóm như vậy.<br/>➡️ Con hãy lấy 3 × 9 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi bảng chứa 8 viên phấn. Tính tổng số viên phấn trong 4 bảng.",
+    "options": [
+      "32",
+      "34",
+      "30"
+    ],
+    "answer": 0,
+    "guide": "👉 Mỗi nhóm có 4 phần, có 8 nhóm như vậy.<br/>➡️ Con hãy lấy 8 × 4 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi túi có 9 quả cam. Hỏi 8 túi có tất cả bao nhiêu quả cam?",
+    "options": [
+      "75",
+      "69",
+      "72"
+    ],
+    "answer": 2,
+    "guide": "👉 Mỗi nhóm có 8 phần, có 9 nhóm như vậy.<br/>➡️ Con hãy lấy 9 × 8 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi túi đựng 4 quả cam. Nếu có 4 túi như vậy thì tổng số quả cam là bao nhiêu?",
+    "options": [
+      "16",
+      "11",
+      "21"
+    ],
+    "answer": 0,
+    "guide": "👉 Mỗi nhóm có 4 phần, có 4 nhóm như vậy.<br/>➡️ Con hãy lấy 4 × 4 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi kệ có 5 chiếc xe đồ chơi. Hỏi 5 kệ có tất cả bao nhiêu chiếc xe đồ chơi?",
+    "options": [
+      "28",
+      "23",
+      "25"
+    ],
+    "answer": 2,
+    "guide": "👉 Mỗi nhóm có 5 phần, có 5 nhóm như vậy.<br/>➡️ Con hãy lấy 5 × 5 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi học sinh có 9 quyển vở. Hỏi 3 học sinh có tất cả bao nhiêu quyển vở?",
+    "options": [
+      "30",
+      "25",
+      "27"
+    ],
+    "answer": 2,
+    "guide": "👉 Mỗi nhóm có 3 phần, có 9 nhóm như vậy.<br/>➡️ Con hãy lấy 9 × 3 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi em nhỏ có 6 chiếc bánh. Hỏi 8 em nhỏ có tất cả bao nhiêu chiếc bánh?",
+    "options": [
+      "45",
+      "53",
+      "48"
+    ],
+    "answer": 2,
+    "guide": "👉 Mỗi nhóm có 8 phần, có 6 nhóm như vậy.<br/>➡️ Con hãy lấy 6 × 8 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi đội có 8 quả bóng. Hỏi 5 đội có tất cả bao nhiêu quả bóng?",
+    "options": [
+      "40",
+      "42",
+      "38"
+    ],
+    "answer": 0,
+    "guide": "👉 Mỗi nhóm có 5 phần, có 8 nhóm như vậy.<br/>➡️ Con hãy lấy 8 × 5 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "4 túi giống nhau, mỗi cái có 4 quả cam. Vậy tất cả có bao nhiêu quả cam?",
+    "options": [
+      "16",
+      "14",
+      "18"
+    ],
+    "answer": 0,
+    "guide": "👉 Mỗi nhóm có 4 phần, có 4 nhóm như vậy.<br/>➡️ Con hãy lấy 4 × 4 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi kệ đựng 3 chiếc xe đồ chơi. Nếu có 7 kệ như vậy thì tổng số chiếc xe đồ chơi là bao nhiêu?",
+    "options": [
+      "23",
+      "16",
+      "21"
+    ],
+    "answer": 2,
+    "guide": "👉 Mỗi nhóm có 7 phần, có 3 nhóm như vậy.<br/>➡️ Con hãy lấy 3 × 7 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi giỏ đựng 6 quả táo. Nếu có 4 giỏ như vậy thì tổng số quả táo là bao nhiêu?",
+    "options": [
+      "29",
+      "22",
+      "24"
+    ],
+    "answer": 2,
+    "guide": "👉 Mỗi nhóm có 4 phần, có 6 nhóm như vậy.<br/>➡️ Con hãy lấy 6 × 4 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi bảng có 5 viên phấn. Hỏi 2 bảng có tất cả bao nhiêu viên phấn?",
+    "options": [
+      "8",
+      "15",
+      "10"
+    ],
+    "answer": 2,
+    "guide": "👉 Mỗi nhóm có 2 phần, có 5 nhóm như vậy.<br/>➡️ Con hãy lấy 5 × 2 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Có 5 đội, mỗi đội đều nhận được 9 quả bóng. Hỏi tổng cộng có bao nhiêu quả bóng?",
+    "options": [
+      "45",
+      "50",
+      "47"
+    ],
+    "answer": 0,
+    "guide": "👉 Mỗi nhóm có 9 phần, có 5 nhóm như vậy.<br/>➡️ Con hãy lấy 5 × 9 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "4 giỏ giống nhau, mỗi cái có 6 quả táo. Vậy tất cả có bao nhiêu quả táo?",
+    "options": [
+      "21",
+      "22",
+      "24"
+    ],
+    "answer": 2,
+    "guide": "👉 Mỗi nhóm có 6 phần, có 4 nhóm như vậy.<br/>➡️ Con hãy lấy 4 × 6 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "4 kệ giống nhau, mỗi cái có 6 chiếc xe đồ chơi. Vậy tất cả có bao nhiêu chiếc xe đồ chơi?",
+    "options": [
+      "24",
+      "21",
+      "27"
+    ],
+    "answer": 0,
+    "guide": "👉 Mỗi nhóm có 6 phần, có 4 nhóm như vậy.<br/>➡️ Con hãy lấy 4 × 6 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "5 người bạn giống nhau, mỗi cái có 9 chai nước. Vậy tất cả có bao nhiêu chai nước?",
+    "options": [
+      "40",
+      "48",
+      "45"
+    ],
+    "answer": 2,
+    "guide": "👉 Mỗi nhóm có 9 phần, có 5 nhóm như vậy.<br/>➡️ Con hãy lấy 5 × 9 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Có 4 ngăn kéo, mỗi ngăn kéo đều nhận được 5 bút chì. Hỏi tổng cộng có bao nhiêu bút chì?",
+    "options": [
+      "25",
+      "23",
+      "20"
+    ],
+    "answer": 2,
+    "guide": "👉 Mỗi nhóm có 5 phần, có 4 nhóm như vậy.<br/>➡️ Con hãy lấy 4 × 5 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi người bạn chứa 5 chai nước. Tính tổng số chai nước trong 6 người bạn.",
+    "options": [
+      "25",
+      "30",
+      "33"
+    ],
+    "answer": 1,
+    "guide": "👉 Mỗi nhóm có 6 phần, có 5 nhóm như vậy.<br/>➡️ Con hãy lấy 5 × 6 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Mỗi bàn học chứa 4 hộp bút màu. Tính tổng số hộp bút màu trong 3 bàn học.",
+    "options": [
+      "12",
+      "15",
+      "17"
+    ],
+    "answer": 0,
+    "guide": "👉 Mỗi nhóm có 3 phần, có 4 nhóm như vậy.<br/>➡️ Con hãy lấy 4 × 3 = ...<br/>✅ Vậy đáp án đúng là ..."
+  },
+  {
+    "question": "Có 7 bàn học, mỗi bàn học đều nhận được 9 hộp bút màu. Hỏi tổng cộng có bao nhiêu hộp bút màu?",
+    "options": [
+      "61",
+      "58",
+      "63"
+    ],
+    "answer": 2,
+    "guide": "👉 Mỗi nhóm có 9 phần, có 7 nhóm như vậy.<br/>➡️ Con hãy lấy 7 × 9 = ...<br/>✅ Vậy đáp án đúng là ..."
+  }
+]

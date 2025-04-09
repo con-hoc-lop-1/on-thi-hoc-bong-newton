@@ -1,0 +1,502 @@
+[
+  {
+    "question": "Có tất cả 23 quyển vở được chia vào hai cặp. Trong đó, cặp xanh có nhiều hơn cặp đỏ 3 quyển vở. Hỏi số quyển vở trong mỗi cặp là bao nhiêu?",
+    "options": [
+      "cặp xanh: 13, cặp đỏ: 10",
+      "cặp xanh: 12, cặp đỏ: 10",
+      "cặp xanh: 13, cặp đỏ: 9"
+    ],
+    "answer": 0,
+    "guide": "👉 Bài toán cho biết tổng là 23, và chênh lệch giữa hai phần là 3.<br/>➡️ Bước 1: Lấy (23 - 3) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 3 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Hai hộp màu có tất cả 13 bút chì màu, trong đó hộp thứ hai ít hơn hộp thứ nhất 3 bút chì màu. Hỏi mỗi hộp màu chứa bao nhiêu bút chì màu?",
+    "options": [
+      "hộp thứ nhất: 9, hộp thứ hai: 4",
+      "hộp thứ nhất: 7, hộp thứ hai: 6",
+      "hộp thứ nhất: 8, hộp thứ hai: 5"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết tổng là 13, và chênh lệch giữa hai phần là 3.<br/>➡️ Bước 1: Lấy (13 - 3) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 3 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "hai hộp màu đựng tổng cộng 16 bút chì màu. Biết rằng hộp thứ nhất có nhiều hơn hộp thứ hai 2 bút chì màu. Hỏi mỗi hộp thứ nhất và hộp thứ hai có bao nhiêu bút chì màu?",
+    "options": [
+      "hộp thứ nhất: 9, hộp thứ hai: 6",
+      "hộp thứ nhất: 9, hộp thứ hai: 7",
+      "hộp thứ nhất: 8, hộp thứ hai: 7"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết tổng là 16, và chênh lệch giữa hai phần là 2.<br/>➡️ Bước 1: Lấy (16 - 2) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 2 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "thùng đỏ có nhiều hơn thùng xanh 4 lít sơn. Tổng cộng cả hai là 24 lít sơn. Hỏi mỗi thùng sơn có bao nhiêu?",
+    "options": [
+      "thùng đỏ: 14,  thùng xanh: -10",
+      "thùng đỏ: 14, thùng xanh: 9",
+      "thùng đỏ: 14, thùng xanh: 10"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết tổng là 4, và chênh lệch giữa hai phần là 24.<br/>➡️ Bước 1: Lấy (24 - 4) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 4 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Có tất cả 20 quả táo được chia vào hai giỏ. Trong đó, giỏ đỏ có nhiều hơn giỏ xanh 4 quả táo. Hỏi số quả táo trong mỗi giỏ là bao nhiêu?",
+    "options": [
+      "giỏ đỏ: 12, giỏ xanh: 8",
+      "giỏ đỏ: 12, giỏ xanh: 7",
+      "giỏ đỏ: 11, giỏ xanh: 8"
+    ],
+    "answer": 0,
+    "guide": "👉 Bài toán cho biết tổng là 20, và chênh lệch giữa hai phần là 4.<br/>➡️ Bước 1: Lấy (20 - 4) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 4 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Có tất cả 21 lít sơn được chia vào hai thùng sơn. Trong đó, thùng đỏ có nhiều hơn thùng xanh 3 lít sơn. Hỏi số lít sơn trong mỗi thùng sơn là bao nhiêu?",
+    "options": [
+      "thùng đỏ: 11, thùng xanh: 10",
+      "thùng đỏ: 12, thùng xanh: 9",
+      "thùng đỏ: 13, thùng xanh: 8"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết tổng là 21, và chênh lệch giữa hai phần là 3.<br/>➡️ Bước 1: Lấy (21 - 3) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 3 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Hai thùng có tất cả 20 trái cam, trong đó thùng B ít hơn thùng A 4 trái cam. Hỏi mỗi thùng chứa bao nhiêu trái cam?",
+    "options": [
+      "thùng A: 11, thùng B: 9",
+      "thùng A: 12, thùng B: 7",
+      "thùng A: 12, thùng B: 8"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết tổng là 20, và chênh lệch giữa hai phần là 4.<br/>➡️ Bước 1: Lấy (20 - 4) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 4 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Hai cặp có tất cả 13 quyển vở, trong đó cặp đỏ ít hơn cặp xanh 3 quyển vở. Hỏi mỗi cặp chứa bao nhiêu quyển vở?",
+    "options": [
+      "cặp xanh: 9, cặp đỏ: 4",
+      "cặp xanh: 8, cặp đỏ: 4",
+      "cặp xanh: 8, cặp đỏ: 5"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết tổng là 13, và chênh lệch giữa hai phần là 3.<br/>➡️ Bước 1: Lấy (13 - 3) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 3 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Hai giỏ có tất cả 12 quả táo, trong đó giỏ xanh ít hơn giỏ đỏ 2 quả táo. Hỏi mỗi giỏ chứa bao nhiêu quả táo?",
+    "options": [
+      "giỏ đỏ: 8, giỏ xanh: 4",
+      "giỏ đỏ: 7, giỏ xanh: 5",
+      "giỏ đỏ: 7, giỏ xanh: 4"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết tổng là 12, và chênh lệch giữa hai phần là 2.<br/>➡️ Bước 1: Lấy (12 - 2) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 2 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Hai hộp có tất cả 21 chiếc bánh, trong đó hộp thứ hai ít hơn hộp thứ nhất 5 chiếc bánh. Hỏi mỗi hộp chứa bao nhiêu chiếc bánh?",
+    "options": [
+      "hộp thứ nhất: 13, hộp thứ hai: 7",
+      "hộp thứ nhất: 13, hộp thứ hai: 8",
+      "hộp thứ nhất: 14, hộp thứ hai: 7"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết tổng là 21, và chênh lệch giữa hai phần là 5.<br/>➡️ Bước 1: Lấy (21 - 5) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 5 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Có tất cả 11 chiếc kẹo được chia vào hai túi. Trong đó, túi to có nhiều hơn túi nhỏ 3 chiếc kẹo. Hỏi số chiếc kẹo trong mỗi túi là bao nhiêu?",
+    "options": [
+      "túi to: 6, túi nhỏ: 4",
+      "túi to: 7, túi nhỏ: 4",
+      "túi to: 6, túi nhỏ: 5"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết tổng là 11, và chênh lệch giữa hai phần là 3.<br/>➡️ Bước 1: Lấy (11 - 3) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 3 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Tổng số bút chì màu trong hai hộp màu là 11. Nếu hộp thứ nhất chứa nhiều hơn hộp thứ hai 3 bút chì màu, thì mỗi hộp màu có bao nhiêu?",
+    "options": [
+      "hộp thứ nhất: 8, hộp thứ hai: 3",
+      "hộp thứ nhất: 7, hộp thứ hai: 4",
+      "hộp thứ nhất: 6, hộp thứ hai: 4"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết tổng là 11, và chênh lệch giữa hai phần là 3.<br/>➡️ Bước 1: Lấy (11 - 3) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 3 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "hai thùng sơn đựng tổng cộng 12 lít sơn. Biết rằng thùng đỏ có nhiều hơn thùng xanh 4 lít sơn. Hỏi mỗi thùng đỏ và thùng xanh có bao nhiêu lít sơn?",
+    "options": [
+      "thùng đỏ: 8, thùng xanh: 3",
+      "thùng đỏ: 9, thùng xanh: 3",
+      "thùng đỏ: 8, thùng xanh: 4"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết tổng là 12, và chênh lệch giữa hai phần là 4.<br/>➡️ Bước 1: Lấy (12 - 4) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 4 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Tổng số chiếc bánh trong hai hộp là 17. Nếu hộp thứ nhất chứa nhiều hơn hộp thứ hai 3 chiếc bánh, thì mỗi hộp có bao nhiêu?",
+    "options": [
+      "hộp thứ nhất: 10, hộp thứ hai: 6",
+      "hộp thứ nhất: 10, hộp thứ hai: 7",
+      "hộp thứ nhất: 9, hộp thứ hai: 8"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết tổng là 17, và chênh lệch giữa hai phần là 3.<br/>➡️ Bước 1: Lấy (17 - 3) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 3 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Có tất cả 13 quyển vở được chia vào hai cặp. Trong đó, cặp xanh có nhiều hơn cặp đỏ 3 quyển vở. Hỏi số quyển vở trong mỗi cặp là bao nhiêu?",
+    "options": [
+      "cặp xanh: 7, cặp đỏ: 6",
+      "cặp xanh: 8, cặp đỏ: 5",
+      "cặp xanh: 8, cặp đỏ: 4"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết tổng là 13, và chênh lệch giữa hai phần là 3.<br/>➡️ Bước 1: Lấy (13 - 3) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 3 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "túi to có nhiều hơn túi nhỏ 5 chiếc kẹo. Tổng cộng cả hai là 13 chiếc kẹo. Hỏi mỗi túi có bao nhiêu?",
+    "options": [
+      "túi to: 9, túi nhỏ: 4",
+      "túi to: 8, túi nhỏ: 5",
+      "túi to: 8, túi nhỏ: 4"
+    ],
+    "answer": 0,
+    "guide": "👉 Bài toán cho biết tổng là 5, và chênh lệch giữa hai phần là 13.<br/>➡️ Bước 1: Lấy (13 - 5) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 5 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Có tất cả 17 lít nước được chia vào hai bình. Trong đó, bình lớn có nhiều hơn bình nhỏ 5 lít nước. Hỏi số lít nước trong mỗi bình là bao nhiêu?",
+    "options": [
+      "bình lớn: 12, bình nhỏ: 5",
+      "bình lớn: 11, bình nhỏ: 6",
+      "bình lớn: 11, bình nhỏ: 5"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết tổng là 17, và chênh lệch giữa hai phần là 5.<br/>➡️ Bước 1: Lấy (17 - 5) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 5 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Tổng số lít sơn trong hai thùng sơn là 14. Nếu thùng đỏ chứa nhiều hơn thùng xanh 2 lít sơn, thì mỗi thùng sơn có bao nhiêu?",
+    "options": [
+      "thùng đỏ: 7, thùng xanh: 6",
+      "thùng đỏ: 8, thùng xanh: 6",
+      "thùng đỏ: 9, thùng xanh: 5"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết tổng là 14, và chênh lệch giữa hai phần là 2.<br/>➡️ Bước 1: Lấy (14 - 2) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 2 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "hộp thứ nhất có nhiều hơn hộp thứ hai 4 bút chì màu. Tổng cộng cả hai là 22 bút chì màu. Hỏi mỗi hộp màu có bao nhiêu?",
+    "options": [
+      "hộp thứ nhất: 13, hộp thứ hai: 9",
+      "hộp thứ nhất: 14, hộp thứ hai: 8",
+      "hộp thứ nhất: 12, hộp thứ hai: 10"
+    ],
+    "answer": 0,
+    "guide": "👉 Bài toán cho biết tổng là 4, và chênh lệch giữa hai phần là 22.<br/>➡️ Bước 1: Lấy (22 - 4) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 4 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "thùng đỏ có nhiều hơn thùng xanh 3 lít sơn. Tổng cộng cả hai là 23 lít sơn. Hỏi mỗi thùng sơn có bao nhiêu?",
+    "options": [
+      "thùng đỏ: 13, thùng xanh: 10",
+      "thùng đỏ: 13, thùng xanh: 9",
+      "thùng đỏ: 14, thùng xanh: 9"
+    ],
+    "answer": 0,
+    "guide": "👉 Bài toán cho biết tổng là 3, và chênh lệch giữa hai phần là 23.<br/>➡️ Bước 1: Lấy (23 - 3) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 3 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Có tất cả 19 chiếc bánh được chia vào hai hộp. Trong đó, hộp thứ nhất có nhiều hơn hộp thứ hai 5 chiếc bánh. Hỏi số chiếc bánh trong mỗi hộp là bao nhiêu?",
+    "options": [
+      "hộp thứ nhất: 12, hộp thứ hai: 7",
+      "hộp thứ nhất: 13, hộp thứ hai: 6",
+      "hộp thứ nhất: 11, hộp thứ hai: 7"
+    ],
+    "answer": 0,
+    "guide": "👉 Bài toán cho biết tổng là 19, và chênh lệch giữa hai phần là 5.<br/>➡️ Bước 1: Lấy (19 - 5) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 5 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "hộp thứ nhất có nhiều hơn hộp thứ hai 5 chiếc bánh. Tổng cộng cả hai là 19 chiếc bánh. Hỏi mỗi hộp có bao nhiêu?",
+    "options": [
+      "hộp thứ nhất: 12,  hộp thứ hai: 5",
+      "hộp thứ nhất: 12, hộp thứ hai: 7",
+      "hộp thứ nhất: 12, hộp thứ hai: 6"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết tổng là 5, và chênh lệch giữa hai phần là 19.<br/>➡️ Bước 1: Lấy (19 - 5) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 5 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Hai xe có tất cả 25 bó hoa, trong đó xe số hai ít hơn xe số một 5 bó hoa. Hỏi mỗi xe chứa bao nhiêu bó hoa?",
+    "options": [
+      "xe số 1: 13, xe số 2: 12",
+      "xe số 1: 15, xe số 2: 10",
+      "xe số 1: 15, xe số 2: 9"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết tổng là 25, và chênh lệch giữa hai phần là 5.<br/>➡️ Bước 1: Lấy (25 - 5) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 5 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "hai túi đựng tổng cộng 14 chiếc kẹo. Biết rằng túi to có nhiều hơn túi nhỏ 4 chiếc kẹo. Hỏi mỗi túi to và túi nhỏ có bao nhiêu chiếc kẹo?",
+    "options": [
+      "túi to: 9, túi nhỏ: 5",
+      "túi to: 8, túi nhỏ: 5",
+      "túi to: 10, túi nhỏ: 4"
+    ],
+    "answer": 0,
+    "guide": "👉 Bài toán cho biết tổng là 14, và chênh lệch giữa hai phần là 4.<br/>➡️ Bước 1: Lấy (14 - 4) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 4 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "hai hộp đựng tổng cộng 23 chiếc bánh. Biết rằng hộp thứ nhất có nhiều hơn hộp thứ hai 3 chiếc bánh. Hỏi mỗi hộp thứ nhất và hộp thứ hai có bao nhiêu chiếc bánh?",
+    "options": [
+      "hộp thứ nhất: 13, hộp thứ hai: 9",
+      "hộp thứ nhất: 13, hộp thứ hai: 10",
+      "hộp thứ nhất: 12, hộp thứ hai: 11"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết tổng là 23, và chênh lệch giữa hai phần là 3.<br/>➡️ Bước 1: Lấy (23 - 3) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 3 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Hai xe có tất cả 19 bó hoa, trong đó xe số hai ít hơn xe số một 5 bó hoa. Hỏi mỗi xe chứa bao nhiêu bó hoa?",
+    "options": [
+      "xe số 1: 10, xe số 2: 9",
+      "xe số 1: 12, xe số 2: 6",
+      "xe số 1: 12, xe số 2: 7"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết tổng là 19, và chênh lệch giữa hai phần là 5.<br/>➡️ Bước 1: Lấy (19 - 5) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 5 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Hai giỏ có tất cả 21 quả táo, trong đó giỏ xanh ít hơn giỏ đỏ 3 quả táo. Hỏi mỗi giỏ chứa bao nhiêu quả táo?",
+    "options": [
+      "giỏ đỏ: 12, giỏ xanh: 9",
+      "giỏ đỏ: 12, giỏ xanh: 8",
+      "giỏ đỏ: 11, giỏ xanh: 9"
+    ],
+    "answer": 0,
+    "guide": "👉 Bài toán cho biết tổng là 21, và chênh lệch giữa hai phần là 3.<br/>➡️ Bước 1: Lấy (21 - 3) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 3 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Hai thùng sơn có tất cả 17 lít sơn, trong đó thùng xanh ít hơn thùng đỏ 5 lít sơn. Hỏi mỗi thùng sơn chứa bao nhiêu lít sơn?",
+    "options": [
+      "thùng đỏ: 10, thùng xanh: 6",
+      "thùng đỏ: 12, thùng xanh: 5",
+      "thùng đỏ: 11, thùng xanh: 6"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết tổng là 17, và chênh lệch giữa hai phần là 5.<br/>➡️ Bước 1: Lấy (17 - 5) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 5 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "túi to có nhiều hơn túi nhỏ 5 chiếc kẹo. Tổng cộng cả hai là 17 chiếc kẹo. Hỏi mỗi túi có bao nhiêu?",
+    "options": [
+      "túi to: 11, túi nhỏ: 4",
+      "túi to: 11, túi nhỏ: 6",
+      "túi to: 11, túi nhỏ: 5"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết tổng là 17, và chênh lệch giữa hai phần là 5.<br/>➡️ Bước 1: Lấy (17 - 5) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 5 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "kệ trên có nhiều hơn kệ dưới 2 quyển sách. Tổng cộng cả hai là 14 quyển sách. Hỏi mỗi kệ có bao nhiêu?",
+    "options": [
+      "kệ trên: 8, kệ dưới: 4",
+      "kệ trên: 8, kệ dưới: 6",
+      "kệ trên: 9, kệ dưới: 5"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết tổng là 2, và chênh lệch giữa hai phần là 14.<br/>➡️ Bước 1: Lấy (14 - 2) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 2 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "hai túi đựng tổng cộng 21 chiếc kẹo. Biết rằng túi to có nhiều hơn túi nhỏ 3 chiếc kẹo. Hỏi mỗi túi to và túi nhỏ có bao nhiêu chiếc kẹo?",
+    "options": [
+      "túi to: 11, túi nhỏ: 9",
+      "túi to: 11, túi nhỏ: 10",
+      "túi to: 12, túi nhỏ: 9"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết tổng là 21, và chênh lệch giữa hai phần là 3.<br/>➡️ Bước 1: Lấy (21 - 3) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 3 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Có tất cả 16 bó hoa được chia vào hai xe. Trong đó, xe số một có nhiều hơn xe số hai 4 bó hoa. Hỏi số bó hoa trong mỗi xe là bao nhiêu?",
+    "options": [
+      "xe số 1: 8, xe số 2: 7",
+      "xe số 1: 10, xe số 2: 6",
+      "xe số 1: 11, xe số 2: 5"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết tổng là 16, và chênh lệch giữa hai phần là 1.<br/>➡️ Bước 1: Lấy (16 - 4) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 4 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Hai xe có tất cả 16 bó hoa, trong đó xe số hai ít hơn xe số một 4 bó hoa. Hỏi mỗi xe chứa bao nhiêu bó hoa?",
+    "options": [
+      "xe số 1: 8, xe số 2: 7",
+      "xe số 1: 10, xe số 2: 5",
+      "xe số 1: 10, xe số 2: 6"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết tổng là 16, và chênh lệch giữa hai phần là 4.<br/>➡️ Bước 1: Lấy (16 - 4) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 4 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Tổng số bó hoa trong hai xe là 20. Nếu xe số ột chứa nhiều hơn xe số hai 4 bó hoa, thì mỗi xe có bao nhiêu?",
+    "options": [
+      "xe số 1: 10, xe số 2: 9",
+      "xe số 1: 13, xe số 2: 7",
+      "xe số 1: 12, xe số 2: 8"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết tổng là 20, và chênh lệch giữa hai phần là 4.<br/>➡️ Bước 1: Lấy (20 - 4) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 4 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "giỏ đỏ có nhiều hơn giỏ xanh 4 quả táo. Tổng cộng cả hai là 14 quả táo. Hỏi mỗi giỏ có bao nhiêu?",
+    "options": [
+      "giỏ đỏ: 9, giỏ xanh: 3",
+      "giỏ đỏ: 9, giỏ xanh: 5",
+      "giỏ đỏ: 9, giỏ xanh: 4"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết tổng là 4, và chênh lệch giữa hai phần là 14.<br/>➡️ Bước 1: Lấy (14 - 4) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 4 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "xe số 1 có nhiều hơn xe số hai 4 bó hoa. Tổng cộng cả hai là 18 bó hoa. Hỏi mỗi xe có bao nhiêu?",
+    "options": [
+      "xe số 1: 9, xe số 2: 8",
+      "xe số 1: 12, xe số 2: 6",
+      "xe số 1: 11, xe số 2: 7"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết tổng là 18, và chênh lệch giữa hai phần là 4.<br/>➡️ Bước 1: Lấy (18 - 4) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 4 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Có tất cả 15 quả táo được chia vào hai giỏ. Trong đó, giỏ đỏ có nhiều hơn giỏ xanh 3 quả táo. Hỏi số quả táo trong mỗi giỏ là bao nhiêu?",
+    "options": [
+      "giỏ đỏ: 10, giỏ xanh: 5",
+      "giỏ đỏ: 9, giỏ xanh: 6",
+      "giỏ đỏ: 8, giỏ xanh: 6"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết tổng là 15, và chênh lệch giữa hai phần là 3.<br/>➡️ Bước 1: Lấy (15 - 3) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 3 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Có tất cả 12 chiếc kẹo được chia vào hai túi. Trong đó, túi to có nhiều hơn túi nhỏ 2 chiếc kẹo. Hỏi số chiếc kẹo trong mỗi túi là bao nhiêu?",
+    "options": [
+      "túi to: 7, túi nhỏ: 4",
+      "túi to: 6, túi nhỏ: 5",
+      "túi to: 7, túi nhỏ: 5"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết tổng là 12, và chênh lệch giữa hai phần là 2.<br/>➡️ Bước 1: Lấy (12 - 2) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 2 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Có tất cả 14 quả táo được chia vào hai giỏ. Trong đó, giỏ đỏ có nhiều hơn giỏ xanh 2 quả táo. Hỏi số quả táo trong mỗi giỏ là bao nhiêu?",
+    "options": [
+      "giỏ đỏ: 8, giỏ xanh: 5",
+      "giỏ đỏ: 8, giỏ xanh: 6",
+      "giỏ đỏ: 9, giỏ xanh: 5"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết tổng là 14, và chênh lệch giữa hai phần là 2.<br/>➡️ Bước 1: Lấy (14 - 2) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 2 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Có tất cả 18 quả táo được chia vào hai giỏ. Trong đó, giỏ đỏ có nhiều hơn giỏ xanh 4 quả táo. Hỏi số quả táo trong mỗi giỏ là bao nhiêu?",
+    "options": [
+      "giỏ đỏ: 12, giỏ xanh: 6",
+      "giỏ đỏ: 11, giỏ xanh: 7",
+      "giỏ đỏ: 10, giỏ xanh: 7"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết tổng là 18, và chênh lệch giữa hai phần là 4.<br/>➡️ Bước 1: Lấy (18 - 4) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 4 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Hai kệ có tất cả 15 quyển sách, trong đó kệ dưới ít hơn kệ trên 5 quyển sách. Hỏi mỗi kệ chứa bao nhiêu quyển sách?",
+    "options": [
+      "kệ trên: 9, kệ dưới: 5",
+      "kệ trên: 11, kệ dưới: 4",
+      "kệ trên: 10, kệ dưới: 5"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết tổng là 15, và chênh lệch giữa hai phần là 5.<br/>➡️ Bước 1: Lấy (15 - 5) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 5 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Hai bình có tất cả 19 lít nước, trong đó bình nhỏ ít hơn bình lớn 3 lít nước. Hỏi mỗi bình chứa bao nhiêu lít nước?",
+    "options": [
+      "bình lớn: 10, bình nhỏ: 8",
+      "bình lớn: 11, bình nhỏ: 8",
+      "bình lớn: 10, bình nhỏ: 9"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết tổng là 19, và chênh lệch giữa hai phần là 3.<br/>➡️ Bước 1: Lấy (19 - 3) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 3 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Có tất cả 12 quyển sách được chia vào hai kệ. Trong đó, kệ trên có nhiều hơn kệ dưới 4 quyển sách. Hỏi số quyển sách trong mỗi kệ là bao nhiêu?",
+    "options": [
+      "kệ trên: 7, kệ dưới: 4",
+      "kệ trên: 8, kệ dưới: 4",
+      "kệ trên: 7, kệ dưới: 5"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết tổng là 12, và chênh lệch giữa hai phần là 4.<br/>➡️ Bước 1: Lấy (12 - 4) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 4 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Có tất cả 13 lít nước được chia vào hai bình. Trong đó, bình lớn có nhiều hơn bình nhỏ 3 lít nước. Hỏi số lít nước trong mỗi bình là bao nhiêu?",
+    "options": [
+      "bình lớn: 7, bình nhỏ: 6",
+      "bình lớn: 7, bình nhỏ: 5",
+      "bình lớn: 8, bình nhỏ: 5"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết tổng là 13, và chênh lệch giữa hai phần là 3.<br/>➡️ Bước 1: Lấy (13 - 3) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 3 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Tổng số quả táo trong hai giỏ là 17. Nếu giỏ đỏ chứa nhiều hơn giỏ xanh 5 quả táo, thì mỗi giỏ có bao nhiêu?",
+    "options": [
+      "giỏ đỏ: 10, giỏ xanh: 7",
+      "giỏ đỏ: 11, giỏ xanh: 5",
+      "giỏ đỏ: 11, giỏ xanh: 6"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết tổng là 17, và chênh lệch giữa hai phần là 5.<br/>➡️ Bước 1: Lấy (17 - 5) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 5 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Có tất cả 17 bút chì màu được chia vào hai hộp màu. Trong đó, hộp thứ nhất có nhiều hơn hộp thứ hai 3 bút chì màu. Hỏi số bút chì màu trong mỗi hộp màu là bao nhiêu?",
+    "options": [
+      "hộp thứ nhất: 10, hộp thứ hai: 6",
+      "hộp thứ nhất: 10, hộp thứ hai: 7",
+      "hộp thứ nhất: 9, hộp thứ hai: 7"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết tổng là 17, và chênh lệch giữa hai phần là 3.<br/>➡️ Bước 1: Lấy (17 - 3) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 3 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Có tất cả 23 lít nước được chia vào hai bình. Trong đó, bình lớn có nhiều hơn bình nhỏ 3 lít nước. Hỏi số lít nước trong mỗi bình là bao nhiêu?",
+    "options": [
+      "bình lớn: 13, bình nhỏ: 10",
+      "bình lớn: 12, bình nhỏ: 10",
+      "bình lớn: 12, bình nhỏ: 11"
+    ],
+    "answer": 0,
+    "guide": "👉 Bài toán cho biết tổng là 23, và chênh lệch giữa hai phần là 3.<br/>➡️ Bước 1: Lấy (23 - 3) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 3 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "kệ trên có nhiều hơn kệ dưới 5 quyển sách. Tổng cộng cả hai là 25 quyển sách. Hỏi mỗi kệ có bao nhiêu?",
+    "options": [
+      "kệ trên: 15,  kệ dưới: 9",
+      "kệ trên: 15, kệ dưới: 10",
+      "kệ trên: 14, kệ dưới: 10"
+    ],
+    "answer": 1,
+    "guide": "👉 Bài toán cho biết tổng là 5, và chênh lệch giữa hai phần là 25.<br/>➡️ Bước 1: Lấy (25 - 5) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 5 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Tổng số quyển vở trong hai cặp là 14. Nếu cặp xanh chứa nhiều hơn cặp đỏ 4 quyển vở, thì mỗi cặp có bao nhiêu?",
+    "options": [
+      "cặp xanh: 9, cặp đỏ: 5",
+      "cặp xanh: 9, cặp đỏ: 4",
+      "cặp xanh: 8, cặp đỏ: 6"
+    ],
+    "answer": 0,
+    "guide": "👉 Bài toán cho biết tổng là 14, và chênh lệch giữa hai phần là 4.<br/>➡️ Bước 1: Lấy (14 - 4) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 4 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  },
+  {
+    "question": "Hai thùng sơn có tất cả 13 lít sơn, trong đó thùng xanh ít hơn thùng đỏ 5 lít sơn. Hỏi mỗi thùng sơn chứa bao nhiêu lít sơn?",
+    "options": [
+      "thùng đỏ: 8, thùng xanh: 5",
+      "thùng đỏ: 8, thùng xanh: 4",
+      "thùng đỏ: 9, thùng xanh: 4"
+    ],
+    "answer": 2,
+    "guide": "👉 Bài toán cho biết tổng là 13, và chênh lệch giữa hai phần là 5.<br/>➡️ Bước 1: Lấy (13 - 5) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 5 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+  }
+]
