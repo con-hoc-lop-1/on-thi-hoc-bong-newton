@@ -8,9 +8,7 @@ export default function App() {
     const [ready, setReady] = useState(false);
     const [questions, setQuestions] = useState([]);
     const [selected, setSelected] = useState(null);
-    const [showNext, setShowNext] = useState(false);
-
-    const x = 13;
+    const x = 15;
     const y = 2;
 
     const handleAnswer = (index) => {
@@ -18,12 +16,10 @@ export default function App() {
         if (index === questions[current].answer) {
             setScore(score + 1);
         }
-        setShowNext(true);
     };
 
     const handleNext = () => {
         setSelected(null);
-        setShowNext(false);
         if (current + 1 < questions.length) {
             setCurrent(current + 1);
         } else {
@@ -36,32 +32,38 @@ export default function App() {
         setScore(0);
         setShowResult(false);
         setSelected(null);
-        setShowNext(false);
-    };
-
-    const speakQuestion = () => {
-        const msg = new SpeechSynthesisUtterance(questions[current].question);
-        msg.lang = 'vi-VN';
-        window.speechSynthesis.speak(msg);
     };
 
     const fetchQuestions = async () => {
         const promises = [];
         for (let i = 1; i <= x; i++) {
             promises.push(
-                fetch(`/questions/${i}.json`)
+                fetch(`/react-on-tap-toan-lop-1/questions/${i}.json`)
                     .then(response => response.json())
-                    .then(data => data.sort(() => 0.5 - Math.random()).slice(0, y))
+                    .then((result) => {
+                        let data = result.data.sort(() => 0.5 - Math.random()).slice(0, y)
+                        data = data.map(item => ({
+                            ...item,
+                            name: result.name,
+                            type: result.type,
+                            special: result.special,
+                            signal: result.signal,
+                            suggest: result.guide
+                        }));
+                        return data
+                    })
             );
         }
         const questions = await Promise.all(promises);
-        return questions.flat();
+        return questions.flat().sort(() => 0.5 - Math.random()).slice(0, 20);
+        // return questions.flat();
     };
 
     useEffect(() => {
         if (!ready)
             fetchQuestions().then((data) => {
-                setQuestions(data.sort(() => 0.5 - Math.random()).slice(0, 20));
+                console.log(data)
+                setQuestions(data);
                 setReady(true);
             });
     }, []);
@@ -72,7 +74,6 @@ export default function App() {
                 <Fragment>
                     <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
                         <h2>Câu {current + 1}/20:</h2>
-                        <button onClick={speakQuestion}>🔊 Đọc câu hỏi</button>
                     </div>
 
                     <p dangerouslySetInnerHTML={{__html: questions[current].question}}/>
@@ -80,13 +81,8 @@ export default function App() {
                     <div style={{marginTop: 20}}>
                         {questions[current].options.map((option, idx) => (
                             <button
+                                className={`btn d-flex mt-2 btn-${selected !== null && idx === questions[current].answer ? 'success' : idx === selected ? 'danger' : 'secondary'}`}
                                 key={idx}
-                                style={{
-                                    display: 'block',
-                                    marginBottom: 10,
-                                    padding: 10,
-                                    backgroundColor: selected !== null && idx === questions[current].answer ? '#c8e6c9' : idx === selected ? '#ffcdd2' : ''
-                                }}
                                 disabled={selected !== null}
                                 onClick={() => handleAnswer(idx)}
                             >
@@ -94,18 +90,41 @@ export default function App() {
                             </button>
                         ))}
                     </div>
-                    {questions[current].guide && (
-                        <div>
+                    <hr/>
+                    <div className='guide'>
+                        <div className='mt-4'>
                             <p><strong>Hướng dẫn:</strong></p>
                             <div dangerouslySetInnerHTML={{__html: questions[current].guide}}/>
                         </div>
-                    )}
+                        <div className='mt-4'>
+                            <div><strong>Dạng đề:</strong> {questions[current].name}</div>
+                            <div><strong>Kiểu đề:</strong> {questions[current].type}</div>
+                            <div><strong>Đặc điểm trong bài:</strong>
+                                <ul>
+                                    {questions[current].special.map((item, index) => (
+                                        <li key={index}>{item}</li>
+                                    ))}
+                                </ul>
+                            </div>
+                            <div><strong>Dấu hiệu nhận biết:</strong>
+                                <ul>
+                                    {questions[current].signal.map((item, index) => (
+                                        <li key={index}>{item}</li>
+                                    ))}
+                                </ul>
+                            </div>
+                            <div><strong>Gợi ý:</strong>
+                                <div dangerouslySetInnerHTML={{__html: questions[current].suggest}}/>
+                            </div>
+                        </div>
+
+                    </div>
                     {selected !== null && (
-                        <div style={{marginTop: 16}}>
+                        <div className="mt-4">
                             <p><strong>Đáp án
                                 đúng:</strong> {String.fromCharCode(65 + questions[current].answer)}. {questions[current].options[questions[current].answer]}
                             </p>
-                            <button style={{marginTop: 16}} onClick={handleNext}>Câu tiếp theo</button>
+                            <button className="btn btn-primary mt-4" onClick={handleNext}>Câu tiếp theo</button>
                         </div>
                     )}
                 </Fragment>

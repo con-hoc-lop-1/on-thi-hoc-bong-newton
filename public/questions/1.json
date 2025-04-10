@@ -1,502 +1,517 @@
-[
-  {
-    "question": "Một số cộng với 45 rồi trừ đi 14 thì bằng 42. Tìm số đó.",
-    "options": [
-      "15",
-      "11",
-      "13"
-    ],
-    "answer": 1,
-    "guide": "👉 Ta cần tìm số sao cho: x + 45 - 14 = 42<br/>➡️ Bước 1: Lấy 42 + 14 = ...<br/>➡️ Bước 2: Lấy 56 - 45 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Một bạn tính nhẩm: lấy một số cộng 42 rồi bớt đi 20, được 50. Hỏi bạn ấy bắt đầu với số nào?",
-    "options": [
-      "32",
-      "28",
-      "30"
-    ],
-    "answer": 1,
-    "guide": "👉 Ta cần tìm số sao cho: x + 42 - 20 = 50<br/>➡️ Bước 1: Lấy 50 + 20 = ...<br/>➡️ Bước 2: Lấy 70 - 42 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Một số cộng với 57 rồi trừ đi 10 thì bằng 91. Tìm số đó.",
-    "options": [
-      "44",
-      "39",
-      "41"
-    ],
-    "answer": 0,
-    "guide": "👉 Ta cần tìm số sao cho: x + 57 - 10 = 91<br/>➡️ Bước 1: Lấy 91 + 10 = ...<br/>➡️ Bước 2: Lấy 101 - 57 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Một số cộng với 63 rồi trừ đi 15 thì bằng 69. Tìm số đó.",
-    "options": [
-      "24",
-      "21",
-      "19"
-    ],
-    "answer": 1,
-    "guide": "👉 Ta cần tìm số sao cho: x + 63 - 15 = 69<br/>➡️ Bước 1: Lấy 69 + 15 = ...<br/>➡️ Bước 2: Lấy 84 - 63 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Một bạn có 26 viên bi, bạn ấy mượn thêm một số viên từ bạn khác, rồi sau đó trả lại 22 viên. Tổng còn lại là 46. Hỏi bạn mượn bao nhiêu viên?",
-    "options": [
-      "40",
-      "42",
-      "45"
-    ],
-    "answer": 1,
-    "guide": "👉 Ta cần tìm số sao cho: x + 26 - 22 = 46<br/>➡️ Bước 1: Lấy 46 + 22 = ...<br/>➡️ Bước 2: Lấy 68 - 26 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Một bài toán như sau: cộng một số với 41, sau đó trừ đi 17 được 54. Tìm số ban đầu.",
-    "options": [
-      "27",
-      "30",
-      "32"
-    ],
-    "answer": 1,
-    "guide": "👉 Ta cần tìm số sao cho: x + 41 - 17 = 54<br/>➡️ Bước 1: Lấy 54 + 17 = ...<br/>➡️ Bước 2: Lấy 71 - 41 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Tìm một số, biết rằng khi lấy 58 cộng với số đó rồi trừ đi 39, ta được 47. Đó là số nào?",
-    "options": [
-      "30",
-      "28",
-      "26"
-    ],
-    "answer": 1,
-    "guide": "👉 Ta cần tìm số sao cho: x + 58 - 39 = 47<br/>➡️ Bước 1: Lấy 47 + 39 = ...<br/>➡️ Bước 2: Lấy 86 - 58 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Tìm một số, biết rằng khi lấy 28 cộng với số đó rồi trừ đi 40, ta được 1. Đó là số nào?",
-    "options": [
-      "16",
-      "13",
-      "17"
-    ],
-    "answer": 1,
-    "guide": "👉 Ta cần tìm số sao cho: x + 28 - 40 = 1<br/>➡️ Bước 1: Lấy 1 + 40 = ...<br/>➡️ Bước 2: Lấy 41 - 28 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Một bạn cộng số bí mật với 67, sau đó trừ đi 36 thì được 80. Bạn ấy đã chọn số nào?",
-    "options": [
-      "46",
-      "49",
-      "44"
-    ],
-    "answer": 1,
-    "guide": "👉 Ta cần tìm số sao cho: x + 67 - 36 = 80<br/>➡️ Bước 1: Lấy 80 + 36 = ...<br/>➡️ Bước 2: Lấy 116 - 67 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Tìm số chưa biết: (52 + x) - 24 = 69. Vậy x là bao nhiêu?",
-    "options": [
-      "36",
-      "39",
-      "41"
-    ],
-    "answer": 2,
-    "guide": "👉 Ta cần tìm số sao cho: x + 52 - 24 = 69<br/>➡️ Bước 1: Lấy 69 + 24 = ...<br/>➡️ Bước 2: Lấy 93 - 52 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Một bạn tính nhẩm: lấy một số cộng 47 rồi bớt đi 38, được 55. Hỏi bạn ấy bắt đầu với số nào?",
-    "options": [
-      "41",
-      "49",
-      "46"
-    ],
-    "answer": 2,
-    "guide": "👉 Ta cần tìm số sao cho: x + 47 - 38 = 55<br/>➡️ Bước 1: Lấy 55 + 38 = ...<br/>➡️ Bước 2: Lấy 93 - 47 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Tìm số chưa biết: (61 + x) - 16 = 59. Vậy x là bao nhiêu?",
-    "options": [
-      "14",
-      "17",
-      "16"
-    ],
-    "answer": 0,
-    "guide": "👉 Ta cần tìm số sao cho: x + 61 - 16 = 59<br/>➡️ Bước 1: Lấy 59 + 16 = ...<br/>➡️ Bước 2: Lấy 75 - 61 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Một bạn có 52 viên bi, bạn ấy mượn thêm một số viên từ bạn khác, rồi sau đó trả lại 34 viên. Tổng còn lại là 37. Hỏi bạn mượn bao nhiêu viên?",
-    "options": [
-      "23",
-      "19",
-      "14"
-    ],
-    "answer": 1,
-    "guide": "👉 Ta cần tìm số sao cho: x + 52 - 34 = 37<br/>➡️ Bước 1: Lấy 37 + 34 = ...<br/>➡️ Bước 2: Lấy 71 - 52 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Tìm một số, biết rằng khi lấy 68 cộng với số đó rồi trừ đi 32, ta được 53. Đó là số nào?",
-    "options": [
-      "17",
-      "14",
-      "19"
-    ],
-    "answer": 0,
-    "guide": "👉 Ta cần tìm số sao cho: x + 68 - 32 = 53<br/>➡️ Bước 1: Lấy 53 + 32 = ...<br/>➡️ Bước 2: Lấy 85 - 68 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Một bạn tính nhẩm: lấy một số cộng 52 rồi bớt đi 32, được 55. Hỏi bạn ấy bắt đầu với số nào?",
-    "options": [
-      "35",
-      "30",
-      "33"
-    ],
-    "answer": 0,
-    "guide": "👉 Ta cần tìm số sao cho: x + 52 - 32 = 55<br/>➡️ Bước 1: Lấy 55 + 32 = ...<br/>➡️ Bước 2: Lấy 87 - 52 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Bố mua thêm 44 viên kẹo, rồi bớt đi 17 viên để chia cho các bạn, còn lại 43 viên. Hỏi ban đầu bố mua bao nhiêu viên?",
-    "options": [
-      "19",
-      "18",
-      "16"
-    ],
-    "answer": 2,
-    "guide": "👉 Ta cần tìm số sao cho: x + 44 - 17 = 43<br/>➡️ Bước 1: Lấy 43 + 17 = ...<br/>➡️ Bước 2: Lấy 60 - 44 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Số bí ẩn cộng 37 rồi trừ 26 thì ra 46. Tìm số bí ẩn.",
-    "options": [
-      "35",
-      "37",
-      "33"
-    ],
-    "answer": 0,
-    "guide": "👉 Ta cần tìm số sao cho: x + 37 - 26 = 46<br/>➡️ Bước 1: Lấy 46 + 26 = ...<br/>➡️ Bước 2: Lấy 72 - 37 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Một bạn có 63 viên bi, bạn ấy mượn thêm một số viên từ bạn khác, rồi sau đó trả lại 11 viên. Tổng còn lại là 63. Hỏi bạn mượn bao nhiêu viên?",
-    "options": [
-      "15",
-      "11",
-      "8"
-    ],
-    "answer": 1,
-    "guide": "👉 Ta cần tìm số sao cho: x + 63 - 11 = 63<br/>➡️ Bước 1: Lấy 63 + 11 = ...<br/>➡️ Bước 2: Lấy 74 - 63 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Có một phép tính như sau: 38 cộng với một số, rồi trừ đi 38, kết quả là 38. Hỏi số cần tìm là bao nhiêu?",
-    "options": [
-      "42",
-      "38",
-      "41"
-    ],
-    "answer": 1,
-    "guide": "👉 Ta cần tìm số sao cho: x + 38 - 38 = 38<br/>➡️ Bước 1: Lấy 38 + 38 = ...<br/>➡️ Bước 2: Lấy 76 - 38 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Bố mua thêm 24 viên kẹo, rồi bớt đi 29 viên để chia cho các bạn, còn lại 45 viên. Hỏi ban đầu bố mua bao nhiêu viên?",
-    "options": [
-      "50",
-      "53",
-      "45"
-    ],
-    "answer": 0,
-    "guide": "👉 Ta cần tìm số sao cho: x + 24 - 29 = 45<br/>➡️ Bước 1: Lấy 45 + 29 = ...<br/>➡️ Bước 2: Lấy 74 - 24 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Một bài toán như sau: cộng một số với 43, sau đó trừ đi 23 được 56. Tìm số ban đầu.",
-    "options": [
-      "40",
-      "31",
-      "36"
-    ],
-    "answer": 2,
-    "guide": "👉 Ta cần tìm số sao cho: x + 43 - 23 = 56<br/>➡️ Bước 1: Lấy 56 + 23 = ...<br/>➡️ Bước 2: Lấy 79 - 43 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Một bạn tính nhẩm: lấy một số cộng 39 rồi bớt đi 35, được 27. Hỏi bạn ấy bắt đầu với số nào?",
-    "options": [
-      "23",
-      "20",
-      "27"
-    ],
-    "answer": 0,
-    "guide": "👉 Ta cần tìm số sao cho: x + 39 - 35 = 27<br/>➡️ Bước 1: Lấy 27 + 35 = ...<br/>➡️ Bước 2: Lấy 62 - 39 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Có một phép tính như sau: 66 cộng với một số, rồi trừ đi 23, kết quả là 65. Hỏi số cần tìm là bao nhiêu?",
-    "options": [
-      "22",
-      "17",
-      "24"
-    ],
-    "answer": 0,
-    "guide": "👉 Ta cần tìm số sao cho: x + 66 - 23 = 65<br/>➡️ Bước 1: Lấy 65 + 23 = ...<br/>➡️ Bước 2: Lấy 88 - 66 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Một bạn tính nhẩm: lấy một số cộng 50 rồi bớt đi 15, được 61. Hỏi bạn ấy bắt đầu với số nào?",
-    "options": [
-      "24",
-      "26",
-      "30"
-    ],
-    "answer": 1,
-    "guide": "👉 Ta cần tìm số sao cho: x + 50 - 15 = 61<br/>➡️ Bước 1: Lấy 61 + 15 = ...<br/>➡️ Bước 2: Lấy 76 - 50 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Một bạn cộng số bí mật với 37, sau đó trừ đi 36 thì được 38. Bạn ấy đã chọn số nào?",
-    "options": [
-      "37",
-      "35",
-      "41"
-    ],
-    "answer": 0,
-    "guide": "👉 Ta cần tìm số sao cho: x + 37 - 36 = 38<br/>➡️ Bước 1: Lấy 38 + 36 = ...<br/>➡️ Bước 2: Lấy 74 - 37 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Một bạn tính nhẩm: lấy một số cộng 60 rồi bớt đi 21, được 89. Hỏi bạn ấy bắt đầu với số nào?",
-    "options": [
-      "48",
-      "50",
-      "54"
-    ],
-    "answer": 1,
-    "guide": "👉 Ta cần tìm số sao cho: x + 60 - 21 = 89<br/>➡️ Bước 1: Lấy 89 + 21 = ...<br/>➡️ Bước 2: Lấy 110 - 60 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Bố mua thêm 34 viên kẹo, rồi bớt đi 21 viên để chia cho các bạn, còn lại 62 viên. Hỏi ban đầu bố mua bao nhiêu viên?",
-    "options": [
-      "49",
-      "46",
-      "52"
-    ],
-    "answer": 0,
-    "guide": "👉 Ta cần tìm số sao cho: x + 34 - 21 = 62<br/>➡️ Bước 1: Lấy 62 + 21 = ...<br/>➡️ Bước 2: Lấy 83 - 34 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Có một phép tính như sau: 64 cộng với một số, rồi trừ đi 28, kết quả là 47. Hỏi số cần tìm là bao nhiêu?",
-    "options": [
-      "8",
-      "11",
-      "9"
-    ],
-    "answer": 1,
-    "guide": "👉 Ta cần tìm số sao cho: x + 64 - 28 = 47<br/>➡️ Bước 1: Lấy 47 + 28 = ...<br/>➡️ Bước 2: Lấy 75 - 64 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Một bài toán như sau: cộng một số với 31, sau đó trừ đi 26 được 20. Tìm số ban đầu.",
-    "options": [
-      "19",
-      "15",
-      "10"
-    ],
-    "answer": 1,
-    "guide": "👉 Ta cần tìm số sao cho: x + 31 - 26 = 20<br/>➡️ Bước 1: Lấy 20 + 26 = ...<br/>➡️ Bước 2: Lấy 46 - 31 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Bố mua thêm 68 viên kẹo, rồi bớt đi 16 viên để chia cho các bạn, còn lại 70 viên. Hỏi ban đầu bố mua bao nhiêu viên?",
-    "options": [
-      "13",
-      "18",
-      "15"
-    ],
-    "answer": 1,
-    "guide": "👉 Ta cần tìm số sao cho: x + 68 - 16 = 70<br/>➡️ Bước 1: Lấy 70 + 16 = ...<br/>➡️ Bước 2: Lấy 86 - 68 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Tìm số chưa biết: (51 + x) - 31 = 64. Vậy x là bao nhiêu?",
-    "options": [
-      "46",
-      "44",
-      "42"
-    ],
-    "answer": 1,
-    "guide": "👉 Ta cần tìm số sao cho: x + 51 - 31 = 64<br/>➡️ Bước 1: Lấy 64 + 31 = ...<br/>➡️ Bước 2: Lấy 95 - 51 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Một bài toán như sau: cộng một số với 37, sau đó trừ đi 36 được 48. Tìm số ban đầu.",
-    "options": [
-      "42",
-      "49",
-      "47"
-    ],
-    "answer": 2,
-    "guide": "👉 Ta cần tìm số sao cho: x + 37 - 36 = 48<br/>➡️ Bước 1: Lấy 48 + 36 = ...<br/>➡️ Bước 2: Lấy 84 - 37 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Một bài toán như sau: cộng một số với 66, sau đó trừ đi 15 được 62. Tìm số ban đầu.",
-    "options": [
-      "11",
-      "13",
-      "9"
-    ],
-    "answer": 0,
-    "guide": "👉 Ta cần tìm số sao cho: x + 66 - 15 = 62<br/>➡️ Bước 1: Lấy 62 + 15 = ...<br/>➡️ Bước 2: Lấy 77 - 66 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Số bí ẩn cộng 31 rồi trừ 21 thì ra 21. Tìm số bí ẩn.",
-    "options": [
-      "6",
-      "11",
-      "15"
-    ],
-    "answer": 1,
-    "guide": "👉 Ta cần tìm số sao cho: x + 31 - 21 = 21<br/>➡️ Bước 1: Lấy 21 + 21 = ...<br/>➡️ Bước 2: Lấy 42 - 31 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Có một phép tính như sau: 65 cộng với một số, rồi trừ đi 40, kết quả là 65. Hỏi số cần tìm là bao nhiêu?",
-    "options": [
-      "40",
-      "43",
-      "35"
-    ],
-    "answer": 0,
-    "guide": "👉 Ta cần tìm số sao cho: x + 65 - 40 = 65<br/>➡️ Bước 1: Lấy 65 + 40 = ...<br/>➡️ Bước 2: Lấy 105 - 65 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Có một phép tính như sau: 32 cộng với một số, rồi trừ đi 28, kết quả là 40. Hỏi số cần tìm là bao nhiêu?",
-    "options": [
-      "39",
-      "38",
-      "36"
-    ],
-    "answer": 2,
-    "guide": "👉 Ta cần tìm số sao cho: x + 32 - 28 = 40<br/>➡️ Bước 1: Lấy 40 + 28 = ...<br/>➡️ Bước 2: Lấy 68 - 32 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Bố mua thêm 61 viên kẹo, rồi bớt đi 30 viên để chia cho các bạn, còn lại 71 viên. Hỏi ban đầu bố mua bao nhiêu viên?",
-    "options": [
-      "38",
-      "42",
-      "40"
-    ],
-    "answer": 2,
-    "guide": "👉 Ta cần tìm số sao cho: x + 61 - 30 = 71<br/>➡️ Bước 1: Lấy 71 + 30 = ...<br/>➡️ Bước 2: Lấy 101 - 61 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Tìm số chưa biết: (33 + x) - 36 = 8. Vậy x là bao nhiêu?",
-    "options": [
-      "11",
-      "8",
-      "13"
-    ],
-    "answer": 0,
-    "guide": "👉 Ta cần tìm số sao cho: x + 33 - 36 = 8<br/>➡️ Bước 1: Lấy 8 + 36 = ...<br/>➡️ Bước 2: Lấy 44 - 33 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Bố mua thêm 37 viên kẹo, rồi bớt đi 36 viên để chia cho các bạn, còn lại 31 viên. Hỏi ban đầu bố mua bao nhiêu viên?",
-    "options": [
-      "30",
-      "33",
-      "25"
-    ],
-    "answer": 0,
-    "guide": "👉 Ta cần tìm số sao cho: x + 37 - 36 = 31<br/>➡️ Bước 1: Lấy 31 + 36 = ...<br/>➡️ Bước 2: Lấy 67 - 37 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Tìm một số, biết rằng khi lấy 50 cộng với số đó rồi trừ đi 13, ta được 55. Đó là số nào?",
-    "options": [
-      "18",
-      "16",
-      "22"
-    ],
-    "answer": 0,
-    "guide": "👉 Ta cần tìm số sao cho: x + 50 - 13 = 55<br/>➡️ Bước 1: Lấy 55 + 13 = ...<br/>➡️ Bước 2: Lấy 68 - 50 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Một số cộng với 30 rồi trừ đi 38 thì bằng 27. Tìm số đó.",
-    "options": [
-      "30",
-      "35",
-      "39"
-    ],
-    "answer": 1,
-    "guide": "👉 Ta cần tìm số sao cho: x + 30 - 38 = 27<br/>➡️ Bước 1: Lấy 27 + 38 = ...<br/>➡️ Bước 2: Lấy 65 - 30 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Một bạn tính nhẩm: lấy một số cộng 29 rồi bớt đi 20, được 31. Hỏi bạn ấy bắt đầu với số nào?",
-    "options": [
-      "20",
-      "22",
-      "19"
-    ],
-    "answer": 1,
-    "guide": "👉 Ta cần tìm số sao cho: x + 29 - 20 = 31<br/>➡️ Bước 1: Lấy 31 + 20 = ...<br/>➡️ Bước 2: Lấy 51 - 29 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Bố mua thêm 31 viên kẹo, rồi bớt đi 14 viên để chia cho các bạn, còn lại 58 viên. Hỏi ban đầu bố mua bao nhiêu viên?",
-    "options": [
-      "43",
-      "44",
-      "41"
-    ],
-    "answer": 2,
-    "guide": "👉 Ta cần tìm số sao cho: x + 31 - 14 = 58<br/>➡️ Bước 1: Lấy 58 + 14 = ...<br/>➡️ Bước 2: Lấy 72 - 31 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Tìm số chưa biết: (54 + x) - 22 = 75. Vậy x là bao nhiêu?",
-    "options": [
-      "38",
-      "43",
-      "47"
-    ],
-    "answer": 1,
-    "guide": "👉 Ta cần tìm số sao cho: x + 54 - 22 = 75<br/>➡️ Bước 1: Lấy 75 + 22 = ...<br/>➡️ Bước 2: Lấy 97 - 54 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Một số cộng với 60 rồi trừ đi 23 thì bằng 56. Tìm số đó.",
-    "options": [
-      "17",
-      "22",
-      "19"
-    ],
-    "answer": 2,
-    "guide": "👉 Ta cần tìm số sao cho: x + 60 - 23 = 56<br/>➡️ Bước 1: Lấy 56 + 23 = ...<br/>➡️ Bước 2: Lấy 79 - 60 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Bố mua thêm 42 viên kẹo, rồi bớt đi 15 viên để chia cho các bạn, còn lại 70 viên. Hỏi ban đầu bố mua bao nhiêu viên?",
-    "options": [
-      "40",
-      "43",
-      "41"
-    ],
-    "answer": 1,
-    "guide": "👉 Ta cần tìm số sao cho: x + 42 - 15 = 70<br/>➡️ Bước 1: Lấy 70 + 15 = ...<br/>➡️ Bước 2: Lấy 85 - 42 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Số bí ẩn cộng 51 rồi trừ 15 thì ra 73. Tìm số bí ẩn.",
-    "options": [
-      "32",
-      "34",
-      "37"
-    ],
-    "answer": 2,
-    "guide": "👉 Ta cần tìm số sao cho: x + 51 - 15 = 73<br/>➡️ Bước 1: Lấy 73 + 15 = ...<br/>➡️ Bước 2: Lấy 88 - 51 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Một bạn có 40 viên bi, bạn ấy mượn thêm một số viên từ bạn khác, rồi sau đó trả lại 38 viên. Tổng còn lại là 34. Hỏi bạn mượn bao nhiêu viên?",
-    "options": [
-      "32",
-      "30",
-      "29"
-    ],
-    "answer": 0,
-    "guide": "👉 Ta cần tìm số sao cho: x + 40 - 38 = 34<br/>➡️ Bước 1: Lấy 34 + 38 = ...<br/>➡️ Bước 2: Lấy 72 - 40 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Tìm một số, biết rằng khi lấy 33 cộng với số đó rồi trừ đi 12, ta được 54. Đó là số nào?",
-    "options": [
-      "31",
-      "36",
-      "33"
-    ],
-    "answer": 2,
-    "guide": "👉 Ta cần tìm số sao cho: x + 33 - 12 = 54<br/>➡️ Bước 1: Lấy 54 + 12 = ...<br/>➡️ Bước 2: Lấy 66 - 33 = ...<br/>✅ Vậy số cần tìm là ..."
-  },
-  {
-    "question": "Một bài toán như sau: cộng một số với 45, sau đó trừ đi 16 được 57. Tìm số ban đầu.",
-    "options": [
-      "31",
-      "23",
-      "28"
-    ],
-    "answer": 2,
-    "guide": "👉 Ta cần tìm số sao cho: x + 45 - 16 = 57<br/>➡️ Bước 1: Lấy 57 + 16 = ...<br/>➡️ Bước 2: Lấy 73 - 45 = ...<br/>✅ Vậy số cần tìm là ..."
-  }
-]
+{
+  "name": "Tìm số ban đầu",
+  "type": "Tìm số khi biết phép tính cộng – trừ có kết quả.",
+  "special": [
+    "Xuất hiện từ \"Một số...\"",
+    "Có phép cộng rồi trừ hoặc trừ rồi cộng",
+    "Có kết quả sau dấu bằng"
+  ],
+  "signal": [
+    "Câu hỏi thường bắt đầu bằng: “Một số cộng với... rồi trừ đi... thì bằng...”",
+    "Tính liên tiếp",
+    "Không cho trước phép tính cụ thể mà mô tả bằng lời"
+  ],
+  "guide": "Cho bé vẽ sơ đồ đoạn thẳng: mỗi phép tính là một bước trên đoạn. Thực hiện tính ngược",
+  "data": [
+    {
+      "question": "Một số cộng với 45 rồi trừ đi 14 thì bằng 42. Tìm số đó.",
+      "options": [
+        "15",
+        "11",
+        "13"
+      ],
+      "answer": 1,
+      "guide": "👉 Ta cần tìm số sao cho: x + 45 - 14 = 42<br/>➡️ Bước 1: Lấy 42 + 14 = ...<br/>➡️ Bước 2: Lấy 56 - 45 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Một bạn tính nhẩm: lấy một số cộng 42 rồi bớt đi 20, được 50. Hỏi bạn ấy bắt đầu với số nào?",
+      "options": [
+        "32",
+        "28",
+        "30"
+      ],
+      "answer": 1,
+      "guide": "👉 Ta cần tìm số sao cho: x + 42 - 20 = 50<br/>➡️ Bước 1: Lấy 50 + 20 = ...<br/>➡️ Bước 2: Lấy 70 - 42 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Một số cộng với 57 rồi trừ đi 10 thì bằng 91. Tìm số đó.",
+      "options": [
+        "44",
+        "39",
+        "41"
+      ],
+      "answer": 0,
+      "guide": "👉 Ta cần tìm số sao cho: x + 57 - 10 = 91<br/>➡️ Bước 1: Lấy 91 + 10 = ...<br/>➡️ Bước 2: Lấy 101 - 57 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Một số cộng với 63 rồi trừ đi 15 thì bằng 69. Tìm số đó.",
+      "options": [
+        "24",
+        "21",
+        "19"
+      ],
+      "answer": 1,
+      "guide": "👉 Ta cần tìm số sao cho: x + 63 - 15 = 69<br/>➡️ Bước 1: Lấy 69 + 15 = ...<br/>➡️ Bước 2: Lấy 84 - 63 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Một bạn có 26 viên bi, bạn ấy mượn thêm một số viên từ bạn khác, rồi sau đó trả lại 22 viên. Tổng còn lại là 46. Hỏi bạn mượn bao nhiêu viên?",
+      "options": [
+        "40",
+        "42",
+        "45"
+      ],
+      "answer": 1,
+      "guide": "👉 Ta cần tìm số sao cho: x + 26 - 22 = 46<br/>➡️ Bước 1: Lấy 46 + 22 = ...<br/>➡️ Bước 2: Lấy 68 - 26 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Một bài toán như sau: cộng một số với 41, sau đó trừ đi 17 được 54. Tìm số ban đầu.",
+      "options": [
+        "27",
+        "30",
+        "32"
+      ],
+      "answer": 1,
+      "guide": "👉 Ta cần tìm số sao cho: x + 41 - 17 = 54<br/>➡️ Bước 1: Lấy 54 + 17 = ...<br/>➡️ Bước 2: Lấy 71 - 41 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Tìm một số, biết rằng khi lấy 58 cộng với số đó rồi trừ đi 39, ta được 47. Đó là số nào?",
+      "options": [
+        "30",
+        "28",
+        "26"
+      ],
+      "answer": 1,
+      "guide": "👉 Ta cần tìm số sao cho: x + 58 - 39 = 47<br/>➡️ Bước 1: Lấy 47 + 39 = ...<br/>➡️ Bước 2: Lấy 86 - 58 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Tìm một số, biết rằng khi lấy 28 cộng với số đó rồi trừ đi 40, ta được 1. Đó là số nào?",
+      "options": [
+        "16",
+        "13",
+        "17"
+      ],
+      "answer": 1,
+      "guide": "👉 Ta cần tìm số sao cho: x + 28 - 40 = 1<br/>➡️ Bước 1: Lấy 1 + 40 = ...<br/>➡️ Bước 2: Lấy 41 - 28 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Một bạn cộng số bí mật với 67, sau đó trừ đi 36 thì được 80. Bạn ấy đã chọn số nào?",
+      "options": [
+        "46",
+        "49",
+        "44"
+      ],
+      "answer": 1,
+      "guide": "👉 Ta cần tìm số sao cho: x + 67 - 36 = 80<br/>➡️ Bước 1: Lấy 80 + 36 = ...<br/>➡️ Bước 2: Lấy 116 - 67 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Tìm số chưa biết: (52 + x) - 24 = 69. Vậy x là bao nhiêu?",
+      "options": [
+        "36",
+        "39",
+        "41"
+      ],
+      "answer": 2,
+      "guide": "👉 Ta cần tìm số sao cho: x + 52 - 24 = 69<br/>➡️ Bước 1: Lấy 69 + 24 = ...<br/>➡️ Bước 2: Lấy 93 - 52 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Một bạn tính nhẩm: lấy một số cộng 47 rồi bớt đi 38, được 55. Hỏi bạn ấy bắt đầu với số nào?",
+      "options": [
+        "41",
+        "49",
+        "46"
+      ],
+      "answer": 2,
+      "guide": "👉 Ta cần tìm số sao cho: x + 47 - 38 = 55<br/>➡️ Bước 1: Lấy 55 + 38 = ...<br/>➡️ Bước 2: Lấy 93 - 47 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Tìm số chưa biết: (61 + x) - 16 = 59. Vậy x là bao nhiêu?",
+      "options": [
+        "14",
+        "17",
+        "16"
+      ],
+      "answer": 0,
+      "guide": "👉 Ta cần tìm số sao cho: x + 61 - 16 = 59<br/>➡️ Bước 1: Lấy 59 + 16 = ...<br/>➡️ Bước 2: Lấy 75 - 61 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Một bạn có 52 viên bi, bạn ấy mượn thêm một số viên từ bạn khác, rồi sau đó trả lại 34 viên. Tổng còn lại là 37. Hỏi bạn mượn bao nhiêu viên?",
+      "options": [
+        "23",
+        "19",
+        "14"
+      ],
+      "answer": 1,
+      "guide": "👉 Ta cần tìm số sao cho: x + 52 - 34 = 37<br/>➡️ Bước 1: Lấy 37 + 34 = ...<br/>➡️ Bước 2: Lấy 71 - 52 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Tìm một số, biết rằng khi lấy 68 cộng với số đó rồi trừ đi 32, ta được 53. Đó là số nào?",
+      "options": [
+        "17",
+        "14",
+        "19"
+      ],
+      "answer": 0,
+      "guide": "👉 Ta cần tìm số sao cho: x + 68 - 32 = 53<br/>➡️ Bước 1: Lấy 53 + 32 = ...<br/>➡️ Bước 2: Lấy 85 - 68 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Một bạn tính nhẩm: lấy một số cộng 52 rồi bớt đi 32, được 55. Hỏi bạn ấy bắt đầu với số nào?",
+      "options": [
+        "35",
+        "30",
+        "33"
+      ],
+      "answer": 0,
+      "guide": "👉 Ta cần tìm số sao cho: x + 52 - 32 = 55<br/>➡️ Bước 1: Lấy 55 + 32 = ...<br/>➡️ Bước 2: Lấy 87 - 52 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Bố mua thêm 44 viên kẹo, rồi bớt đi 17 viên để chia cho các bạn, còn lại 43 viên. Hỏi ban đầu bố mua bao nhiêu viên?",
+      "options": [
+        "19",
+        "18",
+        "16"
+      ],
+      "answer": 2,
+      "guide": "👉 Ta cần tìm số sao cho: x + 44 - 17 = 43<br/>➡️ Bước 1: Lấy 43 + 17 = ...<br/>➡️ Bước 2: Lấy 60 - 44 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Số bí ẩn cộng 37 rồi trừ 26 thì ra 46. Tìm số bí ẩn.",
+      "options": [
+        "35",
+        "37",
+        "33"
+      ],
+      "answer": 0,
+      "guide": "👉 Ta cần tìm số sao cho: x + 37 - 26 = 46<br/>➡️ Bước 1: Lấy 46 + 26 = ...<br/>➡️ Bước 2: Lấy 72 - 37 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Một bạn có 63 viên bi, bạn ấy mượn thêm một số viên từ bạn khác, rồi sau đó trả lại 11 viên. Tổng còn lại là 63. Hỏi bạn mượn bao nhiêu viên?",
+      "options": [
+        "15",
+        "11",
+        "8"
+      ],
+      "answer": 1,
+      "guide": "👉 Ta cần tìm số sao cho: x + 63 - 11 = 63<br/>➡️ Bước 1: Lấy 63 + 11 = ...<br/>➡️ Bước 2: Lấy 74 - 63 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Có một phép tính như sau: 38 cộng với một số, rồi trừ đi 38, kết quả là 38. Hỏi số cần tìm là bao nhiêu?",
+      "options": [
+        "42",
+        "38",
+        "41"
+      ],
+      "answer": 1,
+      "guide": "👉 Ta cần tìm số sao cho: x + 38 - 38 = 38<br/>➡️ Bước 1: Lấy 38 + 38 = ...<br/>➡️ Bước 2: Lấy 76 - 38 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Bố mua thêm 24 viên kẹo, rồi bớt đi 29 viên để chia cho các bạn, còn lại 45 viên. Hỏi ban đầu bố mua bao nhiêu viên?",
+      "options": [
+        "50",
+        "53",
+        "45"
+      ],
+      "answer": 0,
+      "guide": "👉 Ta cần tìm số sao cho: x + 24 - 29 = 45<br/>➡️ Bước 1: Lấy 45 + 29 = ...<br/>➡️ Bước 2: Lấy 74 - 24 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Một bài toán như sau: cộng một số với 43, sau đó trừ đi 23 được 56. Tìm số ban đầu.",
+      "options": [
+        "40",
+        "31",
+        "36"
+      ],
+      "answer": 2,
+      "guide": "👉 Ta cần tìm số sao cho: x + 43 - 23 = 56<br/>➡️ Bước 1: Lấy 56 + 23 = ...<br/>➡️ Bước 2: Lấy 79 - 43 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Một bạn tính nhẩm: lấy một số cộng 39 rồi bớt đi 35, được 27. Hỏi bạn ấy bắt đầu với số nào?",
+      "options": [
+        "23",
+        "20",
+        "27"
+      ],
+      "answer": 0,
+      "guide": "👉 Ta cần tìm số sao cho: x + 39 - 35 = 27<br/>➡️ Bước 1: Lấy 27 + 35 = ...<br/>➡️ Bước 2: Lấy 62 - 39 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Có một phép tính như sau: 66 cộng với một số, rồi trừ đi 23, kết quả là 65. Hỏi số cần tìm là bao nhiêu?",
+      "options": [
+        "22",
+        "17",
+        "24"
+      ],
+      "answer": 0,
+      "guide": "👉 Ta cần tìm số sao cho: x + 66 - 23 = 65<br/>➡️ Bước 1: Lấy 65 + 23 = ...<br/>➡️ Bước 2: Lấy 88 - 66 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Một bạn tính nhẩm: lấy một số cộng 50 rồi bớt đi 15, được 61. Hỏi bạn ấy bắt đầu với số nào?",
+      "options": [
+        "24",
+        "26",
+        "30"
+      ],
+      "answer": 1,
+      "guide": "👉 Ta cần tìm số sao cho: x + 50 - 15 = 61<br/>➡️ Bước 1: Lấy 61 + 15 = ...<br/>➡️ Bước 2: Lấy 76 - 50 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Một bạn cộng số bí mật với 37, sau đó trừ đi 36 thì được 38. Bạn ấy đã chọn số nào?",
+      "options": [
+        "37",
+        "35",
+        "41"
+      ],
+      "answer": 0,
+      "guide": "👉 Ta cần tìm số sao cho: x + 37 - 36 = 38<br/>➡️ Bước 1: Lấy 38 + 36 = ...<br/>➡️ Bước 2: Lấy 74 - 37 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Một bạn tính nhẩm: lấy một số cộng 60 rồi bớt đi 21, được 89. Hỏi bạn ấy bắt đầu với số nào?",
+      "options": [
+        "48",
+        "50",
+        "54"
+      ],
+      "answer": 1,
+      "guide": "👉 Ta cần tìm số sao cho: x + 60 - 21 = 89<br/>➡️ Bước 1: Lấy 89 + 21 = ...<br/>➡️ Bước 2: Lấy 110 - 60 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Bố mua thêm 34 viên kẹo, rồi bớt đi 21 viên để chia cho các bạn, còn lại 62 viên. Hỏi ban đầu bố mua bao nhiêu viên?",
+      "options": [
+        "49",
+        "46",
+        "52"
+      ],
+      "answer": 0,
+      "guide": "👉 Ta cần tìm số sao cho: x + 34 - 21 = 62<br/>➡️ Bước 1: Lấy 62 + 21 = ...<br/>➡️ Bước 2: Lấy 83 - 34 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Có một phép tính như sau: 64 cộng với một số, rồi trừ đi 28, kết quả là 47. Hỏi số cần tìm là bao nhiêu?",
+      "options": [
+        "8",
+        "11",
+        "9"
+      ],
+      "answer": 1,
+      "guide": "👉 Ta cần tìm số sao cho: x + 64 - 28 = 47<br/>➡️ Bước 1: Lấy 47 + 28 = ...<br/>➡️ Bước 2: Lấy 75 - 64 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Một bài toán như sau: cộng một số với 31, sau đó trừ đi 26 được 20. Tìm số ban đầu.",
+      "options": [
+        "19",
+        "15",
+        "10"
+      ],
+      "answer": 1,
+      "guide": "👉 Ta cần tìm số sao cho: x + 31 - 26 = 20<br/>➡️ Bước 1: Lấy 20 + 26 = ...<br/>➡️ Bước 2: Lấy 46 - 31 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Bố mua thêm 68 viên kẹo, rồi bớt đi 16 viên để chia cho các bạn, còn lại 70 viên. Hỏi ban đầu bố mua bao nhiêu viên?",
+      "options": [
+        "13",
+        "18",
+        "15"
+      ],
+      "answer": 1,
+      "guide": "👉 Ta cần tìm số sao cho: x + 68 - 16 = 70<br/>➡️ Bước 1: Lấy 70 + 16 = ...<br/>➡️ Bước 2: Lấy 86 - 68 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Tìm số chưa biết: (51 + x) - 31 = 64. Vậy x là bao nhiêu?",
+      "options": [
+        "46",
+        "44",
+        "42"
+      ],
+      "answer": 1,
+      "guide": "👉 Ta cần tìm số sao cho: x + 51 - 31 = 64<br/>➡️ Bước 1: Lấy 64 + 31 = ...<br/>➡️ Bước 2: Lấy 95 - 51 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Một bài toán như sau: cộng một số với 37, sau đó trừ đi 36 được 48. Tìm số ban đầu.",
+      "options": [
+        "42",
+        "49",
+        "47"
+      ],
+      "answer": 2,
+      "guide": "👉 Ta cần tìm số sao cho: x + 37 - 36 = 48<br/>➡️ Bước 1: Lấy 48 + 36 = ...<br/>➡️ Bước 2: Lấy 84 - 37 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Một bài toán như sau: cộng một số với 66, sau đó trừ đi 15 được 62. Tìm số ban đầu.",
+      "options": [
+        "11",
+        "13",
+        "9"
+      ],
+      "answer": 0,
+      "guide": "👉 Ta cần tìm số sao cho: x + 66 - 15 = 62<br/>➡️ Bước 1: Lấy 62 + 15 = ...<br/>➡️ Bước 2: Lấy 77 - 66 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Số bí ẩn cộng 31 rồi trừ 21 thì ra 21. Tìm số bí ẩn.",
+      "options": [
+        "6",
+        "11",
+        "15"
+      ],
+      "answer": 1,
+      "guide": "👉 Ta cần tìm số sao cho: x + 31 - 21 = 21<br/>➡️ Bước 1: Lấy 21 + 21 = ...<br/>➡️ Bước 2: Lấy 42 - 31 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Có một phép tính như sau: 65 cộng với một số, rồi trừ đi 40, kết quả là 65. Hỏi số cần tìm là bao nhiêu?",
+      "options": [
+        "40",
+        "43",
+        "35"
+      ],
+      "answer": 0,
+      "guide": "👉 Ta cần tìm số sao cho: x + 65 - 40 = 65<br/>➡️ Bước 1: Lấy 65 + 40 = ...<br/>➡️ Bước 2: Lấy 105 - 65 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Có một phép tính như sau: 32 cộng với một số, rồi trừ đi 28, kết quả là 40. Hỏi số cần tìm là bao nhiêu?",
+      "options": [
+        "39",
+        "38",
+        "36"
+      ],
+      "answer": 2,
+      "guide": "👉 Ta cần tìm số sao cho: x + 32 - 28 = 40<br/>➡️ Bước 1: Lấy 40 + 28 = ...<br/>➡️ Bước 2: Lấy 68 - 32 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Bố mua thêm 61 viên kẹo, rồi bớt đi 30 viên để chia cho các bạn, còn lại 71 viên. Hỏi ban đầu bố mua bao nhiêu viên?",
+      "options": [
+        "38",
+        "42",
+        "40"
+      ],
+      "answer": 2,
+      "guide": "👉 Ta cần tìm số sao cho: x + 61 - 30 = 71<br/>➡️ Bước 1: Lấy 71 + 30 = ...<br/>➡️ Bước 2: Lấy 101 - 61 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Tìm số chưa biết: (33 + x) - 36 = 8. Vậy x là bao nhiêu?",
+      "options": [
+        "11",
+        "8",
+        "13"
+      ],
+      "answer": 0,
+      "guide": "👉 Ta cần tìm số sao cho: x + 33 - 36 = 8<br/>➡️ Bước 1: Lấy 8 + 36 = ...<br/>➡️ Bước 2: Lấy 44 - 33 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Bố mua thêm 37 viên kẹo, rồi bớt đi 36 viên để chia cho các bạn, còn lại 31 viên. Hỏi ban đầu bố mua bao nhiêu viên?",
+      "options": [
+        "30",
+        "33",
+        "25"
+      ],
+      "answer": 0,
+      "guide": "👉 Ta cần tìm số sao cho: x + 37 - 36 = 31<br/>➡️ Bước 1: Lấy 31 + 36 = ...<br/>➡️ Bước 2: Lấy 67 - 37 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Tìm một số, biết rằng khi lấy 50 cộng với số đó rồi trừ đi 13, ta được 55. Đó là số nào?",
+      "options": [
+        "18",
+        "16",
+        "22"
+      ],
+      "answer": 0,
+      "guide": "👉 Ta cần tìm số sao cho: x + 50 - 13 = 55<br/>➡️ Bước 1: Lấy 55 + 13 = ...<br/>➡️ Bước 2: Lấy 68 - 50 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Một số cộng với 30 rồi trừ đi 38 thì bằng 27. Tìm số đó.",
+      "options": [
+        "30",
+        "35",
+        "39"
+      ],
+      "answer": 1,
+      "guide": "👉 Ta cần tìm số sao cho: x + 30 - 38 = 27<br/>➡️ Bước 1: Lấy 27 + 38 = ...<br/>➡️ Bước 2: Lấy 65 - 30 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Một bạn tính nhẩm: lấy một số cộng 29 rồi bớt đi 20, được 31. Hỏi bạn ấy bắt đầu với số nào?",
+      "options": [
+        "20",
+        "22",
+        "19"
+      ],
+      "answer": 1,
+      "guide": "👉 Ta cần tìm số sao cho: x + 29 - 20 = 31<br/>➡️ Bước 1: Lấy 31 + 20 = ...<br/>➡️ Bước 2: Lấy 51 - 29 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Bố mua thêm 31 viên kẹo, rồi bớt đi 14 viên để chia cho các bạn, còn lại 58 viên. Hỏi ban đầu bố mua bao nhiêu viên?",
+      "options": [
+        "43",
+        "44",
+        "41"
+      ],
+      "answer": 2,
+      "guide": "👉 Ta cần tìm số sao cho: x + 31 - 14 = 58<br/>➡️ Bước 1: Lấy 58 + 14 = ...<br/>➡️ Bước 2: Lấy 72 - 31 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Tìm số chưa biết: (54 + x) - 22 = 75. Vậy x là bao nhiêu?",
+      "options": [
+        "38",
+        "43",
+        "47"
+      ],
+      "answer": 1,
+      "guide": "👉 Ta cần tìm số sao cho: x + 54 - 22 = 75<br/>➡️ Bước 1: Lấy 75 + 22 = ...<br/>➡️ Bước 2: Lấy 97 - 54 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Một số cộng với 60 rồi trừ đi 23 thì bằng 56. Tìm số đó.",
+      "options": [
+        "17",
+        "22",
+        "19"
+      ],
+      "answer": 2,
+      "guide": "👉 Ta cần tìm số sao cho: x + 60 - 23 = 56<br/>➡️ Bước 1: Lấy 56 + 23 = ...<br/>➡️ Bước 2: Lấy 79 - 60 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Bố mua thêm 42 viên kẹo, rồi bớt đi 15 viên để chia cho các bạn, còn lại 70 viên. Hỏi ban đầu bố mua bao nhiêu viên?",
+      "options": [
+        "40",
+        "43",
+        "41"
+      ],
+      "answer": 1,
+      "guide": "👉 Ta cần tìm số sao cho: x + 42 - 15 = 70<br/>➡️ Bước 1: Lấy 70 + 15 = ...<br/>➡️ Bước 2: Lấy 85 - 42 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Số bí ẩn cộng 51 rồi trừ 15 thì ra 73. Tìm số bí ẩn.",
+      "options": [
+        "32",
+        "34",
+        "37"
+      ],
+      "answer": 2,
+      "guide": "👉 Ta cần tìm số sao cho: x + 51 - 15 = 73<br/>➡️ Bước 1: Lấy 73 + 15 = ...<br/>➡️ Bước 2: Lấy 88 - 51 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Một bạn có 40 viên bi, bạn ấy mượn thêm một số viên từ bạn khác, rồi sau đó trả lại 38 viên. Tổng còn lại là 34. Hỏi bạn mượn bao nhiêu viên?",
+      "options": [
+        "32",
+        "30",
+        "29"
+      ],
+      "answer": 0,
+      "guide": "👉 Ta cần tìm số sao cho: x + 40 - 38 = 34<br/>➡️ Bước 1: Lấy 34 + 38 = ...<br/>➡️ Bước 2: Lấy 72 - 40 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Tìm một số, biết rằng khi lấy 33 cộng với số đó rồi trừ đi 12, ta được 54. Đó là số nào?",
+      "options": [
+        "31",
+        "36",
+        "33"
+      ],
+      "answer": 2,
+      "guide": "👉 Ta cần tìm số sao cho: x + 33 - 12 = 54<br/>➡️ Bước 1: Lấy 54 + 12 = ...<br/>➡️ Bước 2: Lấy 66 - 33 = ...<br/>✅ Vậy số cần tìm là ..."
+    },
+    {
+      "question": "Một bài toán như sau: cộng một số với 45, sau đó trừ đi 16 được 57. Tìm số ban đầu.",
+      "options": [
+        "31",
+        "23",
+        "28"
+      ],
+      "answer": 2,
+      "guide": "👉 Ta cần tìm số sao cho: x + 45 - 16 = 57<br/>➡️ Bước 1: Lấy 57 + 16 = ...<br/>➡️ Bước 2: Lấy 73 - 45 = ...<br/>✅ Vậy số cần tìm là ..."
+    }
+  ]
+}
