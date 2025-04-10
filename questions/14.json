@@ -1,0 +1,517 @@
+{
+  "name": "Tìm số khoảng cách",
+  "type": "Tìm khoảng cách giữa các vật thể trên đường thẳng",
+  "special": [
+    "Các vật giống nhau được xếp dọc theo đường",
+    "Có 3 tình huống: hai đầu có vật thể, không đầu nào có vật thể, một đầu có vật thể",
+    "Phép tính thay đổi theo tình huống"
+  ],
+  "signal": [
+    "Từ khóa nhận biết: 'trồng cây ven đường', 'hai đầu có ...', 'không có ... ở hai đầu', 'một đầu có ...'",
+    "Cho trước số vật thể và mô tả vị trí các vật thể",
+    "Không có phép cộng trừ trực tiếp, mà suy luận theo tình huống"
+  ],
+  "guide": "Hỏi con: 'Hai đầu đoạn đường có vật thể không?', từ đó chọn đúng công thức:<br/>- Nếu hai đầu có cây: số khoảng cách = số cây - 1<br/>- Nếu hai đầu không có cây: khoảng cách = số cây + 1<br/>- Nếu một đầu có cây: khoảng cách = số cây<br/>Nên cho con vẽ đoạn đường và đặt cây để quan sát rõ hơn. Dùng hoặc vẽ nút tròn làm vật thể, que tính làm khoảng cách. Đếm số khoảng trống",
+  "data": [
+    {
+      "question": "Trên đoạn đường, có 12 lồng đèn được đặt cách đều, chỉ có lồng đèn ở một đầu đoạn đường. Hỏi có bao nhiêu khoảng cách giữa các lồng đèn đó?",
+      "options": [
+        "13",
+        "14",
+        "12"
+      ],
+      "answer": 2,
+      "guide": "👉 Chỉ có lồng đèn ở một đầu đoạn đường.<br/>➡️ Số khoảng cách = Số lồng đèn"
+    },
+    {
+      "question": "Trên đoạn đường, có 3 đèn đường được đặt cách đều, hai đầu có đèn đường. Hỏi có bao nhiêu khoảng cách giữa các đèn đường đó?",
+      "options": [
+        "1",
+        "2",
+        "0"
+      ],
+      "answer": 1,
+      "guide": "👉 Hai đầu đoạn đường đều có đèn đường.<br/>➡️ Số khoảng cách = Số đèn đường - 1 = 3 - 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 4 lồng đèn được đặt cách đều, chỉ có lồng đèn ở một đầu đoạn đường. Hỏi có bao nhiêu khoảng cách giữa các lồng đèn đó?",
+      "options": [
+        "5",
+        "4",
+        "3"
+      ],
+      "answer": 1,
+      "guide": "👉 Chỉ có lồng đèn ở một đầu đoạn đường.<br/>➡️ Số khoảng cách = Số lồng đèn"
+    },
+    {
+      "question": "Trên đoạn đường, có 5 bảng chỉ đường được đặt cách đều, hai đầu có bảng chỉ đường. Hỏi có bao nhiêu khoảng cách giữa các bảng chỉ đường đó?",
+      "options": [
+        "4",
+        "3",
+        "5"
+      ],
+      "answer": 0,
+      "guide": "👉 Hai đầu đoạn đường đều có bảng chỉ đường.<br/>➡️ Số khoảng cách = Số bảng chỉ đường - 1 = 5 - 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 13 biển báo được đặt cách đều, chỉ có biển báo ở một đầu đoạn đường. Hỏi có bao nhiêu khoảng cách giữa các biển báo đó?",
+      "options": [
+        "12",
+        "14",
+        "13"
+      ],
+      "answer": 2,
+      "guide": "👉 Chỉ có biển báo ở một đầu đoạn đường.<br/>➡️ Số khoảng cách = Số biển báo"
+    },
+    {
+      "question": "Trên đoạn đường, có 4 bảng chỉ đường được đặt cách đều, không có bảng chỉ đường ở hai đầu. Hỏi có bao nhiêu khoảng cách giữa các bảng chỉ đường đó?",
+      "options": [
+        "4",
+        "5",
+        "7"
+      ],
+      "answer": 1,
+      "guide": "👉 Hai đầu đoạn đường không có bảng chỉ đường.<br/>➡️ Số khoảng cách = Số bảng chỉ đường + 1 = 4 + 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 13 trụ cờ được đặt cách đều, không có trụ cờ ở hai đầu. Hỏi có bao nhiêu khoảng cách giữa các trụ cờ đó?",
+      "options": [
+        "14",
+        "16",
+        "15"
+      ],
+      "answer": 0,
+      "guide": "👉 Hai đầu đoạn đường không có trụ cờ.<br/>➡️ Số khoảng cách = Số trụ cờ + 1 = 13 + 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 3 lồng đèn được đặt cách đều, chỉ có lồng đèn ở một đầu đoạn đường. Hỏi có bao nhiêu khoảng cách giữa các lồng đèn đó?",
+      "options": [
+        "2",
+        "4",
+        "3"
+      ],
+      "answer": 2,
+      "guide": "👉 Chỉ có lồng đèn ở một đầu đoạn đường.<br/>➡️ Số khoảng cách = Số lồng đèn"
+    },
+    {
+      "question": "Trên đoạn đường, có 3 cột đèn được đặt cách đều, chỉ có cột đèn ở một đầu đoạn đường. Hỏi có bao nhiêu khoảng cách giữa các cột đèn đó?",
+      "options": [
+        "3",
+        "2",
+        "1"
+      ],
+      "answer": 0,
+      "guide": "👉 Chỉ có cột đèn ở một đầu đoạn đường.<br/>➡️ Số khoảng cách = Số cột đèn"
+    },
+    {
+      "question": "Trên đoạn đường, có 7 ghế đá được đặt cách đều, chỉ có ghế đá ở một đầu đoạn đường. Hỏi có bao nhiêu khoảng cách giữa các ghế đá đó?",
+      "options": [
+        "6",
+        "8",
+        "7"
+      ],
+      "answer": 2,
+      "guide": "👉 Chỉ có ghế đá ở một đầu đoạn đường.<br/>➡️ Số khoảng cách = Số ghế đá"
+    },
+    {
+      "question": "Trên đoạn đường, có 3 bảng chỉ đường được đặt cách đều, chỉ có bảng chỉ đường ở một đầu đoạn đường. Hỏi có bao nhiêu khoảng cách giữa các bảng chỉ đường đó?",
+      "options": [
+        "3",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "guide": "👉 Chỉ có bảng chỉ đường ở một đầu đoạn đường.<br/>➡️ Số khoảng cách = Số bảng chỉ đường"
+    },
+    {
+      "question": "Trên đoạn đường, có 13 đèn đường được đặt cách đều, chỉ có đèn đường ở một đầu đoạn đường. Hỏi có bao nhiêu khoảng cách giữa các đèn đường đó?",
+      "options": [
+        "13",
+        "15",
+        "11"
+      ],
+      "answer": 0,
+      "guide": "👉 Chỉ có đèn đường ở một đầu đoạn đường.<br/>➡️ Số khoảng cách = Số đèn đường"
+    },
+    {
+      "question": "Trên đoạn đường, có 3 cột đèn được đặt cách đều, hai đầu có cột đèn. Hỏi có bao nhiêu khoảng cách giữa các cột đèn đó?",
+      "options": [
+        "3",
+        "2",
+        "4"
+      ],
+      "answer": 1,
+      "guide": "👉 Hai đầu đoạn đường đều có cột đèn.<br/>➡️ Số khoảng cách = Số cột đèn - 1 = 3 - 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 9 cột đèn được đặt cách đều, hai đầu có cột đèn. Hỏi có bao nhiêu khoảng cách giữa các cột đèn đó?",
+      "options": [
+        "8",
+        "10",
+        "7"
+      ],
+      "answer": 0,
+      "guide": "👉 Hai đầu đoạn đường đều có cột đèn.<br/>➡️ Số khoảng cách = Số cột đèn - 1 = 9 - 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 9 bảng chỉ đường được đặt cách đều, chỉ có bảng chỉ đường ở một đầu đoạn đường. Hỏi có bao nhiêu khoảng cách giữa các bảng chỉ đường đó?",
+      "options": [
+        "9",
+        "8",
+        "11"
+      ],
+      "answer": 0,
+      "guide": "👉 Chỉ có bảng chỉ đường ở một đầu đoạn đường.<br/>➡️ Số khoảng cách = Số bảng chỉ đường"
+    },
+    {
+      "question": "Trên đoạn đường, có 12 ghế đá được đặt cách đều, hai đầu có ghế đá. Hỏi có bao nhiêu khoảng cách giữa các ghế đá đó?",
+      "options": [
+        "12",
+        "11",
+        "13"
+      ],
+      "answer": 1,
+      "guide": "👉 Hai đầu đoạn đường đều có ghế đá.<br/>➡️ Số khoảng cách = Số ghế đá - 1 = 12 - 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 8 cột đèn được đặt cách đều, chỉ có cột đèn ở một đầu đoạn đường. Hỏi có bao nhiêu khoảng cách giữa các cột đèn đó?",
+      "options": [
+        "9",
+        "8",
+        "7"
+      ],
+      "answer": 1,
+      "guide": "👉 Chỉ có cột đèn ở một đầu đoạn đường.<br/>➡️ Số khoảng cách = Số cột đèn"
+    },
+    {
+      "question": "Trên đoạn đường, có 10 biển báo được đặt cách đều, chỉ có biển báo ở một đầu đoạn đường. Hỏi có bao nhiêu khoảng cách giữa các biển báo đó?",
+      "options": [
+        "10",
+        "9",
+        "8"
+      ],
+      "answer": 0,
+      "guide": "👉 Chỉ có biển báo ở một đầu đoạn đường.<br/>➡️ Số khoảng cách = Số biển báo"
+    },
+    {
+      "question": "Trên đoạn đường, có 4 lồng đèn được đặt cách đều, không có lồng đèn ở hai đầu. Hỏi có bao nhiêu khoảng cách giữa các lồng đèn đó?",
+      "options": [
+        "5",
+        "4",
+        "3"
+      ],
+      "answer": 0,
+      "guide": "👉 Hai đầu đoạn đường không có lồng đèn.<br/>➡️ Số khoảng cách = Số lồng đèn + 1 = 4 + 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 6 cái cây được trồng cách đều, hai đầu có cái cây. Hỏi có bao nhiêu khoảng cách giữa các cái cây đó?",
+      "options": [
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 1,
+      "guide": "👉 Hai đầu đoạn đường đều có cái cây.<br/>➡️ Số khoảng cách = Số cái cây - 1 = 6 - 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 14 biển báo được đặt cách đều, hai đầu có biển báo. Hỏi có bao nhiêu khoảng cách giữa các biển báo đó?",
+      "options": [
+        "14",
+        "15",
+        "13"
+      ],
+      "answer": 2,
+      "guide": "👉 Hai đầu đoạn đường đều có biển báo.<br/>➡️ Số khoảng cách = Số biển báo - 1 = 14 - 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 12 biển báo được đặt cách đều, không có biển báo ở hai đầu. Hỏi có bao nhiêu khoảng cách giữa các biển báo đó?",
+      "options": [
+        "12",
+        "11",
+        "13"
+      ],
+      "answer": 2,
+      "guide": "👉 Hai đầu đoạn đường không có biển báo.<br/>➡️ Số khoảng cách = Số biển báo + 1 = 12 + 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 5 cái cây được trồng cách đều, không có cái cây ở hai đầu. Hỏi có bao nhiêu khoảng cách giữa các cái cây đó?",
+      "options": [
+        "6",
+        "8",
+        "4"
+      ],
+      "answer": 0,
+      "guide": "👉 Hai đầu đoạn đường không có cái cây.<br/>➡️ Số khoảng cách = Số cái cây + 1 = 5 + 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 4 đèn đường được đặt cách đều, không có đèn đường ở hai đầu. Hỏi có bao nhiêu khoảng cách giữa các đèn đường đó?",
+      "options": [
+        "5",
+        "4",
+        "6"
+      ],
+      "answer": 0,
+      "guide": "👉 Hai đầu đoạn đường không có đèn đường.<br/>➡️ Số khoảng cách = Số đèn đường + 1 = 4 + 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 13 biển báo được đặt cách đều, không có biển báo ở hai đầu. Hỏi có bao nhiêu khoảng cách giữa các biển báo đó?",
+      "options": [
+        "16",
+        "12",
+        "14"
+      ],
+      "answer": 2,
+      "guide": "👉 Hai đầu đoạn đường không có biển báo.<br/>➡️ Số khoảng cách = Số biển báo + 1 = 13 + 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 8 lồng đèn được đặt cách đều, chỉ có lồng đèn ở một đầu đoạn đường. Hỏi có bao nhiêu khoảng cách giữa các lồng đèn đó?",
+      "options": [
+        "10",
+        "6",
+        "8"
+      ],
+      "answer": 2,
+      "guide": "👉 Chỉ có lồng đèn ở một đầu đoạn đường.<br/>➡️ Số khoảng cách = Số lồng đèn"
+    },
+    {
+      "question": "Trên đoạn đường, có 12 bảng chỉ đường được đặt cách đều, hai đầu có bảng chỉ đường. Hỏi có bao nhiêu khoảng cách giữa các bảng chỉ đường đó?",
+      "options": [
+        "13",
+        "11",
+        "12"
+      ],
+      "answer": 1,
+      "guide": "👉 Hai đầu đoạn đường đều có bảng chỉ đường.<br/>➡️ Số khoảng cách = Số bảng chỉ đường - 1 = 12 - 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 10 cột đèn được đặt cách đều, chỉ có cột đèn ở một đầu đoạn đường. Hỏi có bao nhiêu khoảng cách giữa các cột đèn đó?",
+      "options": [
+        "10",
+        "9",
+        "11"
+      ],
+      "answer": 0,
+      "guide": "👉 Chỉ có cột đèn ở một đầu đoạn đường.<br/>➡️ Số khoảng cách = Số cột đèn"
+    },
+    {
+      "question": "Trên đoạn đường, có 13 lồng đèn được đặt cách đều, không có lồng đèn ở hai đầu. Hỏi có bao nhiêu khoảng cách giữa các lồng đèn đó?",
+      "options": [
+        "15",
+        "12",
+        "14"
+      ],
+      "answer": 2,
+      "guide": "👉 Hai đầu đoạn đường không có lồng đèn.<br/>➡️ Số khoảng cách = Số lồng đèn + 1 = 13 + 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 4 lồng đèn được đặt cách đều, hai đầu có lồng đèn. Hỏi có bao nhiêu khoảng cách giữa các lồng đèn đó?",
+      "options": [
+        "2",
+        "3",
+        "5"
+      ],
+      "answer": 1,
+      "guide": "👉 Hai đầu đoạn đường đều có lồng đèn.<br/>➡️ Số khoảng cách = Số lồng đèn - 1 = 4 - 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 6 lồng đèn được đặt cách đều, không có lồng đèn ở hai đầu. Hỏi có bao nhiêu khoảng cách giữa các lồng đèn đó?",
+      "options": [
+        "7",
+        "5",
+        "9"
+      ],
+      "answer": 0,
+      "guide": "👉 Hai đầu đoạn đường không có lồng đèn.<br/>➡️ Số khoảng cách = Số lồng đèn + 1 = 6 + 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 11 cái cây được trồng cách đều, chỉ có cái cây ở một đầu đoạn đường. Hỏi có bao nhiêu khoảng cách giữa các cái cây đó?",
+      "options": [
+        "13",
+        "9",
+        "11"
+      ],
+      "answer": 2,
+      "guide": "👉 Chỉ có cái cây ở một đầu đoạn đường.<br/>➡️ Số khoảng cách = Số cái cây"
+    },
+    {
+      "question": "Trên đoạn đường, có 12 biển báo được đặt cách đều, hai đầu có biển báo. Hỏi có bao nhiêu khoảng cách giữa các biển báo đó?",
+      "options": [
+        "11",
+        "13",
+        "12"
+      ],
+      "answer": 0,
+      "guide": "👉 Hai đầu đoạn đường đều có biển báo.<br/>➡️ Số khoảng cách = Số biển báo - 1 = 12 - 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 15 bảng chỉ đường được đặt cách đều, hai đầu có bảng chỉ đường. Hỏi có bao nhiêu khoảng cách giữa các bảng chỉ đường đó?",
+      "options": [
+        "12",
+        "13",
+        "14"
+      ],
+      "answer": 2,
+      "guide": "👉 Hai đầu đoạn đường đều có bảng chỉ đường.<br/>➡️ Số khoảng cách = Số bảng chỉ đường - 1 = 15 - 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 8 ghế đá được đặt cách đều, không có ghế đá ở hai đầu. Hỏi có bao nhiêu khoảng cách giữa các ghế đá đó?",
+      "options": [
+        "11",
+        "9",
+        "10"
+      ],
+      "answer": 1,
+      "guide": "👉 Hai đầu đoạn đường không có ghế đá.<br/>➡️ Số khoảng cách = Số ghế đá + 1 = 8 + 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 9 bảng chỉ đường được đặt cách đều, không có bảng chỉ đường ở hai đầu. Hỏi có bao nhiêu khoảng cách giữa các bảng chỉ đường đó?",
+      "options": [
+        "12",
+        "11",
+        "10"
+      ],
+      "answer": 2,
+      "guide": "👉 Hai đầu đoạn đường không có bảng chỉ đường.<br/>➡️ Số khoảng cách = Số bảng chỉ đường + 1 = 9 + 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 15 lồng đèn được đặt cách đều, không có lồng đèn ở hai đầu. Hỏi có bao nhiêu khoảng cách giữa các lồng đèn đó?",
+      "options": [
+        "14",
+        "17",
+        "16"
+      ],
+      "answer": 2,
+      "guide": "👉 Hai đầu đoạn đường không có lồng đèn.<br/>➡️ Số khoảng cách = Số lồng đèn + 1 = 15 + 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 3 lồng đèn được đặt cách đều, không có lồng đèn ở hai đầu. Hỏi có bao nhiêu khoảng cách giữa các lồng đèn đó?",
+      "options": [
+        "2",
+        "5",
+        "4"
+      ],
+      "answer": 2,
+      "guide": "👉 Hai đầu đoạn đường không có lồng đèn.<br/>➡️ Số khoảng cách = Số lồng đèn + 1 = 3 + 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 3 lồng đèn được đặt cách đều, hai đầu có lồng đèn. Hỏi có bao nhiêu khoảng cách giữa các lồng đèn đó?",
+      "options": [
+        "2",
+        "4",
+        "0"
+      ],
+      "answer": 0,
+      "guide": "👉 Hai đầu đoạn đường đều có lồng đèn.<br/>➡️ Số khoảng cách = Số lồng đèn - 1 = 3 - 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 5 đèn đường được đặt cách đều, hai đầu có đèn đường. Hỏi có bao nhiêu khoảng cách giữa các đèn đường đó?",
+      "options": [
+        "4",
+        "5",
+        "3"
+      ],
+      "answer": 0,
+      "guide": "👉 Hai đầu đoạn đường đều có đèn đường.<br/>➡️ Số khoảng cách = Số đèn đường - 1 = 5 - 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 10 trụ cờ được đặt cách đều, không có trụ cờ ở hai đầu. Hỏi có bao nhiêu khoảng cách giữa các trụ cờ đó?",
+      "options": [
+        "11",
+        "13",
+        "12"
+      ],
+      "answer": 0,
+      "guide": "👉 Hai đầu đoạn đường không có trụ cờ.<br/>➡️ Số khoảng cách = Số trụ cờ + 1 = 10 + 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 11 biển báo được đặt cách đều, hai đầu có biển báo. Hỏi có bao nhiêu khoảng cách giữa các biển báo đó?",
+      "options": [
+        "12",
+        "10",
+        "9"
+      ],
+      "answer": 1,
+      "guide": "👉 Hai đầu đoạn đường đều có biển báo.<br/>➡️ Số khoảng cách = Số biển báo - 1 = 11 - 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 3 đèn đường được đặt cách đều, không có đèn đường ở hai đầu. Hỏi có bao nhiêu khoảng cách giữa các đèn đường đó?",
+      "options": [
+        "5",
+        "6",
+        "4"
+      ],
+      "answer": 2,
+      "guide": "👉 Hai đầu đoạn đường không có đèn đường.<br/>➡️ Số khoảng cách = Số đèn đường + 1 = 3 + 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 13 cái cây được trồng cách đều, hai đầu có cái cây. Hỏi có bao nhiêu khoảng cách giữa các cái cây đó?",
+      "options": [
+        "12",
+        "10",
+        "14"
+      ],
+      "answer": 0,
+      "guide": "👉 Hai đầu đoạn đường đều có cái cây.<br/>➡️ Số khoảng cách = Số cái cây - 1 = 13 - 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 5 ghế đá được đặt cách đều, không có ghế đá ở hai đầu. Hỏi có bao nhiêu khoảng cách giữa các ghế đá đó?",
+      "options": [
+        "7",
+        "6",
+        "5"
+      ],
+      "answer": 1,
+      "guide": "👉 Hai đầu đoạn đường không có ghế đá.<br/>➡️ Số khoảng cách = Số ghế đá + 1 = 5 + 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 14 trụ cờ được đặt cách đều, chỉ có trụ cờ ở một đầu đoạn đường. Hỏi có bao nhiêu khoảng cách giữa các trụ cờ đó?",
+      "options": [
+        "12",
+        "14",
+        "13"
+      ],
+      "answer": 1,
+      "guide": "👉 Chỉ có trụ cờ ở một đầu đoạn đường.<br/>➡️ Số khoảng cách = Số trụ cờ"
+    },
+    {
+      "question": "Trên đoạn đường, có 11 bảng chỉ đường được đặt cách đều, hai đầu có bảng chỉ đường. Hỏi có bao nhiêu khoảng cách giữa các bảng chỉ đường đó?",
+      "options": [
+        "8",
+        "9",
+        "10"
+      ],
+      "answer": 2,
+      "guide": "👉 Hai đầu đoạn đường đều có bảng chỉ đường.<br/>➡️ Số khoảng cách = Số bảng chỉ đường - 1 = 11 - 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 4 cái cây được trồng cách đều, chỉ có cái cây ở một đầu đoạn đường. Hỏi có bao nhiêu khoảng cách giữa các cái cây đó?",
+      "options": [
+        "5",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "guide": "👉 Chỉ có cái cây ở một đầu đoạn đường.<br/>➡️ Số khoảng cách = Số cái cây"
+    },
+    {
+      "question": "Trên đoạn đường, có 15 ghế đá được đặt cách đều, hai đầu có ghế đá. Hỏi có bao nhiêu khoảng cách giữa các ghế đá đó?",
+      "options": [
+        "14",
+        "15",
+        "16"
+      ],
+      "answer": 0,
+      "guide": "👉 Hai đầu đoạn đường đều có ghế đá.<br/>➡️ Số khoảng cách = Số ghế đá - 1 = 15 - 1 = ..."
+    },
+    {
+      "question": "Trên đoạn đường, có 15 ghế đá được đặt cách đều, không có ghế đá ở hai đầu. Hỏi có bao nhiêu khoảng cách giữa các ghế đá đó?",
+      "options": [
+        "16",
+        "15",
+        "18"
+      ],
+      "answer": 0,
+      "guide": "👉 Hai đầu đoạn đường không có ghế đá.<br/>➡️ Số khoảng cách = Số ghế đá + 1 = 15 + 1 = ..."
+    }
+  ]
+}

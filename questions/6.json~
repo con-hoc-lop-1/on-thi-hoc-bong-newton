@@ -7,10 +7,10 @@
     "Hỏi số lượng mỗi phần"
   ],
   "signal": [
-    "Từ khóa thường gặp: “Tổng cộng là…” “nhiều hơn…”, “ít hơn…” “Hỏi mỗi phần là bao nhiêu?”",
-    "Đề bài có: Một tổng (cộng hai phần lại), Một hiệu (chênh lệch giữa hai phần)"
+    "Từ khóa thường gặp:\n“Tổng cộng là…”\n“nhiều hơn…”, “ít hơn…”\n“Hỏi mỗi phần là bao nhiêu?”",
+    "Đề bài có:\nMột tổng (cộng hai phần lại)\nMột hiệu (chênh lệch giữa hai phần)"
   ],
-  "guide": "Gợi ý viết lại đề bài bằng phép tính. Hướng dẫn giải theo cách chia đều, lấy tổng trừ đi hiệu rồi chia đều sẽ ra phần nhỏ, lấy phần nhỏ cộng với hiệu sẽ ra phần lớng. Sử dụng que tính, viên sỏi, hoặc hình ảnh kẹo chia thử vào các hộp",
+  "guide": "Gợi ý viết lại đề bài bằng phép tính. Hướng dẫn giải theo cách chia đều, lấy tổng trừ đi hiệu rồi chia đều sẽ ra phần nhỏ, lấy phần nhỏ cộng với hiệu sẽ ra phần lớng.\nSử dụng que tính, viên sỏi, hoặc hình ảnh kẹo chia thử vào các hộp",
   "data": [
     {
       "question": "Có tất cả 23 quyển vở được chia vào hai cặp. Trong đó, cặp xanh có nhiều hơn cặp đỏ 3 quyển vở. Hỏi số quyển vở trong mỗi cặp là bao nhiêu?",

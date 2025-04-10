@@ -7,10 +7,10 @@
     "Có phép cộng lặp lại"
   ],
   "signal": [
-    "Dạng “hình + hình = số”",
+    "Dạng “hình + hình = số”\n\n",
     "Có ít nhất hai dòng biểu thức có cùng biểu tượng",
     "Câu hỏi kết thúc bằng “= ?” cho từng biểu tượng",
-    "Không dùng chữ, chỉ dùng emoji / hình ảnh thay biến số"
+    "Không dùng chữ, chỉ dùng emoji / hình ảnh thay biến số\n\n"
   ],
   "guide": "Gợi ý viết lại biểu thức bằng lời. Vẽ hình/que tính hoặc dùng sticker các biểu tượng để thao tác. Gợi ý bé thay thử số vào biểu tượng",
   "data": [

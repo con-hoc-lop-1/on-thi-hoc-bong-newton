@@ -10,7 +10,7 @@
   "signal": [
     "Có cấu trúc: biểu tượng × số = biểu tượng × số",
     "Xuất hiện thêm phần mở rộng: vế trái giữ nguyên, vế phải bị thiếu",
-    "Dấu hiệu đặc trưng: “?” xuất hiện ở vị trí biểu tượng hoặc tổng. Gợi ý về cân bằng / công bằng / bằng nhau"
+    "Dấu hiệu đặc trưng:\n“?” xuất hiện ở vị trí biểu tượng hoặc tổng\nGợi ý về cân bằng / công bằng / bằng nhau"
   ],
   "guide": "Hiểu ý nghĩa biểu thức đầu tiên, xét biểu thức tiếp theo. Vẽ trên giấy cái cân, sử dụng que tính hoặc viên sỏi thêm bớt cho 2 bên cân bằng nhau",
   "data": [
