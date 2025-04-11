@@ -632,6 +632,7 @@
           "icon2": [
             "🐻",
             "🐻",
+            "🐻",
             "🐻"
           ]
         },
@@ -649,10 +650,10 @@
       "options": [
         "3 x 🐸 = 9 x 🐻",
         "3 x 🐸 = 11 x 🐻",
-        "3 x 🐸 = 13 x 🐻"
+        "3 x 🐸 = 18 x 🐻"
       ],
       "answer": 2,
-      "guide": "Trước tiên, con hãy xem 2 🐸 bằng 3 🥔. Sau đó xem 1 🥔 bằng 3 🐻. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 3 🐸 sẽ bằng bao nhiêu 🐻. Điền vào chỗ dấu hỏi nhé: ..."
+      "guide": "Trước tiên, con hãy xem 2 🐸 bằng 3 🥔. Sau đó xem 1 🥔 bằng 4 🐻. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 3 🐸 sẽ bằng bao nhiêu 🐻. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
       "question": "",
@@ -664,6 +665,7 @@
             "🥔"
           ],
           "icon2": [
+            "🦊",
             "🦊",
             "🦊",
             "🦊",
@@ -693,8 +695,8 @@
         "1 x 🥔 = 2 x 🍌",
         "1 x 🥔 = 1 x 🍌"
       ],
-      "answer": 2,
-      "guide": "Trước tiên, con hãy xem 3 🥔 bằng 5 🦊. Sau đó xem 1 🦊 bằng 1 🍌. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🥔 sẽ bằng bao nhiêu 🍌. Điền vào chỗ dấu hỏi nhé: ..."
+      "answer": 1,
+      "guide": "Trước tiên, con hãy xem 3 🥔 bằng 6 🦊. Sau đó xem 1 🦊 bằng 1 🍌. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🥔 sẽ bằng bao nhiêu 🍌. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
       "question": "",
@@ -706,6 +708,7 @@
             "🐼"
           ],
           "icon2": [
+            "🍇",
             "🍇",
             "🍇",
             "🍇",
@@ -735,8 +738,8 @@
         "1 x 🐼 = 2 x 🦁",
         "1 x 🐼 = 1 x 🦁"
       ],
-      "answer": 2,
-      "guide": "Trước tiên, con hãy xem 3 🐼 bằng 5 🍇. Sau đó xem 1 🍇 bằng 1 🦁. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🐼 sẽ bằng bao nhiêu 🦁. Điền vào chỗ dấu hỏi nhé: ..."
+      "answer": 1,
+      "guide": "Trước tiên, con hãy xem 3 🐼 bằng 6 🍇. Sau đó xem 1 🍇 bằng 1 🦁. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🐼 sẽ bằng bao nhiêu 🦁. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
       "question": "",
@@ -748,16 +751,15 @@
             "🐻"
           ],
           "icon2": [
-            "🦁",
             "🦁"
           ]
         },
         "balance2": {
           "icon1": [
+            "🦁",
             "🦁"
           ],
           "icon2": [
-            "🐹",
             "🐹",
             "🐹",
             "🐹"
@@ -778,8 +780,8 @@
         "2 x 🐻 = 1 x 🐹",
         "2 x 🐻 = 5 x 🐹"
       ],
-      "answer": 2,
-      "guide": "Trước tiên, con hãy xem 3 🐻 bằng 2 🦁. Sau đó xem 1 🦁 bằng 4 🐹. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 2 🐻 sẽ bằng bao nhiêu 🐹. Điền vào chỗ dấu hỏi nhé: ..."
+      "answer": 1,
+      "guide": "Trước tiên, con hãy xem 3 🐻 bằng 1 🦁. Sau đó xem 2 🦁 bằng 3 🐹. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 2 🐻 sẽ bằng bao nhiêu 🐹. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
       "question": "",
@@ -803,6 +805,7 @@
           ],
           "icon2": [
             "🐹",
+            "🐹",
             "🐹"
           ]
         },
@@ -816,12 +819,12 @@
         }
       },
       "options": [
-        "1 x 🍉 = 1 x 🐹",
-        "1 x 🍉 = 2 x 🐹",
+        "1 x 🍉 = 5 x 🐹",
+        "1 x 🍉 = 4 x 🐹",
         "1 x 🍉 = 3 x 🐹"
       ],
       "answer": 1,
-      "guide": "Trước tiên, con hãy xem 3 🍉 bằng 4 🥕. Sau đó xem 1 🥕 bằng 2 🐹. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🍉 sẽ bằng bao nhiêu 🐹. Điền vào chỗ dấu hỏi nhé: ..."
+      "guide": "Trước tiên, con hãy xem 3 🍉 bằng 4 🥕. Sau đó xem 1 🥕 bằng 3 🐹. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🍉 sẽ bằng bao nhiêu 🐹. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
       "question": "",
@@ -887,6 +890,7 @@
             "🍌",
             "🍌",
             "🍌",
+            "🍌",
             "🍌"
           ]
         },
@@ -906,7 +910,7 @@
         "2 x 🐶 = 1 x 🍌"
       ],
       "answer": 0,
-      "guide": "Trước tiên, con hãy xem 3 🐶 bằng 1 🍍. Sau đó xem 1 🍍 bằng 5 🍌. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 2 🐶 sẽ bằng bao nhiêu 🍌. Điền vào chỗ dấu hỏi nhé: ..."
+      "guide": "Trước tiên, con hãy xem 3 🐶 bằng 1 🍍. Sau đó xem 1 🍍 bằng 6 🍌. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 2 🐶 sẽ bằng bao nhiêu 🍌. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
       "question": "",
@@ -998,7 +1002,6 @@
         "balance1": {
           "icon1": [
             "🐮",
-            "🐮",
             "🐮"
           ],
           "icon2": [
@@ -1011,6 +1014,7 @@
             "🥕"
           ],
           "icon2": [
+            "🐷",
             "🐷",
             "🐷",
             "🐷",
@@ -1028,12 +1032,12 @@
         }
       },
       "options": [
-        "1 x 🐮 = 0 x 🐷",
+        "1 x 🐮 = 6 x 🐷",
         "1 x 🐮 = 3 x 🐷",
         "1 x 🐮 = 1 x 🐷"
       ],
-      "answer": 1,
-      "guide": "Trước tiên, con hãy xem 3 🐮 bằng 2 🥕. Sau đó xem 1 🥕 bằng 5 🐷. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🐮 sẽ bằng bao nhiêu 🐷. Điền vào chỗ dấu hỏi nhé: ..."
+      "answer": 0,
+      "guide": "Trước tiên, con hãy xem 2 🐮 bằng 2 🥕. Sau đó xem 1 🥕 bằng 6 🐷. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🐮 sẽ bằng bao nhiêu 🐷. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
       "question": "",
@@ -1081,7 +1085,6 @@
         "balance1": {
           "icon1": [
             "🐸",
-            "🐸",
             "🐸"
           ],
           "icon2": [
@@ -1113,11 +1116,11 @@
       },
       "options": [
         "1 x 🐸 = 5 x 🐷",
-        "1 x 🐸 = 4 x 🐷",
+        "1 x 🐸 = 8 x 🐷",
         "1 x 🐸 = 6 x 🐷"
       ],
-      "answer": 0,
-      "guide": "Trước tiên, con hãy xem 3 🐸 bằng 4 🍉. Sau đó xem 1 🍉 bằng 4 🐷. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🐸 sẽ bằng bao nhiêu 🐷. Điền vào chỗ dấu hỏi nhé: ..."
+      "answer": 1,
+      "guide": "Trước tiên, con hãy xem 2 🐸 bằng 4 🍉. Sau đó xem 1 🍉 bằng 4 🐷. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🐸 sẽ bằng bao nhiêu 🐷. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
       "question": "",
@@ -1142,6 +1145,7 @@
           ],
           "icon2": [
             "🍋",
+            "🍋",
             "🍋"
           ]
         },
@@ -1155,12 +1159,12 @@
         }
       },
       "options": [
-        "1 x 🐹 = 3 x 🍋",
-        "1 x 🐹 = 2 x 🍋",
+        "1 x 🐹 = 5 x 🍋",
+        "1 x 🐹 = 6 x 🍋",
         "1 x 🐹 = 4 x 🍋"
       ],
       "answer": 0,
-      "guide": "Trước tiên, con hãy xem 3 🐹 bằng 5 🥕. Sau đó xem 1 🥕 bằng 2 🍋. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🐹 sẽ bằng bao nhiêu 🍋. Điền vào chỗ dấu hỏi nhé: ..."
+      "guide": "Trước tiên, con hãy xem 3 🐹 bằng 5 🥕. Sau đó xem 1 🥕 bằng 3 🍋. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🐹 sẽ bằng bao nhiêu 🍋. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
       "question": "",
@@ -1219,11 +1223,11 @@
         },
         "balance2": {
           "icon1": [
+            "🥕",
+            "🥕",
             "🥕"
           ],
           "icon2": [
-            "🍍",
-            "🍍",
             "🍍",
             "🍍",
             "🍍"
@@ -1241,12 +1245,12 @@
         }
       },
       "options": [
-        "3 x 🐹 = 75 x 🍍",
-        "3 x 🐹 = 76 x 🍍",
-        "3 x 🐹 = 74 x 🍍"
+        "3 x 🐹 = 15 x 🍍",
+        "3 x 🐹 = 25 x 🍍",
+        "3 x 🐹 = 35 x 🍍"
       ],
       "answer": 0,
-      "guide": "Trước tiên, con hãy xem 1 🐹 bằng 5 🥕. Sau đó xem 1 🥕 bằng 5 🍍. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 3 🐹 sẽ bằng bao nhiêu 🍍. Điền vào chỗ dấu hỏi nhé: ..."
+      "guide": "Trước tiên, con hãy xem 1 🐹 bằng 5 🥕. Sau đó xem 3 🥕 bằng 3 🍍. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 3 🐹 sẽ bằng bao nhiêu 🍍. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
       "question": "",
@@ -1257,15 +1261,17 @@
           ],
           "icon2": [
             "🦁",
-            "🦁",
             "🦁"
           ]
         },
         "balance2": {
           "icon1": [
+            "🦁",
+            "🦁",
             "🦁"
           ],
           "icon2": [
+            "🐮",
             "🐮",
             "🐮",
             "🐮",
@@ -1285,12 +1291,12 @@
         }
       },
       "options": [
-        "3 x 🍍 = 44 x 🐮",
-        "3 x 🍍 = 45 x 🐮",
-        "3 x 🍍 = 43 x 🐮"
+        "3 x 🍍 = 24 x 🐮",
+        "3 x 🍍 = 8 x 🐮",
+        "3 x 🍍 = 12 x 🐮"
       ],
-      "answer": 1,
-      "guide": "Trước tiên, con hãy xem 1 🍍 bằng 3 🦁. Sau đó xem 1 🦁 bằng 5 🐮. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 3 🍍 sẽ bằng bao nhiêu 🐮. Điền vào chỗ dấu hỏi nhé: ..."
+      "answer": 2,
+      "guide": "Trước tiên, con hãy xem 1 🍍 bằng 2 🦁. Sau đó xem 3 🦁 bằng 6 🐮. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 3 🍍 sẽ bằng bao nhiêu 🐮. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
       "question": "",
@@ -1392,6 +1398,8 @@
             "🦁"
           ],
           "icon2": [
+            "🐸",
+            "🐸",
             "🐸"
           ]
         },
@@ -1409,8 +1417,8 @@
         "1 x 🍍 = 1 x 🐸",
         "1 x 🍍 = 2 x 🐸"
       ],
-      "answer": 0,
-      "guide": "Trước tiên, con hãy xem 3 🍍 bằng 2 🦁. Sau đó xem 1 🦁 bằng 1 🐸. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🍍 sẽ bằng bao nhiêu 🐸. Điền vào chỗ dấu hỏi nhé: ..."
+      "answer": 2,
+      "guide": "Trước tiên, con hãy xem 3 🍍 bằng 2 🦁. Sau đó xem 1 🦁 bằng 3 🐸. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🍍 sẽ bằng bao nhiêu 🐸. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
       "question": "",
@@ -1554,6 +1562,7 @@
             "🍌",
             "🍌",
             "🍌",
+            "🍌",
             "🍌"
           ]
         },
@@ -1562,7 +1571,6 @@
             "🍌"
           ],
           "icon2": [
-            "🍋",
             "🍋",
             "🍋",
             "🍋"
@@ -1583,7 +1591,7 @@
         "1 x 🍓 = 4 x 🍋"
       ],
       "answer": 1,
-      "guide": "Trước tiên, con hãy xem 3 🍓 bằng 4 🍌. Sau đó xem 1 🍌 bằng 4 🍋. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🍓 sẽ bằng bao nhiêu 🍋. Điền vào chỗ dấu hỏi nhé: ..."
+      "guide": "Trước tiên, con hãy xem 3 🍓 bằng 5 🍌. Sau đó xem 1 🍌 bằng 3 🍋. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🍓 sẽ bằng bao nhiêu 🍋. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
       "question": "",
@@ -1933,7 +1941,6 @@
             "🍍",
             "🍍",
             "🍍",
-            "🍍",
             "🍍"
           ]
         },
@@ -1942,7 +1949,6 @@
             "🍍"
           ],
           "icon2": [
-            "🦁",
             "🦁",
             "🦁",
             "🦁"
@@ -1963,8 +1969,8 @@
         "2 x 🥕 = 6 x 🦁",
         "2 x 🥕 = 8 x 🦁"
       ],
-      "answer": 0,
-      "guide": "Trước tiên, con hãy xem 3 🥕 bằng 5 🍍. Sau đó xem 1 🍍 bằng 4 🦁. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 2 🥕 sẽ bằng bao nhiêu 🦁. Điền vào chỗ dấu hỏi nhé: ..."
+      "answer": 2,
+      "guide": "Trước tiên, con hãy xem 3 🥕 bằng 4 🍍. Sau đó xem 1 🍍 bằng 3 🦁. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 2 🥕 sẽ bằng bao nhiêu 🦁. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
       "question": "",
