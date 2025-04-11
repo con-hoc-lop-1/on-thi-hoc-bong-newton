@@ -11,7 +11,7 @@
     "Cho trước số lượng vật",
     "Không yêu cầu tổng, không có cộng/trừ trong tình huống – chỉ cần suy luận logic theo thứ tự"
   ],
-  "guide": "Giải thích bằng hình ảnh hoặc ví dụ. Dùng hoặc vẽ nút tròn làm vật thể, que tính làm khoảng cách. Đếm số khoảng trống",
+  "suggest": "Giải thích bằng hình ảnh hoặc ví dụ. Dùng hoặc vẽ nút tròn làm vật thể, que tính làm khoảng cách. Đếm số khoảng trống",
   "data": [
     {
       "question": "Có 11 đèn giao thông được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa các đèn giao thông đó?",

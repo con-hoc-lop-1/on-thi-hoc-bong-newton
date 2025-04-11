@@ -1,468 +1,2141 @@
 {
-  "name": "Dạng toán cân bằng – suy luận từ biểu tượng đối xứng",
-  "type": "Tìm số lượng biểu tượng cần thiết để giữ cân bằng",
+  "version": 1,
+  "name": "So sánh thay thế 3 cấp",
+  "type": "Cân bằng thay thế biểu tượng",
   "special": [
-    "Dùng biểu tượng trực quan",
-    "Có biểu thức cân bằng 2 vế",
-    "Một biểu thức mở rộng thêm",
-    "Tìm số lượng cần thêm cho cân bằng"
+    "Dùng 3 loại biểu tượng để chuyển đổi lần lượt",
+    "Mỗi biểu tượng có thể thay bằng nhiều biểu tượng khác",
+    "Phải thực hiện thay thế 2 bước để tìm được đáp án"
   ],
   "signal": [
-    "Có cấu trúc: biểu tượng × số = biểu tượng × số",
-    "Xuất hiện thêm phần mở rộng: vế trái giữ nguyên, vế phải bị thiếu",
-    "Dấu hiệu đặc trưng: “?” xuất hiện ở vị trí biểu tượng hoặc tổng. Gợi ý về cân bằng / công bằng / bằng nhau"
+    "Câu hỏi có 3 dòng, dạng '1 x A = n x B'",
+    "Câu cuối hỏi '1 x A = ? x C'",
+    "Xuất hiện nhiều biểu tượng cần thay thế"
   ],
-  "guide": "Hiểu ý nghĩa biểu thức đầu tiên, xét biểu thức tiếp theo. Vẽ trên giấy cái cân, sử dụng que tính hoặc viên sỏi thêm bớt cho 2 bên cân bằng nhau",
+  "suggest": "Dạy trẻ làm từng bước: thay A bằng bao nhiêu B, rồi B bằng bao nhiêu C. Đếm số lượng, sau đó tính tổng cuối cùng.",
   "data": [
     {
-      "question": "🟥 x 2 = 🟩 x 2  🟰  🟥 x 2 + 🟩 x ? = ?",
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🍓",
+            "🍓",
+            "🍓"
+          ],
+          "icon2": [
+            "🍎",
+            "🍎",
+            "🍎"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🍎"
+          ],
+          "icon2": [
+            "🦁",
+            "🦁",
+            "🦁",
+            "🦁",
+            "🦁"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🍓"
+          ],
+          "icon2": [
+            "🦁"
+          ]
+        }
+      },
       "options": [
-        "🟩 = 1",
-        "🟩 = 4",
-        "🟩 = 2"
-      ],
-      "answer": 2,
-      "guide": "👉 2 hình vuông đỏ cân bằng với 2 hình tam giác xanh.<br/>➡️ Trọng lượng của hình vuông đỏ là 5 → tổng: 2 × 5 = ...<br/>➡️ Từ đó suy ra mỗi hình tam giác xanh = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
-    },
-    {
-      "question": "⚽ x 1 = 🟥 x 5  🟰  ⚽ x 2 + 🟥 x ? = ?",
-      "options": [
-        "🟥 = 5",
-        "🟥 = 6",
-        "🟥 = 8"
+        "1 x 🍓 = 6 x 🦁",
+        "1 x 🍓 = 5 x 🦁",
+        "1 x 🍓 = 7 x 🦁"
       ],
       "answer": 1,
-      "guide": "👉 1 quả bóng cân bằng với 5 hình vuông đỏ.<br/>➡️ Trọng lượng của quả bóng là 5 → tổng: 1 × 5 = ...<br/>➡️ Từ đó suy ra mỗi hình vuông đỏ = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+      "guide": "Trước tiên, con hãy xem 3 🍓 bằng 3 🍎. Sau đó xem 1 🍎 bằng 5 🦁. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🍓 sẽ bằng bao nhiêu 🦁. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
-      "question": "🟩 x 5 = 🐱 x 1  🟰  🟩 x 2 + 🐱 x ? = ?",
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🐹",
+            "🐹"
+          ],
+          "icon2": [
+            "🐱",
+            "🐱",
+            "🐱",
+            "🐱"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🐱"
+          ],
+          "icon2": [
+            "🥕",
+            "🥕",
+            "🥕",
+            "🥕",
+            "🥕"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🐹",
+            "🐹"
+          ],
+          "icon2": [
+            "🥕"
+          ]
+        }
+      },
       "options": [
-        "🐱 = 4",
-        "🐱 = 1",
-        "🐱 = 2"
-      ],
-      "answer": 2,
-      "guide": "👉 5 hình tam giác xanh cân bằng với 1 con mèo.<br/>➡️ Trọng lượng của hình tam giác xanh là 1 → tổng: 5 × 1 = ...<br/>➡️ Từ đó suy ra mỗi con mèo = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
-    },
-    {
-      "question": "🟥 x 1 = 🍎 x 2  🟰  🟥 x 2 + 🍎 x ? = ?",
-      "options": [
-        "🍎 = 3",
-        "🍎 = 5",
-        "🍎 = 2"
+        "2 x 🐹 = 20 x 🥕",
+        "2 x 🐹 = 22 x 🥕",
+        "2 x 🐹 = 18 x 🥕"
       ],
       "answer": 0,
-      "guide": "👉 1 hình vuông đỏ cân bằng với 2 quả táo.<br/>➡️ Trọng lượng của hình vuông đỏ là 4 → tổng: 1 × 4 = ...<br/>➡️ Từ đó suy ra mỗi quả táo = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+      "guide": "Trước tiên, con hãy xem 2 🐹 bằng 4 🐱. Sau đó xem 1 🐱 bằng 5 🥕. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 2 🐹 sẽ bằng bao nhiêu 🥕. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
-      "question": "🟥 x 4 = 🔵 x 8  🟰  🟥 x 2 + 🔵 x ? = ?",
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🐼",
+            "🐼",
+            "🐼",
+            "🐼"
+          ],
+          "icon2": [
+            "🐻",
+            "🐻"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🐻"
+          ],
+          "icon2": [
+            "🐶",
+            "🐶"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🐼"
+          ],
+          "icon2": [
+            "🐶"
+          ]
+        }
+      },
       "options": [
-        "🔵 = 14",
-        "🔵 = 15",
-        "🔵 = 17"
-      ],
-      "answer": 1,
-      "guide": "👉 4 hình vuông đỏ cân bằng với 8 hình tròn xanh dương.<br/>➡️ Trọng lượng của hình vuông đỏ là 2 → tổng: 4 × 2 = ...<br/>➡️ Từ đó suy ra mỗi hình tròn xanh dương = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
-    },
-    {
-      "question": "🐱 x 7 = 🧱 x 3  🟰  🐱 x 2 + 🧱 x ? = ?",
-      "options": [
-        "🧱 = 7",
-        "🧱 = 8",
-        "🧱 = 6"
-      ],
-      "answer": 0,
-      "guide": "👉 7 con mèo cân bằng với 3 viên gạch.<br/>➡️ Trọng lượng của con mèo là 1 → tổng: 7 × 1 = ...<br/>➡️ Từ đó suy ra mỗi viên gạch = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
-    },
-    {
-      "question": "🍎 x 1 = 🔵 x 2  🟰  🍎 x 2 + 🔵 x ? = ?",
-      "options": [
-        "🔵 = 5",
-        "🔵 = 6",
-        "🔵 = 4"
-      ],
-      "answer": 0,
-      "guide": "👉 1 quả táo cân bằng với 2 hình tròn xanh dương.<br/>➡️ Trọng lượng của quả táo là 5 → tổng: 1 × 5 = ...<br/>➡️ Từ đó suy ra mỗi hình tròn xanh dương = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
-    },
-    {
-      "question": "🟥 x 3 = ⚽ x 15  🟰  🟥 x 2 + ⚽ x ? = ?",
-      "options": [
-        "⚽ = 17",
-        "⚽ = 15",
-        "⚽ = 14"
-      ],
-      "answer": 1,
-      "guide": "👉 3 hình vuông đỏ cân bằng với 15 quả bóng.<br/>➡️ Trọng lượng của hình vuông đỏ là 5 → tổng: 3 × 5 = ...<br/>➡️ Từ đó suy ra mỗi quả bóng = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
-    },
-    {
-      "question": "🟥 x 4 = 🐱 x 3  🟰  🟥 x 2 + 🐱 x ? = ?",
-      "options": [
-        "🐱 = 5",
-        "🐱 = 3",
-        "🐱 = 4"
-      ],
-      "answer": 1,
-      "guide": "👉 4 hình vuông đỏ cân bằng với 3 con mèo.<br/>➡️ Trọng lượng của hình vuông đỏ là 3 → tổng: 4 × 3 = ...<br/>➡️ Từ đó suy ra mỗi con mèo = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
-    },
-    {
-      "question": "🐱 x 2 = 🟥 x 3  🟰  🐱 x 2 + 🟥 x ? = ?",
-      "options": [
-        "🟥 = 1",
-        "🟥 = 3",
-        "🟥 = 2"
-      ],
-      "answer": 1,
-      "guide": "👉 2 con mèo cân bằng với 3 hình vuông đỏ.<br/>➡️ Trọng lượng của con mèo là 5 → tổng: 2 × 5 = ...<br/>➡️ Từ đó suy ra mỗi hình vuông đỏ = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
-    },
-    {
-      "question": "🟩 x 6 = 🐱 x 1  🟰  🟩 x 2 + 🐱 x ? = ?",
-      "options": [
-        "🐱 = 3",
-        "🐱 = 5",
-        "🐱 = 2"
-      ],
-      "answer": 0,
-      "guide": "👉 6 hình tam giác xanh cân bằng với 1 con mèo.<br/>➡️ Trọng lượng của hình tam giác xanh là 1 → tổng: 6 × 1 = ...<br/>➡️ Từ đó suy ra mỗi con mèo = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
-    },
-    {
-      "question": "⚽ x 1 = 🍎 x 2  🟰  ⚽ x 2 + 🍎 x ? = ?",
-      "options": [
-        "🍎 = 6",
-        "🍎 = 7",
-        "🍎 = 4"
-      ],
-      "answer": 0,
-      "guide": "👉 1 quả bóng cân bằng với 2 quả táo.<br/>➡️ Trọng lượng của quả bóng là 2 → tổng: 1 × 2 = ...<br/>➡️ Từ đó suy ra mỗi quả táo = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
-    },
-    {
-      "question": "🟩 x 5 = 🍎 x 2  🟰  🟩 x 2 + 🍎 x ? = ?",
-      "options": [
-        "🍎 = 3",
-        "🍎 = 2",
-        "🍎 = 1"
-      ],
-      "answer": 0,
-      "guide": "👉 5 hình tam giác xanh cân bằng với 2 quả táo.<br/>➡️ Trọng lượng của hình tam giác xanh là 2 → tổng: 5 × 2 = ...<br/>➡️ Từ đó suy ra mỗi quả táo = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
-    },
-    {
-      "question": "🟩 x 2 = 🟥 x 2  🟰  🟩 x 2 + 🟥 x ? = ?",
-      "options": [
-        "🟥 = 5",
-        "🟥 = 3",
-        "🟥 = 4"
-      ],
-      "answer": 1,
-      "guide": "👉 2 hình tam giác xanh cân bằng với 2 hình vuông đỏ.<br/>➡️ Trọng lượng của hình tam giác xanh là 2 → tổng: 2 × 2 = ...<br/>➡️ Từ đó suy ra mỗi hình vuông đỏ = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
-    },
-    {
-      "question": "🧱 x 3 = 🔵 x 1  🟰  🧱 x 2 + 🔵 x ? = ?",
-      "options": [
-        "🔵 = 1",
-        "🔵 = 5",
-        "🔵 = 3"
+        "1 x 🐼 = 0 x 🐶",
+        "1 x 🐼 = 2 x 🐶",
+        "1 x 🐼 = 1 x 🐶"
       ],
       "answer": 2,
-      "guide": "👉 3 viên gạch cân bằng với 1 hình tròn xanh dương.<br/>➡️ Trọng lượng của viên gạch là 2 → tổng: 3 × 2 = ...<br/>➡️ Từ đó suy ra mỗi hình tròn xanh dương = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+      "guide": "Trước tiên, con hãy xem 4 🐼 bằng 2 🐻. Sau đó xem 1 🐻 bằng 2 🐶. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🐼 sẽ bằng bao nhiêu 🐶. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
-      "question": "🟥 x 6 = 🍎 x 6  🟰  🟥 x 2 + 🍎 x ? = ?",
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🍉",
+            "🍉"
+          ],
+          "icon2": [
+            "🐮",
+            "🐮",
+            "🐮"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🐮"
+          ],
+          "icon2": [
+            "🦊",
+            "🦊"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🍉",
+            "🍉"
+          ],
+          "icon2": [
+            "🦊"
+          ]
+        }
+      },
       "options": [
-        "🍎 = 7",
-        "🍎 = 9",
-        "🍎 = 8"
+        "2 x 🍉 = 6 x 🦊",
+        "2 x 🍉 = 4 x 🦊",
+        "2 x 🍉 = 3 x 🦊"
       ],
       "answer": 0,
-      "guide": "👉 6 hình vuông đỏ cân bằng với 6 quả táo.<br/>➡️ Trọng lượng của hình vuông đỏ là 2 → tổng: 6 × 2 = ...<br/>➡️ Từ đó suy ra mỗi quả táo = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+      "guide": "Trước tiên, con hãy xem 2 🍉 bằng 3 🐮. Sau đó xem 1 🐮 bằng 2 🦊. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 2 🍉 sẽ bằng bao nhiêu 🦊. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
-      "question": "🧱 x 1 = 🟥 x 4  🟰  🧱 x 2 + 🟥 x ? = ?",
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🐮"
+          ],
+          "icon2": [
+            "🥔",
+            "🥔",
+            "🥔",
+            "🥔"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🥔"
+          ],
+          "icon2": [
+            "🐼",
+            "🐼",
+            "🐼",
+            "🐼",
+            "🐼"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🐮"
+          ],
+          "icon2": [
+            "🐼"
+          ]
+        }
+      },
       "options": [
-        "🟥 = 6",
-        "🟥 = 5",
-        "🟥 = 7"
+        "1 x 🐮 = 19 x 🐼",
+        "1 x 🐮 = 21 x 🐼",
+        "1 x 🐮 = 20 x 🐼"
       ],
       "answer": 2,
-      "guide": "👉 1 viên gạch cân bằng với 4 hình vuông đỏ.<br/>➡️ Trọng lượng của viên gạch là 4 → tổng: 1 × 4 = ...<br/>➡️ Từ đó suy ra mỗi hình vuông đỏ = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+      "guide": "Trước tiên, con hãy xem 1 🐮 bằng 4 🥔. Sau đó xem 1 🥔 bằng 5 🐼. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🐮 sẽ bằng bao nhiêu 🐼. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
-      "question": "🟩 x 1 = ⚽ x 1  🟰  🟩 x 2 + ⚽ x ? = ?",
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🐮",
+            "🐮",
+            "🐮"
+          ],
+          "icon2": [
+            "🍋"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🍋"
+          ],
+          "icon2": [
+            "🥕"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🐮",
+            "🐮",
+            "🐮"
+          ],
+          "icon2": [
+            "🥕"
+          ]
+        }
+      },
       "options": [
-        "⚽ = 1",
-        "⚽ = 2",
-        "⚽ = 4"
+        "3 x 🐮 = 2 x 🥕",
+        "3 x 🐮 = 1 x 🥕",
+        "3 x 🐮 = 0 x 🥕"
       ],
       "answer": 1,
-      "guide": "👉 1 hình tam giác xanh cân bằng với 1 quả bóng.<br/>➡️ Trọng lượng của hình tam giác xanh là 5 → tổng: 1 × 5 = ...<br/>➡️ Từ đó suy ra mỗi quả bóng = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+      "guide": "Trước tiên, con hãy xem 3 🐮 bằng 1 🍋. Sau đó xem 1 🍋 bằng 1 🥕. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 3 🐮 sẽ bằng bao nhiêu 🥕. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
-      "question": "🟥 x 4 = 🔵 x 3  🟰  🟥 x 2 + 🔵 x ? = ?",
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🦊",
+            "🦊"
+          ],
+          "icon2": [
+            "🍇",
+            "🍇",
+            "🍇",
+            "🍇",
+            "🍇"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🍇"
+          ],
+          "icon2": [
+            "🍎",
+            "🍎",
+            "🍎",
+            "🍎",
+            "🍎"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🦊",
+            "🦊"
+          ],
+          "icon2": [
+            "🍎"
+          ]
+        }
+      },
       "options": [
-        "🔵 = 2",
-        "🔵 = 3",
-        "🔵 = 4"
-      ],
-      "answer": 1,
-      "guide": "👉 4 hình vuông đỏ cân bằng với 3 hình tròn xanh dương.<br/>➡️ Trọng lượng của hình vuông đỏ là 3 → tổng: 4 × 3 = ...<br/>➡️ Từ đó suy ra mỗi hình tròn xanh dương = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
-    },
-    {
-      "question": "🟩 x 2 = 🟥 x 6  🟰  🟩 x 2 + 🟥 x ? = ?",
-      "options": [
-        "🟥 = 11",
-        "🟥 = 10",
-        "🟥 = 12"
-      ],
-      "answer": 1,
-      "guide": "👉 2 hình tam giác xanh cân bằng với 6 hình vuông đỏ.<br/>➡️ Trọng lượng của hình tam giác xanh là 3 → tổng: 2 × 3 = ...<br/>➡️ Từ đó suy ra mỗi hình vuông đỏ = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
-    },
-    {
-      "question": "🟥 x 3 = 🔵 x 2  🟰  🟥 x 2 + 🔵 x ? = ?",
-      "options": [
-        "🔵 = 4",
-        "🔵 = 3",
-        "🔵 = 2"
-      ],
-      "answer": 2,
-      "guide": "👉 3 hình vuông đỏ cân bằng với 2 hình tròn xanh dương.<br/>➡️ Trọng lượng của hình vuông đỏ là 4 → tổng: 3 × 4 = ...<br/>➡️ Từ đó suy ra mỗi hình tròn xanh dương = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
-    },
-    {
-      "question": "⚽ x 3 = 🧱 x 1  🟰  ⚽ x 2 + 🧱 x ? = ?",
-      "options": [
-        "🧱 = 1",
-        "🧱 = 2",
-        "🧱 = 4"
-      ],
-      "answer": 1,
-      "guide": "👉 3 quả bóng cân bằng với 1 viên gạch.<br/>➡️ Trọng lượng của quả bóng là 1 → tổng: 3 × 1 = ...<br/>➡️ Từ đó suy ra mỗi viên gạch = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
-    },
-    {
-      "question": "🟩 x 1 = 🧱 x 2  🟰  🟩 x 2 + 🧱 x ? = ?",
-      "options": [
-        "🧱 = 11",
-        "🧱 = 12",
-        "🧱 = 13"
-      ],
-      "answer": 2,
-      "guide": "👉 1 hình tam giác xanh cân bằng với 2 viên gạch.<br/>➡️ Trọng lượng của hình tam giác xanh là 2 → tổng: 1 × 2 = ...<br/>➡️ Từ đó suy ra mỗi viên gạch = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
-    },
-    {
-      "question": "🍎 x 3 = 🟩 x 1  🟰  🍎 x 2 + 🟩 x ? = ?",
-      "options": [
-        "🟩 = 3",
-        "🟩 = 4",
-        "🟩 = 1"
+        "2 x 🦊 = 25 x 🍎",
+        "2 x 🦊 = 19 x 🍎",
+        "2 x 🦊 = 21 x 🍎"
       ],
       "answer": 0,
-      "guide": "👉 3 quả táo cân bằng với 1 hình tam giác xanh.<br/>➡️ Trọng lượng của quả táo là 1 → tổng: 3 × 1 = ...<br/>➡️ Từ đó suy ra mỗi hình tam giác xanh = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+      "guide": "Trước tiên, con hãy xem 2 🦊 bằng 5 🍇. Sau đó xem 1 🍇 bằng 5 🍎. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 2 🦊 sẽ bằng bao nhiêu 🍎. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
-      "question": "🐱 x 1 = ⚽ x 5  🟰  🐱 x 2 + ⚽ x ? = ?",
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🥔",
+            "🥔",
+            "🥔"
+          ],
+          "icon2": [
+            "🐹",
+            "🐹",
+            "🐹"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🐹"
+          ],
+          "icon2": [
+            "🐷",
+            "🐷"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🥔",
+            "🥔"
+          ],
+          "icon2": [
+            "🐷"
+          ]
+        }
+      },
       "options": [
-        "⚽ = 10",
-        "⚽ = 8",
-        "⚽ = 9"
+        "2 x 🥔 = 5 x 🐷",
+        "2 x 🥔 = 2 x 🐷",
+        "2 x 🥔 = 4 x 🐷"
       ],
       "answer": 2,
-      "guide": "👉 1 con mèo cân bằng với 5 quả bóng.<br/>➡️ Trọng lượng của con mèo là 5 → tổng: 1 × 5 = ...<br/>➡️ Từ đó suy ra mỗi quả bóng = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+      "guide": "Trước tiên, con hãy xem 3 🥔 bằng 3 🐹. Sau đó xem 1 🐹 bằng 2 🐷. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 2 🥔 sẽ bằng bao nhiêu 🐷. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
-      "question": "⚽ x 1 = 🔵 x 3  🟰  ⚽ x 2 + 🔵 x ? = ?",
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🍇",
+            "🍇",
+            "🍇"
+          ],
+          "icon2": [
+            "🍎",
+            "🍎",
+            "🍎"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🍎"
+          ],
+          "icon2": [
+            "🐮"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🍇"
+          ],
+          "icon2": [
+            "🐮"
+          ]
+        }
+      },
       "options": [
-        "🔵 = 7",
-        "🔵 = 5",
-        "🔵 = 6"
+        "1 x 🍇 = 1 x 🐮",
+        "1 x 🍇 = 2 x 🐮",
+        "1 x 🍇 = 3 x 🐮"
       ],
       "answer": 0,
-      "guide": "👉 1 quả bóng cân bằng với 3 hình tròn xanh dương.<br/>➡️ Trọng lượng của quả bóng là 3 → tổng: 1 × 3 = ...<br/>➡️ Từ đó suy ra mỗi hình tròn xanh dương = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+      "guide": "Trước tiên, con hãy xem 3 🍇 bằng 3 🍎. Sau đó xem 1 🍎 bằng 1 🐮. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🍇 sẽ bằng bao nhiêu 🐮. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
-      "question": "🍎 x 2 = 🟩 x 3  🟰  🍎 x 2 + 🟩 x ? = ?",
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🦊",
+            "🦊"
+          ],
+          "icon2": [
+            "🐻",
+            "🐻",
+            "🐻",
+            "🐻"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🐻"
+          ],
+          "icon2": [
+            "🐱",
+            "🐱",
+            "🐱",
+            "🐱"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🦊",
+            "🦊"
+          ],
+          "icon2": [
+            "🐱"
+          ]
+        }
+      },
       "options": [
-        "🟩 = 1",
-        "🟩 = 3",
-        "🟩 = 5"
-      ],
-      "answer": 1,
-      "guide": "👉 2 quả táo cân bằng với 3 hình tam giác xanh.<br/>➡️ Trọng lượng của quả táo là 3 → tổng: 2 × 3 = ...<br/>➡️ Từ đó suy ra mỗi hình tam giác xanh = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
-    },
-    {
-      "question": "🟥 x 2 = 🧱 x 1  🟰  🟥 x 2 + 🧱 x ? = ?",
-      "options": [
-        "🧱 = 2",
-        "🧱 = 3",
-        "🧱 = 1"
+        "2 x 🦊 = 15 x 🐱",
+        "2 x 🦊 = 18 x 🐱",
+        "2 x 🦊 = 16 x 🐱"
       ],
       "answer": 2,
-      "guide": "👉 2 hình vuông đỏ cân bằng với 1 viên gạch.<br/>➡️ Trọng lượng của hình vuông đỏ là 3 → tổng: 2 × 3 = ...<br/>➡️ Từ đó suy ra mỗi viên gạch = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+      "guide": "Trước tiên, con hãy xem 2 🦊 bằng 4 🐻. Sau đó xem 1 🐻 bằng 4 🐱. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 2 🦊 sẽ bằng bao nhiêu 🐱. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
-      "question": "🍎 x 2 = 🟩 x 6  🟰  🍎 x 2 + 🟩 x ? = ?",
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🥕",
+            "🥕",
+            "🥕"
+          ],
+          "icon2": [
+            "🍓",
+            "🍓",
+            "🍓"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🍓"
+          ],
+          "icon2": [
+            "🐼",
+            "🐼"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🥕",
+            "🥕",
+            "🥕"
+          ],
+          "icon2": [
+            "🐼"
+          ]
+        }
+      },
       "options": [
-        "🟩 = 15",
-        "🟩 = 16",
-        "🟩 = 13"
+        "3 x 🥕 = 8 x 🐼",
+        "3 x 🥕 = 4 x 🐼",
+        "3 x 🥕 = 6 x 🐼"
+      ],
+      "answer": 2,
+      "guide": "Trước tiên, con hãy xem 3 🥕 bằng 3 🍓. Sau đó xem 1 🍓 bằng 2 🐼. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 3 🥕 sẽ bằng bao nhiêu 🐼. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🍎",
+            "🍎"
+          ],
+          "icon2": [
+            "🥕",
+            "🥕"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🥕"
+          ],
+          "icon2": [
+            "🐶",
+            "🐶"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🍎",
+            "🍎",
+            "🍎"
+          ],
+          "icon2": [
+            "🐶"
+          ]
+        }
+      },
+      "options": [
+        "3 x 🍎 = 8 x 🐶",
+        "3 x 🍎 = 5 x 🐶",
+        "3 x 🍎 = 6 x 🐶"
+      ],
+      "answer": 2,
+      "guide": "Trước tiên, con hãy xem 2 🍎 bằng 2 🥕. Sau đó xem 1 🥕 bằng 2 🐶. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 3 🍎 sẽ bằng bao nhiêu 🐶. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🥕",
+            "🥕",
+            "🥕"
+          ],
+          "icon2": [
+            "🐭",
+            "🐭",
+            "🐭",
+            "🐭",
+            "🐭"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🐭"
+          ],
+          "icon2": [
+            "🦊",
+            "🦊",
+            "🦊",
+            "🦊"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🥕",
+            "🥕",
+            "🥕"
+          ],
+          "icon2": [
+            "🦊"
+          ]
+        }
+      },
+      "options": [
+        "3 x 🥕 = 20 x 🦊",
+        "3 x 🥕 = 10 x 🦊",
+        "3 x 🥕 = 12 x 🦊"
       ],
       "answer": 0,
-      "guide": "👉 2 quả táo cân bằng với 6 hình tam giác xanh.<br/>➡️ Trọng lượng của quả táo là 3 → tổng: 2 × 3 = ...<br/>➡️ Từ đó suy ra mỗi hình tam giác xanh = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+      "guide": "Trước tiên, con hãy xem 3 🥕 bằng 5 🐭. Sau đó xem 1 🐭 bằng 4 🦊. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 3 🥕 sẽ bằng bao nhiêu 🦊. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
-      "question": "🐱 x 3 = 🟩 x 6  🟰  🐱 x 2 + 🟩 x ? = ?",
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🍓",
+            "🍓"
+          ],
+          "icon2": [
+            "🍋",
+            "🍋"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🍋"
+          ],
+          "icon2": [
+            "🍉",
+            "🍉"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🍓",
+            "🍓",
+            "🍓"
+          ],
+          "icon2": [
+            "🍉"
+          ]
+        }
+      },
       "options": [
-        "🟩 = 5",
-        "🟩 = 6",
-        "🟩 = 8"
+        "3 x 🍓 = 8 x 🍉",
+        "3 x 🍓 = 6 x 🍉",
+        "3 x 🍓 = 7 x 🍉"
       ],
       "answer": 1,
-      "guide": "👉 3 con mèo cân bằng với 6 hình tam giác xanh.<br/>➡️ Trọng lượng của con mèo là 2 → tổng: 3 × 2 = ...<br/>➡️ Từ đó suy ra mỗi hình tam giác xanh = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+      "guide": "Trước tiên, con hãy xem 2 🍓 bằng 2 🍋. Sau đó xem 1 🍋 bằng 2 🍉. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 3 🍓 sẽ bằng bao nhiêu 🍉. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
-      "question": "🟩 x 2 = 🍎 x 1  🟰  🟩 x 2 + 🍎 x ? = ?",
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🐸",
+            "🐸"
+          ],
+          "icon2": [
+            "🥔",
+            "🥔",
+            "🥔"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🥔"
+          ],
+          "icon2": [
+            "🐻",
+            "🐻",
+            "🐻"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🐸",
+            "🐸",
+            "🐸"
+          ],
+          "icon2": [
+            "🐻"
+          ]
+        }
+      },
       "options": [
-        "🍎 = 3",
-        "🍎 = 2",
-        "🍎 = 1"
+        "3 x 🐸 = 9 x 🐻",
+        "3 x 🐸 = 11 x 🐻",
+        "3 x 🐸 = 13 x 🐻"
       ],
       "answer": 2,
-      "guide": "👉 2 hình tam giác xanh cân bằng với 1 quả táo.<br/>➡️ Trọng lượng của hình tam giác xanh là 4 → tổng: 2 × 4 = ...<br/>➡️ Từ đó suy ra mỗi quả táo = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+      "guide": "Trước tiên, con hãy xem 2 🐸 bằng 3 🥔. Sau đó xem 1 🥔 bằng 3 🐻. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 3 🐸 sẽ bằng bao nhiêu 🐻. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
-      "question": "🐱 x 2 = 🟩 x 4  🟰  🐱 x 2 + 🟩 x ? = ?",
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🥔",
+            "🥔",
+            "🥔"
+          ],
+          "icon2": [
+            "🦊",
+            "🦊",
+            "🦊",
+            "🦊",
+            "🦊"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🦊"
+          ],
+          "icon2": [
+            "🍌"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🥔"
+          ],
+          "icon2": [
+            "🍌"
+          ]
+        }
+      },
       "options": [
-        "🟩 = 6",
-        "🟩 = 4",
-        "🟩 = 3"
+        "1 x 🥔 = 3 x 🍌",
+        "1 x 🥔 = 2 x 🍌",
+        "1 x 🥔 = 1 x 🍌"
+      ],
+      "answer": 2,
+      "guide": "Trước tiên, con hãy xem 3 🥔 bằng 5 🦊. Sau đó xem 1 🦊 bằng 1 🍌. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🥔 sẽ bằng bao nhiêu 🍌. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🐼",
+            "🐼",
+            "🐼"
+          ],
+          "icon2": [
+            "🍇",
+            "🍇",
+            "🍇",
+            "🍇",
+            "🍇"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🍇"
+          ],
+          "icon2": [
+            "🦁"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🐼"
+          ],
+          "icon2": [
+            "🦁"
+          ]
+        }
+      },
+      "options": [
+        "1 x 🐼 = 3 x 🦁",
+        "1 x 🐼 = 2 x 🦁",
+        "1 x 🐼 = 1 x 🦁"
+      ],
+      "answer": 2,
+      "guide": "Trước tiên, con hãy xem 3 🐼 bằng 5 🍇. Sau đó xem 1 🍇 bằng 1 🦁. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🐼 sẽ bằng bao nhiêu 🦁. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🐻",
+            "🐻",
+            "🐻"
+          ],
+          "icon2": [
+            "🦁",
+            "🦁"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🦁"
+          ],
+          "icon2": [
+            "🐹",
+            "🐹",
+            "🐹",
+            "🐹"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🐻",
+            "🐻"
+          ],
+          "icon2": [
+            "🐹"
+          ]
+        }
+      },
+      "options": [
+        "2 x 🐻 = 0 x 🐹",
+        "2 x 🐻 = 1 x 🐹",
+        "2 x 🐻 = 5 x 🐹"
+      ],
+      "answer": 2,
+      "guide": "Trước tiên, con hãy xem 3 🐻 bằng 2 🦁. Sau đó xem 1 🦁 bằng 4 🐹. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 2 🐻 sẽ bằng bao nhiêu 🐹. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🍉",
+            "🍉",
+            "🍉"
+          ],
+          "icon2": [
+            "🥕",
+            "🥕",
+            "🥕",
+            "🥕"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🥕"
+          ],
+          "icon2": [
+            "🐹",
+            "🐹"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🍉"
+          ],
+          "icon2": [
+            "🐹"
+          ]
+        }
+      },
+      "options": [
+        "1 x 🍉 = 1 x 🐹",
+        "1 x 🍉 = 2 x 🐹",
+        "1 x 🍉 = 3 x 🐹"
       ],
       "answer": 1,
-      "guide": "👉 2 con mèo cân bằng với 4 hình tam giác xanh.<br/>➡️ Trọng lượng của con mèo là 4 → tổng: 2 × 4 = ...<br/>➡️ Từ đó suy ra mỗi hình tam giác xanh = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+      "guide": "Trước tiên, con hãy xem 3 🍉 bằng 4 🥕. Sau đó xem 1 🥕 bằng 2 🐹. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🍉 sẽ bằng bao nhiêu 🐹. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
-      "question": "⚽ x 2 = 🐱 x 2  🟰  ⚽ x 2 + 🐱 x ? = ?",
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🐼",
+            "🐼"
+          ],
+          "icon2": [
+            "🍓"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🍓"
+          ],
+          "icon2": [
+            "🐭",
+            "🐭",
+            "🐭",
+            "🐭",
+            "🐭"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🐼",
+            "🐼"
+          ],
+          "icon2": [
+            "🐭"
+          ]
+        }
+      },
       "options": [
-        "🐱 = 3",
-        "🐱 = 4",
-        "🐱 = 2"
+        "2 x 🐼 = 2 x 🐭",
+        "2 x 🐼 = 1 x 🐭",
+        "2 x 🐼 = 5 x 🐭"
+      ],
+      "answer": 2,
+      "guide": "Trước tiên, con hãy xem 2 🐼 bằng 1 🍓. Sau đó xem 1 🍓 bằng 5 🐭. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 2 🐼 sẽ bằng bao nhiêu 🐭. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🐶",
+            "🐶",
+            "🐶"
+          ],
+          "icon2": [
+            "🍍"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🍍"
+          ],
+          "icon2": [
+            "🍌",
+            "🍌",
+            "🍌",
+            "🍌",
+            "🍌"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🐶",
+            "🐶"
+          ],
+          "icon2": [
+            "🍌"
+          ]
+        }
+      },
+      "options": [
+        "2 x 🐶 = 3 x 🍌",
+        "2 x 🐶 = 2 x 🍌",
+        "2 x 🐶 = 1 x 🍌"
       ],
       "answer": 0,
-      "guide": "👉 2 quả bóng cân bằng với 2 con mèo.<br/>➡️ Trọng lượng của quả bóng là 5 → tổng: 2 × 5 = ...<br/>➡️ Từ đó suy ra mỗi con mèo = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+      "guide": "Trước tiên, con hãy xem 3 🐶 bằng 1 🍍. Sau đó xem 1 🍍 bằng 5 🍌. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 2 🐶 sẽ bằng bao nhiêu 🍌. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
-      "question": "⚽ x 1 = 🍎 x 1  🟰  ⚽ x 2 + 🍎 x ? = ?",
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🐮",
+            "🐮"
+          ],
+          "icon2": [
+            "🦁",
+            "🦁",
+            "🦁",
+            "🦁",
+            "🦁"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🦁"
+          ],
+          "icon2": [
+            "🍎",
+            "🍎"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🐮"
+          ],
+          "icon2": [
+            "🍎"
+          ]
+        }
+      },
       "options": [
-        "🍎 = 3",
-        "🍎 = 2",
-        "🍎 = 1"
-      ],
-      "answer": 2,
-      "guide": "👉 1 quả bóng cân bằng với 1 quả táo.<br/>➡️ Trọng lượng của quả bóng là 5 → tổng: 1 × 5 = ...<br/>➡️ Từ đó suy ra mỗi quả táo = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
-    },
-    {
-      "question": "🟥 x 11 = ⚽ x 5  🟰  🟥 x 2 + ⚽ x ? = ?",
-      "options": [
-        "⚽ = 6",
-        "⚽ = 7",
-        "⚽ = 5"
-      ],
-      "answer": 2,
-      "guide": "👉 11 hình vuông đỏ cân bằng với 5 quả bóng.<br/>➡️ Trọng lượng của hình vuông đỏ là 1 → tổng: 11 × 1 = ...<br/>➡️ Từ đó suy ra mỗi quả bóng = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
-    },
-    {
-      "question": "🟥 x 6 = ⚽ x 1  🟰  🟥 x 2 + ⚽ x ? = ?",
-      "options": [
-        "⚽ = 1",
-        "⚽ = 2",
-        "⚽ = 4"
-      ],
-      "answer": 1,
-      "guide": "👉 6 hình vuông đỏ cân bằng với 1 quả bóng.<br/>➡️ Trọng lượng của hình vuông đỏ là 1 → tổng: 6 × 1 = ...<br/>➡️ Từ đó suy ra mỗi quả bóng = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
-    },
-    {
-      "question": "🟥 x 1 = 🐱 x 1  🟰  🟥 x 2 + 🐱 x ? = ?",
-      "options": [
-        "🐱 = 1",
-        "🐱 = 4",
-        "🐱 = 2"
-      ],
-      "answer": 2,
-      "guide": "👉 1 hình vuông đỏ cân bằng với 1 con mèo.<br/>➡️ Trọng lượng của hình vuông đỏ là 5 → tổng: 1 × 5 = ...<br/>➡️ Từ đó suy ra mỗi con mèo = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
-    },
-    {
-      "question": "🔵 x 11 = 🟩 x 3  🟰  🔵 x 2 + 🟩 x ? = ?",
-      "options": [
-        "🟩 = 5",
-        "🟩 = 4",
-        "🟩 = 6"
-      ],
-      "answer": 1,
-      "guide": "👉 11 hình tròn xanh dương cân bằng với 3 hình tam giác xanh.<br/>➡️ Trọng lượng của hình tròn xanh dương là 1 → tổng: 11 × 1 = ...<br/>➡️ Từ đó suy ra mỗi hình tam giác xanh = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
-    },
-    {
-      "question": "🟥 x 1 = 🟩 x 1  🟰  🟥 x 2 + 🟩 x ? = ?",
-      "options": [
-        "🟩 = 5",
-        "🟩 = 3",
-        "🟩 = 1"
-      ],
-      "answer": 1,
-      "guide": "👉 1 hình vuông đỏ cân bằng với 1 hình tam giác xanh.<br/>➡️ Trọng lượng của hình vuông đỏ là 2 → tổng: 1 × 2 = ...<br/>➡️ Từ đó suy ra mỗi hình tam giác xanh = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
-    },
-    {
-      "question": "🟥 x 4 = 🔵 x 2  🟰  🟥 x 2 + 🔵 x ? = ?",
-      "options": [
-        "🔵 = 3",
-        "🔵 = 5",
-        "🔵 = 2"
+        "1 x 🐮 = 5 x 🍎",
+        "1 x 🐮 = 3 x 🍎",
+        "1 x 🐮 = 4 x 🍎"
       ],
       "answer": 0,
-      "guide": "👉 4 hình vuông đỏ cân bằng với 2 hình tròn xanh dương.<br/>➡️ Trọng lượng của hình vuông đỏ là 2 → tổng: 4 × 2 = ...<br/>➡️ Từ đó suy ra mỗi hình tròn xanh dương = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+      "guide": "Trước tiên, con hãy xem 2 🐮 bằng 5 🦁. Sau đó xem 1 🦁 bằng 2 🍎. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🐮 sẽ bằng bao nhiêu 🍎. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
-      "question": "🧱 x 2 = 🟥 x 1  🟰  🧱 x 2 + 🟥 x ? = ?",
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🦁",
+            "🦁"
+          ],
+          "icon2": [
+            "🍌",
+            "🍌",
+            "🍌",
+            "🍌"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🍌"
+          ],
+          "icon2": [
+            "🐭",
+            "🐭",
+            "🐭"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🦁"
+          ],
+          "icon2": [
+            "🐭"
+          ]
+        }
+      },
       "options": [
-        "🟥 = 2",
-        "🟥 = 1",
-        "🟥 = 3"
-      ],
-      "answer": 0,
-      "guide": "👉 2 viên gạch cân bằng với 1 hình vuông đỏ.<br/>➡️ Trọng lượng của viên gạch là 2 → tổng: 2 × 2 = ...<br/>➡️ Từ đó suy ra mỗi hình vuông đỏ = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
-    },
-    {
-      "question": "🧱 x 1 = 🟩 x 2  🟰  🧱 x 2 + 🟩 x ? = ?",
-      "options": [
-        "🟩 = 3",
-        "🟩 = 4",
-        "🟩 = 2"
-      ],
-      "answer": 0,
-      "guide": "👉 1 viên gạch cân bằng với 2 hình tam giác xanh.<br/>➡️ Trọng lượng của viên gạch là 5 → tổng: 1 × 5 = ...<br/>➡️ Từ đó suy ra mỗi hình tam giác xanh = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
-    },
-    {
-      "question": "🧱 x 1 = ⚽ x 4  🟰  🧱 x 2 + ⚽ x ? = ?",
-      "options": [
-        "⚽ = 11",
-        "⚽ = 12",
-        "⚽ = 10"
+        "1 x 🦁 = 7 x 🐭",
+        "1 x 🦁 = 4 x 🐭",
+        "1 x 🦁 = 6 x 🐭"
       ],
       "answer": 2,
-      "guide": "👉 1 viên gạch cân bằng với 4 quả bóng.<br/>➡️ Trọng lượng của viên gạch là 4 → tổng: 1 × 4 = ...<br/>➡️ Từ đó suy ra mỗi quả bóng = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+      "guide": "Trước tiên, con hãy xem 2 🦁 bằng 4 🍌. Sau đó xem 1 🍌 bằng 3 🐭. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🦁 sẽ bằng bao nhiêu 🐭. Điền vào chỗ dấu hỏi nhé: ..."
     },
     {
-      "question": "🟥 x 5 = 🟩 x 1  🟰  🟥 x 2 + 🟩 x ? = ?",
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🐮",
+            "🐮",
+            "🐮"
+          ],
+          "icon2": [
+            "🥕",
+            "🥕"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🥕"
+          ],
+          "icon2": [
+            "🐷",
+            "🐷",
+            "🐷",
+            "🐷",
+            "🐷"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🐮"
+          ],
+          "icon2": [
+            "🐷"
+          ]
+        }
+      },
       "options": [
-        "🟩 = 2",
-        "🟩 = 5",
-        "🟩 = 3"
-      ],
-      "answer": 2,
-      "guide": "👉 5 hình vuông đỏ cân bằng với 1 hình tam giác xanh.<br/>➡️ Trọng lượng của hình vuông đỏ là 1 → tổng: 5 × 1 = ...<br/>➡️ Từ đó suy ra mỗi hình tam giác xanh = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
-    },
-    {
-      "question": "🧱 x 4 = ⚽ x 2  🟰  🧱 x 2 + ⚽ x ? = ?",
-      "options": [
-        "⚽ = 4",
-        "⚽ = 2",
-        "⚽ = 3"
+        "1 x 🐮 = 0 x 🐷",
+        "1 x 🐮 = 3 x 🐷",
+        "1 x 🐮 = 1 x 🐷"
       ],
       "answer": 1,
-      "guide": "👉 4 viên gạch cân bằng với 2 quả bóng.<br/>➡️ Trọng lượng của viên gạch là 2 → tổng: 4 × 2 = ...<br/>➡️ Từ đó suy ra mỗi quả bóng = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+      "guide": "Trước tiên, con hãy xem 3 🐮 bằng 2 🥕. Sau đó xem 1 🥕 bằng 5 🐷. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🐮 sẽ bằng bao nhiêu 🐷. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🍎"
+          ],
+          "icon2": [
+            "🦁"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🦁"
+          ],
+          "icon2": [
+            "🐻",
+            "🐻",
+            "🐻",
+            "🐻",
+            "🐻"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🍎"
+          ],
+          "icon2": [
+            "🐻"
+          ]
+        }
+      },
+      "options": [
+        "1 x 🍎 = 5 x 🐻",
+        "1 x 🍎 = 4 x 🐻",
+        "1 x 🍎 = 6 x 🐻"
+      ],
+      "answer": 0,
+      "guide": "Trước tiên, con hãy xem 1 🍎 bằng 1 🦁. Sau đó xem 1 🦁 bằng 5 🐻. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🍎 sẽ bằng bao nhiêu 🐻. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🐸",
+            "🐸",
+            "🐸"
+          ],
+          "icon2": [
+            "🍉",
+            "🍉",
+            "🍉",
+            "🍉"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🍉"
+          ],
+          "icon2": [
+            "🐷",
+            "🐷",
+            "🐷",
+            "🐷"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🐸"
+          ],
+          "icon2": [
+            "🐷"
+          ]
+        }
+      },
+      "options": [
+        "1 x 🐸 = 5 x 🐷",
+        "1 x 🐸 = 4 x 🐷",
+        "1 x 🐸 = 6 x 🐷"
+      ],
+      "answer": 0,
+      "guide": "Trước tiên, con hãy xem 3 🐸 bằng 4 🍉. Sau đó xem 1 🍉 bằng 4 🐷. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🐸 sẽ bằng bao nhiêu 🐷. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🐹",
+            "🐹",
+            "🐹"
+          ],
+          "icon2": [
+            "🥕",
+            "🥕",
+            "🥕",
+            "🥕",
+            "🥕"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🥕"
+          ],
+          "icon2": [
+            "🍋",
+            "🍋"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🐹"
+          ],
+          "icon2": [
+            "🍋"
+          ]
+        }
+      },
+      "options": [
+        "1 x 🐹 = 3 x 🍋",
+        "1 x 🐹 = 2 x 🍋",
+        "1 x 🐹 = 4 x 🍋"
+      ],
+      "answer": 0,
+      "guide": "Trước tiên, con hãy xem 3 🐹 bằng 5 🥕. Sau đó xem 1 🥕 bằng 2 🍋. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🐹 sẽ bằng bao nhiêu 🍋. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🥔"
+          ],
+          "icon2": [
+            "🐸",
+            "🐸",
+            "🐸"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🐸"
+          ],
+          "icon2": [
+            "🥕"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🥔",
+            "🥔",
+            "🥔"
+          ],
+          "icon2": [
+            "🥕"
+          ]
+        }
+      },
+      "options": [
+        "3 x 🥔 = 7 x 🥕",
+        "3 x 🥔 = 9 x 🥕",
+        "3 x 🥔 = 11 x 🥕"
+      ],
+      "answer": 1,
+      "guide": "Trước tiên, con hãy xem 1 🥔 bằng 3 🐸. Sau đó xem 1 🐸 bằng 1 🥕. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 3 🥔 sẽ bằng bao nhiêu 🥕. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🐹"
+          ],
+          "icon2": [
+            "🥕",
+            "🥕",
+            "🥕",
+            "🥕",
+            "🥕"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🥕"
+          ],
+          "icon2": [
+            "🍍",
+            "🍍",
+            "🍍",
+            "🍍",
+            "🍍"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🐹",
+            "🐹",
+            "🐹"
+          ],
+          "icon2": [
+            "🍍"
+          ]
+        }
+      },
+      "options": [
+        "3 x 🐹 = 75 x 🍍",
+        "3 x 🐹 = 76 x 🍍",
+        "3 x 🐹 = 74 x 🍍"
+      ],
+      "answer": 0,
+      "guide": "Trước tiên, con hãy xem 1 🐹 bằng 5 🥕. Sau đó xem 1 🥕 bằng 5 🍍. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 3 🐹 sẽ bằng bao nhiêu 🍍. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🍍"
+          ],
+          "icon2": [
+            "🦁",
+            "🦁",
+            "🦁"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🦁"
+          ],
+          "icon2": [
+            "🐮",
+            "🐮",
+            "🐮",
+            "🐮",
+            "🐮"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🍍",
+            "🍍",
+            "🍍"
+          ],
+          "icon2": [
+            "🐮"
+          ]
+        }
+      },
+      "options": [
+        "3 x 🍍 = 44 x 🐮",
+        "3 x 🍍 = 45 x 🐮",
+        "3 x 🍍 = 43 x 🐮"
+      ],
+      "answer": 1,
+      "guide": "Trước tiên, con hãy xem 1 🍍 bằng 3 🦁. Sau đó xem 1 🦁 bằng 5 🐮. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 3 🍍 sẽ bằng bao nhiêu 🐮. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🍋",
+            "🍋"
+          ],
+          "icon2": [
+            "🍎"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🍎"
+          ],
+          "icon2": [
+            "🍌",
+            "🍌",
+            "🍌",
+            "🍌"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🍋"
+          ],
+          "icon2": [
+            "🍌"
+          ]
+        }
+      },
+      "options": [
+        "1 x 🍋 = 1 x 🍌",
+        "1 x 🍋 = 0 x 🍌",
+        "1 x 🍋 = 2 x 🍌"
+      ],
+      "answer": 2,
+      "guide": "Trước tiên, con hãy xem 2 🍋 bằng 1 🍎. Sau đó xem 1 🍎 bằng 4 🍌. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🍋 sẽ bằng bao nhiêu 🍌. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🦊",
+            "🦊"
+          ],
+          "icon2": [
+            "🐰",
+            "🐰",
+            "🐰",
+            "🐰"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🐰"
+          ],
+          "icon2": [
+            "🍌",
+            "🍌"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🦊"
+          ],
+          "icon2": [
+            "🍌"
+          ]
+        }
+      },
+      "options": [
+        "1 x 🦊 = 6 x 🍌",
+        "1 x 🦊 = 2 x 🍌",
+        "1 x 🦊 = 4 x 🍌"
+      ],
+      "answer": 2,
+      "guide": "Trước tiên, con hãy xem 2 🦊 bằng 4 🐰. Sau đó xem 1 🐰 bằng 2 🍌. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🦊 sẽ bằng bao nhiêu 🍌. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🍍",
+            "🍍",
+            "🍍"
+          ],
+          "icon2": [
+            "🦁",
+            "🦁"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🦁"
+          ],
+          "icon2": [
+            "🐸"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🍍"
+          ],
+          "icon2": [
+            "🐸"
+          ]
+        }
+      },
+      "options": [
+        "1 x 🍍 = 0 x 🐸",
+        "1 x 🍍 = 1 x 🐸",
+        "1 x 🍍 = 2 x 🐸"
+      ],
+      "answer": 0,
+      "guide": "Trước tiên, con hãy xem 3 🍍 bằng 2 🦁. Sau đó xem 1 🦁 bằng 1 🐸. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🍍 sẽ bằng bao nhiêu 🐸. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🐹",
+            "🐹",
+            "🐹"
+          ],
+          "icon2": [
+            "🐶",
+            "🐶",
+            "🐶",
+            "🐶"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🐶"
+          ],
+          "icon2": [
+            "🍋",
+            "🍋",
+            "🍋"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🐹"
+          ],
+          "icon2": [
+            "🍋"
+          ]
+        }
+      },
+      "options": [
+        "1 x 🐹 = 4 x 🍋",
+        "1 x 🐹 = 2 x 🍋",
+        "1 x 🐹 = 3 x 🍋"
+      ],
+      "answer": 0,
+      "guide": "Trước tiên, con hãy xem 3 🐹 bằng 4 🐶. Sau đó xem 1 🐶 bằng 3 🍋. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🐹 sẽ bằng bao nhiêu 🍋. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🍉",
+            "🍉",
+            "🍉"
+          ],
+          "icon2": [
+            "🍌",
+            "🍌",
+            "🍌",
+            "🍌"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🍌"
+          ],
+          "icon2": [
+            "🐶",
+            "🐶",
+            "🐶"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🍉",
+            "🍉"
+          ],
+          "icon2": [
+            "🐶"
+          ]
+        }
+      },
+      "options": [
+        "2 x 🍉 = 4 x 🐶",
+        "2 x 🍉 = 8 x 🐶",
+        "2 x 🍉 = 6 x 🐶"
+      ],
+      "answer": 1,
+      "guide": "Trước tiên, con hãy xem 3 🍉 bằng 4 🍌. Sau đó xem 1 🍌 bằng 3 🐶. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 2 🍉 sẽ bằng bao nhiêu 🐶. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🍓",
+            "🍓",
+            "🍓"
+          ],
+          "icon2": [
+            "🐰",
+            "🐰"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🐰"
+          ],
+          "icon2": [
+            "🍇",
+            "🍇",
+            "🍇"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🍓",
+            "🍓"
+          ],
+          "icon2": [
+            "🍇"
+          ]
+        }
+      },
+      "options": [
+        "2 x 🍓 = 4 x 🍇",
+        "2 x 🍓 = 1 x 🍇",
+        "2 x 🍓 = 2 x 🍇"
+      ],
+      "answer": 0,
+      "guide": "Trước tiên, con hãy xem 3 🍓 bằng 2 🐰. Sau đó xem 1 🐰 bằng 3 🍇. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 2 🍓 sẽ bằng bao nhiêu 🍇. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🍓",
+            "🍓",
+            "🍓"
+          ],
+          "icon2": [
+            "🍌",
+            "🍌",
+            "🍌",
+            "🍌"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🍌"
+          ],
+          "icon2": [
+            "🍋",
+            "🍋",
+            "🍋",
+            "🍋"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🍓"
+          ],
+          "icon2": [
+            "🍋"
+          ]
+        }
+      },
+      "options": [
+        "1 x 🍓 = 2 x 🍋",
+        "1 x 🍓 = 5 x 🍋",
+        "1 x 🍓 = 4 x 🍋"
+      ],
+      "answer": 1,
+      "guide": "Trước tiên, con hãy xem 3 🍓 bằng 4 🍌. Sau đó xem 1 🍌 bằng 4 🍋. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🍓 sẽ bằng bao nhiêu 🍋. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🐮",
+            "🐮",
+            "🐮"
+          ],
+          "icon2": [
+            "🐭"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🐭"
+          ],
+          "icon2": [
+            "🍇",
+            "🍇",
+            "🍇",
+            "🍇",
+            "🍇"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🐮",
+            "🐮",
+            "🐮"
+          ],
+          "icon2": [
+            "🍇"
+          ]
+        }
+      },
+      "options": [
+        "3 x 🐮 = 5 x 🍇",
+        "3 x 🐮 = 2 x 🍇",
+        "3 x 🐮 = 1 x 🍇"
+      ],
+      "answer": 0,
+      "guide": "Trước tiên, con hãy xem 3 🐮 bằng 1 🐭. Sau đó xem 1 🐭 bằng 5 🍇. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 3 🐮 sẽ bằng bao nhiêu 🍇. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🐸",
+            "🐸"
+          ],
+          "icon2": [
+            "🍉",
+            "🍉"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🍉"
+          ],
+          "icon2": [
+            "🍓",
+            "🍓",
+            "🍓",
+            "🍓",
+            "🍓"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🐸",
+            "🐸"
+          ],
+          "icon2": [
+            "🍓"
+          ]
+        }
+      },
+      "options": [
+        "2 x 🐸 = 11 x 🍓",
+        "2 x 🐸 = 9 x 🍓",
+        "2 x 🐸 = 10 x 🍓"
+      ],
+      "answer": 2,
+      "guide": "Trước tiên, con hãy xem 2 🐸 bằng 2 🍉. Sau đó xem 1 🍉 bằng 5 🍓. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 2 🐸 sẽ bằng bao nhiêu 🍓. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🥔"
+          ],
+          "icon2": [
+            "🐼",
+            "🐼"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🐼"
+          ],
+          "icon2": [
+            "🐻",
+            "🐻",
+            "🐻",
+            "🐻",
+            "🐻"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🥔"
+          ],
+          "icon2": [
+            "🐻"
+          ]
+        }
+      },
+      "options": [
+        "1 x 🥔 = 12 x 🐻",
+        "1 x 🥔 = 8 x 🐻",
+        "1 x 🥔 = 10 x 🐻"
+      ],
+      "answer": 2,
+      "guide": "Trước tiên, con hãy xem 1 🥔 bằng 2 🐼. Sau đó xem 1 🐼 bằng 5 🐻. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🥔 sẽ bằng bao nhiêu 🐻. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🐰"
+          ],
+          "icon2": [
+            "🐼"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🐼"
+          ],
+          "icon2": [
+            "🐱"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🐰"
+          ],
+          "icon2": [
+            "🐱"
+          ]
+        }
+      },
+      "options": [
+        "1 x 🐰 = 3 x 🐱",
+        "1 x 🐰 = 1 x 🐱",
+        "1 x 🐰 = 2 x 🐱"
+      ],
+      "answer": 1,
+      "guide": "Trước tiên, con hãy xem 1 🐰 bằng 1 🐼. Sau đó xem 1 🐼 bằng 1 🐱. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🐰 sẽ bằng bao nhiêu 🐱. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🍇",
+            "🍇"
+          ],
+          "icon2": [
+            "🐱",
+            "🐱",
+            "🐱",
+            "🐱",
+            "🐱"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🐱"
+          ],
+          "icon2": [
+            "🍎",
+            "🍎",
+            "🍎",
+            "🍎"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🍇",
+            "🍇",
+            "🍇"
+          ],
+          "icon2": [
+            "🍎"
+          ]
+        }
+      },
+      "options": [
+        "3 x 🍇 = 24 x 🍎",
+        "3 x 🍇 = 30 x 🍎",
+        "3 x 🍇 = 22 x 🍎"
+      ],
+      "answer": 1,
+      "guide": "Trước tiên, con hãy xem 2 🍇 bằng 5 🐱. Sau đó xem 1 🐱 bằng 4 🍎. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 3 🍇 sẽ bằng bao nhiêu 🍎. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🍍",
+            "🍍"
+          ],
+          "icon2": [
+            "🍇"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🍇"
+          ],
+          "icon2": [
+            "🍌",
+            "🍌",
+            "🍌"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🍍",
+            "🍍"
+          ],
+          "icon2": [
+            "🍌"
+          ]
+        }
+      },
+      "options": [
+        "2 x 🍍 = 1 x 🍌",
+        "2 x 🍍 = 3 x 🍌",
+        "2 x 🍍 = 2 x 🍌"
+      ],
+      "answer": 1,
+      "guide": "Trước tiên, con hãy xem 2 🍍 bằng 1 🍇. Sau đó xem 1 🍇 bằng 3 🍌. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 2 🍍 sẽ bằng bao nhiêu 🍌. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🍇",
+            "🍇",
+            "🍇"
+          ],
+          "icon2": [
+            "🍋",
+            "🍋"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🍋"
+          ],
+          "icon2": [
+            "🥕",
+            "🥕",
+            "🥕",
+            "🥕"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🍇",
+            "🍇",
+            "🍇"
+          ],
+          "icon2": [
+            "🥕"
+          ]
+        }
+      },
+      "options": [
+        "3 x 🍇 = 8 x 🥕",
+        "3 x 🍇 = 1 x 🥕",
+        "3 x 🍇 = 2 x 🥕"
+      ],
+      "answer": 0,
+      "guide": "Trước tiên, con hãy xem 3 🍇 bằng 2 🍋. Sau đó xem 1 🍋 bằng 4 🥕. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 3 🍇 sẽ bằng bao nhiêu 🥕. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🐶",
+            "🐶"
+          ],
+          "icon2": [
+            "🐱"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🐱"
+          ],
+          "icon2": [
+            "🐰",
+            "🐰",
+            "🐰",
+            "🐰"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🐶",
+            "🐶"
+          ],
+          "icon2": [
+            "🐰"
+          ]
+        }
+      },
+      "options": [
+        "2 x 🐶 = 2 x 🐰",
+        "2 x 🐶 = 1 x 🐰",
+        "2 x 🐶 = 4 x 🐰"
+      ],
+      "answer": 2,
+      "guide": "Trước tiên, con hãy xem 2 🐶 bằng 1 🐱. Sau đó xem 1 🐱 bằng 4 🐰. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 2 🐶 sẽ bằng bao nhiêu 🐰. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🥕",
+            "🥕",
+            "🥕"
+          ],
+          "icon2": [
+            "🍍",
+            "🍍",
+            "🍍",
+            "🍍",
+            "🍍"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🍍"
+          ],
+          "icon2": [
+            "🦁",
+            "🦁",
+            "🦁",
+            "🦁"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🥕",
+            "🥕"
+          ],
+          "icon2": [
+            "🦁"
+          ]
+        }
+      },
+      "options": [
+        "2 x 🥕 = 13 x 🦁",
+        "2 x 🥕 = 6 x 🦁",
+        "2 x 🥕 = 8 x 🦁"
+      ],
+      "answer": 0,
+      "guide": "Trước tiên, con hãy xem 3 🥕 bằng 5 🍍. Sau đó xem 1 🍍 bằng 4 🦁. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 2 🥕 sẽ bằng bao nhiêu 🦁. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🍇"
+          ],
+          "icon2": [
+            "🐸"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🐸"
+          ],
+          "icon2": [
+            "🍌",
+            "🍌",
+            "🍌",
+            "🍌",
+            "🍌"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🍇",
+            "🍇"
+          ],
+          "icon2": [
+            "🍌"
+          ]
+        }
+      },
+      "options": [
+        "2 x 🍇 = 10 x 🍌",
+        "2 x 🍇 = 9 x 🍌",
+        "2 x 🍇 = 11 x 🍌"
+      ],
+      "answer": 0,
+      "guide": "Trước tiên, con hãy xem 1 🍇 bằng 1 🐸. Sau đó xem 1 🐸 bằng 5 🍌. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 2 🍇 sẽ bằng bao nhiêu 🍌. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🍎"
+          ],
+          "icon2": [
+            "🍓",
+            "🍓",
+            "🍓",
+            "🍓",
+            "🍓"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🍓"
+          ],
+          "icon2": [
+            "🐹",
+            "🐹",
+            "🐹",
+            "🐹"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🍎",
+            "🍎"
+          ],
+          "icon2": [
+            "🐹"
+          ]
+        }
+      },
+      "options": [
+        "2 x 🍎 = 40 x 🐹",
+        "2 x 🍎 = 42 x 🐹",
+        "2 x 🍎 = 38 x 🐹"
+      ],
+      "answer": 0,
+      "guide": "Trước tiên, con hãy xem 1 🍎 bằng 5 🍓. Sau đó xem 1 🍓 bằng 4 🐹. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 2 🍎 sẽ bằng bao nhiêu 🐹. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🐸",
+            "🐸",
+            "🐸"
+          ],
+          "icon2": [
+            "🍎",
+            "🍎",
+            "🍎",
+            "🍎"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🍎"
+          ],
+          "icon2": [
+            "🐻",
+            "🐻",
+            "🐻"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🐸"
+          ],
+          "icon2": [
+            "🐻"
+          ]
+        }
+      },
+      "options": [
+        "1 x 🐸 = 4 x 🐻",
+        "1 x 🐸 = 2 x 🐻",
+        "1 x 🐸 = 3 x 🐻"
+      ],
+      "answer": 0,
+      "guide": "Trước tiên, con hãy xem 3 🐸 bằng 4 🍎. Sau đó xem 1 🍎 bằng 3 🐻. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 1 🐸 sẽ bằng bao nhiêu 🐻. Điền vào chỗ dấu hỏi nhé: ..."
+    },
+    {
+      "question": "",
+      "balance": {
+        "balance1": {
+          "icon1": [
+            "🐹",
+            "🐹",
+            "🐹"
+          ],
+          "icon2": [
+            "🦁",
+            "🦁"
+          ]
+        },
+        "balance2": {
+          "icon1": [
+            "🦁"
+          ],
+          "icon2": [
+            "🐱",
+            "🐱",
+            "🐱"
+          ]
+        },
+        "balance3": {
+          "icon1": [
+            "🐹",
+            "🐹"
+          ],
+          "icon2": [
+            "🐱"
+          ]
+        }
+      },
+      "options": [
+        "2 x 🐹 = 1 x 🐱",
+        "2 x 🐹 = 4 x 🐱",
+        "2 x 🐹 = 2 x 🐱"
+      ],
+      "answer": 1,
+      "guide": "Trước tiên, con hãy xem 3 🐹 bằng 2 🦁. Sau đó xem 1 🦁 bằng 3 🐱. Cuối cùng, con áp dụng cách thay thế từng bước để tìm xem 2 🐹 sẽ bằng bao nhiêu 🐱. Điền vào chỗ dấu hỏi nhé: ..."
     }
   ]
 }

@@ -11,7 +11,7 @@
     "Biết tổng số và số nhóm",
     "Hỏi số phần bằng nhau sau khi chia"
   ],
-  "guide": "Dùng que tính, viên sỏi, hoặc hình ảnh kẹo chia đều vào các cốc/hộp thật Dùng cách đếm nhẩm theo bảng cửu chương: “7 nhân mấy thì ra 56?” Cho bé diễn vai chủ thể đối tượng chia đồ chơi, bánh cho bạn",
+  "suggest": "Dùng que tính, viên sỏi, hoặc hình ảnh kẹo chia đều vào các cốc/hộp thật Dùng cách đếm nhẩm theo bảng cửu chương: “7 nhân mấy thì ra 56?” Cho bé diễn vai chủ thể đối tượng chia đồ chơi, bánh cho bạn",
   "data": [
     {
       "question": "Bác nông dân thu hoạch 56 chiếc kẹo và chia đều lên 7 hộp. Hỏi mỗi hộp được bao nhiêu chiếc kẹo?",

@@ -10,7 +10,7 @@
     "Từ khóa thường gặp: “Tổng cộng là…” “nhiều hơn…”, “ít hơn…” “Hỏi mỗi phần là bao nhiêu?”",
     "Đề bài có: Một tổng (cộng hai phần lại), Một hiệu (chênh lệch giữa hai phần)"
   ],
-  "guide": "Gợi ý viết lại đề bài bằng phép tính. Hướng dẫn giải theo cách chia đều, lấy tổng trừ đi hiệu rồi chia đều sẽ ra phần nhỏ, lấy phần nhỏ cộng với hiệu sẽ ra phần lớng. Sử dụng que tính, viên sỏi, hoặc hình ảnh kẹo chia thử vào các hộp",
+  "suggest": "Gợi ý viết lại đề bài bằng phép tính. Hướng dẫn giải theo cách chia đều, lấy tổng trừ đi hiệu rồi chia đều sẽ ra phần nhỏ, lấy phần nhỏ cộng với hiệu sẽ ra phần lớng. Sử dụng que tính, viên sỏi, hoặc hình ảnh kẹo chia thử vào các hộp",
   "data": [
     {
       "question": "Có tất cả 23 quyển vở được chia vào hai cặp. Trong đó, cặp xanh có nhiều hơn cặp đỏ 3 quyển vở. Hỏi số quyển vở trong mỗi cặp là bao nhiêu?",
@@ -45,12 +45,12 @@
     {
       "question": "thùng đỏ có nhiều hơn thùng xanh 4 lít sơn. Tổng cộng cả hai là 24 lít sơn. Hỏi mỗi thùng sơn có bao nhiêu?",
       "options": [
-        "thùng đỏ: 14,  thùng xanh: -10",
+        "thùng đỏ: 14,  thùng xanh: 8",
         "thùng đỏ: 14, thùng xanh: 9",
         "thùng đỏ: 14, thùng xanh: 10"
       ],
       "answer": 2,
-      "guide": "👉 Bài toán cho biết tổng là 4, và chênh lệch giữa hai phần là 24.<br/>➡️ Bước 1: Lấy (24 - 4) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 4 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+      "guide": "👉 Bài toán cho biết tổng là 24, và chênh lệch giữa hai phần là 4.<br/>➡️ Bước 1: Lấy (24 - 4) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 4 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
     },
     {
       "question": "Có tất cả 20 quả táo được chia vào hai giỏ. Trong đó, giỏ đỏ có nhiều hơn giỏ xanh 4 quả táo. Hỏi số quả táo trong mỗi giỏ là bao nhiêu?",
@@ -170,7 +170,7 @@
         "túi to: 8, túi nhỏ: 4"
       ],
       "answer": 0,
-      "guide": "👉 Bài toán cho biết tổng là 5, và chênh lệch giữa hai phần là 13.<br/>➡️ Bước 1: Lấy (13 - 5) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 5 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+      "guide": "👉 Bài toán cho biết tổng là 13, và chênh lệch giữa hai phần là 5.<br/>➡️ Bước 1: Lấy (13 - 5) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 5 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
     },
     {
       "question": "Có tất cả 17 lít nước được chia vào hai bình. Trong đó, bình lớn có nhiều hơn bình nhỏ 5 lít nước. Hỏi số lít nước trong mỗi bình là bao nhiêu?",
@@ -200,7 +200,7 @@
         "hộp thứ nhất: 12, hộp thứ hai: 10"
       ],
       "answer": 0,
-      "guide": "👉 Bài toán cho biết tổng là 4, và chênh lệch giữa hai phần là 22.<br/>➡️ Bước 1: Lấy (22 - 4) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 4 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+      "guide": "👉 Bài toán cho biết tổng là 22, và chênh lệch giữa hai phần là 4.<br/>➡️ Bước 1: Lấy (22 - 4) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 4 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
     },
     {
       "question": "thùng đỏ có nhiều hơn thùng xanh 3 lít sơn. Tổng cộng cả hai là 23 lít sơn. Hỏi mỗi thùng sơn có bao nhiêu?",
@@ -210,7 +210,7 @@
         "thùng đỏ: 14, thùng xanh: 9"
       ],
       "answer": 0,
-      "guide": "👉 Bài toán cho biết tổng là 3, và chênh lệch giữa hai phần là 23.<br/>➡️ Bước 1: Lấy (23 - 3) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 3 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+      "guide": "👉 Bài toán cho biết tổng là 23, và chênh lệch giữa hai phần là 3.<br/>➡️ Bước 1: Lấy (23 - 3) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 3 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
     },
     {
       "question": "Có tất cả 19 chiếc bánh được chia vào hai hộp. Trong đó, hộp thứ nhất có nhiều hơn hộp thứ hai 5 chiếc bánh. Hỏi số chiếc bánh trong mỗi hộp là bao nhiêu?",
@@ -230,7 +230,7 @@
         "hộp thứ nhất: 12, hộp thứ hai: 6"
       ],
       "answer": 1,
-      "guide": "👉 Bài toán cho biết tổng là 5, và chênh lệch giữa hai phần là 19.<br/>➡️ Bước 1: Lấy (19 - 5) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 5 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+      "guide": "👉 Bài toán cho biết tổng là 19, và chênh lệch giữa hai phần là 5.<br/>➡️ Bước 1: Lấy (19 - 5) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 5 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
     },
     {
       "question": "Hai xe có tất cả 25 bó hoa, trong đó xe số hai ít hơn xe số một 5 bó hoa. Hỏi mỗi xe chứa bao nhiêu bó hoa?",
@@ -310,7 +310,7 @@
         "kệ trên: 9, kệ dưới: 5"
       ],
       "answer": 1,
-      "guide": "👉 Bài toán cho biết tổng là 2, và chênh lệch giữa hai phần là 14.<br/>➡️ Bước 1: Lấy (14 - 2) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 2 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+      "guide": "👉 Bài toán cho biết tổng là 14, và chênh lệch giữa hai phần là 2.<br/>➡️ Bước 1: Lấy (14 - 2) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 2 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
     },
     {
       "question": "hai túi đựng tổng cộng 21 chiếc kẹo. Biết rằng túi to có nhiều hơn túi nhỏ 3 chiếc kẹo. Hỏi mỗi túi to và túi nhỏ có bao nhiêu chiếc kẹo?",
@@ -330,7 +330,7 @@
         "xe số 1: 11, xe số 2: 5"
       ],
       "answer": 1,
-      "guide": "👉 Bài toán cho biết tổng là 16, và chênh lệch giữa hai phần là 1.<br/>➡️ Bước 1: Lấy (16 - 4) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 4 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+      "guide": "👉 Bài toán cho biết tổng là 16, và chênh lệch giữa hai phần là 4.<br/>➡️ Bước 1: Lấy (16 - 4) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 4 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
     },
     {
       "question": "Hai xe có tất cả 16 bó hoa, trong đó xe số hai ít hơn xe số một 4 bó hoa. Hỏi mỗi xe chứa bao nhiêu bó hoa?",
@@ -360,10 +360,10 @@
         "giỏ đỏ: 9, giỏ xanh: 4"
       ],
       "answer": 1,
-      "guide": "👉 Bài toán cho biết tổng là 4, và chênh lệch giữa hai phần là 14.<br/>➡️ Bước 1: Lấy (14 - 4) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 4 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+      "guide": "👉 Bài toán cho biết tổng là 14, và chênh lệch giữa hai phần là 4.<br/>➡️ Bước 1: Lấy (14 - 4) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 4 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
     },
     {
-      "question": "xe số 1 có nhiều hơn xe số hai 4 bó hoa. Tổng cộng cả hai là 18 bó hoa. Hỏi mỗi xe có bao nhiêu?",
+      "question": "xe số 1 chở nhiều hơn xe số hai 4 bó hoa. Tổng cộng cả hai xe chở là 18 bó hoa. Hỏi mỗi xe chở bao nhiêu?",
       "options": [
         "xe số 1: 9, xe số 2: 8",
         "xe số 1: 12, xe số 2: 6",
@@ -490,7 +490,7 @@
         "kệ trên: 14, kệ dưới: 10"
       ],
       "answer": 1,
-      "guide": "👉 Bài toán cho biết tổng là 5, và chênh lệch giữa hai phần là 25.<br/>➡️ Bước 1: Lấy (25 - 5) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 5 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
+      "guide": "👉 Bài toán cho biết tổng là 25, và chênh lệch giữa hai phần là 5.<br/>➡️ Bước 1: Lấy (25 - 5) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 5 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
     },
     {
       "question": "Tổng số quyển vở trong hai cặp là 14. Nếu cặp xanh chứa nhiều hơn cặp đỏ 4 quyển vở, thì mỗi cặp có bao nhiêu?",

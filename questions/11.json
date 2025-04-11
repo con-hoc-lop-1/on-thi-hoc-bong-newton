@@ -12,7 +12,7 @@
     "Câu hỏi kết thúc bằng “= ?” cho từng biểu tượng",
     "Không dùng chữ, chỉ dùng emoji / hình ảnh thay biến số"
   ],
-  "guide": "Gợi ý viết lại biểu thức bằng lời. Vẽ hình/que tính hoặc dùng sticker các biểu tượng để thao tác. Gợi ý bé thay thử số vào biểu tượng",
+  "suggest": "Gợi ý viết lại biểu thức bằng lời. Vẽ hình/que tính hoặc dùng sticker các biểu tượng để thao tác. Gợi ý bé thay thử số vào biểu tượng",
   "data": [
     {
       "question": "🐱 + 🍎 = 7<br/>🐱 + 🍎 + 🍎 = 11<br/>🐱 = ?   🍎 = ?",

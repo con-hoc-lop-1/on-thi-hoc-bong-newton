@@ -9,7 +9,7 @@
   "signal": [
     "Từ khóa thường gặp: “ban đầu có…” “bị mất đi…”, “bay đi…”, “lấy ra…” “còn lại bao nhiêu?”"
   ],
-  "guide": "Giúp bé hiểu tình huống, hướng dẫn làm phép tính đơn giản. Dùng hình vẽ đối tượng, sau đó gạch bỏ những đối tượng bị trừ đi, đếm số còn lại. Cho bé tự kể câu chuyện khác với đồ vật: “Có 5 cái kẹo, mẹ ăn mất 2 cái…”",
+  "suggest": "Giúp bé hiểu tình huống, hướng dẫn làm phép tính đơn giản. Dùng hình vẽ đối tượng, sau đó gạch bỏ những đối tượng bị trừ đi, đếm số còn lại. Cho bé tự kể câu chuyện khác với đồ vật: “Có 5 cái kẹo, mẹ ăn mất 2 cái…”",
   "data": [
     {
       "question": "Một chiếc hộp có 6 con chim. Khi mở ra thì mất 4 con chim. Hỏi còn lại bao nhiêu con chim trong hộp?",

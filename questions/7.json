@@ -11,7 +11,7 @@
     "Câu hỏi dạng: “Một người/vật ở vị trí thứ… từ dưới lên” “Có … người/vật phía trước/ngay trước/về phía đầu hàng”",
     "Hỏi: “Cả hàng/dãy có bao nhiêu…?”"
   ],
-  "guide": "Giúp bé hình dung dãy xếp hàng. Sử dụng que tính và bút chì làm đối tượng, bút chì là đối tượng cần tìm. Đếm 2 chiều để kiểm tra vị trí.",
+  "suggest": "Giúp bé hình dung dãy xếp hàng. Sử dụng que tính và bút chì làm đối tượng, bút chì là đối tượng cần tìm. Đếm 2 chiều để kiểm tra vị trí.",
   "data": [
     {
       "question": "Một dãy xe đạp đang đỗ. Biết có 5 cái ở trước xe cần tìm, và xe cần tìm nằm ở vị trí thứ 6 từ dưới lên. Hỏi cả dãy có tất cả bao nhiêu xe đạp?",
