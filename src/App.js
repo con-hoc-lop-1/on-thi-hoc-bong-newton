@@ -1,6 +1,7 @@
 import React, {Fragment, useEffect, useState} from "react";
 import DrawDiagram from "./DrawDiagram";
 import DrawBalance from "./DrawBalance";
+import ReactDOMServer from 'react-dom/server';
 
 export default function App() {
     const q1 = 1;
@@ -27,6 +28,13 @@ export default function App() {
     });
 
     const [quizStarted, setQuizStarted] = useState(false);
+    const renderSVG = (Component, props) => {
+        try {
+            return ReactDOMServer.renderToStaticMarkup(<Component {...props} />);
+        } catch {
+            return "";
+        }
+    };
 
     const printQuestion = (questions, showInfo) => {
         const printWindow = window.open("#", "_blank");
@@ -60,8 +68,6 @@ export default function App() {
         </style>
       </head>
       <body>
-        <h1>📘 Bộ câu hỏi Toán lớp 1</h1>
-        <p><strong>Tổng số câu hỏi:</strong> ${questions.length}</p>
         ${grouped.map(group => `
           <div class="page">
             ${group.map((q, idx) => `
@@ -69,6 +75,8 @@ export default function App() {
                 <h3>Câu ${questions.indexOf(q) + 1}</h3>
                 <div class="question-item">
                   <div>${q.question}</div>
+                  ${q.diagram ? `${renderSVG(DrawDiagram, {diagram: q.diagram})}` : ""}
+                  ${q.balance ? `${renderSVG(DrawBalance, {balance: q.balance})}` : ""}
                   <div class="options">
                     ${q.options.map((opt, idx) => `<div>${String.fromCharCode(65 + idx)}. ${opt}</div>`).join("")}
                   </div>
