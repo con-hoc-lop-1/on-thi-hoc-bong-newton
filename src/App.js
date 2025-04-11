@@ -28,6 +28,30 @@ export default function App() {
     });
 
     const [quizStarted, setQuizStarted] = useState(false);
+    const [useTimer, setUseTimer] = useState(false);
+    const [timeLeft, setTimeLeft] = useState(20 * 60); // 20 phút
+    const [timeSpent, setTimeSpent] = useState(0);
+    const [timerInterval, setTimerInterval] = useState(null);
+
+    useEffect(() => {
+        if (quizStarted && useTimer && timeLeft > 0) {
+            const interval = setInterval(() => {
+                setTimeLeft(prev => prev - 1);
+                setTimeSpent(prev => prev + 1);
+            }, 1000);
+            setTimerInterval(interval);
+            return () => clearInterval(interval);
+        }
+        if (timeLeft === 0) {
+            clearInterval(timerInterval);
+            setShowResult(true);
+        }
+    }, [
+        quizStarted,
+        useTimer,
+        timeLeft
+    ]);
+
     const renderSVG = (Component, props) => {
         try {
             return ReactDOMServer.renderToStaticMarkup(<Component {...props} />);
@@ -92,14 +116,25 @@ export default function App() {
           </div>
         `).join("")}
         <script>
-        setTimeout("window.close()", 100);
+        const imgs = document.images;
+        let loaded = 0;
+        for (let i = 0; i < imgs.length; i++) {
+          imgs[i].onload = () => {
+            loaded++;
+              if (loaded === imgs.length) {
+                setTimeout(() => {
+                  window.print()
+                  window.close()
+              }, 100)
+            }
+          };
+        }
         </script>
       </body>
     </html>`;
         printWindow.document.write(html);
         printWindow.document.close();
         printWindow.focus();
-        printWindow.print();
     };
 
     const handleAnswer = (index) => {
@@ -124,6 +159,9 @@ export default function App() {
         setShowResult(false);
         setSelected(null);
         setQuizStarted(false);
+        setTimeLeft(20 * 60);
+        setTimeSpent(0);
+        if (timerInterval) clearInterval(timerInterval);
     };
 
     const fetchQuestions = async () => {
@@ -175,6 +213,13 @@ export default function App() {
         acc[q.name] = (acc[q.name] || 0) + 1;
         return acc;
     }, {});
+
+    const formatTime = (seconds) => {
+        const m = Math.floor(seconds / 60);
+        const s = seconds % 60;
+        return `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+    }
+
     return (
         <div style={{maxWidth: 800, margin: '0 auto', padding: 24}}>
             {!quizStarted && ready && (
@@ -201,7 +246,17 @@ export default function App() {
                             hiệu</label><br/>
                         <label><input type="checkbox" checked={showInfo.suggest}
                                       onChange={() => setShowInfo(prev => ({...prev, suggest: !prev.suggest}))}/> Hiện
-                            gợi ý</label>
+                            gợi ý</label><br/>
+                        <label><input type="checkbox" checked={useTimer}
+                                      onChange={(e) => setUseTimer(e.target.checked)}/> Bấm giờ </label>
+                        {useTimer && (
+                            <Fragment><input
+                                type="number"
+                                defaultValue={20}
+                                onBlur={(e) => setTimeLeft(Number(e.target.value) * 60)}
+                                style={{marginLeft: 10, width: 60}}
+                            /> phút</Fragment>
+                        )}
                     </div>
                     <div className="mt-4">
                         <button className="btn btn-success mr-2" onClick={() => setQuizStarted(true)}>🚀 Bắt đầu làm
@@ -218,6 +273,8 @@ export default function App() {
                 <Fragment>
                     <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
                         <h2>Câu {current + 1}/{question_per_exercise}:</h2>
+                        {useTimer &&
+                            <h3 style={{color: timeLeft < 30 ? 'red' : undefined}}>⏱️ {formatTime(timeLeft)}</h3>}
                     </div>
 
                     <p dangerouslySetInnerHTML={{__html: questions[current].question}}/>
@@ -281,6 +338,7 @@ export default function App() {
                 <div style={{textAlign: 'center'}}>
                     <h2>🎉 Tổng kết</h2>
                     <p>Con đã trả lời đúng {score} / {questions.length} câu hỏi.</p>
+                    {useTimer && <p>⏱️ Thời gian đã làm: {formatTime(timeSpent)}</p>}
                     {score === 20 && <p>🏆 Con thật tuyệt vời! Đạt điểm tối đa!</p>}
                     {score >= 10 && score < 20 && <p>👍 Con đã làm rất tốt! Cố thêm chút nữa nhé!</p>}
                     {score < 10 && <p>💪 Không sao cả, mình cùng ôn lại và chơi lại nhé!</p>}
