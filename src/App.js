@@ -3,10 +3,11 @@ import DrawDiagram from "./DrawDiagram";
 import DrawBalance from "./DrawBalance";
 
 export default function App() {
-    const q1 = 12; //bắt đầu từ file số mấy
-    const q2 = 12; //cho đến file số mấy
-    const question_per_file = 50; //mỗi file lấy bao nhiêu câu
-    const question_per_exercise = 50; //tổng số câu trong 1 đề
+    const q1 = 1;
+    const q2 = 15;
+    const question_per_file = 2;
+    const question_per_exercise = 20;
+    const question_sort_random = true;
 
     const [current, setCurrent] = useState(0);
     const [score, setScore] = useState(0);
@@ -14,19 +15,21 @@ export default function App() {
     const [ready, setReady] = useState(false);
     const [questions, setQuestions] = useState([]);
     const [selected, setSelected] = useState(null);
-    const [showInfo, setShowInfo] = useState({
-        name: true,
-        guide: true,
-        special: false,
-        signal: false,
-        suggest: false,
+    const [showInfo, setShowInfo] = useState(() => {
+        const saved = localStorage.getItem("showInfo");
+        return saved ? JSON.parse(saved) : {
+            name: true,
+            guide: true,
+            special: false,
+            signal: false,
+            suggest: false,
+        };
     });
 
     const [quizStarted, setQuizStarted] = useState(false);
 
-
     const printQuestion = (questions, showInfo) => {
-        const printWindow = window.open("", "_blank");
+        const printWindow = window.open("#", "_blank");
         const extraCount = [
             "name",
             "guide",
@@ -45,7 +48,7 @@ export default function App() {
 
         const html = `<html lang="vi-VN">
       <head>
-        <title>In bộ câu hỏi</title>
+        <title>Ôn tập toán lớp 1</title>
         <style>
           body { font-family: Arial,sans-serif; padding: 24px; }
           .page { page-break-after: always; margin-bottom: 48px; }
@@ -89,7 +92,7 @@ export default function App() {
         printWindow.document.close();
         printWindow.focus();
         printWindow.print();
-    }
+    };
 
     const handleAnswer = (index) => {
         setSelected(index);
@@ -122,8 +125,12 @@ export default function App() {
                 fetch(`/react-on-tap-toan-lop-1/questions/${i}.json`)
                     .then(response => response.json())
                     .then((result) => {
-                        let data = result.data.slice(0, question_per_file);
-                        // let data = result.data.sort(() => 0.5 - Math.random()).slice(0, question_per_file);
+                        let data
+                        if (question_sort_random) {
+                            data = result.data.sort(() => 0.5 - Math.random()).slice(0, question_per_file);
+                        } else {
+                            data = result.data.slice(0, question_per_file);
+                        }
                         data = data.map(item => ({
                             ...item,
                             name: result.name,
@@ -137,8 +144,11 @@ export default function App() {
             );
         }
         const questions = await Promise.all(promises);
-        return questions.flat().slice(0, question_per_exercise);
-        // return questions.flat().sort(() => 0.5 - Math.random()).slice(0, question_per_exercise);
+        if (question_sort_random) {
+            return questions.flat().sort(() => 0.5 - Math.random()).slice(0, question_per_exercise);
+        } else {
+            return questions.flat().slice(0, question_per_exercise);
+        }
     };
 
     useEffect(() => {
@@ -149,11 +159,14 @@ export default function App() {
             });
     }, []);
 
+    useEffect(() => {
+        localStorage.setItem("showInfo", JSON.stringify(showInfo));
+    }, [showInfo]);
+
     const questionCounts = questions.reduce((acc, q) => {
         acc[q.name] = (acc[q.name] || 0) + 1;
         return acc;
     }, {});
-
     return (
         <div style={{maxWidth: 800, margin: '0 auto', padding: 24}}>
             {!quizStarted && ready && (
@@ -229,8 +242,8 @@ export default function App() {
                     <div className='guide'>
                         <div className='mt-4'>
                             {showInfo.guide && <Fragment>
-                                <p><strong>Hướng dẫn:</strong>
-                                    <div dangerouslySetInnerHTML={{__html: questions[current].guide}}/>
+                                <p><strong>Hướng dẫn:</strong><br/>
+                                    <span dangerouslySetInnerHTML={{__html: questions[current].guide}}/>
                                 </p>
                             </Fragment>}
                             {showInfo.name && <p><strong>Dạng đề:</strong> {questions[current].name}</p>}
