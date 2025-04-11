@@ -11,7 +11,7 @@
     "Tính liên tiếp",
     "Không cho trước phép tính cụ thể mà mô tả bằng lời"
   ],
-  "guide": "Cho bé vẽ sơ đồ đoạn thẳng: mỗi phép tính là một bước trên đoạn. Thực hiện tính ngược",
+  "suggest": "Cho bé vẽ sơ đồ đoạn thẳng: mỗi phép tính là một bước trên đoạn. Thực hiện tính ngược",
   "data": [
     {
       "question": "Một số cộng với 45 rồi trừ đi 14 thì bằng 42. Tìm số đó.",

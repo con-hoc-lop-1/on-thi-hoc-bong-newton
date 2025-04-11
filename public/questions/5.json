@@ -12,7 +12,7 @@
     "Đề bài cho số lượng trong 1 nhóm → có nhiều nhóm như vậy",
     "Hỏi tổng cộng bao nhiêu phần"
   ],
-  "guide": "Gợi ý con dùng phép nhân. Dùng que tính, viên sỏi, hoặc hình ảnh kẹo chia đều vào các cốc/hộp thật rồi đếm tổng",
+  "suggest": "Gợi ý con dùng phép nhân. Dùng que tính, viên sỏi, hoặc hình ảnh kẹo chia đều vào các cốc/hộp thật rồi đếm tổng",
   "data": [
     {
       "question": "Mỗi bàn học đựng 5 hộp bút màu. Nếu có 3 bàn học như vậy thì tổng số hộp bút màu là bao nhiêu?",

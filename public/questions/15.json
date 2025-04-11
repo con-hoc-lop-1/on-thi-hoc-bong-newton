@@ -11,7 +11,7 @@
     "Có sự di chuyển giữa các tầng",
     "Không yêu cầu cộng trừ trực tiếp mà cần nhân số bậc với số đoạn"
   ],
-  "guide": "Phụ huynh nên gợi hỏi con: 'Con đi qua mấy đoạn cầu thang?', rồi hỏi 'Mỗi đoạn có bao nhiêu bậc?'. Sau đó hướng dẫn nhân hai số đó với nhau. Nên vẽ sơ đồ cầu thang để con dễ quan sát. Dùng hoặc vẽ nút tròn làm vật thể, que tính làm số bậc",
+  "suggest": "Phụ huynh nên gợi hỏi con: 'Con đi qua mấy đoạn cầu thang?', rồi hỏi 'Mỗi đoạn có bao nhiêu bậc?'. Sau đó hướng dẫn nhân hai số đó với nhau. Nên vẽ sơ đồ cầu thang để con dễ quan sát. Dùng hoặc vẽ nút tròn làm vật thể, que tính làm số bậc",
   "data": [
     {
       "question": "Em minh đi từ tầng 3 lên tầng 5 của khu chung cư. Biết rằng mỗi đoạn giữa hai tầng có 12 bậc thang. Hỏi em Minh đã bước bao nhiêu bậc cầu thang?",

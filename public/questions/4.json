@@ -11,7 +11,7 @@
     "Cho số lượng tổng và từng nhóm riêng lẻ",
     "Không cộng trực tiếp được vì có phần trùng"
   ],
-  "guide": "Vẽ các vòng tròn trên nền trong suốt để biểu diễn các đối tượng trong bài toán, sau đó xếp chồng lên nhau để xem sự giao nhau",
+  "suggest": "Vẽ các vòng tròn trên nền trong suốt để biểu diễn các đối tượng trong bài toán, sau đó xếp chồng lên nhau để xem sự giao nhau",
   "data": [
     {
       "question": "Có 15 chiếc bánh, trong đó 13 chiếc bánh có đặc điểm 'nhân socola' và 10 chiếc bánh có đặc điểm 'nhân dâu'. Hỏi có bao nhiêu chiếc bánh vừa có đặc điểm 'nhân socola' vừa có đặc điểm 'nhân dâu'?",

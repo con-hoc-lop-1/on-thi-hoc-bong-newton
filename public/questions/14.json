@@ -11,7 +11,7 @@
     "Cho trước số vật thể và mô tả vị trí các vật thể",
     "Không có phép cộng trừ trực tiếp, mà suy luận theo tình huống"
   ],
-  "guide": "Hỏi con: 'Hai đầu đoạn đường có vật thể không?', từ đó chọn đúng công thức:<br/>- Nếu hai đầu có cây: số khoảng cách = số cây - 1<br/>- Nếu hai đầu không có cây: khoảng cách = số cây + 1<br/>- Nếu một đầu có cây: khoảng cách = số cây<br/>Nên cho con vẽ đoạn đường và đặt cây để quan sát rõ hơn. Dùng hoặc vẽ nút tròn làm vật thể, que tính làm khoảng cách. Đếm số khoảng trống",
+  "suggest": "Hỏi con: 'Hai đầu đoạn đường có vật thể không?', từ đó chọn đúng công thức:<br/>- Nếu hai đầu có cây: số khoảng cách = số cây - 1<br/>- Nếu hai đầu không có cây: khoảng cách = số cây + 1<br/>- Nếu một đầu có cây: khoảng cách = số cây<br/>Nên cho con vẽ đoạn đường và đặt cây để quan sát rõ hơn. Dùng hoặc vẽ nút tròn làm vật thể, que tính làm khoảng cách. Đếm số khoảng trống",
   "data": [
     {
       "question": "Trên đoạn đường, có 12 lồng đèn được đặt cách đều, chỉ có lồng đèn ở một đầu đoạn đường. Hỏi có bao nhiêu khoảng cách giữa các lồng đèn đó?",

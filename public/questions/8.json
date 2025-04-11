@@ -9,7 +9,7 @@
     "Câu hỏi thường bắt đầu bằng: “Hình sau có bao nhiêu hình vuông?” “Có bao nhiêu hình chữ nhật/hình tam giác trong lưới?”",
     "Hình là lưới điểm vuông/hình tròn lồng nhau, có các đường ngang và dọc đều nhau"
   ],
-  "guide": "Gợi ý bé đếm theo từng loại hình. Nếu hình lồng nhau, phân chia ra đếm theo kích thước, hoặc dùng các bút màu khác nhau để tô lại nét, tách rời ra rồi đếm",
+  "suggest": "Gợi ý bé đếm theo từng loại hình. Nếu hình lồng nhau, phân chia ra đếm theo kích thước, hoặc dùng các bút màu khác nhau để tô lại nét, tách rời ra rồi đếm",
   "data": [
     {
       "question": "Hình sau có tất cả bao nhiêu hình vuông?",

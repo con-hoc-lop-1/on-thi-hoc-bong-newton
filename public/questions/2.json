@@ -11,7 +11,7 @@
     "Phép tính cho trước một biểu thức và kết quả",
     "Có thể là cộng rồi trừ, trừ rồi cộng"
   ],
-  "guide": "Gợi ý con: \"Phép tính này có gì đặc biệt?\". Giúp bé thấy: x nằm trong phép cộng – trừ liên tiếp. Thực hiện từng bước ngược lại. Sử dụng que tính hoặc sơ đồ để minh họa",
+  "suggest": "Gợi ý con: \"Phép tính này có gì đặc biệt?\". Giúp bé thấy: x nằm trong phép cộng – trừ liên tiếp. Thực hiện từng bước ngược lại. Sử dụng que tính hoặc sơ đồ để minh họa",
   "data": [
     {
       "question": "Cho phép tính: 26 + x - 29 = 33. Hỏi x bằng bao nhiêu?",

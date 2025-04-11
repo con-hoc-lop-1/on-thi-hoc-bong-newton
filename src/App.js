@@ -1,15 +1,93 @@
 import React, {Fragment, useEffect, useState} from "react";
-import DrawDiagram from "./drawDiagram";
+import DrawDiagram from "./DrawDiagram";
 
 export default function App() {
+    const q1 = 1; //bắt đầu từ file số mấy
+    const q2 = 15; //cho đến file số mấy
+    const y = 2; //mỗi file lấy bao nhiêu câu
+
     const [current, setCurrent] = useState(0);
     const [score, setScore] = useState(0);
     const [showResult, setShowResult] = useState(false);
     const [ready, setReady] = useState(false);
     const [questions, setQuestions] = useState([]);
     const [selected, setSelected] = useState(null);
-    const x = 15;
-    const y = 2;
+    const [showInfo, setShowInfo] = useState({
+        name: true,
+        guide: true,
+        special: false,
+        signal: false,
+        suggest: false,
+    });
+
+    const [quizStarted, setQuizStarted] = useState(false);
+
+
+    const printQuestion = (questions, showInfo) => {
+        const printWindow = window.open("", "_blank");
+        const extraCount = [
+            "name",
+            "guide",
+            "special",
+            "signal",
+            "suggest"
+        ].filter(k => showInfo[k]).length;
+        let perPage = 1;
+        if (extraCount === 1 || extraCount === 0) perPage = 3;
+        else if (extraCount === 2 || extraCount === 3) perPage = 2;
+
+        const grouped = [];
+        for (let i = 0; i < questions.length; i += perPage) {
+            grouped.push(questions.slice(i, i + perPage));
+        }
+
+        const html = `<html lang="vi-VN">
+      <head>
+        <title>In bộ câu hỏi</title>
+        <style>
+          body { font-family: Arial,sans-serif; padding: 24px; }
+          .page { page-break-after: always; margin-bottom: 48px; }
+          .question { margin: 20px 0}
+          .question-item {  margin-left: 20px; }
+          .options { margin-top: 8px; margin-left: 10px }
+          .options div { margin-bottom: 4px; }
+          h3 { margin-top: 0; }
+        </style>
+      </head>
+      <body>
+        <h1>📘 Bộ câu hỏi Toán lớp 1</h1>
+        <p><strong>Tổng số câu hỏi:</strong> ${questions.length}</p>
+        ${grouped.map(group => `
+          <div class="page">
+            ${group.map((q, idx) => `
+              <div class="question">
+                <h3>Câu ${questions.indexOf(q) + 1}</h3>
+                <div class="question-item">
+                  <div>${q.question}</div>
+                  <div class="options">
+                    ${q.options.map((opt, idx) => `<div>${String.fromCharCode(65 + idx)}. ${opt}</div>`).join("")}
+                  </div>
+                  ${showInfo.guide ? `<p><strong>Hướng dẫn:</strong><br/>${q.guide}</p>` : ""}
+                  ${showInfo.name ? `<p><strong>Dạng bài:</strong> ${q.name}</p>` : ""}
+                  ${showInfo.special ? `<p><strong>Đặc điểm:</strong><ul>${q.special.map(s => `<li>${s}</li>`).join("")}</ul></p>` : ""}
+                  ${showInfo.signal ? `<p><strong>Dấu hiệu nhận biết:</strong><ul>${q.signal.map(s => `<li>${s}</li>`).join("")}</ul></p>` : ""}
+                  ${showInfo.suggest ? `<p><strong>Gợi ý:</strong><br/>${q.suggest}</p>` : ""}
+                </div>
+              </div>
+              ${idx < group.length - 1 ? '<hr/>' : ''}
+            `).join("")}
+          </div>
+        `).join("")}
+        <script>
+        setTimeout("window.close()", 100);
+        </script>
+      </body>
+    </html>`;
+        printWindow.document.write(html);
+        printWindow.document.close();
+        printWindow.focus();
+        printWindow.print();
+    }
 
     const handleAnswer = (index) => {
         setSelected(index);
@@ -32,45 +110,86 @@ export default function App() {
         setScore(0);
         setShowResult(false);
         setSelected(null);
+        setQuizStarted(false);
     };
 
     const fetchQuestions = async () => {
         const promises = [];
-        for (let i = 1; i <= x; i++) {
+        for (let i = q1; i <= q2; i++) {
             promises.push(
                 fetch(`/react-on-tap-toan-lop-1/questions/${i}.json`)
                     .then(response => response.json())
                     .then((result) => {
-                        let data = result.data.sort(() => 0.5 - Math.random()).slice(0, y)
+                        let data = result.data.sort(() => 0.5 - Math.random()).slice(0, y);
                         data = data.map(item => ({
                             ...item,
                             name: result.name,
                             type: result.type,
                             special: result.special,
                             signal: result.signal,
-                            suggest: result.guide
+                            suggest: result.suggest
                         }));
-                        return data
+                        return data;
                     })
             );
         }
         const questions = await Promise.all(promises);
         return questions.flat().sort(() => 0.5 - Math.random()).slice(0, 20);
-        // return questions.flat();
     };
 
     useEffect(() => {
         if (!ready)
             fetchQuestions().then((data) => {
-                console.log(data)
                 setQuestions(data);
                 setReady(true);
             });
     }, []);
 
+    const questionCounts = questions.reduce((acc, q) => {
+        acc[q.name] = (acc[q.name] || 0) + 1;
+        return acc;
+    }, {});
+
     return (
         <div style={{maxWidth: 800, margin: '0 auto', padding: 24}}>
-            {!showResult && ready ? (
+            {!quizStarted && ready && (
+                <div>
+                    <h2>📚 Thông tin bộ đề</h2>
+                    <p>Tổng số câu hỏi: <b>{questions.length} câu</b></p>
+                    <ul>
+                        {Object.entries(questionCounts).map(([name, count]) => (
+                            <li key={name}>{name}: <b>{count} câu</b></li>
+                        ))}
+                    </ul>
+                    <div>
+                        <label><input type="checkbox" checked={showInfo.name}
+                                      onChange={() => setShowInfo(prev => ({...prev, name: !prev.name}))}/> Hiện tên
+                            dạng bài</label><br/>
+                        <label><input type="checkbox" checked={showInfo.guide}
+                                      onChange={() => setShowInfo(prev => ({...prev, guide: !prev.guide}))}/> Hiện hướng
+                            dẫn</label><br/>
+                        <label><input type="checkbox" checked={showInfo.special}
+                                      onChange={() => setShowInfo(prev => ({...prev, special: !prev.special}))}/> Hiện
+                            đặc điểm</label><br/>
+                        <label><input type="checkbox" checked={showInfo.signal}
+                                      onChange={() => setShowInfo(prev => ({...prev, signal: !prev.signal}))}/> Hiện dấu
+                            hiệu</label><br/>
+                        <label><input type="checkbox" checked={showInfo.suggest}
+                                      onChange={() => setShowInfo(prev => ({...prev, suggest: !prev.suggest}))}/> Hiện
+                            gợi ý</label>
+                    </div>
+                    <div className="mt-4">
+                        <button className="btn btn-success mr-2" onClick={() => setQuizStarted(true)}>🚀 Bắt đầu làm
+                            bài
+                        </button>
+                        <button className="btn btn-secondary" onClick={() => printQuestion(questions, showInfo)}>🖨️ In
+                            bài ra giấy
+                        </button>
+                    </div>
+                </div>
+            )}
+
+            {quizStarted && !showResult && ready && (
                 <Fragment>
                     <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
                         <h2>Câu {current + 1}/20:</h2>
@@ -93,31 +212,30 @@ export default function App() {
                     <hr/>
                     <div className='guide'>
                         <div className='mt-4'>
-                            <p><strong>Hướng dẫn:</strong></p>
-                            <div dangerouslySetInnerHTML={{__html: questions[current].guide}}/>
-                        </div>
-                        <div className='mt-4'>
-                            <div><strong>Dạng đề:</strong> {questions[current].name}</div>
-                            <div><strong>Kiểu đề:</strong> {questions[current].type}</div>
-                            <div><strong>Đặc điểm trong bài:</strong>
+                            {showInfo.guide && <>
+                                <p><strong>Hướng dẫn:</strong></p>
+                                <div dangerouslySetInnerHTML={{__html: questions[current].guide}}/>
+                            </>}
+
+                            {showInfo.name && <div><strong>Dạng đề:</strong> {questions[current].name}</div>}
+                            {showInfo.special && <div><strong>Đặc điểm trong bài:</strong>
                                 <ul>
                                     {questions[current].special.map((item, index) => (
                                         <li key={index}>{item}</li>
                                     ))}
                                 </ul>
-                            </div>
-                            <div><strong>Dấu hiệu nhận biết:</strong>
+                            </div>}
+                            {showInfo.signal && <div><strong>Dấu hiệu nhận biết:</strong>
                                 <ul>
                                     {questions[current].signal.map((item, index) => (
                                         <li key={index}>{item}</li>
                                     ))}
                                 </ul>
-                            </div>
-                            <div><strong>Gợi ý:</strong>
+                            </div>}
+                            {showInfo.suggest && <div><strong>Gợi ý:</strong>
                                 <div dangerouslySetInnerHTML={{__html: questions[current].suggest}}/>
-                            </div>
+                            </div>}
                         </div>
-
                     </div>
                     {selected !== null && (
                         <div className="mt-4">
@@ -128,7 +246,9 @@ export default function App() {
                         </div>
                     )}
                 </Fragment>
-            ) : (
+            )}
+
+            {showResult && (
                 <div style={{textAlign: 'center'}}>
                     <h2>🎉 Tổng kết</h2>
                     <p>Con đã trả lời đúng {score} / {questions.length} câu hỏi.</p>

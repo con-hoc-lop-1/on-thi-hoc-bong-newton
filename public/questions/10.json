@@ -10,7 +10,7 @@
     "Từ khóa thường gặp: “Mỗi con/mỗi cái có…” “Có … con như vậy” “Tính tổng … tất cả”",
     "Dạng bài cộng lặp lại nhiều lần → dùng phép nhân"
   ],
-  "guide": "Sử dụng que tính và cốc để biểu đạt đối tượng. Ví dụ cái cốc thay cho con nhện, 8 que tính thay cho chân.",
+  "suggest": "Sử dụng que tính và cốc để biểu đạt đối tượng. Ví dụ cái cốc thay cho con nhện, 8 que tính thay cho chân.",
   "data": [
     {
       "question": "Có 2 con nhện, mỗi con nhện đều có 8 chân. Tính tổng số chân.",
@@ -100,7 +100,7 @@
         "6"
       ],
       "answer": 2,
-      "guide": ""
+      "guide": "👉 Mỗi xe đạp có 2 bánh.<br/>📌 Có 2 xe đạp như vậy.<br/>➡️ Con hãy lấy 2 × 2 = ...<br/>✅ Vậy có tất cả ... bánh."
     },
     {
       "question": "Một nhóm gồm 6 xe đạp, biết mỗi xe đạp có 2 bánh xe. Hỏi tất cả có bao nhiêu bánh xe?",
@@ -130,7 +130,7 @@
         "21"
       ],
       "answer": 0,
-      "guide": ""
+      "guide": "👉 Mỗi Một bộ bàn ghế có 4 ghế.<br/>📌 Có 4 Một bộ bàn ghế như vậy.<br/>➡️ Con hãy lấy 4 × 4 = ...<br/>✅ Vậy có tất cả ... ghế."
     },
     {
       "question": "3 con người được đặt cùng nhau. Mỗi con người có 2 mắt. Tổng số mắt là bao nhiêu?",
@@ -170,7 +170,7 @@
         "6"
       ],
       "answer": 0,
-      "guide": ""
+      "guide": "👉 Mỗi bình nước có 1 nắp.<br/>📌 Có 1 bình nước như vậy.<br/>➡️ Con hãy lấy 1 × 1 = ...<br/>✅ Vậy có tất cả ... nắp."
     },
     {
       "question": "bông hoa có 5 cánh hoa mỗi cái. Nếu có 2 cái như vậy, hỏi có bao nhiêu cánh hoa tất cả?",
@@ -180,7 +180,7 @@
         "10"
       ],
       "answer": 2,
-      "guide": ""
+      "guide": "👉 Mỗi bông hoa có 5 cánh.<br/>📌 Có 5 bông hoa như vậy.<br/>➡️ Con hãy lấy 5 × 5 = ...<br/>✅ Vậy có tất cả ... cánh."
     },
     {
       "question": "4 con cua được đặt cùng nhau. Mỗi con cua có 8 chân. Tổng số chân là bao nhiêu?",
@@ -200,7 +200,7 @@
         "4"
       ],
       "answer": 0,
-      "guide": ""
+      "guide": "👉 Mỗi bút màu có 1 nắp.<br/>📌 Có 1 bút màu như vậy.<br/>➡️ Con hãy lấy 1 × 1 = ...<br/>✅ Vậy có tất cả ... nắp."
     },
     {
       "question": "Mỗi bộ bàn ghế có 4 ghế. Nếu có 2 bộ bàn ghế, hỏi tổng cộng có bao nhiêu ghế?",
@@ -220,7 +220,7 @@
         "10"
       ],
       "answer": 2,
-      "guide": ""
+      "guide": "👉 Mỗi bông hoa có 5 cánh.<br/>📌 Có 5 bông hoa như vậy.<br/>➡️ Con hãy lấy 5 × 5 = ...<br/>✅ Vậy có tất cả ... cánh."
     },
     {
       "question": "Có 5 bộ bàn ghế, mỗi bộ bàn ghế đều có 4 ghế. Tính tổng số ghế.",
@@ -250,7 +250,7 @@
         "17"
       ],
       "answer": 1,
-      "guide": ""
+      "guide": "👉 Mỗi ô tô có 4 bánh.<br/>📌 Có 4 ô tô như vậy.<br/>➡️ Con hãy lấy 4 × 4 = ...<br/>✅ Vậy có tất cả ... bánh."
     },
     {
       "question": "quạt máy có 3 cánh quạt mỗi cái. Nếu có 2 cái như vậy, hỏi có bao nhiêu cánh quạt tất cả?",
@@ -260,7 +260,7 @@
         "6"
       ],
       "answer": 2,
-      "guide": ""
+      "guide": "👉 Mỗi quạt máy có 3 cánh.<br/>📌 Có 3 quạt máy như vậy.<br/>➡️ Con hãy lấy 3 × 3 = ...<br/>✅ Vậy có tất cả ... cánh."
     },
     {
       "question": "Trong nhà có 3 chiếc đồng hồ, biết mỗi đồng hồ có 2 kim. Hỏi tất cả có bao nhiêu kim?",
@@ -340,7 +340,7 @@
         "32"
       ],
       "answer": 2,
-      "guide": ""
+      "guide": "👉 Mỗi con nhện có 8 chân.<br/>📌 Có 8 con nhện như vậy.<br/>➡️ Con hãy lấy 8 × 8 = ...<br/>✅ Vậy có tất cả ... chân."
     },
     {
       "question": "con nhện có 8 chân mỗi cái. Nếu có 2 cái như vậy, hỏi có bao nhiêu chân tất cả?",
@@ -350,7 +350,7 @@
         "14"
       ],
       "answer": 1,
-      "guide": ""
+      "guide": "👉 Mỗi con nhện có 8 chân.<br/>📌 Có 8 con nhện như vậy.<br/>➡️ Con hãy lấy 8 × 8 = ...<br/>✅ Vậy có tất cả ... chân."
     },
     {
       "question": "ngôi nhà có 1 cánh cửa mỗi cái. Nếu có 4 cái như vậy, hỏi có bao nhiêu cánh cửa tất cả?",
@@ -360,7 +360,7 @@
         "4"
       ],
       "answer": 2,
-      "guide": ""
+      "guide": "👉 Mỗi ngôi nhà có 1 cánh cửa.<br/>📌 Có 1 ngôi nhà như vậy.<br/>➡️ Con hãy lấy 1 × 1 = ...<br/>✅ Vậy có tất cả ... cánh cửa."
     },
     {
       "question": "Mỗi xe đạp có 2 bánh xe. Nếu có 2 xe đạp, hỏi tổng cộng có bao nhiêu bánh xe?",
@@ -380,7 +380,7 @@
         "32"
       ],
       "answer": 2,
-      "guide": ""
+      "guide": "👉 Mỗi con nhện có 8 chân.<br/>📌 Có 8 con nhện như vậy.<br/>➡️ Con hãy lấy 8 × 8 = ...<br/>✅ Vậy có tất cả ... chân."
     },
     {
       "question": "Một nhóm gồm 3 bộ bàn ghế, biết mỗi bộ bàn ghế có 4 ghế. Hỏi tất cả có bao nhiêu ghế?",
@@ -430,7 +430,7 @@
         "12"
       ],
       "answer": 2,
-      "guide": ""
+      "guide": "👉 Mỗi bộ bàn ghế có 4 ghế.<br/>📌 Có 4 bộ bàn ghế như vậy.<br/>➡️ Con hãy lấy 4 × 4 = ...<br/>✅ Vậy có tất cả ... ghế."
     },
     {
       "question": "Một nhóm gồm 6 bộ bàn ghế, biết mỗi bộ bàn ghế có 4 ghế. Hỏi tất cả có bao nhiêu ghế?",
@@ -470,7 +470,7 @@
         "5"
       ],
       "answer": 2,
-      "guide": ""
+      "guide": "👉 Mỗi bút màu có 1 nắp.<br/>📌 Có 1 bút màu như vậy.<br/>➡️ Con hãy lấy 1 × 1 = ...<br/>✅ Vậy có tất cả ... nắp."
     },
     {
       "question": "Mỗi ô tô có 4 bánh xe. Nếu có 4 ô tô, hỏi tổng cộng có bao nhiêu bánh xe?",
@@ -500,7 +500,7 @@
         "1"
       ],
       "answer": 1,
-      "guide": ""
+      "guide": "👉 Mỗi bình nước có 1 nắp.<br/>📌 Có 1 bình nước như vậy.<br/>➡️ Con hãy lấy 1 × 1 = ...<br/>✅ Vậy có tất cả ... nắp."
     },
     {
       "question": "Một nhóm gồm 5 ô tô, biết mỗi ô tô có 4 bánh xe. Hỏi tất cả có bao nhiêu bánh xe?",
