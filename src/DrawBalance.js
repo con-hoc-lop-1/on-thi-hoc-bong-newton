@@ -1,6 +1,7 @@
 import {Fragment} from "react";
 
-export default function DrawBalance({balance1, balance2, balance3}) {
+export default function DrawBalance({balance}) {
+    const {balance1, balance2, balance3} = balance
     const style1 = {
         display: "flex",
         justifyContent: "center",

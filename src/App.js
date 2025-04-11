@@ -1,5 +1,6 @@
 import React, {Fragment, useEffect, useState} from "react";
 import DrawDiagram from "./DrawDiagram";
+import DrawBalance from "./DrawBalance";
 
 export default function App() {
     const q1 = 12; //bắt đầu từ file số mấy
@@ -197,6 +198,7 @@ export default function App() {
 
                     <p dangerouslySetInnerHTML={{__html: questions[current].question}}/>
                     {questions[current].diagram && <DrawDiagram diagram={questions[current].diagram}/>}
+                    {questions[current].balance && <DrawBalance balance={questions[current].balance}/>}
                     <div style={{marginTop: 20}}>
                         {questions[current].options.map((option, idx) => (
                             <button
