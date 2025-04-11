@@ -5,7 +5,8 @@ import DrawBalance from "./DrawBalance";
 export default function App() {
     const q1 = 12; //bắt đầu từ file số mấy
     const q2 = 12; //cho đến file số mấy
-    const y = 2; //mỗi file lấy bao nhiêu câu
+    const question_per_file = 50; //mỗi file lấy bao nhiêu câu
+    const question_per_exercise = 50; //tổng số câu trong 1 đề
 
     const [current, setCurrent] = useState(0);
     const [score, setScore] = useState(0);
@@ -121,7 +122,8 @@ export default function App() {
                 fetch(`/react-on-tap-toan-lop-1/questions/${i}.json`)
                     .then(response => response.json())
                     .then((result) => {
-                        let data = result.data.sort(() => 0.5 - Math.random()).slice(0, y);
+                        let data = result.data.slice(0, question_per_file);
+                        // let data = result.data.sort(() => 0.5 - Math.random()).slice(0, question_per_file);
                         data = data.map(item => ({
                             ...item,
                             name: result.name,
@@ -135,7 +137,8 @@ export default function App() {
             );
         }
         const questions = await Promise.all(promises);
-        return questions.flat().sort(() => 0.5 - Math.random()).slice(0, 20);
+        return questions.flat().slice(0, question_per_exercise);
+        // return questions.flat().sort(() => 0.5 - Math.random()).slice(0, question_per_exercise);
     };
 
     useEffect(() => {
@@ -193,7 +196,7 @@ export default function App() {
             {quizStarted && !showResult && ready && (
                 <Fragment>
                     <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
-                        <h2>Câu {current + 1}/20:</h2>
+                        <h2>Câu {current + 1}/{question_per_exercise}:</h2>
                     </div>
 
                     <p dangerouslySetInnerHTML={{__html: questions[current].question}}/>
@@ -211,15 +214,26 @@ export default function App() {
                             </button>
                         ))}
                     </div>
+                    {selected !== null && (
+                        <Fragment>
+                            <hr/>
+                            <div className="mt-4">
+                                <p><strong>Đáp án
+                                    đúng:</strong> {String.fromCharCode(65 + questions[current].answer)}. {questions[current].options[questions[current].answer]}
+                                </p>
+                                <button className="btn btn-primary mt-4" onClick={handleNext}>Câu tiếp theo</button>
+                            </div>
+                        </Fragment>
+                    )}
                     <hr/>
                     <div className='guide'>
                         <div className='mt-4'>
-                            {showInfo.guide && <>
-                                <p><strong>Hướng dẫn:</strong></p>
-                                <div dangerouslySetInnerHTML={{__html: questions[current].guide}}/>
-                            </>}
-
-                            {showInfo.name && <div><strong>Dạng đề:</strong> {questions[current].name}</div>}
+                            {showInfo.guide && <Fragment>
+                                <p><strong>Hướng dẫn:</strong>
+                                    <div dangerouslySetInnerHTML={{__html: questions[current].guide}}/>
+                                </p>
+                            </Fragment>}
+                            {showInfo.name && <p><strong>Dạng đề:</strong> {questions[current].name}</p>}
                             {showInfo.special && <div><strong>Đặc điểm trong bài:</strong>
                                 <ul>
                                     {questions[current].special.map((item, index) => (
@@ -239,14 +253,6 @@ export default function App() {
                             </div>}
                         </div>
                     </div>
-                    {selected !== null && (
-                        <div className="mt-4">
-                            <p><strong>Đáp án
-                                đúng:</strong> {String.fromCharCode(65 + questions[current].answer)}. {questions[current].options[questions[current].answer]}
-                            </p>
-                            <button className="btn btn-primary mt-4" onClick={handleNext}>Câu tiếp theo</button>
-                        </div>
-                    )}
                 </Fragment>
             )}
 
