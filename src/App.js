@@ -2,8 +2,8 @@ import React, {Fragment, useEffect, useState} from "react";
 import DrawDiagram from "./DrawDiagram";
 
 export default function App() {
-    const q1 = 1; //bắt đầu từ file số mấy
-    const q2 = 15; //cho đến file số mấy
+    const q1 = 12; //bắt đầu từ file số mấy
+    const q2 = 12; //cho đến file số mấy
     const y = 2; //mỗi file lấy bao nhiêu câu
 
     const [current, setCurrent] = useState(0);

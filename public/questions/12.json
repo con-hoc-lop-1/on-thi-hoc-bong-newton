@@ -1,517 +1,468 @@
 {
-  "name": "So sánh thay thế bằng cân thăng bằng",
-  "type": "Biểu tượng và phép cộng trong cân bằng",
+  "name": "Dạng toán cân bằng – suy luận từ biểu tượng đối xứng",
+  "type": "Tìm số lượng biểu tượng cần thiết để giữ cân bằng",
   "special": [
+    "Dùng biểu tượng trực quan",
     "Cán cân thể hiện phép cộng bằng biểu tượng minh họa",
-    "Một biểu tượng có thể thay thế bằng tổng của biểu tượng khác",
-    "Cần thay thế và tính giá trị biểu tượng chưa biết"
+    "Cần thay thế và tính giá trị biểu tượng chưa biết",
+    "Tìm số lượng cần thêm cho cân bằng"
   ],
   "signal": [
-    "Từ khóa: 'cân bằng', 'thay thế', 'giá trị biểu tượng'",
-    "Hình ảnh biểu tượng sắp xếp theo dạng cán cân",
-    "Hỏi giá trị của một biểu tượng dựa trên biểu thức thay thế"
+    "Có cấu trúc: biểu tượng × số = biểu tượng × số",
+    "Xuất hiện thêm phần mở rộng: vế trái giữ nguyên, vế phải bị thiếu",
+    "Dấu hiệu đặc trưng: “?” xuất hiện ở vị trí biểu tượng hoặc tổng. Gợi ý về cân bằng / công bằng / bằng nhau"
   ],
-  "suggest": "Phụ huynh có thể dùng tay hoặc hình vẽ để mô phỏng cái cân, giúp trẻ hình dung sự cân bằng và thay thế giữa các biểu tượng. Sau đó thay giá trị và cộng để tìm kết quả.",
+  "guide": "Hiểu ý nghĩa biểu thức đầu tiên, xét biểu thức tiếp theo. Vẽ trên giấy cái cân, sử dụng que tính hoặc viên sỏi thêm bớt cho 2 bên cân bằng nhau",
   "data": [
     {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍌 + 🍌\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍒\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍒 = 🍌 + 🍌 + 🍌<br/>\n        <strong>Hỏi 🍒 bằng mấy nếu 🍌 = 2?</strong>\n      </div>\n    </div>",
+      "question": "🟥 x 2 = 🟩 x 2  🟰  🟥 x 2 + 🟩 x ? = ?",
       "options": [
-        "6",
-        "4",
-        "9"
-      ],
-      "answer": 0,
-      "guide": "👉 Cân đầu: 🍌 + 🍌 = 🍒 → 🍒 bằng 2 lần 🍌<br/>👉 Cân tiếp theo: 🍒 = 🍌 + 🍌 + 🍌<br/>➡️ Thay 🍌 = 2, ta tính: 2 + 2 + 2 = ...<br/>✅ Vậy 🍒 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍌 + 🍌\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥔\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🥔 = 🍌 + 🍌 + 🍌<br/>\n        <strong>Hỏi 🥔 bằng mấy nếu 🍌 = 4?</strong>\n      </div>\n    </div>",
-      "options": [
-        "12",
-        "9",
-        "14"
-      ],
-      "answer": 0,
-      "guide": "👉 Cân đầu: 🍌 + 🍌 = 🥔 → 🥔 bằng 2 lần 🍌<br/>👉 Cân tiếp theo: 🥔 = 🍌 + 🍌 + 🍌<br/>➡️ Thay 🍌 = 4, ta tính: 4 + 4 + 4 = ...<br/>✅ Vậy 🥔 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍓 + 🍓\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥑\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🥑 = 🍓 + 🍓 + 🍓<br/>\n        <strong>Hỏi 🥑 bằng mấy nếu 🍓 = 3?</strong>\n      </div>\n    </div>",
-      "options": [
-        "10",
-        "7",
-        "9"
+        "🟩 = 1",
+        "🟩 = 4",
+        "🟩 = 2"
       ],
       "answer": 2,
-      "guide": "👉 Cân đầu: 🍓 + 🍓 = 🥑 → 🥑 bằng 2 lần 🍓<br/>👉 Cân tiếp theo: 🥑 = 🍓 + 🍓 + 🍓<br/>➡️ Thay 🍓 = 3, ta tính: 3 + 3 + 3 = ...<br/>✅ Vậy 🥑 bằng ..."
+      "guide": "👉 2 hình vuông đỏ cân bằng với 2 hình tam giác xanh.<br/>➡️ Trọng lượng của hình vuông đỏ là 5 → tổng: 2 × 5 = ...<br/>➡️ Từ đó suy ra mỗi hình tam giác xanh = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
     },
     {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥕 + 🥕\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍒\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍒 = 🥕 + 🥕 + 🥕<br/>\n        <strong>Hỏi 🍒 bằng mấy nếu 🥕 = 4?</strong>\n      </div>\n    </div>",
+      "question": "⚽ x 1 = 🟥 x 5  🟰  ⚽ x 2 + 🟥 x ? = ?",
       "options": [
-        "14",
-        "9",
-        "12"
-      ],
-      "answer": 2,
-      "guide": "👉 Cân đầu: 🥕 + 🥕 = 🍒 → 🍒 bằng 2 lần 🥕<br/>👉 Cân tiếp theo: 🍒 = 🥕 + 🥕 + 🥕<br/>➡️ Thay 🥕 = 4, ta tính: 4 + 4 + 4 = ...<br/>✅ Vậy 🍒 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥝 + 🥝\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍊\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍊 = 🥝 + 🥝 + 🥝<br/>\n        <strong>Hỏi 🍊 bằng mấy nếu 🥝 = 3?</strong>\n      </div>\n    </div>",
-      "options": [
-        "10",
-        "9",
-        "12"
+        "🟥 = 5",
+        "🟥 = 6",
+        "🟥 = 8"
       ],
       "answer": 1,
-      "guide": "👉 Cân đầu: 🥝 + 🥝 = 🍊 → 🍊 bằng 2 lần 🥝<br/>👉 Cân tiếp theo: 🍊 = 🥝 + 🥝 + 🥝<br/>➡️ Thay 🥝 = 3, ta tính: 3 + 3 + 3 = ...<br/>✅ Vậy 🍊 bằng ..."
+      "guide": "👉 1 quả bóng cân bằng với 5 hình vuông đỏ.<br/>➡️ Trọng lượng của quả bóng là 5 → tổng: 1 × 5 = ...<br/>➡️ Từ đó suy ra mỗi hình vuông đỏ = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
     },
     {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍓 + 🍓\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥝\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🥝 = 🍓 + 🍓 + 🍓<br/>\n        <strong>Hỏi 🥝 bằng mấy nếu 🍓 = 5?</strong>\n      </div>\n    </div>",
+      "question": "🟩 x 5 = 🐱 x 1  🟰  🟩 x 2 + 🐱 x ? = ?",
       "options": [
-        "15",
-        "12",
-        "14"
-      ],
-      "answer": 0,
-      "guide": "👉 Cân đầu: 🍓 + 🍓 = 🥝 → 🥝 bằng 2 lần 🍓<br/>👉 Cân tiếp theo: 🥝 = 🍓 + 🍓 + 🍓<br/>➡️ Thay 🍓 = 5, ta tính: 5 + 5 + 5 = ...<br/>✅ Vậy 🥝 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍊 + 🍊\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥑\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🥑 = 🍊 + 🍊 + 🍊<br/>\n        <strong>Hỏi 🥑 bằng mấy nếu 🍊 = 2?</strong>\n      </div>\n    </div>",
-      "options": [
-        "9",
-        "5",
-        "6"
+        "🐱 = 4",
+        "🐱 = 1",
+        "🐱 = 2"
       ],
       "answer": 2,
-      "guide": "👉 Cân đầu: 🍊 + 🍊 = 🥑 → 🥑 bằng 2 lần 🍊<br/>👉 Cân tiếp theo: 🥑 = 🍊 + 🍊 + 🍊<br/>➡️ Thay 🍊 = 2, ta tính: 2 + 2 + 2 = ...<br/>✅ Vậy 🥑 bằng ..."
+      "guide": "👉 5 hình tam giác xanh cân bằng với 1 con mèo.<br/>➡️ Trọng lượng của hình tam giác xanh là 1 → tổng: 5 × 1 = ...<br/>➡️ Từ đó suy ra mỗi con mèo = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
     },
     {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥕 + 🥕\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥑\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🥑 = 🥕 + 🥕 + 🥕<br/>\n        <strong>Hỏi 🥑 bằng mấy nếu 🥕 = 5?</strong>\n      </div>\n    </div>",
+      "question": "🟥 x 1 = 🍎 x 2  🟰  🟥 x 2 + 🍎 x ? = ?",
       "options": [
-        "16",
-        "15",
-        "13"
+        "🍎 = 3",
+        "🍎 = 5",
+        "🍎 = 2"
+      ],
+      "answer": 0,
+      "guide": "👉 1 hình vuông đỏ cân bằng với 2 quả táo.<br/>➡️ Trọng lượng của hình vuông đỏ là 4 → tổng: 1 × 4 = ...<br/>➡️ Từ đó suy ra mỗi quả táo = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+    },
+    {
+      "question": "🟥 x 4 = 🔵 x 8  🟰  🟥 x 2 + 🔵 x ? = ?",
+      "options": [
+        "🔵 = 14",
+        "🔵 = 15",
+        "🔵 = 17"
       ],
       "answer": 1,
-      "guide": "👉 Cân đầu: 🥕 + 🥕 = 🥑 → 🥑 bằng 2 lần 🥕<br/>👉 Cân tiếp theo: 🥑 = 🥕 + 🥕 + 🥕<br/>➡️ Thay 🥕 = 5, ta tính: 5 + 5 + 5 = ...<br/>✅ Vậy 🥑 bằng ..."
+      "guide": "👉 4 hình vuông đỏ cân bằng với 8 hình tròn xanh dương.<br/>➡️ Trọng lượng của hình vuông đỏ là 2 → tổng: 4 × 2 = ...<br/>➡️ Từ đó suy ra mỗi hình tròn xanh dương = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
     },
     {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍎 + 🍎\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍒\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍒 = 🍎 + 🍎 + 🍎<br/>\n        <strong>Hỏi 🍒 bằng mấy nếu 🍎 = 4?</strong>\n      </div>\n    </div>",
+      "question": "🐱 x 7 = 🧱 x 3  🟰  🐱 x 2 + 🧱 x ? = ?",
       "options": [
-        "12",
-        "10",
-        "11"
+        "🧱 = 7",
+        "🧱 = 8",
+        "🧱 = 6"
       ],
       "answer": 0,
-      "guide": "👉 Cân đầu: 🍎 + 🍎 = 🍒 → 🍒 bằng 2 lần 🍎<br/>👉 Cân tiếp theo: 🍒 = 🍎 + 🍎 + 🍎<br/>➡️ Thay 🍎 = 4, ta tính: 4 + 4 + 4 = ...<br/>✅ Vậy 🍒 bằng ..."
+      "guide": "👉 7 con mèo cân bằng với 3 viên gạch.<br/>➡️ Trọng lượng của con mèo là 1 → tổng: 7 × 1 = ...<br/>➡️ Từ đó suy ra mỗi viên gạch = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
     },
     {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍒 + 🍒\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥑\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🥑 = 🍒 + 🍒 + 🍒<br/>\n        <strong>Hỏi 🥑 bằng mấy nếu 🍒 = 4?</strong>\n      </div>\n    </div>",
+      "question": "🍎 x 1 = 🔵 x 2  🟰  🍎 x 2 + 🔵 x ? = ?",
       "options": [
-        "12",
-        "14",
-        "15"
+        "🔵 = 5",
+        "🔵 = 6",
+        "🔵 = 4"
       ],
       "answer": 0,
-      "guide": "👉 Cân đầu: 🍒 + 🍒 = 🥑 → 🥑 bằng 2 lần 🍒<br/>👉 Cân tiếp theo: 🥑 = 🍒 + 🍒 + 🍒<br/>➡️ Thay 🍒 = 4, ta tính: 4 + 4 + 4 = ...<br/>✅ Vậy 🥑 bằng ..."
+      "guide": "👉 1 quả táo cân bằng với 2 hình tròn xanh dương.<br/>➡️ Trọng lượng của quả táo là 5 → tổng: 1 × 5 = ...<br/>➡️ Từ đó suy ra mỗi hình tròn xanh dương = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
     },
     {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥑 + 🥑\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍊\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍊 = 🥑 + 🥑 + 🥑<br/>\n        <strong>Hỏi 🍊 bằng mấy nếu 🥑 = 5?</strong>\n      </div>\n    </div>",
+      "question": "🟥 x 3 = ⚽ x 15  🟰  🟥 x 2 + ⚽ x ? = ?",
       "options": [
-        "16",
-        "13",
-        "15"
-      ],
-      "answer": 2,
-      "guide": "👉 Cân đầu: 🥑 + 🥑 = 🍊 → 🍊 bằng 2 lần 🥑<br/>👉 Cân tiếp theo: 🍊 = 🥑 + 🥑 + 🥑<br/>➡️ Thay 🥑 = 5, ta tính: 5 + 5 + 5 = ...<br/>✅ Vậy 🍊 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍌 + 🍌\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍒\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍒 = 🍌 + 🍌 + 🍌<br/>\n        <strong>Hỏi 🍒 bằng mấy nếu 🍌 = 3?</strong>\n      </div>\n    </div>",
-      "options": [
-        "9",
-        "8",
-        "11"
-      ],
-      "answer": 0,
-      "guide": "👉 Cân đầu: 🍌 + 🍌 = 🍒 → 🍒 bằng 2 lần 🍌<br/>👉 Cân tiếp theo: 🍒 = 🍌 + 🍌 + 🍌<br/>➡️ Thay 🍌 = 3, ta tính: 3 + 3 + 3 = ...<br/>✅ Vậy 🍒 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍎 + 🍎\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥕\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🥕 = 🍎 + 🍎 + 🍎<br/>\n        <strong>Hỏi 🥕 bằng mấy nếu 🍎 = 4?</strong>\n      </div>\n    </div>",
-      "options": [
-        "10",
-        "12",
-        "9"
+        "⚽ = 17",
+        "⚽ = 15",
+        "⚽ = 14"
       ],
       "answer": 1,
-      "guide": "👉 Cân đầu: 🍎 + 🍎 = 🥕 → 🥕 bằng 2 lần 🍎<br/>👉 Cân tiếp theo: 🥕 = 🍎 + 🍎 + 🍎<br/>➡️ Thay 🍎 = 4, ta tính: 4 + 4 + 4 = ...<br/>✅ Vậy 🥕 bằng ..."
+      "guide": "👉 3 hình vuông đỏ cân bằng với 15 quả bóng.<br/>➡️ Trọng lượng của hình vuông đỏ là 5 → tổng: 3 × 5 = ...<br/>➡️ Từ đó suy ra mỗi quả bóng = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
     },
     {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥕 + 🥕\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍊\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍊 = 🥕 + 🥕 + 🥕<br/>\n        <strong>Hỏi 🍊 bằng mấy nếu 🥕 = 4?</strong>\n      </div>\n    </div>",
+      "question": "🟥 x 4 = 🐱 x 3  🟰  🟥 x 2 + 🐱 x ? = ?",
       "options": [
-        "12",
-        "11",
-        "9"
-      ],
-      "answer": 0,
-      "guide": "👉 Cân đầu: 🥕 + 🥕 = 🍊 → 🍊 bằng 2 lần 🥕<br/>👉 Cân tiếp theo: 🍊 = 🥕 + 🥕 + 🥕<br/>➡️ Thay 🥕 = 4, ta tính: 4 + 4 + 4 = ...<br/>✅ Vậy 🍊 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍇 + 🍇\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍒\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍒 = 🍇 + 🍇 + 🍇<br/>\n        <strong>Hỏi 🍒 bằng mấy nếu 🍇 = 2?</strong>\n      </div>\n    </div>",
-      "options": [
-        "9",
-        "3",
-        "6"
-      ],
-      "answer": 2,
-      "guide": "👉 Cân đầu: 🍇 + 🍇 = 🍒 → 🍒 bằng 2 lần 🍇<br/>👉 Cân tiếp theo: 🍒 = 🍇 + 🍇 + 🍇<br/>➡️ Thay 🍇 = 2, ta tính: 2 + 2 + 2 = ...<br/>✅ Vậy 🍒 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍊 + 🍊\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥕\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🥕 = 🍊 + 🍊 + 🍊<br/>\n        <strong>Hỏi 🥕 bằng mấy nếu 🍊 = 5?</strong>\n      </div>\n    </div>",
-      "options": [
-        "15",
-        "12",
-        "13"
-      ],
-      "answer": 0,
-      "guide": "👉 Cân đầu: 🍊 + 🍊 = 🥕 → 🥕 bằng 2 lần 🍊<br/>👉 Cân tiếp theo: 🥕 = 🍊 + 🍊 + 🍊<br/>➡️ Thay 🍊 = 5, ta tính: 5 + 5 + 5 = ...<br/>✅ Vậy 🥕 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍌 + 🍌\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍎\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍎 = 🍌 + 🍌 + 🍌<br/>\n        <strong>Hỏi 🍎 bằng mấy nếu 🍌 = 4?</strong>\n      </div>\n    </div>",
-      "options": [
-        "9",
-        "11",
-        "12"
-      ],
-      "answer": 2,
-      "guide": "👉 Cân đầu: 🍌 + 🍌 = 🍎 → 🍎 bằng 2 lần 🍌<br/>👉 Cân tiếp theo: 🍎 = 🍌 + 🍌 + 🍌<br/>➡️ Thay 🍌 = 4, ta tính: 4 + 4 + 4 = ...<br/>✅ Vậy 🍎 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥝 + 🥝\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍊\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍊 = 🥝 + 🥝 + 🥝<br/>\n        <strong>Hỏi 🍊 bằng mấy nếu 🥝 = 5?</strong>\n      </div>\n    </div>",
-      "options": [
-        "17",
-        "16",
-        "15"
-      ],
-      "answer": 2,
-      "guide": "👉 Cân đầu: 🥝 + 🥝 = 🍊 → 🍊 bằng 2 lần 🥝<br/>👉 Cân tiếp theo: 🍊 = 🥝 + 🥝 + 🥝<br/>➡️ Thay 🥝 = 5, ta tính: 5 + 5 + 5 = ...<br/>✅ Vậy 🍊 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍒 + 🍒\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍓\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍓 = 🍒 + 🍒 + 🍒<br/>\n        <strong>Hỏi 🍓 bằng mấy nếu 🍒 = 5?</strong>\n      </div>\n    </div>",
-      "options": [
-        "12",
-        "17",
-        "15"
-      ],
-      "answer": 2,
-      "guide": "👉 Cân đầu: 🍒 + 🍒 = 🍓 → 🍓 bằng 2 lần 🍒<br/>👉 Cân tiếp theo: 🍓 = 🍒 + 🍒 + 🍒<br/>➡️ Thay 🍒 = 5, ta tính: 5 + 5 + 5 = ...<br/>✅ Vậy 🍓 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍎 + 🍎\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥔\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🥔 = 🍎 + 🍎 + 🍎<br/>\n        <strong>Hỏi 🥔 bằng mấy nếu 🍎 = 4?</strong>\n      </div>\n    </div>",
-      "options": [
-        "13",
-        "12",
-        "14"
+        "🐱 = 5",
+        "🐱 = 3",
+        "🐱 = 4"
       ],
       "answer": 1,
-      "guide": "👉 Cân đầu: 🍎 + 🍎 = 🥔 → 🥔 bằng 2 lần 🍎<br/>👉 Cân tiếp theo: 🥔 = 🍎 + 🍎 + 🍎<br/>➡️ Thay 🍎 = 4, ta tính: 4 + 4 + 4 = ...<br/>✅ Vậy 🥔 bằng ..."
+      "guide": "👉 4 hình vuông đỏ cân bằng với 3 con mèo.<br/>➡️ Trọng lượng của hình vuông đỏ là 3 → tổng: 4 × 3 = ...<br/>➡️ Từ đó suy ra mỗi con mèo = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
     },
     {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍓 + 🍓\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍒\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍒 = 🍓 + 🍓 + 🍓<br/>\n        <strong>Hỏi 🍒 bằng mấy nếu 🍓 = 4?</strong>\n      </div>\n    </div>",
+      "question": "🐱 x 2 = 🟥 x 3  🟰  🐱 x 2 + 🟥 x ? = ?",
       "options": [
-        "14",
-        "9",
-        "12"
-      ],
-      "answer": 2,
-      "guide": "👉 Cân đầu: 🍓 + 🍓 = 🍒 → 🍒 bằng 2 lần 🍓<br/>👉 Cân tiếp theo: 🍒 = 🍓 + 🍓 + 🍓<br/>➡️ Thay 🍓 = 4, ta tính: 4 + 4 + 4 = ...<br/>✅ Vậy 🍒 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍓 + 🍓\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍒\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍒 = 🍓 + 🍓 + 🍓<br/>\n        <strong>Hỏi 🍒 bằng mấy nếu 🍓 = 4?</strong>\n      </div>\n    </div>",
-      "options": [
-        "12",
-        "9",
-        "10"
-      ],
-      "answer": 0,
-      "guide": "👉 Cân đầu: 🍓 + 🍓 = 🍒 → 🍒 bằng 2 lần 🍓<br/>👉 Cân tiếp theo: 🍒 = 🍓 + 🍓 + 🍓<br/>➡️ Thay 🍓 = 4, ta tính: 4 + 4 + 4 = ...<br/>✅ Vậy 🍒 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍎 + 🍎\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥕\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🥕 = 🍎 + 🍎 + 🍎<br/>\n        <strong>Hỏi 🥕 bằng mấy nếu 🍎 = 5?</strong>\n      </div>\n    </div>",
-      "options": [
-        "17",
-        "12",
-        "15"
-      ],
-      "answer": 2,
-      "guide": "👉 Cân đầu: 🍎 + 🍎 = 🥕 → 🥕 bằng 2 lần 🍎<br/>👉 Cân tiếp theo: 🥕 = 🍎 + 🍎 + 🍎<br/>➡️ Thay 🍎 = 5, ta tính: 5 + 5 + 5 = ...<br/>✅ Vậy 🥕 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍓 + 🍓\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍇\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍇 = 🍓 + 🍓 + 🍓<br/>\n        <strong>Hỏi 🍇 bằng mấy nếu 🍓 = 2?</strong>\n      </div>\n    </div>",
-      "options": [
-        "5",
-        "7",
-        "6"
-      ],
-      "answer": 2,
-      "guide": "👉 Cân đầu: 🍓 + 🍓 = 🍇 → 🍇 bằng 2 lần 🍓<br/>👉 Cân tiếp theo: 🍇 = 🍓 + 🍓 + 🍓<br/>➡️ Thay 🍓 = 2, ta tính: 2 + 2 + 2 = ...<br/>✅ Vậy 🍇 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥝 + 🥝\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥔\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🥔 = 🥝 + 🥝 + 🥝<br/>\n        <strong>Hỏi 🥔 bằng mấy nếu 🥝 = 4?</strong>\n      </div>\n    </div>",
-      "options": [
-        "13",
-        "12",
-        "9"
+        "🟥 = 1",
+        "🟥 = 3",
+        "🟥 = 2"
       ],
       "answer": 1,
-      "guide": "👉 Cân đầu: 🥝 + 🥝 = 🥔 → 🥔 bằng 2 lần 🥝<br/>👉 Cân tiếp theo: 🥔 = 🥝 + 🥝 + 🥝<br/>➡️ Thay 🥝 = 4, ta tính: 4 + 4 + 4 = ...<br/>✅ Vậy 🥔 bằng ..."
+      "guide": "👉 2 con mèo cân bằng với 3 hình vuông đỏ.<br/>➡️ Trọng lượng của con mèo là 5 → tổng: 2 × 5 = ...<br/>➡️ Từ đó suy ra mỗi hình vuông đỏ = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
     },
     {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍊 + 🍊\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥔\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🥔 = 🍊 + 🍊 + 🍊<br/>\n        <strong>Hỏi 🥔 bằng mấy nếu 🍊 = 3?</strong>\n      </div>\n    </div>",
+      "question": "🟩 x 6 = 🐱 x 1  🟰  🟩 x 2 + 🐱 x ? = ?",
       "options": [
-        "7",
-        "8",
-        "9"
-      ],
-      "answer": 2,
-      "guide": "👉 Cân đầu: 🍊 + 🍊 = 🥔 → 🥔 bằng 2 lần 🍊<br/>👉 Cân tiếp theo: 🥔 = 🍊 + 🍊 + 🍊<br/>➡️ Thay 🍊 = 3, ta tính: 3 + 3 + 3 = ...<br/>✅ Vậy 🥔 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥔 + 🥔\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍓\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍓 = 🥔 + 🥔 + 🥔<br/>\n        <strong>Hỏi 🍓 bằng mấy nếu 🥔 = 2?</strong>\n      </div>\n    </div>",
-      "options": [
-        "6",
-        "8",
-        "7"
+        "🐱 = 3",
+        "🐱 = 5",
+        "🐱 = 2"
       ],
       "answer": 0,
-      "guide": "👉 Cân đầu: 🥔 + 🥔 = 🍓 → 🍓 bằng 2 lần 🥔<br/>👉 Cân tiếp theo: 🍓 = 🥔 + 🥔 + 🥔<br/>➡️ Thay 🥔 = 2, ta tính: 2 + 2 + 2 = ...<br/>✅ Vậy 🍓 bằng ..."
+      "guide": "👉 6 hình tam giác xanh cân bằng với 1 con mèo.<br/>➡️ Trọng lượng của hình tam giác xanh là 1 → tổng: 6 × 1 = ...<br/>➡️ Từ đó suy ra mỗi con mèo = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
     },
     {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍒 + 🍒\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍌\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍌 = 🍒 + 🍒 + 🍒<br/>\n        <strong>Hỏi 🍌 bằng mấy nếu 🍒 = 2?</strong>\n      </div>\n    </div>",
+      "question": "⚽ x 1 = 🍎 x 2  🟰  ⚽ x 2 + 🍎 x ? = ?",
       "options": [
-        "6",
-        "7",
-        "8"
+        "🍎 = 6",
+        "🍎 = 7",
+        "🍎 = 4"
       ],
       "answer": 0,
-      "guide": "👉 Cân đầu: 🍒 + 🍒 = 🍌 → 🍌 bằng 2 lần 🍒<br/>👉 Cân tiếp theo: 🍌 = 🍒 + 🍒 + 🍒<br/>➡️ Thay 🍒 = 2, ta tính: 2 + 2 + 2 = ...<br/>✅ Vậy 🍌 bằng ..."
+      "guide": "👉 1 quả bóng cân bằng với 2 quả táo.<br/>➡️ Trọng lượng của quả bóng là 2 → tổng: 1 × 2 = ...<br/>➡️ Từ đó suy ra mỗi quả táo = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
     },
     {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍎 + 🍎\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍒\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍒 = 🍎 + 🍎 + 🍎<br/>\n        <strong>Hỏi 🍒 bằng mấy nếu 🍎 = 2?</strong>\n      </div>\n    </div>",
+      "question": "🟩 x 5 = 🍎 x 2  🟰  🟩 x 2 + 🍎 x ? = ?",
       "options": [
-        "9",
-        "5",
-        "6"
+        "🍎 = 3",
+        "🍎 = 2",
+        "🍎 = 1"
       ],
-      "answer": 2,
-      "guide": "👉 Cân đầu: 🍎 + 🍎 = 🍒 → 🍒 bằng 2 lần 🍎<br/>👉 Cân tiếp theo: 🍒 = 🍎 + 🍎 + 🍎<br/>➡️ Thay 🍎 = 2, ta tính: 2 + 2 + 2 = ...<br/>✅ Vậy 🍒 bằng ..."
+      "answer": 0,
+      "guide": "👉 5 hình tam giác xanh cân bằng với 2 quả táo.<br/>➡️ Trọng lượng của hình tam giác xanh là 2 → tổng: 5 × 2 = ...<br/>➡️ Từ đó suy ra mỗi quả táo = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
     },
     {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍎 + 🍎\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥕\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🥕 = 🍎 + 🍎 + 🍎<br/>\n        <strong>Hỏi 🥕 bằng mấy nếu 🍎 = 5?</strong>\n      </div>\n    </div>",
+      "question": "🟩 x 2 = 🟥 x 2  🟰  🟩 x 2 + 🟥 x ? = ?",
       "options": [
-        "18",
-        "15",
-        "14"
+        "🟥 = 5",
+        "🟥 = 3",
+        "🟥 = 4"
       ],
       "answer": 1,
-      "guide": "👉 Cân đầu: 🍎 + 🍎 = 🥕 → 🥕 bằng 2 lần 🍎<br/>👉 Cân tiếp theo: 🥕 = 🍎 + 🍎 + 🍎<br/>➡️ Thay 🍎 = 5, ta tính: 5 + 5 + 5 = ...<br/>✅ Vậy 🥕 bằng ..."
+      "guide": "👉 2 hình tam giác xanh cân bằng với 2 hình vuông đỏ.<br/>➡️ Trọng lượng của hình tam giác xanh là 2 → tổng: 2 × 2 = ...<br/>➡️ Từ đó suy ra mỗi hình vuông đỏ = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
     },
     {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥝 + 🥝\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍒\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍒 = 🥝 + 🥝 + 🥝<br/>\n        <strong>Hỏi 🍒 bằng mấy nếu 🥝 = 5?</strong>\n      </div>\n    </div>",
+      "question": "🧱 x 3 = 🔵 x 1  🟰  🧱 x 2 + 🔵 x ? = ?",
       "options": [
-        "18",
-        "14",
-        "15"
+        "🔵 = 1",
+        "🔵 = 5",
+        "🔵 = 3"
       ],
       "answer": 2,
-      "guide": "👉 Cân đầu: 🥝 + 🥝 = 🍒 → 🍒 bằng 2 lần 🥝<br/>👉 Cân tiếp theo: 🍒 = 🥝 + 🥝 + 🥝<br/>➡️ Thay 🥝 = 5, ta tính: 5 + 5 + 5 = ...<br/>✅ Vậy 🍒 bằng ..."
+      "guide": "👉 3 viên gạch cân bằng với 1 hình tròn xanh dương.<br/>➡️ Trọng lượng của viên gạch là 2 → tổng: 3 × 2 = ...<br/>➡️ Từ đó suy ra mỗi hình tròn xanh dương = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
     },
     {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍎 + 🍎\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍌\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍌 = 🍎 + 🍎 + 🍎<br/>\n        <strong>Hỏi 🍌 bằng mấy nếu 🍎 = 3?</strong>\n      </div>\n    </div>",
+      "question": "🟥 x 6 = 🍎 x 6  🟰  🟥 x 2 + 🍎 x ? = ?",
       "options": [
-        "10",
-        "9",
-        "7"
+        "🍎 = 7",
+        "🍎 = 9",
+        "🍎 = 8"
+      ],
+      "answer": 0,
+      "guide": "👉 6 hình vuông đỏ cân bằng với 6 quả táo.<br/>➡️ Trọng lượng của hình vuông đỏ là 2 → tổng: 6 × 2 = ...<br/>➡️ Từ đó suy ra mỗi quả táo = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+    },
+    {
+      "question": "🧱 x 1 = 🟥 x 4  🟰  🧱 x 2 + 🟥 x ? = ?",
+      "options": [
+        "🟥 = 6",
+        "🟥 = 5",
+        "🟥 = 7"
+      ],
+      "answer": 2,
+      "guide": "👉 1 viên gạch cân bằng với 4 hình vuông đỏ.<br/>➡️ Trọng lượng của viên gạch là 4 → tổng: 1 × 4 = ...<br/>➡️ Từ đó suy ra mỗi hình vuông đỏ = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+    },
+    {
+      "question": "🟩 x 1 = ⚽ x 1  🟰  🟩 x 2 + ⚽ x ? = ?",
+      "options": [
+        "⚽ = 1",
+        "⚽ = 2",
+        "⚽ = 4"
       ],
       "answer": 1,
-      "guide": "👉 Cân đầu: 🍎 + 🍎 = 🍌 → 🍌 bằng 2 lần 🍎<br/>👉 Cân tiếp theo: 🍌 = 🍎 + 🍎 + 🍎<br/>➡️ Thay 🍎 = 3, ta tính: 3 + 3 + 3 = ...<br/>✅ Vậy 🍌 bằng ..."
+      "guide": "👉 1 hình tam giác xanh cân bằng với 1 quả bóng.<br/>➡️ Trọng lượng của hình tam giác xanh là 5 → tổng: 1 × 5 = ...<br/>➡️ Từ đó suy ra mỗi quả bóng = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
     },
     {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥑 + 🥑\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥔\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🥔 = 🥑 + 🥑 + 🥑<br/>\n        <strong>Hỏi 🥔 bằng mấy nếu 🥑 = 5?</strong>\n      </div>\n    </div>",
+      "question": "🟥 x 4 = 🔵 x 3  🟰  🟥 x 2 + 🔵 x ? = ?",
       "options": [
-        "15",
-        "12",
-        "16"
-      ],
-      "answer": 0,
-      "guide": "👉 Cân đầu: 🥑 + 🥑 = 🥔 → 🥔 bằng 2 lần 🥑<br/>👉 Cân tiếp theo: 🥔 = 🥑 + 🥑 + 🥑<br/>➡️ Thay 🥑 = 5, ta tính: 5 + 5 + 5 = ...<br/>✅ Vậy 🥔 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍒 + 🍒\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍇\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍇 = 🍒 + 🍒 + 🍒<br/>\n        <strong>Hỏi 🍇 bằng mấy nếu 🍒 = 3?</strong>\n      </div>\n    </div>",
-      "options": [
-        "8",
-        "12",
-        "9"
-      ],
-      "answer": 2,
-      "guide": "👉 Cân đầu: 🍒 + 🍒 = 🍇 → 🍇 bằng 2 lần 🍒<br/>👉 Cân tiếp theo: 🍇 = 🍒 + 🍒 + 🍒<br/>➡️ Thay 🍒 = 3, ta tính: 3 + 3 + 3 = ...<br/>✅ Vậy 🍇 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥝 + 🥝\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍊\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍊 = 🥝 + 🥝 + 🥝<br/>\n        <strong>Hỏi 🍊 bằng mấy nếu 🥝 = 2?</strong>\n      </div>\n    </div>",
-      "options": [
-        "6",
-        "8",
-        "4"
-      ],
-      "answer": 0,
-      "guide": "👉 Cân đầu: 🥝 + 🥝 = 🍊 → 🍊 bằng 2 lần 🥝<br/>👉 Cân tiếp theo: 🍊 = 🥝 + 🥝 + 🥝<br/>➡️ Thay 🥝 = 2, ta tính: 2 + 2 + 2 = ...<br/>✅ Vậy 🍊 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍇 + 🍇\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍌\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍌 = 🍇 + 🍇 + 🍇<br/>\n        <strong>Hỏi 🍌 bằng mấy nếu 🍇 = 4?</strong>\n      </div>\n    </div>",
-      "options": [
-        "11",
-        "12",
-        "15"
+        "🔵 = 2",
+        "🔵 = 3",
+        "🔵 = 4"
       ],
       "answer": 1,
-      "guide": "👉 Cân đầu: 🍇 + 🍇 = 🍌 → 🍌 bằng 2 lần 🍇<br/>👉 Cân tiếp theo: 🍌 = 🍇 + 🍇 + 🍇<br/>➡️ Thay 🍇 = 4, ta tính: 4 + 4 + 4 = ...<br/>✅ Vậy 🍌 bằng ..."
+      "guide": "👉 4 hình vuông đỏ cân bằng với 3 hình tròn xanh dương.<br/>➡️ Trọng lượng của hình vuông đỏ là 3 → tổng: 4 × 3 = ...<br/>➡️ Từ đó suy ra mỗi hình tròn xanh dương = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
     },
     {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍎 + 🍎\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍌\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍌 = 🍎 + 🍎 + 🍎<br/>\n        <strong>Hỏi 🍌 bằng mấy nếu 🍎 = 5?</strong>\n      </div>\n    </div>",
+      "question": "🟩 x 2 = 🟥 x 6  🟰  🟩 x 2 + 🟥 x ? = ?",
       "options": [
-        "15",
-        "14",
-        "12"
-      ],
-      "answer": 0,
-      "guide": "👉 Cân đầu: 🍎 + 🍎 = 🍌 → 🍌 bằng 2 lần 🍎<br/>👉 Cân tiếp theo: 🍌 = 🍎 + 🍎 + 🍎<br/>➡️ Thay 🍎 = 5, ta tính: 5 + 5 + 5 = ...<br/>✅ Vậy 🍌 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍒 + 🍒\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥔\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🥔 = 🍒 + 🍒 + 🍒<br/>\n        <strong>Hỏi 🥔 bằng mấy nếu 🍒 = 5?</strong>\n      </div>\n    </div>",
-      "options": [
-        "16",
-        "12",
-        "15"
-      ],
-      "answer": 2,
-      "guide": "👉 Cân đầu: 🍒 + 🍒 = 🥔 → 🥔 bằng 2 lần 🍒<br/>👉 Cân tiếp theo: 🥔 = 🍒 + 🍒 + 🍒<br/>➡️ Thay 🍒 = 5, ta tính: 5 + 5 + 5 = ...<br/>✅ Vậy 🥔 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍎 + 🍎\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥝\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🥝 = 🍎 + 🍎 + 🍎<br/>\n        <strong>Hỏi 🥝 bằng mấy nếu 🍎 = 5?</strong>\n      </div>\n    </div>",
-      "options": [
-        "16",
-        "15",
-        "12"
+        "🟥 = 11",
+        "🟥 = 10",
+        "🟥 = 12"
       ],
       "answer": 1,
-      "guide": "👉 Cân đầu: 🍎 + 🍎 = 🥝 → 🥝 bằng 2 lần 🍎<br/>👉 Cân tiếp theo: 🥝 = 🍎 + 🍎 + 🍎<br/>➡️ Thay 🍎 = 5, ta tính: 5 + 5 + 5 = ...<br/>✅ Vậy 🥝 bằng ..."
+      "guide": "👉 2 hình tam giác xanh cân bằng với 6 hình vuông đỏ.<br/>➡️ Trọng lượng của hình tam giác xanh là 3 → tổng: 2 × 3 = ...<br/>➡️ Từ đó suy ra mỗi hình vuông đỏ = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
     },
     {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍌 + 🍌\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍊\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍊 = 🍌 + 🍌 + 🍌<br/>\n        <strong>Hỏi 🍊 bằng mấy nếu 🍌 = 3?</strong>\n      </div>\n    </div>",
+      "question": "🟥 x 3 = 🔵 x 2  🟰  🟥 x 2 + 🔵 x ? = ?",
       "options": [
-        "9",
-        "11",
-        "8"
-      ],
-      "answer": 0,
-      "guide": "👉 Cân đầu: 🍌 + 🍌 = 🍊 → 🍊 bằng 2 lần 🍌<br/>👉 Cân tiếp theo: 🍊 = 🍌 + 🍌 + 🍌<br/>➡️ Thay 🍌 = 3, ta tính: 3 + 3 + 3 = ...<br/>✅ Vậy 🍊 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍎 + 🍎\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍓\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍓 = 🍎 + 🍎 + 🍎<br/>\n        <strong>Hỏi 🍓 bằng mấy nếu 🍎 = 4?</strong>\n      </div>\n    </div>",
-      "options": [
-        "12",
-        "11",
-        "10"
-      ],
-      "answer": 0,
-      "guide": "👉 Cân đầu: 🍎 + 🍎 = 🍓 → 🍓 bằng 2 lần 🍎<br/>👉 Cân tiếp theo: 🍓 = 🍎 + 🍎 + 🍎<br/>➡️ Thay 🍎 = 4, ta tính: 4 + 4 + 4 = ...<br/>✅ Vậy 🍓 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍇 + 🍇\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍒\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍒 = 🍇 + 🍇 + 🍇<br/>\n        <strong>Hỏi 🍒 bằng mấy nếu 🍇 = 2?</strong>\n      </div>\n    </div>",
-      "options": [
-        "6",
-        "5",
-        "3"
-      ],
-      "answer": 0,
-      "guide": "👉 Cân đầu: 🍇 + 🍇 = 🍒 → 🍒 bằng 2 lần 🍇<br/>👉 Cân tiếp theo: 🍒 = 🍇 + 🍇 + 🍇<br/>➡️ Thay 🍇 = 2, ta tính: 2 + 2 + 2 = ...<br/>✅ Vậy 🍒 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥝 + 🥝\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥔\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🥔 = 🥝 + 🥝 + 🥝<br/>\n        <strong>Hỏi 🥔 bằng mấy nếu 🥝 = 2?</strong>\n      </div>\n    </div>",
-      "options": [
-        "7",
-        "8",
-        "6"
+        "🔵 = 4",
+        "🔵 = 3",
+        "🔵 = 2"
       ],
       "answer": 2,
-      "guide": "👉 Cân đầu: 🥝 + 🥝 = 🥔 → 🥔 bằng 2 lần 🥝<br/>👉 Cân tiếp theo: 🥔 = 🥝 + 🥝 + 🥝<br/>➡️ Thay 🥝 = 2, ta tính: 2 + 2 + 2 = ...<br/>✅ Vậy 🥔 bằng ..."
+      "guide": "👉 3 hình vuông đỏ cân bằng với 2 hình tròn xanh dương.<br/>➡️ Trọng lượng của hình vuông đỏ là 4 → tổng: 3 × 4 = ...<br/>➡️ Từ đó suy ra mỗi hình tròn xanh dương = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
     },
     {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍊 + 🍊\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍎\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍎 = 🍊 + 🍊 + 🍊<br/>\n        <strong>Hỏi 🍎 bằng mấy nếu 🍊 = 5?</strong>\n      </div>\n    </div>",
+      "question": "⚽ x 3 = 🧱 x 1  🟰  ⚽ x 2 + 🧱 x ? = ?",
       "options": [
-        "17",
-        "18",
-        "15"
-      ],
-      "answer": 2,
-      "guide": "👉 Cân đầu: 🍊 + 🍊 = 🍎 → 🍎 bằng 2 lần 🍊<br/>👉 Cân tiếp theo: 🍎 = 🍊 + 🍊 + 🍊<br/>➡️ Thay 🍊 = 5, ta tính: 5 + 5 + 5 = ...<br/>✅ Vậy 🍎 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥝 + 🥝\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍌\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍌 = 🥝 + 🥝 + 🥝<br/>\n        <strong>Hỏi 🍌 bằng mấy nếu 🥝 = 2?</strong>\n      </div>\n    </div>",
-      "options": [
-        "6",
-        "3",
-        "8"
-      ],
-      "answer": 0,
-      "guide": "👉 Cân đầu: 🥝 + 🥝 = 🍌 → 🍌 bằng 2 lần 🥝<br/>👉 Cân tiếp theo: 🍌 = 🥝 + 🥝 + 🥝<br/>➡️ Thay 🥝 = 2, ta tính: 2 + 2 + 2 = ...<br/>✅ Vậy 🍌 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍒 + 🍒\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥑\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🥑 = 🍒 + 🍒 + 🍒<br/>\n        <strong>Hỏi 🥑 bằng mấy nếu 🍒 = 5?</strong>\n      </div>\n    </div>",
-      "options": [
-        "14",
-        "15",
-        "13"
+        "🧱 = 1",
+        "🧱 = 2",
+        "🧱 = 4"
       ],
       "answer": 1,
-      "guide": "👉 Cân đầu: 🍒 + 🍒 = 🥑 → 🥑 bằng 2 lần 🍒<br/>👉 Cân tiếp theo: 🥑 = 🍒 + 🍒 + 🍒<br/>➡️ Thay 🍒 = 5, ta tính: 5 + 5 + 5 = ...<br/>✅ Vậy 🥑 bằng ..."
+      "guide": "👉 3 quả bóng cân bằng với 1 viên gạch.<br/>➡️ Trọng lượng của quả bóng là 1 → tổng: 3 × 1 = ...<br/>➡️ Từ đó suy ra mỗi viên gạch = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
     },
     {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥑 + 🥑\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥔\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🥔 = 🥑 + 🥑 + 🥑<br/>\n        <strong>Hỏi 🥔 bằng mấy nếu 🥑 = 4?</strong>\n      </div>\n    </div>",
+      "question": "🟩 x 1 = 🧱 x 2  🟰  🟩 x 2 + 🧱 x ? = ?",
       "options": [
-        "9",
-        "12",
-        "10"
-      ],
-      "answer": 1,
-      "guide": "👉 Cân đầu: 🥑 + 🥑 = 🥔 → 🥔 bằng 2 lần 🥑<br/>👉 Cân tiếp theo: 🥔 = 🥑 + 🥑 + 🥑<br/>➡️ Thay 🥑 = 4, ta tính: 4 + 4 + 4 = ...<br/>✅ Vậy 🥔 bằng ..."
-    },
-    {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥑 + 🥑\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍊\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍊 = 🥑 + 🥑 + 🥑<br/>\n        <strong>Hỏi 🍊 bằng mấy nếu 🥑 = 2?</strong>\n      </div>\n    </div>",
-      "options": [
-        "5",
-        "3",
-        "6"
+        "🧱 = 11",
+        "🧱 = 12",
+        "🧱 = 13"
       ],
       "answer": 2,
-      "guide": "👉 Cân đầu: 🥑 + 🥑 = 🍊 → 🍊 bằng 2 lần 🥑<br/>👉 Cân tiếp theo: 🍊 = 🥑 + 🥑 + 🥑<br/>➡️ Thay 🥑 = 2, ta tính: 2 + 2 + 2 = ...<br/>✅ Vậy 🍊 bằng ..."
+      "guide": "👉 1 hình tam giác xanh cân bằng với 2 viên gạch.<br/>➡️ Trọng lượng của hình tam giác xanh là 2 → tổng: 1 × 2 = ...<br/>➡️ Từ đó suy ra mỗi viên gạch = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
     },
     {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥝 + 🥝\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍌\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍌 = 🥝 + 🥝 + 🥝<br/>\n        <strong>Hỏi 🍌 bằng mấy nếu 🥝 = 5?</strong>\n      </div>\n    </div>",
+      "question": "🍎 x 3 = 🟩 x 1  🟰  🍎 x 2 + 🟩 x ? = ?",
       "options": [
-        "12",
-        "16",
-        "15"
+        "🟩 = 3",
+        "🟩 = 4",
+        "🟩 = 1"
+      ],
+      "answer": 0,
+      "guide": "👉 3 quả táo cân bằng với 1 hình tam giác xanh.<br/>➡️ Trọng lượng của quả táo là 1 → tổng: 3 × 1 = ...<br/>➡️ Từ đó suy ra mỗi hình tam giác xanh = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+    },
+    {
+      "question": "🐱 x 1 = ⚽ x 5  🟰  🐱 x 2 + ⚽ x ? = ?",
+      "options": [
+        "⚽ = 10",
+        "⚽ = 8",
+        "⚽ = 9"
       ],
       "answer": 2,
-      "guide": "👉 Cân đầu: 🥝 + 🥝 = 🍌 → 🍌 bằng 2 lần 🥝<br/>👉 Cân tiếp theo: 🍌 = 🥝 + 🥝 + 🥝<br/>➡️ Thay 🥝 = 5, ta tính: 5 + 5 + 5 = ...<br/>✅ Vậy 🍌 bằng ..."
+      "guide": "👉 1 con mèo cân bằng với 5 quả bóng.<br/>➡️ Trọng lượng của con mèo là 5 → tổng: 1 × 5 = ...<br/>➡️ Từ đó suy ra mỗi quả bóng = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
     },
     {
-      "question": "<div style='text-align:center; font-size: 24px; line-height: 1.6'>\n      <div style='border-bottom: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🥕 + 🥕\n      </div>\n      <div style='border-top: 2px solid black; width: 160px; margin: 0 auto 10px;'>\n        🍎\n      </div>\n      <div style='margin-top: 20px'>\n        <strong>Cân tiếp theo:</strong><br/>\n        🍎 = 🥕 + 🥕 + 🥕<br/>\n        <strong>Hỏi 🍎 bằng mấy nếu 🥕 = 2?</strong>\n      </div>\n    </div>",
+      "question": "⚽ x 1 = 🔵 x 3  🟰  ⚽ x 2 + 🔵 x ? = ?",
       "options": [
-        "9",
-        "6",
-        "8"
+        "🔵 = 7",
+        "🔵 = 5",
+        "🔵 = 6"
+      ],
+      "answer": 0,
+      "guide": "👉 1 quả bóng cân bằng với 3 hình tròn xanh dương.<br/>➡️ Trọng lượng của quả bóng là 3 → tổng: 1 × 3 = ...<br/>➡️ Từ đó suy ra mỗi hình tròn xanh dương = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+    },
+    {
+      "question": "🍎 x 2 = 🟩 x 3  🟰  🍎 x 2 + 🟩 x ? = ?",
+      "options": [
+        "🟩 = 1",
+        "🟩 = 3",
+        "🟩 = 5"
       ],
       "answer": 1,
-      "guide": "👉 Cân đầu: 🥕 + 🥕 = 🍎 → 🍎 bằng 2 lần 🥕<br/>👉 Cân tiếp theo: 🍎 = 🥕 + 🥕 + 🥕<br/>➡️ Thay 🥕 = 2, ta tính: 2 + 2 + 2 = ...<br/>✅ Vậy 🍎 bằng ..."
+      "guide": "👉 2 quả táo cân bằng với 3 hình tam giác xanh.<br/>➡️ Trọng lượng của quả táo là 3 → tổng: 2 × 3 = ...<br/>➡️ Từ đó suy ra mỗi hình tam giác xanh = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+    },
+    {
+      "question": "🟥 x 2 = 🧱 x 1  🟰  🟥 x 2 + 🧱 x ? = ?",
+      "options": [
+        "🧱 = 2",
+        "🧱 = 3",
+        "🧱 = 1"
+      ],
+      "answer": 2,
+      "guide": "👉 2 hình vuông đỏ cân bằng với 1 viên gạch.<br/>➡️ Trọng lượng của hình vuông đỏ là 3 → tổng: 2 × 3 = ...<br/>➡️ Từ đó suy ra mỗi viên gạch = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+    },
+    {
+      "question": "🍎 x 2 = 🟩 x 6  🟰  🍎 x 2 + 🟩 x ? = ?",
+      "options": [
+        "🟩 = 15",
+        "🟩 = 16",
+        "🟩 = 13"
+      ],
+      "answer": 0,
+      "guide": "👉 2 quả táo cân bằng với 6 hình tam giác xanh.<br/>➡️ Trọng lượng của quả táo là 3 → tổng: 2 × 3 = ...<br/>➡️ Từ đó suy ra mỗi hình tam giác xanh = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+    },
+    {
+      "question": "🐱 x 3 = 🟩 x 6  🟰  🐱 x 2 + 🟩 x ? = ?",
+      "options": [
+        "🟩 = 5",
+        "🟩 = 6",
+        "🟩 = 8"
+      ],
+      "answer": 1,
+      "guide": "👉 3 con mèo cân bằng với 6 hình tam giác xanh.<br/>➡️ Trọng lượng của con mèo là 2 → tổng: 3 × 2 = ...<br/>➡️ Từ đó suy ra mỗi hình tam giác xanh = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+    },
+    {
+      "question": "🟩 x 2 = 🍎 x 1  🟰  🟩 x 2 + 🍎 x ? = ?",
+      "options": [
+        "🍎 = 3",
+        "🍎 = 2",
+        "🍎 = 1"
+      ],
+      "answer": 2,
+      "guide": "👉 2 hình tam giác xanh cân bằng với 1 quả táo.<br/>➡️ Trọng lượng của hình tam giác xanh là 4 → tổng: 2 × 4 = ...<br/>➡️ Từ đó suy ra mỗi quả táo = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+    },
+    {
+      "question": "🐱 x 2 = 🟩 x 4  🟰  🐱 x 2 + 🟩 x ? = ?",
+      "options": [
+        "🟩 = 6",
+        "🟩 = 4",
+        "🟩 = 3"
+      ],
+      "answer": 1,
+      "guide": "👉 2 con mèo cân bằng với 4 hình tam giác xanh.<br/>➡️ Trọng lượng của con mèo là 4 → tổng: 2 × 4 = ...<br/>➡️ Từ đó suy ra mỗi hình tam giác xanh = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+    },
+    {
+      "question": "⚽ x 2 = 🐱 x 2  🟰  ⚽ x 2 + 🐱 x ? = ?",
+      "options": [
+        "🐱 = 3",
+        "🐱 = 4",
+        "🐱 = 2"
+      ],
+      "answer": 0,
+      "guide": "👉 2 quả bóng cân bằng với 2 con mèo.<br/>➡️ Trọng lượng của quả bóng là 5 → tổng: 2 × 5 = ...<br/>➡️ Từ đó suy ra mỗi con mèo = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+    },
+    {
+      "question": "⚽ x 1 = 🍎 x 1  🟰  ⚽ x 2 + 🍎 x ? = ?",
+      "options": [
+        "🍎 = 3",
+        "🍎 = 2",
+        "🍎 = 1"
+      ],
+      "answer": 2,
+      "guide": "👉 1 quả bóng cân bằng với 1 quả táo.<br/>➡️ Trọng lượng của quả bóng là 5 → tổng: 1 × 5 = ...<br/>➡️ Từ đó suy ra mỗi quả táo = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+    },
+    {
+      "question": "🟥 x 11 = ⚽ x 5  🟰  🟥 x 2 + ⚽ x ? = ?",
+      "options": [
+        "⚽ = 6",
+        "⚽ = 7",
+        "⚽ = 5"
+      ],
+      "answer": 2,
+      "guide": "👉 11 hình vuông đỏ cân bằng với 5 quả bóng.<br/>➡️ Trọng lượng của hình vuông đỏ là 1 → tổng: 11 × 1 = ...<br/>➡️ Từ đó suy ra mỗi quả bóng = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+    },
+    {
+      "question": "🟥 x 6 = ⚽ x 1  🟰  🟥 x 2 + ⚽ x ? = ?",
+      "options": [
+        "⚽ = 1",
+        "⚽ = 2",
+        "⚽ = 4"
+      ],
+      "answer": 1,
+      "guide": "👉 6 hình vuông đỏ cân bằng với 1 quả bóng.<br/>➡️ Trọng lượng của hình vuông đỏ là 1 → tổng: 6 × 1 = ...<br/>➡️ Từ đó suy ra mỗi quả bóng = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+    },
+    {
+      "question": "🟥 x 1 = 🐱 x 1  🟰  🟥 x 2 + 🐱 x ? = ?",
+      "options": [
+        "🐱 = 1",
+        "🐱 = 4",
+        "🐱 = 2"
+      ],
+      "answer": 2,
+      "guide": "👉 1 hình vuông đỏ cân bằng với 1 con mèo.<br/>➡️ Trọng lượng của hình vuông đỏ là 5 → tổng: 1 × 5 = ...<br/>➡️ Từ đó suy ra mỗi con mèo = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+    },
+    {
+      "question": "🔵 x 11 = 🟩 x 3  🟰  🔵 x 2 + 🟩 x ? = ?",
+      "options": [
+        "🟩 = 5",
+        "🟩 = 4",
+        "🟩 = 6"
+      ],
+      "answer": 1,
+      "guide": "👉 11 hình tròn xanh dương cân bằng với 3 hình tam giác xanh.<br/>➡️ Trọng lượng của hình tròn xanh dương là 1 → tổng: 11 × 1 = ...<br/>➡️ Từ đó suy ra mỗi hình tam giác xanh = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+    },
+    {
+      "question": "🟥 x 1 = 🟩 x 1  🟰  🟥 x 2 + 🟩 x ? = ?",
+      "options": [
+        "🟩 = 5",
+        "🟩 = 3",
+        "🟩 = 1"
+      ],
+      "answer": 1,
+      "guide": "👉 1 hình vuông đỏ cân bằng với 1 hình tam giác xanh.<br/>➡️ Trọng lượng của hình vuông đỏ là 2 → tổng: 1 × 2 = ...<br/>➡️ Từ đó suy ra mỗi hình tam giác xanh = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+    },
+    {
+      "question": "🟥 x 4 = 🔵 x 2  🟰  🟥 x 2 + 🔵 x ? = ?",
+      "options": [
+        "🔵 = 3",
+        "🔵 = 5",
+        "🔵 = 2"
+      ],
+      "answer": 0,
+      "guide": "👉 4 hình vuông đỏ cân bằng với 2 hình tròn xanh dương.<br/>➡️ Trọng lượng của hình vuông đỏ là 2 → tổng: 4 × 2 = ...<br/>➡️ Từ đó suy ra mỗi hình tròn xanh dương = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+    },
+    {
+      "question": "🧱 x 2 = 🟥 x 1  🟰  🧱 x 2 + 🟥 x ? = ?",
+      "options": [
+        "🟥 = 2",
+        "🟥 = 1",
+        "🟥 = 3"
+      ],
+      "answer": 0,
+      "guide": "👉 2 viên gạch cân bằng với 1 hình vuông đỏ.<br/>➡️ Trọng lượng của viên gạch là 2 → tổng: 2 × 2 = ...<br/>➡️ Từ đó suy ra mỗi hình vuông đỏ = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+    },
+    {
+      "question": "🧱 x 1 = 🟩 x 2  🟰  🧱 x 2 + 🟩 x ? = ?",
+      "options": [
+        "🟩 = 3",
+        "🟩 = 4",
+        "🟩 = 2"
+      ],
+      "answer": 0,
+      "guide": "👉 1 viên gạch cân bằng với 2 hình tam giác xanh.<br/>➡️ Trọng lượng của viên gạch là 5 → tổng: 1 × 5 = ...<br/>➡️ Từ đó suy ra mỗi hình tam giác xanh = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+    },
+    {
+      "question": "🧱 x 1 = ⚽ x 4  🟰  🧱 x 2 + ⚽ x ? = ?",
+      "options": [
+        "⚽ = 11",
+        "⚽ = 12",
+        "⚽ = 10"
+      ],
+      "answer": 2,
+      "guide": "👉 1 viên gạch cân bằng với 4 quả bóng.<br/>➡️ Trọng lượng của viên gạch là 4 → tổng: 1 × 4 = ...<br/>➡️ Từ đó suy ra mỗi quả bóng = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+    },
+    {
+      "question": "🟥 x 5 = 🟩 x 1  🟰  🟥 x 2 + 🟩 x ? = ?",
+      "options": [
+        "🟩 = 2",
+        "🟩 = 5",
+        "🟩 = 3"
+      ],
+      "answer": 2,
+      "guide": "👉 5 hình vuông đỏ cân bằng với 1 hình tam giác xanh.<br/>➡️ Trọng lượng của hình vuông đỏ là 1 → tổng: 5 × 1 = ...<br/>➡️ Từ đó suy ra mỗi hình tam giác xanh = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
+    },
+    {
+      "question": "🧱 x 4 = ⚽ x 2  🟰  🧱 x 2 + ⚽ x ? = ?",
+      "options": [
+        "⚽ = 4",
+        "⚽ = 2",
+        "⚽ = 3"
+      ],
+      "answer": 1,
+      "guide": "👉 4 viên gạch cân bằng với 2 quả bóng.<br/>➡️ Trọng lượng của viên gạch là 2 → tổng: 4 × 2 = ...<br/>➡️ Từ đó suy ra mỗi quả bóng = ...<br/>✅ Thay vào phương trình bên dưới để tìm số lượng cần thêm."
     }
   ]
 }
