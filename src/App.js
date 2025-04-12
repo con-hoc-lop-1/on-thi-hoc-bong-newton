@@ -24,6 +24,7 @@ export default function App() {
             special: false,
             signal: false,
             suggest: false,
+            multiChoice: true
         };
     });
 
@@ -101,9 +102,9 @@ export default function App() {
                   <div>${q.question}</div>
                   ${q.diagram ? `${renderSVG(DrawDiagram, {diagram: q.diagram})}` : ""}
                   ${q.balance ? `${renderSVG(DrawBalance, {balance: q.balance})}` : ""}
-                  <div class="options">
+                  ${showInfo.multiChoice ? `<div class="options">
                     ${q.options.map((opt, idx) => `<div>${String.fromCharCode(65 + idx)}. ${opt}</div>`).join("")}
-                  </div>
+                  </div>` : ""}
                   ${showInfo.guide ? `<p><strong>Hướng dẫn:</strong><br/>${q.guide}</p>` : ""}
                   ${showInfo.name ? `<p><strong>Dạng bài:</strong> ${q.name}</p>` : ""}
                   ${showInfo.special ? `<p><strong>Đặc điểm:</strong><ul>${q.special.map(s => `<li>${s}</li>`).join("")}</ul></p>` : ""}
@@ -118,16 +119,23 @@ export default function App() {
         <script>
         const imgs = document.images;
         let loaded = 0;
-        for (let i = 0; i < imgs.length; i++) {
-          imgs[i].onload = () => {
-            loaded++;
-              if (loaded === imgs.length) {
-                setTimeout(() => {
-                  window.print()
-                  window.close()
-              }, 100)
+        if (imgs.length === 0){
+          window.print()
+          setTimeout(() => {
+            window.close()
+          }, 100)
+        } else {
+            for (let i = 0; i < imgs.length; i++) {
+              imgs[i].onload = () => {
+                loaded++;
+                  if (loaded === imgs.length) {
+                    setTimeout(() => {
+                      window.print()
+                      window.close()
+                  }, 100)
+                }
+              };
             }
-          };
         }
         </script>
       </body>
@@ -247,6 +255,12 @@ export default function App() {
                         <label><input type="checkbox" checked={showInfo.suggest}
                                       onChange={() => setShowInfo(prev => ({...prev, suggest: !prev.suggest}))}/> Hiện
                             gợi ý</label><br/>
+                        <label><input type="checkbox" checked={showInfo.multiChoice}
+                                      onChange={() => setShowInfo(prev => ({
+                                          ...prev,
+                                          multiChoice: !prev.multiChoice
+                                      }))}/> Trắc
+                            nghiệm</label><br/>
                         <label><input type="checkbox" checked={useTimer}
                                       onChange={(e) => setUseTimer(e.target.checked)}/> Bấm giờ </label>
                         {useTimer && (
@@ -280,18 +294,20 @@ export default function App() {
                     <p dangerouslySetInnerHTML={{__html: questions[current].question}}/>
                     {questions[current].diagram && <DrawDiagram diagram={questions[current].diagram}/>}
                     {questions[current].balance && <DrawBalance balance={questions[current].balance}/>}
-                    <div style={{marginTop: 20}}>
-                        {questions[current].options.map((option, idx) => (
-                            <button
-                                className={`btn d-flex mt-2 btn-${selected !== null && idx === questions[current].answer ? 'success' : idx === selected ? 'danger' : 'secondary'}`}
-                                key={idx}
-                                disabled={selected !== null}
-                                onClick={() => handleAnswer(idx)}
-                            >
-                                {String.fromCharCode(65 + idx)}. {option}
-                            </button>
-                        ))}
-                    </div>
+                    {showInfo.multiChoice && (
+                        <div style={{marginTop: 20}}>
+                            {questions[current].options.map((option, idx) => (
+                                <button
+                                    className={`btn d-flex mt-2 btn-${selected !== null && idx === questions[current].answer ? 'success' : idx === selected ? 'danger' : 'secondary'}`}
+                                    key={idx}
+                                    disabled={selected !== null}
+                                    onClick={() => handleAnswer(idx)}
+                                >
+                                    {String.fromCharCode(65 + idx)}. {option}
+                                </button>
+                            ))}
+                        </div>
+                    )}
                     {selected !== null && (
                         <Fragment>
                             <hr/>
