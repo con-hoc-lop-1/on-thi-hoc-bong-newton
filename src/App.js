@@ -133,7 +133,7 @@ export default function App() {
         if (imgs.length === 0){
           window.print()
           setTimeout(() => {
-            // window.close()
+            window.close()
           }, 100)
         } else {
             for (let i = 0; i < imgs.length; i++) {
@@ -142,7 +142,7 @@ export default function App() {
                   if (loaded === imgs.length) {
                     setTimeout(() => {
                       window.print()
-                      // window.close()
+                      window.close()
                   }, 100)
                 }
               };
