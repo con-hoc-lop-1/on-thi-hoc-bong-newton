@@ -303,7 +303,7 @@
       "guide": "👉 Bài toán cho biết tổng là 17, và chênh lệch giữa hai phần là 5.<br/>➡️ Bước 1: Lấy (17 - 5) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 5 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
     },
     {
-      "question": "kệ trên có nhiều hơn kệ dưới 2 quyển sách. Tổng cộng cả hai là 14 quyển sách. Hỏi mỗi kệ có bao nhiêu?",
+      "question": "Kệ trên có nhiều hơn kệ dưới 2 quyển sách. Tổng cộng cả hai là 14 quyển sách. Hỏi mỗi kệ có bao nhiêu?",
       "options": [
         "kệ trên: 8, kệ dưới: 4",
         "kệ trên: 8, kệ dưới: 6",
@@ -483,7 +483,7 @@
       "guide": "👉 Bài toán cho biết tổng là 23, và chênh lệch giữa hai phần là 3.<br/>➡️ Bước 1: Lấy (23 - 3) ÷ 2 = ... (phần nhỏ)<br/>➡️ Bước 2: Lấy ... + 3 = ... (phần lớn)<br/>✅ Vậy phần lớn: ..., phần nhỏ: ..."
     },
     {
-      "question": "kệ trên có nhiều hơn kệ dưới 5 quyển sách. Tổng cộng cả hai là 25 quyển sách. Hỏi mỗi kệ có bao nhiêu?",
+      "question": "Kệ trên có nhiều hơn kệ dưới 5 quyển sách. Tổng cộng cả hai là 25 quyển sách. Hỏi mỗi kệ có bao nhiêu?",
       "options": [
         "kệ trên: 15,  kệ dưới: 9",
         "kệ trên: 15, kệ dưới: 10",

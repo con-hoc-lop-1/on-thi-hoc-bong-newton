@@ -68,11 +68,21 @@ export default function App() {
             "guide",
             "special",
             "signal",
-            "suggest"
+            "suggest",
+            "multiChoice"
         ].filter(k => showInfo[k]).length;
         let perPage = 1;
-        if (extraCount === 1 || extraCount === 0) perPage = 3;
-        else if (extraCount === 2 || extraCount === 3) perPage = 2;
+        if (showInfo.multiChoice) {
+            if (extraCount > 1) {
+                perPage = 1;
+            } else {
+                perPage = 2;
+            }
+        } else if (extraCount > 1) {
+            perPage = 1;
+        } else {
+            perPage = 2;
+        }
 
         const grouped = [];
         for (let i = 0; i < questions.length; i += perPage) {
@@ -84,12 +94,13 @@ export default function App() {
         <title>Ôn tập toán lớp 1</title>
         <style>
           body { font-family: Arial,sans-serif; padding: 24px; }
+          h3 { margin-top: 0; }
           .page { page-break-after: always; margin-bottom: 48px; }
           .question { margin: 20px 0}
           .question-item {  margin-left: 20px; }
           .options { margin-top: 8px; margin-left: 10px }
           .options div { margin-bottom: 4px; }
-          h3 { margin-top: 0; }
+          .draft-box {border: 1px dashed;height: 320px;margin: 20px 0;font-size: 20pt;color: #ddd;display: flex;justify-content: center;align-items: center;}
         </style>
       </head>
       <body>
@@ -104,7 +115,7 @@ export default function App() {
                   ${q.balance ? `${renderSVG(DrawBalance, {balance: q.balance})}` : ""}
                   ${showInfo.multiChoice ? `<div class="options">
                     ${q.options.map((opt, idx) => `<div>${String.fromCharCode(65 + idx)}. ${opt}</div>`).join("")}
-                  </div>` : ""}
+                  </div>` : `<div class="draft-box"></div>`}
                   ${showInfo.guide ? `<p><strong>Hướng dẫn:</strong><br/>${q.guide}</p>` : ""}
                   ${showInfo.name ? `<p><strong>Dạng bài:</strong> ${q.name}</p>` : ""}
                   ${showInfo.special ? `<p><strong>Đặc điểm:</strong><ul>${q.special.map(s => `<li>${s}</li>`).join("")}</ul></p>` : ""}
@@ -122,7 +133,7 @@ export default function App() {
         if (imgs.length === 0){
           window.print()
           setTimeout(() => {
-            window.close()
+            // window.close()
           }, 100)
         } else {
             for (let i = 0; i < imgs.length; i++) {
@@ -131,7 +142,7 @@ export default function App() {
                   if (loaded === imgs.length) {
                     setTimeout(() => {
                       window.print()
-                      window.close()
+                      // window.close()
                   }, 100)
                 }
               };
@@ -260,9 +271,10 @@ export default function App() {
                                           ...prev,
                                           multiChoice: !prev.multiChoice
                                       }))}/> Trắc
-                            nghiệm</label><br/>
+                            nghiệm (Bỏ trắc nghiệm sẽ in thêm khoảng trống)</label><br/>
                         <label><input type="checkbox" checked={useTimer}
-                                      onChange={(e) => setUseTimer(e.target.checked)}/> Bấm giờ </label>
+                                      onChange={(e) => setUseTimer(e.target.checked)}/> Bấm giờ
+                        </label>
                         {useTimer && (
                             <Fragment><input
                                 type="number"
