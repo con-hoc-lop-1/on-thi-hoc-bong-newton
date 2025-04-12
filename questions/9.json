@@ -32,7 +32,7 @@
       "guide": "👉 Bài toán cho biết có 9 đối tượng ban đầu và đã mất đi 3.<br/>➡️ Con hãy lấy 9 - 3 = ...<br/>✅ Vậy còn lại là ..."
     },
     {
-      "question": "Một chiếc hộp có 8 chiếc bánh. Khi mở ra thì mất 3 chiếc bánh. Hỏi còn lại bao nhiêu chiếc bánh trong hộp?",
+      "question": "Một chiếc hộp có 8 chiếc bánh. Khi mở ra ăn mất 3 chiếc bánh. Hỏi còn lại bao nhiêu chiếc bánh trong hộp?",
       "options": [
         "2",
         "6",

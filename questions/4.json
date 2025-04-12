@@ -21,7 +21,7 @@
         "10"
       ],
       "answer": 0,
-      "guide": "👉 Bài này yêu cầu tìm số chiếc bánh có **cả hai đặc điểm** 'nhân socola' và 'nhân dâu'.<br/>📌 Có 15 chiếc bánh tất cả.<br/>📌 13 chiếc bánh có 'nhân socola', 10 chiếc bánh có 'nhân dâu'.<br/>➡️ Tổng cộng có thể bị tính lặp những chiếc bánh có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (13 + 10) - 15 = 8<br/>✅ Vậy có ... chiếc bánh vừa có 'nhân socola' vừa có 'nhân dâu'."
+      "guide": "👉 Bài này yêu cầu tìm số chiếc bánh có <b>cả hai đặc điểm</b> 'nhân socola' và 'nhân dâu'.<br/>📌 Có 15 chiếc bánh tất cả.<br/>📌 13 chiếc bánh có 'nhân socola', 10 chiếc bánh có 'nhân dâu'.<br/>➡️ Tổng cộng có thể bị tính lặp những chiếc bánh có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (13 + 10) - 15 = ...<br/>✅ Vậy có ... chiếc bánh vừa có 'nhân socola' vừa có 'nhân dâu'."
     },
     {
       "question": "Có 23 con mèo, trong đó 12 con mèo có đặc điểm 'thích ngủ' và 22 con mèo có đặc điểm 'thích chơi bóng'. Hỏi có bao nhiêu con mèo vừa có đặc điểm 'thích ngủ' vừa có đặc điểm 'thích chơi bóng'?",
@@ -31,7 +31,7 @@
         "11"
       ],
       "answer": 2,
-      "guide": "👉 Bài này yêu cầu tìm số con mèo có **cả hai đặc điểm** 'thích ngủ' và 'thích chơi bóng'.<br/>📌 Có 23 con mèo tất cả.<br/>📌 12 con mèo có 'thích ngủ', 22 con mèo có 'thích chơi bóng'.<br/>➡️ Tổng cộng có thể bị tính lặp những con mèo có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (12 + 22) - 23 = 11<br/>✅ Vậy có ... con mèo vừa có 'thích ngủ' vừa có 'thích chơi bóng'."
+      "guide": "👉 Bài này yêu cầu tìm số con mèo có <b>cả hai đặc điểm</b> 'thích ngủ' và 'thích chơi bóng'.<br/>📌 Có 23 con mèo tất cả.<br/>📌 12 con mèo có 'thích ngủ', 22 con mèo có 'thích chơi bóng'.<br/>➡️ Tổng cộng có thể bị tính lặp những con mèo có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (12 + 22) - 23 = ...<br/>✅ Vậy có ... con mèo vừa có 'thích ngủ' vừa có 'thích chơi bóng'."
     },
     {
       "question": "Có 20 chậu cây, trong đó 19 chậu cây có đặc điểm 'tưới nước' và 17 chậu cây có đặc điểm 'bón phân'. Hỏi có bao nhiêu chậu cây vừa có đặc điểm 'tưới nước' vừa có đặc điểm 'bón phân'?",
@@ -41,7 +41,7 @@
         "14"
       ],
       "answer": 1,
-      "guide": "👉 Bài này yêu cầu tìm số chậu cây có **cả hai đặc điểm** 'tưới nước' và 'bón phân'.<br/>📌 Có 20 chậu cây tất cả.<br/>📌 19 chậu cây có 'tưới nước', 17 chậu cây có 'bón phân'.<br/>➡️ Tổng cộng có thể bị tính lặp những chậu cây có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (19 + 17) - 20 = 16<br/>✅ Vậy có ... chậu cây vừa có 'tưới nước' vừa có 'bón phân'."
+      "guide": "👉 Bài này yêu cầu tìm số chậu cây có <b>cả hai đặc điểm</b> 'tưới nước' và 'bón phân'.<br/>📌 Có 20 chậu cây tất cả.<br/>📌 19 chậu cây có 'tưới nước', 17 chậu cây có 'bón phân'.<br/>➡️ Tổng cộng có thể bị tính lặp những chậu cây có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (19 + 17) - 20 = ...<br/>✅ Vậy có ... chậu cây vừa có 'tưới nước' vừa có 'bón phân'."
     },
     {
       "question": "Có 16 chiếc xe, trong đó 15 chiếc xe có đặc điểm 'chạy điện' và 11 chiếc xe có đặc điểm 'chạy xăng'. Hỏi có bao nhiêu chiếc xe vừa có đặc điểm 'chạy điện' vừa có đặc điểm 'chạy xăng'?",
@@ -51,7 +51,7 @@
         "11"
       ],
       "answer": 1,
-      "guide": "👉 Bài này yêu cầu tìm số chiếc xe có **cả hai đặc điểm** 'chạy điện' và 'chạy xăng'.<br/>📌 Có 16 chiếc xe tất cả.<br/>📌 15 chiếc xe có 'chạy điện', 11 chiếc xe có 'chạy xăng'.<br/>➡️ Tổng cộng có thể bị tính lặp những chiếc xe có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (15 + 11) - 16 = 10<br/>✅ Vậy có ... chiếc xe vừa có 'chạy điện' vừa có 'chạy xăng'."
+      "guide": "👉 Bài này yêu cầu tìm số chiếc xe có <b>cả hai đặc điểm</b> 'chạy điện' và 'chạy xăng'.<br/>📌 Có 16 chiếc xe tất cả.<br/>📌 15 chiếc xe có 'chạy điện', 11 chiếc xe có 'chạy xăng'.<br/>➡️ Tổng cộng có thể bị tính lặp những chiếc xe có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (15 + 11) - 16 = ...<br/>✅ Vậy có ... chiếc xe vừa có 'chạy điện' vừa có 'chạy xăng'."
     },
     {
       "question": "Có 16 bình nước, trong đó 13 bình nước có đặc điểm 'giữ nhiệt' và 15 bình nước có đặc điểm 'có ống hút'. Hỏi có bao nhiêu bình nước vừa có đặc điểm 'giữ nhiệt' vừa có đặc điểm 'có ống hút'?",
@@ -61,7 +61,7 @@
         "9"
       ],
       "answer": 0,
-      "guide": "👉 Bài này yêu cầu tìm số bình nước có **cả hai đặc điểm** 'giữ nhiệt' và 'có ống hút'.<br/>📌 Có 16 bình nước tất cả.<br/>📌 13 bình nước có 'giữ nhiệt', 15 bình nước có 'có ống hút'.<br/>➡️ Tổng cộng có thể bị tính lặp những bình nước có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (13 + 15) - 16 = 12<br/>✅ Vậy có ... bình nước vừa có 'giữ nhiệt' vừa có 'có ống hút'."
+      "guide": "👉 Bài này yêu cầu tìm số bình nước có <b>cả hai đặc điểm</b> 'giữ nhiệt' và 'có ống hút'.<br/>📌 Có 16 bình nước tất cả.<br/>📌 13 bình nước có 'giữ nhiệt', 15 bình nước có 'có ống hút'.<br/>➡️ Tổng cộng có thể bị tính lặp những bình nước có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (13 + 15) - 16 = ...<br/>✅ Vậy có ... bình nước vừa có 'giữ nhiệt' vừa có 'có ống hút'."
     },
     {
       "question": "Có 21 quả bóng, trong đó 20 quả bóng có đặc điểm 'màu xanh' và 20 quả bóng có đặc điểm 'màu vàng'. Hỏi có bao nhiêu quả bóng vừa có đặc điểm 'màu xanh' vừa có đặc điểm 'màu vàng'?",
@@ -71,7 +71,7 @@
         "19"
       ],
       "answer": 2,
-      "guide": "👉 Bài này yêu cầu tìm số quả bóng có **cả hai đặc điểm** 'màu xanh' và 'màu vàng'.<br/>📌 Có 21 quả bóng tất cả.<br/>📌 20 quả bóng có 'màu xanh', 20 quả bóng có 'màu vàng'.<br/>➡️ Tổng cộng có thể bị tính lặp những quả bóng có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (20 + 20) - 21 = 19<br/>✅ Vậy có ... quả bóng vừa có 'màu xanh' vừa có 'màu vàng'."
+      "guide": "👉 Bài này yêu cầu tìm số quả bóng có <b>cả hai đặc điểm</b> 'màu xanh' và 'màu vàng'.<br/>📌 Có 21 quả bóng tất cả.<br/>📌 20 quả bóng có 'màu xanh', 20 quả bóng có 'màu vàng'.<br/>➡️ Tổng cộng có thể bị tính lặp những quả bóng có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (20 + 20) - 21 = ...<br/>✅ Vậy có ... quả bóng vừa có 'màu xanh' vừa có 'màu vàng'."
     },
     {
       "question": "Có 25 cái áo, trong đó 14 cái áo có đặc điểm 'màu đỏ' và 21 cái áo có đặc điểm 'màu xanh'. Hỏi có bao nhiêu cái áo vừa có đặc điểm 'màu đỏ' vừa có đặc điểm 'màu xanh'?",
@@ -81,7 +81,7 @@
         "10"
       ],
       "answer": 2,
-      "guide": "👉 Bài này yêu cầu tìm số cái áo có **cả hai đặc điểm** 'màu đỏ' và 'màu xanh'.<br/>📌 Có 25 cái áo tất cả.<br/>📌 14 cái áo có 'màu đỏ', 21 cái áo có 'màu xanh'.<br/>➡️ Tổng cộng có thể bị tính lặp những cái áo có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (14 + 21) - 25 = 10<br/>✅ Vậy có ... cái áo vừa có 'màu đỏ' vừa có 'màu xanh'."
+      "guide": "👉 Bài này yêu cầu tìm số cái áo có <b>cả hai đặc điểm</b> 'màu đỏ' và 'màu xanh'.<br/>📌 Có 25 cái áo tất cả.<br/>📌 14 cái áo có 'màu đỏ', 21 cái áo có 'màu xanh'.<br/>➡️ Tổng cộng có thể bị tính lặp những cái áo có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (14 + 21) - 25 = ...<br/>✅ Vậy có ... cái áo vừa có 'màu đỏ' vừa có 'màu xanh'."
     },
     {
       "question": "Có 24 chậu cây, trong đó 23 chậu cây có đặc điểm 'tưới nước' và 20 chậu cây có đặc điểm 'bón phân'. Hỏi có bao nhiêu chậu cây vừa có đặc điểm 'tưới nước' vừa có đặc điểm 'bón phân'?",
@@ -91,7 +91,7 @@
         "18"
       ],
       "answer": 1,
-      "guide": "👉 Bài này yêu cầu tìm số chậu cây có **cả hai đặc điểm** 'tưới nước' và 'bón phân'.<br/>📌 Có 24 chậu cây tất cả.<br/>📌 23 chậu cây có 'tưới nước', 20 chậu cây có 'bón phân'.<br/>➡️ Tổng cộng có thể bị tính lặp những chậu cây có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (23 + 20) - 24 = 19<br/>✅ Vậy có ... chậu cây vừa có 'tưới nước' vừa có 'bón phân'."
+      "guide": "👉 Bài này yêu cầu tìm số chậu cây có <b>cả hai đặc điểm</b> 'tưới nước' và 'bón phân'.<br/>📌 Có 24 chậu cây tất cả.<br/>📌 23 chậu cây có 'tưới nước', 20 chậu cây có 'bón phân'.<br/>➡️ Tổng cộng có thể bị tính lặp những chậu cây có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (23 + 20) - 24 = ...<br/>✅ Vậy có ... chậu cây vừa có 'tưới nước' vừa có 'bón phân'."
     },
     {
       "question": "Có 22 bình nước, trong đó 13 bình nước có đặc điểm 'giữ nhiệt' và 16 bình nước có đặc điểm 'có ống hút'. Hỏi có bao nhiêu bình nước vừa có đặc điểm 'giữ nhiệt' vừa có đặc điểm 'có ống hút'?",
@@ -101,7 +101,7 @@
         "6"
       ],
       "answer": 1,
-      "guide": "👉 Bài này yêu cầu tìm số bình nước có **cả hai đặc điểm** 'giữ nhiệt' và 'có ống hút'.<br/>📌 Có 22 bình nước tất cả.<br/>📌 13 bình nước có 'giữ nhiệt', 16 bình nước có 'có ống hút'.<br/>➡️ Tổng cộng có thể bị tính lặp những bình nước có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (13 + 16) - 22 = 7<br/>✅ Vậy có ... bình nước vừa có 'giữ nhiệt' vừa có 'có ống hút'."
+      "guide": "👉 Bài này yêu cầu tìm số bình nước có <b>cả hai đặc điểm</b> 'giữ nhiệt' và 'có ống hút'.<br/>📌 Có 22 bình nước tất cả.<br/>📌 13 bình nước có 'giữ nhiệt', 16 bình nước có 'có ống hút'.<br/>➡️ Tổng cộng có thể bị tính lặp những bình nước có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (13 + 16) - 22 = ...<br/>✅ Vậy có ... bình nước vừa có 'giữ nhiệt' vừa có 'có ống hút'."
     },
     {
       "question": "Có 22 hộp màu, trong đó 17 hộp màu có đặc điểm 'bút chì màu' và 14 hộp màu có đặc điểm 'bút dạ'. Hỏi có bao nhiêu hộp màu vừa có đặc điểm 'bút chì màu' vừa có đặc điểm 'bút dạ'?",
@@ -111,7 +111,7 @@
         "7"
       ],
       "answer": 0,
-      "guide": "👉 Bài này yêu cầu tìm số hộp màu có **cả hai đặc điểm** 'bút chì màu' và 'bút dạ'.<br/>📌 Có 22 hộp màu tất cả.<br/>📌 17 hộp màu có 'bút chì màu', 14 hộp màu có 'bút dạ'.<br/>➡️ Tổng cộng có thể bị tính lặp những hộp màu có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (17 + 14) - 22 = 9<br/>✅ Vậy có ... hộp màu vừa có 'bút chì màu' vừa có 'bút dạ'."
+      "guide": "👉 Bài này yêu cầu tìm số hộp màu có <b>cả hai đặc điểm</b> 'bút chì màu' và 'bút dạ'.<br/>📌 Có 22 hộp màu tất cả.<br/>📌 17 hộp màu có 'bút chì màu', 14 hộp màu có 'bút dạ'.<br/>➡️ Tổng cộng có thể bị tính lặp những hộp màu có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (17 + 14) - 22 = ...<br/>✅ Vậy có ... hộp màu vừa có 'bút chì màu' vừa có 'bút dạ'."
     },
     {
       "question": "Có 23 bình nước, trong đó 16 bình nước có đặc điểm 'giữ nhiệt' và 22 bình nước có đặc điểm 'có ống hút'. Hỏi có bao nhiêu bình nước vừa có đặc điểm 'giữ nhiệt' vừa có đặc điểm 'có ống hút'?",
@@ -121,7 +121,7 @@
         "12"
       ],
       "answer": 1,
-      "guide": "👉 Bài này yêu cầu tìm số bình nước có **cả hai đặc điểm** 'giữ nhiệt' và 'có ống hút'.<br/>📌 Có 23 bình nước tất cả.<br/>📌 16 bình nước có 'giữ nhiệt', 22 bình nước có 'có ống hút'.<br/>➡️ Tổng cộng có thể bị tính lặp những bình nước có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (16 + 22) - 23 = 15<br/>✅ Vậy có ... bình nước vừa có 'giữ nhiệt' vừa có 'có ống hút'."
+      "guide": "👉 Bài này yêu cầu tìm số bình nước có <b>cả hai đặc điểm</b> 'giữ nhiệt' và 'có ống hút'.<br/>📌 Có 23 bình nước tất cả.<br/>📌 16 bình nước có 'giữ nhiệt', 22 bình nước có 'có ống hút'.<br/>➡️ Tổng cộng có thể bị tính lặp những bình nước có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (16 + 22) - 23 = ...<br/>✅ Vậy có ... bình nước vừa có 'giữ nhiệt' vừa có 'có ống hút'."
     },
     {
       "question": "Có 22 chiếc cặp, trong đó 21 chiếc cặp có đặc điểm 'hình gấu' và 17 chiếc cặp có đặc điểm 'hình mèo'. Hỏi có bao nhiêu chiếc cặp vừa có đặc điểm 'hình gấu' vừa có đặc điểm 'hình mèo'?",
@@ -131,7 +131,7 @@
         "13"
       ],
       "answer": 0,
-      "guide": "👉 Bài này yêu cầu tìm số chiếc cặp có **cả hai đặc điểm** 'hình gấu' và 'hình mèo'.<br/>📌 Có 22 chiếc cặp tất cả.<br/>📌 21 chiếc cặp có 'hình gấu', 17 chiếc cặp có 'hình mèo'.<br/>➡️ Tổng cộng có thể bị tính lặp những chiếc cặp có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (21 + 17) - 22 = 16<br/>✅ Vậy có ... chiếc cặp vừa có 'hình gấu' vừa có 'hình mèo'."
+      "guide": "👉 Bài này yêu cầu tìm số chiếc cặp có <b>cả hai đặc điểm</b> 'hình gấu' và 'hình mèo'.<br/>📌 Có 22 chiếc cặp tất cả.<br/>📌 21 chiếc cặp có 'hình gấu', 17 chiếc cặp có 'hình mèo'.<br/>➡️ Tổng cộng có thể bị tính lặp những chiếc cặp có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (21 + 17) - 22 = ...<br/>✅ Vậy có ... chiếc cặp vừa có 'hình gấu' vừa có 'hình mèo'."
     },
     {
       "question": "Có 22 chậu cây, trong đó 13 chậu cây có đặc điểm 'tưới nước' và 10 chậu cây có đặc điểm 'bón phân'. Hỏi có bao nhiêu chậu cây vừa có đặc điểm 'tưới nước' vừa có đặc điểm 'bón phân'?",
@@ -141,7 +141,7 @@
         "1"
       ],
       "answer": 2,
-      "guide": "👉 Bài này yêu cầu tìm số chậu cây có **cả hai đặc điểm** 'tưới nước' và 'bón phân'.<br/>📌 Có 22 chậu cây tất cả.<br/>📌 13 chậu cây có 'tưới nước', 10 chậu cây có 'bón phân'.<br/>➡️ Tổng cộng có thể bị tính lặp những chậu cây có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (13 + 10) - 22 = 1<br/>✅ Vậy có ... chậu cây vừa có 'tưới nước' vừa có 'bón phân'."
+      "guide": "👉 Bài này yêu cầu tìm số chậu cây có <b>cả hai đặc điểm</b> 'tưới nước' và 'bón phân'.<br/>📌 Có 22 chậu cây tất cả.<br/>📌 13 chậu cây có 'tưới nước', 10 chậu cây có 'bón phân'.<br/>➡️ Tổng cộng có thể bị tính lặp những chậu cây có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (13 + 10) - 22 = ...<br/>✅ Vậy có ... chậu cây vừa có 'tưới nước' vừa có 'bón phân'."
     },
     {
       "question": "Có 20 chậu cây, trong đó 12 chậu cây có đặc điểm 'tưới nước' và 18 chậu cây có đặc điểm 'bón phân'. Hỏi có bao nhiêu chậu cây vừa có đặc điểm 'tưới nước' vừa có đặc điểm 'bón phân'?",
@@ -151,7 +151,7 @@
         "10"
       ],
       "answer": 2,
-      "guide": "👉 Bài này yêu cầu tìm số chậu cây có **cả hai đặc điểm** 'tưới nước' và 'bón phân'.<br/>📌 Có 20 chậu cây tất cả.<br/>📌 12 chậu cây có 'tưới nước', 18 chậu cây có 'bón phân'.<br/>➡️ Tổng cộng có thể bị tính lặp những chậu cây có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (12 + 18) - 20 = 10<br/>✅ Vậy có ... chậu cây vừa có 'tưới nước' vừa có 'bón phân'."
+      "guide": "👉 Bài này yêu cầu tìm số chậu cây có <b>cả hai đặc điểm</b> 'tưới nước' và 'bón phân'.<br/>📌 Có 20 chậu cây tất cả.<br/>📌 12 chậu cây có 'tưới nước', 18 chậu cây có 'bón phân'.<br/>➡️ Tổng cộng có thể bị tính lặp những chậu cây có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (12 + 18) - 20 = ...<br/>✅ Vậy có ... chậu cây vừa có 'tưới nước' vừa có 'bón phân'."
     },
     {
       "question": "Có 22 cái áo, trong đó 13 cái áo có đặc điểm 'màu đỏ' và 19 cái áo có đặc điểm 'màu xanh'. Hỏi có bao nhiêu cái áo vừa có đặc điểm 'màu đỏ' vừa có đặc điểm 'màu xanh'?",
@@ -161,7 +161,7 @@
         "12"
       ],
       "answer": 0,
-      "guide": "👉 Bài này yêu cầu tìm số cái áo có **cả hai đặc điểm** 'màu đỏ' và 'màu xanh'.<br/>📌 Có 22 cái áo tất cả.<br/>📌 13 cái áo có 'màu đỏ', 19 cái áo có 'màu xanh'.<br/>➡️ Tổng cộng có thể bị tính lặp những cái áo có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (13 + 19) - 22 = 10<br/>✅ Vậy có ... cái áo vừa có 'màu đỏ' vừa có 'màu xanh'."
+      "guide": "👉 Bài này yêu cầu tìm số cái áo có <b>cả hai đặc điểm</b> 'màu đỏ' và 'màu xanh'.<br/>📌 Có 22 cái áo tất cả.<br/>📌 13 cái áo có 'màu đỏ', 19 cái áo có 'màu xanh'.<br/>➡️ Tổng cộng có thể bị tính lặp những cái áo có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (13 + 19) - 22 = ...<br/>✅ Vậy có ... cái áo vừa có 'màu đỏ' vừa có 'màu xanh'."
     },
     {
       "question": "Có 17 chiếc bánh, trong đó 10 chiếc bánh có đặc điểm 'nhân socola' và 10 chiếc bánh có đặc điểm 'nhân dâu'. Hỏi có bao nhiêu chiếc bánh vừa có đặc điểm 'nhân socola' vừa có đặc điểm 'nhân dâu'?",
@@ -171,7 +171,7 @@
         "3"
       ],
       "answer": 2,
-      "guide": "👉 Bài này yêu cầu tìm số chiếc bánh có **cả hai đặc điểm** 'nhân socola' và 'nhân dâu'.<br/>📌 Có 17 chiếc bánh tất cả.<br/>📌 10 chiếc bánh có 'nhân socola', 10 chiếc bánh có 'nhân dâu'.<br/>➡️ Tổng cộng có thể bị tính lặp những chiếc bánh có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (10 + 10) - 17 = 3<br/>✅ Vậy có ... chiếc bánh vừa có 'nhân socola' vừa có 'nhân dâu'."
+      "guide": "👉 Bài này yêu cầu tìm số chiếc bánh có <b>cả hai đặc điểm</b> 'nhân socola' và 'nhân dâu'.<br/>📌 Có 17 chiếc bánh tất cả.<br/>📌 10 chiếc bánh có 'nhân socola', 10 chiếc bánh có 'nhân dâu'.<br/>➡️ Tổng cộng có thể bị tính lặp những chiếc bánh có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (10 + 10) - 17 = ...<br/>✅ Vậy có ... chiếc bánh vừa có 'nhân socola' vừa có 'nhân dâu'."
     },
     {
       "question": "Có 23 quyển sách, trong đó 22 quyển sách có đặc điểm 'truyện tranh' và 20 quyển sách có đặc điểm 'truyện cổ tích'. Hỏi có bao nhiêu quyển sách vừa có đặc điểm 'truyện tranh' vừa có đặc điểm 'truyện cổ tích'?",
@@ -181,7 +181,7 @@
         "16"
       ],
       "answer": 1,
-      "guide": "👉 Bài này yêu cầu tìm số quyển sách có **cả hai đặc điểm** 'truyện tranh' và 'truyện cổ tích'.<br/>📌 Có 23 quyển sách tất cả.<br/>📌 22 quyển sách có 'truyện tranh', 20 quyển sách có 'truyện cổ tích'.<br/>➡️ Tổng cộng có thể bị tính lặp những quyển sách có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (22 + 20) - 23 = 19<br/>✅ Vậy có ... quyển sách vừa có 'truyện tranh' vừa có 'truyện cổ tích'."
+      "guide": "👉 Bài này yêu cầu tìm số quyển sách có <b>cả hai đặc điểm</b> 'truyện tranh' và 'truyện cổ tích'.<br/>📌 Có 23 quyển sách tất cả.<br/>📌 22 quyển sách có 'truyện tranh', 20 quyển sách có 'truyện cổ tích'.<br/>➡️ Tổng cộng có thể bị tính lặp những quyển sách có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (22 + 20) - 23 = ...<br/>✅ Vậy có ... quyển sách vừa có 'truyện tranh' vừa có 'truyện cổ tích'."
     },
     {
       "question": "Có 20 hộp màu, trong đó 14 hộp màu có đặc điểm 'bút chì màu' và 20 hộp màu có đặc điểm 'bút dạ'. Hỏi có bao nhiêu hộp màu vừa có đặc điểm 'bút chì màu' vừa có đặc điểm 'bút dạ'?",
@@ -191,7 +191,7 @@
         "12"
       ],
       "answer": 0,
-      "guide": "👉 Bài này yêu cầu tìm số hộp màu có **cả hai đặc điểm** 'bút chì màu' và 'bút dạ'.<br/>📌 Có 20 hộp màu tất cả.<br/>📌 14 hộp màu có 'bút chì màu', 20 hộp màu có 'bút dạ'.<br/>➡️ Tổng cộng có thể bị tính lặp những hộp màu có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (14 + 20) - 20 = 14<br/>✅ Vậy có ... hộp màu vừa có 'bút chì màu' vừa có 'bút dạ'."
+      "guide": "👉 Bài này yêu cầu tìm số hộp màu có <b>cả hai đặc điểm</b> 'bút chì màu' và 'bút dạ'.<br/>📌 Có 20 hộp màu tất cả.<br/>📌 14 hộp màu có 'bút chì màu', 20 hộp màu có 'bút dạ'.<br/>➡️ Tổng cộng có thể bị tính lặp những hộp màu có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (14 + 20) - 20 = ...<br/>✅ Vậy có ... hộp màu vừa có 'bút chì màu' vừa có 'bút dạ'."
     },
     {
       "question": "Có 17 cái áo, trong đó 11 cái áo có đặc điểm 'màu đỏ' và 12 cái áo có đặc điểm 'màu xanh'. Hỏi có bao nhiêu cái áo vừa có đặc điểm 'màu đỏ' vừa có đặc điểm 'màu xanh'?",
@@ -201,7 +201,7 @@
         "4"
       ],
       "answer": 1,
-      "guide": "👉 Bài này yêu cầu tìm số cái áo có **cả hai đặc điểm** 'màu đỏ' và 'màu xanh'.<br/>📌 Có 17 cái áo tất cả.<br/>📌 11 cái áo có 'màu đỏ', 12 cái áo có 'màu xanh'.<br/>➡️ Tổng cộng có thể bị tính lặp những cái áo có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (11 + 12) - 17 = 6<br/>✅ Vậy có ... cái áo vừa có 'màu đỏ' vừa có 'màu xanh'."
+      "guide": "👉 Bài này yêu cầu tìm số cái áo có <b>cả hai đặc điểm</b> 'màu đỏ' và 'màu xanh'.<br/>📌 Có 17 cái áo tất cả.<br/>📌 11 cái áo có 'màu đỏ', 12 cái áo có 'màu xanh'.<br/>➡️ Tổng cộng có thể bị tính lặp những cái áo có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (11 + 12) - 17 = ...<br/>✅ Vậy có ... cái áo vừa có 'màu đỏ' vừa có 'màu xanh'."
     },
     {
       "question": "Có 15 hộp màu, trong đó 11 hộp màu có đặc điểm 'bút chì màu' và 14 hộp màu có đặc điểm 'bút dạ'. Hỏi có bao nhiêu hộp màu vừa có đặc điểm 'bút chì màu' vừa có đặc điểm 'bút dạ'?",
@@ -211,7 +211,7 @@
         "10"
       ],
       "answer": 2,
-      "guide": "👉 Bài này yêu cầu tìm số hộp màu có **cả hai đặc điểm** 'bút chì màu' và 'bút dạ'.<br/>📌 Có 15 hộp màu tất cả.<br/>📌 11 hộp màu có 'bút chì màu', 14 hộp màu có 'bút dạ'.<br/>➡️ Tổng cộng có thể bị tính lặp những hộp màu có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (11 + 14) - 15 = 10<br/>✅ Vậy có ... hộp màu vừa có 'bút chì màu' vừa có 'bút dạ'."
+      "guide": "👉 Bài này yêu cầu tìm số hộp màu có <b>cả hai đặc điểm</b> 'bút chì màu' và 'bút dạ'.<br/>📌 Có 15 hộp màu tất cả.<br/>📌 11 hộp màu có 'bút chì màu', 14 hộp màu có 'bút dạ'.<br/>➡️ Tổng cộng có thể bị tính lặp những hộp màu có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (11 + 14) - 15 = ...<br/>✅ Vậy có ... hộp màu vừa có 'bút chì màu' vừa có 'bút dạ'."
     },
     {
       "question": "Có 25 cái áo, trong đó 10 cái áo có đặc điểm 'màu đỏ' và 24 cái áo có đặc điểm 'màu xanh'. Hỏi có bao nhiêu cái áo vừa có đặc điểm 'màu đỏ' vừa có đặc điểm 'màu xanh'?",
@@ -221,7 +221,7 @@
         "7"
       ],
       "answer": 1,
-      "guide": "👉 Bài này yêu cầu tìm số cái áo có **cả hai đặc điểm** 'màu đỏ' và 'màu xanh'.<br/>📌 Có 25 cái áo tất cả.<br/>📌 10 cái áo có 'màu đỏ', 24 cái áo có 'màu xanh'.<br/>➡️ Tổng cộng có thể bị tính lặp những cái áo có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (10 + 24) - 25 = 9<br/>✅ Vậy có ... cái áo vừa có 'màu đỏ' vừa có 'màu xanh'."
+      "guide": "👉 Bài này yêu cầu tìm số cái áo có <b>cả hai đặc điểm</b> 'màu đỏ' và 'màu xanh'.<br/>📌 Có 25 cái áo tất cả.<br/>📌 10 cái áo có 'màu đỏ', 24 cái áo có 'màu xanh'.<br/>➡️ Tổng cộng có thể bị tính lặp những cái áo có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (10 + 24) - 25 = ...<br/>✅ Vậy có ... cái áo vừa có 'màu đỏ' vừa có 'màu xanh'."
     },
     {
       "question": "Có 25 quả bóng, trong đó 15 quả bóng có đặc điểm 'màu xanh' và 13 quả bóng có đặc điểm 'màu vàng'. Hỏi có bao nhiêu quả bóng vừa có đặc điểm 'màu xanh' vừa có đặc điểm 'màu vàng'?",
@@ -231,7 +231,7 @@
         "1"
       ],
       "answer": 0,
-      "guide": "👉 Bài này yêu cầu tìm số quả bóng có **cả hai đặc điểm** 'màu xanh' và 'màu vàng'.<br/>📌 Có 25 quả bóng tất cả.<br/>📌 15 quả bóng có 'màu xanh', 13 quả bóng có 'màu vàng'.<br/>➡️ Tổng cộng có thể bị tính lặp những quả bóng có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (15 + 13) - 25 = 3<br/>✅ Vậy có ... quả bóng vừa có 'màu xanh' vừa có 'màu vàng'."
+      "guide": "👉 Bài này yêu cầu tìm số quả bóng có <b>cả hai đặc điểm</b> 'màu xanh' và 'màu vàng'.<br/>📌 Có 25 quả bóng tất cả.<br/>📌 15 quả bóng có 'màu xanh', 13 quả bóng có 'màu vàng'.<br/>➡️ Tổng cộng có thể bị tính lặp những quả bóng có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (15 + 13) - 25 = ...<br/>✅ Vậy có ... quả bóng vừa có 'màu xanh' vừa có 'màu vàng'."
     },
     {
       "question": "Có 20 chiếc cặp, trong đó 15 chiếc cặp có đặc điểm 'hình gấu' và 10 chiếc cặp có đặc điểm 'hình mèo'. Hỏi có bao nhiêu chiếc cặp vừa có đặc điểm 'hình gấu' vừa có đặc điểm 'hình mèo'?",
@@ -241,7 +241,7 @@
         "8"
       ],
       "answer": 0,
-      "guide": "👉 Bài này yêu cầu tìm số chiếc cặp có **cả hai đặc điểm** 'hình gấu' và 'hình mèo'.<br/>📌 Có 20 chiếc cặp tất cả.<br/>📌 15 chiếc cặp có 'hình gấu', 10 chiếc cặp có 'hình mèo'.<br/>➡️ Tổng cộng có thể bị tính lặp những chiếc cặp có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (15 + 10) - 20 = 5<br/>✅ Vậy có ... chiếc cặp vừa có 'hình gấu' vừa có 'hình mèo'."
+      "guide": "👉 Bài này yêu cầu tìm số chiếc cặp có <b>cả hai đặc điểm</b> 'hình gấu' và 'hình mèo'.<br/>📌 Có 20 chiếc cặp tất cả.<br/>📌 15 chiếc cặp có 'hình gấu', 10 chiếc cặp có 'hình mèo'.<br/>➡️ Tổng cộng có thể bị tính lặp những chiếc cặp có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (15 + 10) - 20 = ...<br/>✅ Vậy có ... chiếc cặp vừa có 'hình gấu' vừa có 'hình mèo'."
     },
     {
       "question": "Có 18 chậu cây, trong đó 16 chậu cây có đặc điểm 'tưới nước' và 17 chậu cây có đặc điểm 'bón phân'. Hỏi có bao nhiêu chậu cây vừa có đặc điểm 'tưới nước' vừa có đặc điểm 'bón phân'?",
@@ -251,7 +251,7 @@
         "16"
       ],
       "answer": 1,
-      "guide": "👉 Bài này yêu cầu tìm số chậu cây có **cả hai đặc điểm** 'tưới nước' và 'bón phân'.<br/>📌 Có 18 chậu cây tất cả.<br/>📌 16 chậu cây có 'tưới nước', 17 chậu cây có 'bón phân'.<br/>➡️ Tổng cộng có thể bị tính lặp những chậu cây có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (16 + 17) - 18 = 15<br/>✅ Vậy có ... chậu cây vừa có 'tưới nước' vừa có 'bón phân'."
+      "guide": "👉 Bài này yêu cầu tìm số chậu cây có <b>cả hai đặc điểm</b> 'tưới nước' và 'bón phân'.<br/>📌 Có 18 chậu cây tất cả.<br/>📌 16 chậu cây có 'tưới nước', 17 chậu cây có 'bón phân'.<br/>➡️ Tổng cộng có thể bị tính lặp những chậu cây có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (16 + 17) - 18 = ...<br/>✅ Vậy có ... chậu cây vừa có 'tưới nước' vừa có 'bón phân'."
     },
     {
       "question": "Có 25 quả bóng, trong đó 18 quả bóng có đặc điểm 'màu xanh' và 23 quả bóng có đặc điểm 'màu vàng'. Hỏi có bao nhiêu quả bóng vừa có đặc điểm 'màu xanh' vừa có đặc điểm 'màu vàng'?",
@@ -261,7 +261,7 @@
         "16"
       ],
       "answer": 2,
-      "guide": "👉 Bài này yêu cầu tìm số quả bóng có **cả hai đặc điểm** 'màu xanh' và 'màu vàng'.<br/>📌 Có 25 quả bóng tất cả.<br/>📌 18 quả bóng có 'màu xanh', 23 quả bóng có 'màu vàng'.<br/>➡️ Tổng cộng có thể bị tính lặp những quả bóng có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (18 + 23) - 25 = 16<br/>✅ Vậy có ... quả bóng vừa có 'màu xanh' vừa có 'màu vàng'."
+      "guide": "👉 Bài này yêu cầu tìm số quả bóng có <b>cả hai đặc điểm</b> 'màu xanh' và 'màu vàng'.<br/>📌 Có 25 quả bóng tất cả.<br/>📌 18 quả bóng có 'màu xanh', 23 quả bóng có 'màu vàng'.<br/>➡️ Tổng cộng có thể bị tính lặp những quả bóng có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (18 + 23) - 25 = ...<br/>✅ Vậy có ... quả bóng vừa có 'màu xanh' vừa có 'màu vàng'."
     },
     {
       "question": "Có 25 chiếc xe, trong đó 24 chiếc xe có đặc điểm 'chạy điện' và 12 chiếc xe có đặc điểm 'chạy xăng'. Hỏi có bao nhiêu chiếc xe vừa có đặc điểm 'chạy điện' vừa có đặc điểm 'chạy xăng'?",
@@ -271,7 +271,7 @@
         "8"
       ],
       "answer": 0,
-      "guide": "👉 Bài này yêu cầu tìm số chiếc xe có **cả hai đặc điểm** 'chạy điện' và 'chạy xăng'.<br/>📌 Có 25 chiếc xe tất cả.<br/>📌 24 chiếc xe có 'chạy điện', 12 chiếc xe có 'chạy xăng'.<br/>➡️ Tổng cộng có thể bị tính lặp những chiếc xe có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (24 + 12) - 25 = 11<br/>✅ Vậy có ... chiếc xe vừa có 'chạy điện' vừa có 'chạy xăng'."
+      "guide": "👉 Bài này yêu cầu tìm số chiếc xe có <b>cả hai đặc điểm</b> 'chạy điện' và 'chạy xăng'.<br/>📌 Có 25 chiếc xe tất cả.<br/>📌 24 chiếc xe có 'chạy điện', 12 chiếc xe có 'chạy xăng'.<br/>➡️ Tổng cộng có thể bị tính lặp những chiếc xe có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (24 + 12) - 25 = ...<br/>✅ Vậy có ... chiếc xe vừa có 'chạy điện' vừa có 'chạy xăng'."
     },
     {
       "question": "Có 18 bình nước, trong đó 16 bình nước có đặc điểm 'giữ nhiệt' và 17 bình nước có đặc điểm 'có ống hút'. Hỏi có bao nhiêu bình nước vừa có đặc điểm 'giữ nhiệt' vừa có đặc điểm 'có ống hút'?",
@@ -281,7 +281,7 @@
         "16"
       ],
       "answer": 1,
-      "guide": "👉 Bài này yêu cầu tìm số bình nước có **cả hai đặc điểm** 'giữ nhiệt' và 'có ống hút'.<br/>📌 Có 18 bình nước tất cả.<br/>📌 16 bình nước có 'giữ nhiệt', 17 bình nước có 'có ống hút'.<br/>➡️ Tổng cộng có thể bị tính lặp những bình nước có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (16 + 17) - 18 = 15<br/>✅ Vậy có ... bình nước vừa có 'giữ nhiệt' vừa có 'có ống hút'."
+      "guide": "👉 Bài này yêu cầu tìm số bình nước có <b>cả hai đặc điểm</b> 'giữ nhiệt' và 'có ống hút'.<br/>📌 Có 18 bình nước tất cả.<br/>📌 16 bình nước có 'giữ nhiệt', 17 bình nước có 'có ống hút'.<br/>➡️ Tổng cộng có thể bị tính lặp những bình nước có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (16 + 17) - 18 = ...<br/>✅ Vậy có ... bình nước vừa có 'giữ nhiệt' vừa có 'có ống hút'."
     },
     {
       "question": "Có 18 cái áo, trong đó 17 cái áo có đặc điểm 'màu đỏ' và 10 cái áo có đặc điểm 'màu xanh'. Hỏi có bao nhiêu cái áo vừa có đặc điểm 'màu đỏ' vừa có đặc điểm 'màu xanh'?",
@@ -291,7 +291,7 @@
         "10"
       ],
       "answer": 1,
-      "guide": "👉 Bài này yêu cầu tìm số cái áo có **cả hai đặc điểm** 'màu đỏ' và 'màu xanh'.<br/>📌 Có 18 cái áo tất cả.<br/>📌 17 cái áo có 'màu đỏ', 10 cái áo có 'màu xanh'.<br/>➡️ Tổng cộng có thể bị tính lặp những cái áo có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (17 + 10) - 18 = 9<br/>✅ Vậy có ... cái áo vừa có 'màu đỏ' vừa có 'màu xanh'."
+      "guide": "👉 Bài này yêu cầu tìm số cái áo có <b>cả hai đặc điểm</b> 'màu đỏ' và 'màu xanh'.<br/>📌 Có 18 cái áo tất cả.<br/>📌 17 cái áo có 'màu đỏ', 10 cái áo có 'màu xanh'.<br/>➡️ Tổng cộng có thể bị tính lặp những cái áo có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (17 + 10) - 18 = ...<br/>✅ Vậy có ... cái áo vừa có 'màu đỏ' vừa có 'màu xanh'."
     },
     {
       "question": "Có 25 chiếc bánh, trong đó 19 chiếc bánh có đặc điểm 'nhân socola' và 12 chiếc bánh có đặc điểm 'nhân dâu'. Hỏi có bao nhiêu chiếc bánh vừa có đặc điểm 'nhân socola' vừa có đặc điểm 'nhân dâu'?",
@@ -301,7 +301,7 @@
         "7"
       ],
       "answer": 0,
-      "guide": "👉 Bài này yêu cầu tìm số chiếc bánh có **cả hai đặc điểm** 'nhân socola' và 'nhân dâu'.<br/>📌 Có 25 chiếc bánh tất cả.<br/>📌 19 chiếc bánh có 'nhân socola', 12 chiếc bánh có 'nhân dâu'.<br/>➡️ Tổng cộng có thể bị tính lặp những chiếc bánh có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (19 + 12) - 25 = 6<br/>✅ Vậy có ... chiếc bánh vừa có 'nhân socola' vừa có 'nhân dâu'."
+      "guide": "👉 Bài này yêu cầu tìm số chiếc bánh có <b>cả hai đặc điểm</b> 'nhân socola' và 'nhân dâu'.<br/>📌 Có 25 chiếc bánh tất cả.<br/>📌 19 chiếc bánh có 'nhân socola', 12 chiếc bánh có 'nhân dâu'.<br/>➡️ Tổng cộng có thể bị tính lặp những chiếc bánh có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (19 + 12) - 25 = ...<br/>✅ Vậy có ... chiếc bánh vừa có 'nhân socola' vừa có 'nhân dâu'."
     },
     {
       "question": "Có 18 cái áo, trong đó 17 cái áo có đặc điểm 'màu đỏ' và 15 cái áo có đặc điểm 'màu xanh'. Hỏi có bao nhiêu cái áo vừa có đặc điểm 'màu đỏ' vừa có đặc điểm 'màu xanh'?",
@@ -311,7 +311,7 @@
         "14"
       ],
       "answer": 2,
-      "guide": "👉 Bài này yêu cầu tìm số cái áo có **cả hai đặc điểm** 'màu đỏ' và 'màu xanh'.<br/>📌 Có 18 cái áo tất cả.<br/>📌 17 cái áo có 'màu đỏ', 15 cái áo có 'màu xanh'.<br/>➡️ Tổng cộng có thể bị tính lặp những cái áo có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (17 + 15) - 18 = 14<br/>✅ Vậy có ... cái áo vừa có 'màu đỏ' vừa có 'màu xanh'."
+      "guide": "👉 Bài này yêu cầu tìm số cái áo có <b>cả hai đặc điểm</b> 'màu đỏ' và 'màu xanh'.<br/>📌 Có 18 cái áo tất cả.<br/>📌 17 cái áo có 'màu đỏ', 15 cái áo có 'màu xanh'.<br/>➡️ Tổng cộng có thể bị tính lặp những cái áo có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (17 + 15) - 18 = ...<br/>✅ Vậy có ... cái áo vừa có 'màu đỏ' vừa có 'màu xanh'."
     },
     {
       "question": "Có 22 cái áo, trong đó 19 cái áo có đặc điểm 'màu đỏ' và 22 cái áo có đặc điểm 'màu xanh'. Hỏi có bao nhiêu cái áo vừa có đặc điểm 'màu đỏ' vừa có đặc điểm 'màu xanh'?",
@@ -321,7 +321,7 @@
         "16"
       ],
       "answer": 1,
-      "guide": "👉 Bài này yêu cầu tìm số cái áo có **cả hai đặc điểm** 'màu đỏ' và 'màu xanh'.<br/>📌 Có 22 cái áo tất cả.<br/>📌 19 cái áo có 'màu đỏ', 22 cái áo có 'màu xanh'.<br/>➡️ Tổng cộng có thể bị tính lặp những cái áo có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (19 + 22) - 22 = 19<br/>✅ Vậy có ... cái áo vừa có 'màu đỏ' vừa có 'màu xanh'."
+      "guide": "👉 Bài này yêu cầu tìm số cái áo có <b>cả hai đặc điểm</b> 'màu đỏ' và 'màu xanh'.<br/>📌 Có 22 cái áo tất cả.<br/>📌 19 cái áo có 'màu đỏ', 22 cái áo có 'màu xanh'.<br/>➡️ Tổng cộng có thể bị tính lặp những cái áo có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (19 + 22) - 22 = ...<br/>✅ Vậy có ... cái áo vừa có 'màu đỏ' vừa có 'màu xanh'."
     },
     {
       "question": "Có 17 cái áo, trong đó 12 cái áo có đặc điểm 'màu đỏ' và 12 cái áo có đặc điểm 'màu xanh'. Hỏi có bao nhiêu cái áo vừa có đặc điểm 'màu đỏ' vừa có đặc điểm 'màu xanh'?",
@@ -331,7 +331,7 @@
         "6"
       ],
       "answer": 0,
-      "guide": "👉 Bài này yêu cầu tìm số cái áo có **cả hai đặc điểm** 'màu đỏ' và 'màu xanh'.<br/>📌 Có 17 cái áo tất cả.<br/>📌 12 cái áo có 'màu đỏ', 12 cái áo có 'màu xanh'.<br/>➡️ Tổng cộng có thể bị tính lặp những cái áo có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (12 + 12) - 17 = 7<br/>✅ Vậy có ... cái áo vừa có 'màu đỏ' vừa có 'màu xanh'."
+      "guide": "👉 Bài này yêu cầu tìm số cái áo có <b>cả hai đặc điểm</b> 'màu đỏ' và 'màu xanh'.<br/>📌 Có 17 cái áo tất cả.<br/>📌 12 cái áo có 'màu đỏ', 12 cái áo có 'màu xanh'.<br/>➡️ Tổng cộng có thể bị tính lặp những cái áo có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (12 + 12) - 17 = ...<br/>✅ Vậy có ... cái áo vừa có 'màu đỏ' vừa có 'màu xanh'."
     },
     {
       "question": "Có 16 hộp màu, trong đó 11 hộp màu có đặc điểm 'bút chì màu' và 15 hộp màu có đặc điểm 'bút dạ'. Hỏi có bao nhiêu hộp màu vừa có đặc điểm 'bút chì màu' vừa có đặc điểm 'bút dạ'?",
@@ -341,7 +341,7 @@
         "11"
       ],
       "answer": 0,
-      "guide": "👉 Bài này yêu cầu tìm số hộp màu có **cả hai đặc điểm** 'bút chì màu' và 'bút dạ'.<br/>📌 Có 16 hộp màu tất cả.<br/>📌 11 hộp màu có 'bút chì màu', 15 hộp màu có 'bút dạ'.<br/>➡️ Tổng cộng có thể bị tính lặp những hộp màu có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (11 + 15) - 16 = 10<br/>✅ Vậy có ... hộp màu vừa có 'bút chì màu' vừa có 'bút dạ'."
+      "guide": "👉 Bài này yêu cầu tìm số hộp màu có <b>cả hai đặc điểm</b> 'bút chì màu' và 'bút dạ'.<br/>📌 Có 16 hộp màu tất cả.<br/>📌 11 hộp màu có 'bút chì màu', 15 hộp màu có 'bút dạ'.<br/>➡️ Tổng cộng có thể bị tính lặp những hộp màu có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (11 + 15) - 16 = ...<br/>✅ Vậy có ... hộp màu vừa có 'bút chì màu' vừa có 'bút dạ'."
     },
     {
       "question": "Có 23 hộp màu, trong đó 16 hộp màu có đặc điểm 'bút chì màu' và 22 hộp màu có đặc điểm 'bút dạ'. Hỏi có bao nhiêu hộp màu vừa có đặc điểm 'bút chì màu' vừa có đặc điểm 'bút dạ'?",
@@ -351,7 +351,7 @@
         "13"
       ],
       "answer": 0,
-      "guide": "👉 Bài này yêu cầu tìm số hộp màu có **cả hai đặc điểm** 'bút chì màu' và 'bút dạ'.<br/>📌 Có 23 hộp màu tất cả.<br/>📌 16 hộp màu có 'bút chì màu', 22 hộp màu có 'bút dạ'.<br/>➡️ Tổng cộng có thể bị tính lặp những hộp màu có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (16 + 22) - 23 = 15<br/>✅ Vậy có ... hộp màu vừa có 'bút chì màu' vừa có 'bút dạ'."
+      "guide": "👉 Bài này yêu cầu tìm số hộp màu có <b>cả hai đặc điểm</b> 'bút chì màu' và 'bút dạ'.<br/>📌 Có 23 hộp màu tất cả.<br/>📌 16 hộp màu có 'bút chì màu', 22 hộp màu có 'bút dạ'.<br/>➡️ Tổng cộng có thể bị tính lặp những hộp màu có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (16 + 22) - 23 = ...<br/>✅ Vậy có ... hộp màu vừa có 'bút chì màu' vừa có 'bút dạ'."
     },
     {
       "question": "Có 18 bình nước, trong đó 15 bình nước có đặc điểm 'giữ nhiệt' và 15 bình nước có đặc điểm 'có ống hút'. Hỏi có bao nhiêu bình nước vừa có đặc điểm 'giữ nhiệt' vừa có đặc điểm 'có ống hút'?",
@@ -361,7 +361,7 @@
         "12"
       ],
       "answer": 2,
-      "guide": "👉 Bài này yêu cầu tìm số bình nước có **cả hai đặc điểm** 'giữ nhiệt' và 'có ống hút'.<br/>📌 Có 18 bình nước tất cả.<br/>📌 15 bình nước có 'giữ nhiệt', 15 bình nước có 'có ống hút'.<br/>➡️ Tổng cộng có thể bị tính lặp những bình nước có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (15 + 15) - 18 = 12<br/>✅ Vậy có ... bình nước vừa có 'giữ nhiệt' vừa có 'có ống hút'."
+      "guide": "👉 Bài này yêu cầu tìm số bình nước có <b>cả hai đặc điểm</b> 'giữ nhiệt' và 'có ống hút'.<br/>📌 Có 18 bình nước tất cả.<br/>📌 15 bình nước có 'giữ nhiệt', 15 bình nước có 'có ống hút'.<br/>➡️ Tổng cộng có thể bị tính lặp những bình nước có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (15 + 15) - 18 = ...<br/>✅ Vậy có ... bình nước vừa có 'giữ nhiệt' vừa có 'có ống hút'."
     },
     {
       "question": "Có 22 quả bóng, trong đó 21 quả bóng có đặc điểm 'màu xanh' và 21 quả bóng có đặc điểm 'màu vàng'. Hỏi có bao nhiêu quả bóng vừa có đặc điểm 'màu xanh' vừa có đặc điểm 'màu vàng'?",
@@ -371,7 +371,7 @@
         "18"
       ],
       "answer": 1,
-      "guide": "👉 Bài này yêu cầu tìm số quả bóng có **cả hai đặc điểm** 'màu xanh' và 'màu vàng'.<br/>📌 Có 22 quả bóng tất cả.<br/>📌 21 quả bóng có 'màu xanh', 21 quả bóng có 'màu vàng'.<br/>➡️ Tổng cộng có thể bị tính lặp những quả bóng có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (21 + 21) - 22 = 20<br/>✅ Vậy có ... quả bóng vừa có 'màu xanh' vừa có 'màu vàng'."
+      "guide": "👉 Bài này yêu cầu tìm số quả bóng có <b>cả hai đặc điểm</b> 'màu xanh' và 'màu vàng'.<br/>📌 Có 22 quả bóng tất cả.<br/>📌 21 quả bóng có 'màu xanh', 21 quả bóng có 'màu vàng'.<br/>➡️ Tổng cộng có thể bị tính lặp những quả bóng có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (21 + 21) - 22 = ...<br/>✅ Vậy có ... quả bóng vừa có 'màu xanh' vừa có 'màu vàng'."
     },
     {
       "question": "Có 19 quyển sách, trong đó 16 quyển sách có đặc điểm 'truyện tranh' và 17 quyển sách có đặc điểm 'truyện cổ tích'. Hỏi có bao nhiêu quyển sách vừa có đặc điểm 'truyện tranh' vừa có đặc điểm 'truyện cổ tích'?",
@@ -381,7 +381,7 @@
         "15"
       ],
       "answer": 1,
-      "guide": "👉 Bài này yêu cầu tìm số quyển sách có **cả hai đặc điểm** 'truyện tranh' và 'truyện cổ tích'.<br/>📌 Có 19 quyển sách tất cả.<br/>📌 16 quyển sách có 'truyện tranh', 17 quyển sách có 'truyện cổ tích'.<br/>➡️ Tổng cộng có thể bị tính lặp những quyển sách có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (16 + 17) - 19 = 14<br/>✅ Vậy có ... quyển sách vừa có 'truyện tranh' vừa có 'truyện cổ tích'."
+      "guide": "👉 Bài này yêu cầu tìm số quyển sách có <b>cả hai đặc điểm</b> 'truyện tranh' và 'truyện cổ tích'.<br/>📌 Có 19 quyển sách tất cả.<br/>📌 16 quyển sách có 'truyện tranh', 17 quyển sách có 'truyện cổ tích'.<br/>➡️ Tổng cộng có thể bị tính lặp những quyển sách có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (16 + 17) - 19 = ...<br/>✅ Vậy có ... quyển sách vừa có 'truyện tranh' vừa có 'truyện cổ tích'."
     },
     {
       "question": "Có 15 chậu cây, trong đó 12 chậu cây có đặc điểm 'tưới nước' và 13 chậu cây có đặc điểm 'bón phân'. Hỏi có bao nhiêu chậu cây vừa có đặc điểm 'tưới nước' vừa có đặc điểm 'bón phân'?",
@@ -391,7 +391,7 @@
         "12"
       ],
       "answer": 1,
-      "guide": "👉 Bài này yêu cầu tìm số chậu cây có **cả hai đặc điểm** 'tưới nước' và 'bón phân'.<br/>📌 Có 15 chậu cây tất cả.<br/>📌 12 chậu cây có 'tưới nước', 13 chậu cây có 'bón phân'.<br/>➡️ Tổng cộng có thể bị tính lặp những chậu cây có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (12 + 13) - 15 = 10<br/>✅ Vậy có ... chậu cây vừa có 'tưới nước' vừa có 'bón phân'."
+      "guide": "👉 Bài này yêu cầu tìm số chậu cây có <b>cả hai đặc điểm</b> 'tưới nước' và 'bón phân'.<br/>📌 Có 15 chậu cây tất cả.<br/>📌 12 chậu cây có 'tưới nước', 13 chậu cây có 'bón phân'.<br/>➡️ Tổng cộng có thể bị tính lặp những chậu cây có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (12 + 13) - 15 = ...<br/>✅ Vậy có ... chậu cây vừa có 'tưới nước' vừa có 'bón phân'."
     },
     {
       "question": "Có 22 hộp màu, trong đó 20 hộp màu có đặc điểm 'bút chì màu' và 13 hộp màu có đặc điểm 'bút dạ'. Hỏi có bao nhiêu hộp màu vừa có đặc điểm 'bút chì màu' vừa có đặc điểm 'bút dạ'?",
@@ -401,7 +401,7 @@
         "9"
       ],
       "answer": 1,
-      "guide": "👉 Bài này yêu cầu tìm số hộp màu có **cả hai đặc điểm** 'bút chì màu' và 'bút dạ'.<br/>📌 Có 22 hộp màu tất cả.<br/>📌 20 hộp màu có 'bút chì màu', 13 hộp màu có 'bút dạ'.<br/>➡️ Tổng cộng có thể bị tính lặp những hộp màu có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (20 + 13) - 22 = 11<br/>✅ Vậy có ... hộp màu vừa có 'bút chì màu' vừa có 'bút dạ'."
+      "guide": "👉 Bài này yêu cầu tìm số hộp màu có <b>cả hai đặc điểm</b> 'bút chì màu' và 'bút dạ'.<br/>📌 Có 22 hộp màu tất cả.<br/>📌 20 hộp màu có 'bút chì màu', 13 hộp màu có 'bút dạ'.<br/>➡️ Tổng cộng có thể bị tính lặp những hộp màu có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (20 + 13) - 22 = ...<br/>✅ Vậy có ... hộp màu vừa có 'bút chì màu' vừa có 'bút dạ'."
     },
     {
       "question": "Có 21 con mèo, trong đó 21 con mèo có đặc điểm 'thích ngủ' và 13 con mèo có đặc điểm 'thích chơi bóng'. Hỏi có bao nhiêu con mèo vừa có đặc điểm 'thích ngủ' vừa có đặc điểm 'thích chơi bóng'?",
@@ -411,7 +411,7 @@
         "11"
       ],
       "answer": 1,
-      "guide": "👉 Bài này yêu cầu tìm số con mèo có **cả hai đặc điểm** 'thích ngủ' và 'thích chơi bóng'.<br/>📌 Có 21 con mèo tất cả.<br/>📌 21 con mèo có 'thích ngủ', 13 con mèo có 'thích chơi bóng'.<br/>➡️ Tổng cộng có thể bị tính lặp những con mèo có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (21 + 13) - 21 = 13<br/>✅ Vậy có ... con mèo vừa có 'thích ngủ' vừa có 'thích chơi bóng'."
+      "guide": "👉 Bài này yêu cầu tìm số con mèo có <b>cả hai đặc điểm</b> 'thích ngủ' và 'thích chơi bóng'.<br/>📌 Có 21 con mèo tất cả.<br/>📌 21 con mèo có 'thích ngủ', 13 con mèo có 'thích chơi bóng'.<br/>➡️ Tổng cộng có thể bị tính lặp những con mèo có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (21 + 13) - 21 = ...<br/>✅ Vậy có ... con mèo vừa có 'thích ngủ' vừa có 'thích chơi bóng'."
     },
     {
       "question": "Có 21 quả bóng, trong đó 16 quả bóng có đặc điểm 'màu xanh' và 17 quả bóng có đặc điểm 'màu vàng'. Hỏi có bao nhiêu quả bóng vừa có đặc điểm 'màu xanh' vừa có đặc điểm 'màu vàng'?",
@@ -421,7 +421,7 @@
         "14"
       ],
       "answer": 1,
-      "guide": "👉 Bài này yêu cầu tìm số quả bóng có **cả hai đặc điểm** 'màu xanh' và 'màu vàng'.<br/>📌 Có 21 quả bóng tất cả.<br/>📌 16 quả bóng có 'màu xanh', 17 quả bóng có 'màu vàng'.<br/>➡️ Tổng cộng có thể bị tính lặp những quả bóng có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (16 + 17) - 21 = 12<br/>✅ Vậy có ... quả bóng vừa có 'màu xanh' vừa có 'màu vàng'."
+      "guide": "👉 Bài này yêu cầu tìm số quả bóng có <b>cả hai đặc điểm</b> 'màu xanh' và 'màu vàng'.<br/>📌 Có 21 quả bóng tất cả.<br/>📌 16 quả bóng có 'màu xanh', 17 quả bóng có 'màu vàng'.<br/>➡️ Tổng cộng có thể bị tính lặp những quả bóng có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (16 + 17) - 21 = ...<br/>✅ Vậy có ... quả bóng vừa có 'màu xanh' vừa có 'màu vàng'."
     },
     {
       "question": "Có 21 quyển sách, trong đó 21 quyển sách có đặc điểm 'truyện tranh' và 11 quyển sách có đặc điểm 'truyện cổ tích'. Hỏi có bao nhiêu quyển sách vừa có đặc điểm 'truyện tranh' vừa có đặc điểm 'truyện cổ tích'?",
@@ -431,7 +431,7 @@
         "11"
       ],
       "answer": 2,
-      "guide": "👉 Bài này yêu cầu tìm số quyển sách có **cả hai đặc điểm** 'truyện tranh' và 'truyện cổ tích'.<br/>📌 Có 21 quyển sách tất cả.<br/>📌 21 quyển sách có 'truyện tranh', 11 quyển sách có 'truyện cổ tích'.<br/>➡️ Tổng cộng có thể bị tính lặp những quyển sách có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (21 + 11) - 21 = 11<br/>✅ Vậy có ... quyển sách vừa có 'truyện tranh' vừa có 'truyện cổ tích'."
+      "guide": "👉 Bài này yêu cầu tìm số quyển sách có <b>cả hai đặc điểm</b> 'truyện tranh' và 'truyện cổ tích'.<br/>📌 Có 21 quyển sách tất cả.<br/>📌 21 quyển sách có 'truyện tranh', 11 quyển sách có 'truyện cổ tích'.<br/>➡️ Tổng cộng có thể bị tính lặp những quyển sách có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (21 + 11) - 21 = ...<br/>✅ Vậy có ... quyển sách vừa có 'truyện tranh' vừa có 'truyện cổ tích'."
     },
     {
       "question": "Có 21 chậu cây, trong đó 12 chậu cây có đặc điểm 'tưới nước' và 17 chậu cây có đặc điểm 'bón phân'. Hỏi có bao nhiêu chậu cây vừa có đặc điểm 'tưới nước' vừa có đặc điểm 'bón phân'?",
@@ -441,7 +441,7 @@
         "8"
       ],
       "answer": 2,
-      "guide": "👉 Bài này yêu cầu tìm số chậu cây có **cả hai đặc điểm** 'tưới nước' và 'bón phân'.<br/>📌 Có 21 chậu cây tất cả.<br/>📌 12 chậu cây có 'tưới nước', 17 chậu cây có 'bón phân'.<br/>➡️ Tổng cộng có thể bị tính lặp những chậu cây có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (12 + 17) - 21 = 8<br/>✅ Vậy có ... chậu cây vừa có 'tưới nước' vừa có 'bón phân'."
+      "guide": "👉 Bài này yêu cầu tìm số chậu cây có <b>cả hai đặc điểm</b> 'tưới nước' và 'bón phân'.<br/>📌 Có 21 chậu cây tất cả.<br/>📌 12 chậu cây có 'tưới nước', 17 chậu cây có 'bón phân'.<br/>➡️ Tổng cộng có thể bị tính lặp những chậu cây có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (12 + 17) - 21 = ...<br/>✅ Vậy có ... chậu cây vừa có 'tưới nước' vừa có 'bón phân'."
     },
     {
       "question": "Có 24 quả bóng, trong đó 19 quả bóng có đặc điểm 'màu xanh' và 20 quả bóng có đặc điểm 'màu vàng'. Hỏi có bao nhiêu quả bóng vừa có đặc điểm 'màu xanh' vừa có đặc điểm 'màu vàng'?",
@@ -451,7 +451,7 @@
         "18"
       ],
       "answer": 1,
-      "guide": "👉 Bài này yêu cầu tìm số quả bóng có **cả hai đặc điểm** 'màu xanh' và 'màu vàng'.<br/>📌 Có 24 quả bóng tất cả.<br/>📌 19 quả bóng có 'màu xanh', 20 quả bóng có 'màu vàng'.<br/>➡️ Tổng cộng có thể bị tính lặp những quả bóng có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (19 + 20) - 24 = 15<br/>✅ Vậy có ... quả bóng vừa có 'màu xanh' vừa có 'màu vàng'."
+      "guide": "👉 Bài này yêu cầu tìm số quả bóng có <b>cả hai đặc điểm</b> 'màu xanh' và 'màu vàng'.<br/>📌 Có 24 quả bóng tất cả.<br/>📌 19 quả bóng có 'màu xanh', 20 quả bóng có 'màu vàng'.<br/>➡️ Tổng cộng có thể bị tính lặp những quả bóng có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (19 + 20) - 24 = ...<br/>✅ Vậy có ... quả bóng vừa có 'màu xanh' vừa có 'màu vàng'."
     },
     {
       "question": "Có 20 chiếc bánh, trong đó 16 chiếc bánh có đặc điểm 'nhân socola' và 16 chiếc bánh có đặc điểm 'nhân dâu'. Hỏi có bao nhiêu chiếc bánh vừa có đặc điểm 'nhân socola' vừa có đặc điểm 'nhân dâu'?",
@@ -461,7 +461,7 @@
         "12"
       ],
       "answer": 2,
-      "guide": "👉 Bài này yêu cầu tìm số chiếc bánh có **cả hai đặc điểm** 'nhân socola' và 'nhân dâu'.<br/>📌 Có 20 chiếc bánh tất cả.<br/>📌 16 chiếc bánh có 'nhân socola', 16 chiếc bánh có 'nhân dâu'.<br/>➡️ Tổng cộng có thể bị tính lặp những chiếc bánh có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (16 + 16) - 20 = 12<br/>✅ Vậy có ... chiếc bánh vừa có 'nhân socola' vừa có 'nhân dâu'."
+      "guide": "👉 Bài này yêu cầu tìm số chiếc bánh có <b>cả hai đặc điểm</b> 'nhân socola' và 'nhân dâu'.<br/>📌 Có 20 chiếc bánh tất cả.<br/>📌 16 chiếc bánh có 'nhân socola', 16 chiếc bánh có 'nhân dâu'.<br/>➡️ Tổng cộng có thể bị tính lặp những chiếc bánh có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (16 + 16) - 20 = ...<br/>✅ Vậy có ... chiếc bánh vừa có 'nhân socola' vừa có 'nhân dâu'."
     },
     {
       "question": "Có 23 chiếc xe, trong đó 14 chiếc xe có đặc điểm 'chạy điện' và 15 chiếc xe có đặc điểm 'chạy xăng'. Hỏi có bao nhiêu chiếc xe vừa có đặc điểm 'chạy điện' vừa có đặc điểm 'chạy xăng'?",
@@ -471,7 +471,7 @@
         "9"
       ],
       "answer": 0,
-      "guide": "👉 Bài này yêu cầu tìm số chiếc xe có **cả hai đặc điểm** 'chạy điện' và 'chạy xăng'.<br/>📌 Có 23 chiếc xe tất cả.<br/>📌 14 chiếc xe có 'chạy điện', 15 chiếc xe có 'chạy xăng'.<br/>➡️ Tổng cộng có thể bị tính lặp những chiếc xe có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (14 + 15) - 23 = 6<br/>✅ Vậy có ... chiếc xe vừa có 'chạy điện' vừa có 'chạy xăng'."
+      "guide": "👉 Bài này yêu cầu tìm số chiếc xe có <b>cả hai đặc điểm</b> 'chạy điện' và 'chạy xăng'.<br/>📌 Có 23 chiếc xe tất cả.<br/>📌 14 chiếc xe có 'chạy điện', 15 chiếc xe có 'chạy xăng'.<br/>➡️ Tổng cộng có thể bị tính lặp những chiếc xe có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (14 + 15) - 23 = ...<br/>✅ Vậy có ... chiếc xe vừa có 'chạy điện' vừa có 'chạy xăng'."
     },
     {
       "question": "Có 15 bình nước, trong đó 14 bình nước có đặc điểm 'giữ nhiệt' và 11 bình nước có đặc điểm 'có ống hút'. Hỏi có bao nhiêu bình nước vừa có đặc điểm 'giữ nhiệt' vừa có đặc điểm 'có ống hút'?",
@@ -481,7 +481,7 @@
         "9"
       ],
       "answer": 0,
-      "guide": "👉 Bài này yêu cầu tìm số bình nước có **cả hai đặc điểm** 'giữ nhiệt' và 'có ống hút'.<br/>📌 Có 15 bình nước tất cả.<br/>📌 14 bình nước có 'giữ nhiệt', 11 bình nước có 'có ống hút'.<br/>➡️ Tổng cộng có thể bị tính lặp những bình nước có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (14 + 11) - 15 = 10<br/>✅ Vậy có ... bình nước vừa có 'giữ nhiệt' vừa có 'có ống hút'."
+      "guide": "👉 Bài này yêu cầu tìm số bình nước có <b>cả hai đặc điểm</b> 'giữ nhiệt' và 'có ống hút'.<br/>📌 Có 15 bình nước tất cả.<br/>📌 14 bình nước có 'giữ nhiệt', 11 bình nước có 'có ống hút'.<br/>➡️ Tổng cộng có thể bị tính lặp những bình nước có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (14 + 11) - 15 = ...<br/>✅ Vậy có ... bình nước vừa có 'giữ nhiệt' vừa có 'có ống hút'."
     },
     {
       "question": "Có 20 quyển sách, trong đó 16 quyển sách có đặc điểm 'truyện tranh' và 16 quyển sách có đặc điểm 'truyện cổ tích'. Hỏi có bao nhiêu quyển sách vừa có đặc điểm 'truyện tranh' vừa có đặc điểm 'truyện cổ tích'?",
@@ -491,7 +491,7 @@
         "14"
       ],
       "answer": 1,
-      "guide": "👉 Bài này yêu cầu tìm số quyển sách có **cả hai đặc điểm** 'truyện tranh' và 'truyện cổ tích'.<br/>📌 Có 20 quyển sách tất cả.<br/>📌 16 quyển sách có 'truyện tranh', 16 quyển sách có 'truyện cổ tích'.<br/>➡️ Tổng cộng có thể bị tính lặp những quyển sách có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (16 + 16) - 20 = 12<br/>✅ Vậy có ... quyển sách vừa có 'truyện tranh' vừa có 'truyện cổ tích'."
+      "guide": "👉 Bài này yêu cầu tìm số quyển sách có <b>cả hai đặc điểm</b> 'truyện tranh' và 'truyện cổ tích'.<br/>📌 Có 20 quyển sách tất cả.<br/>📌 16 quyển sách có 'truyện tranh', 16 quyển sách có 'truyện cổ tích'.<br/>➡️ Tổng cộng có thể bị tính lặp những quyển sách có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (16 + 16) - 20 = ...<br/>✅ Vậy có ... quyển sách vừa có 'truyện tranh' vừa có 'truyện cổ tích'."
     },
     {
       "question": "Có 21 cái áo, trong đó 19 cái áo có đặc điểm 'màu đỏ' và 21 cái áo có đặc điểm 'màu xanh'. Hỏi có bao nhiêu cái áo vừa có đặc điểm 'màu đỏ' vừa có đặc điểm 'màu xanh'?",
@@ -501,7 +501,7 @@
         "19"
       ],
       "answer": 2,
-      "guide": "👉 Bài này yêu cầu tìm số cái áo có **cả hai đặc điểm** 'màu đỏ' và 'màu xanh'.<br/>📌 Có 21 cái áo tất cả.<br/>📌 19 cái áo có 'màu đỏ', 21 cái áo có 'màu xanh'.<br/>➡️ Tổng cộng có thể bị tính lặp những cái áo có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (19 + 21) - 21 = 19<br/>✅ Vậy có ... cái áo vừa có 'màu đỏ' vừa có 'màu xanh'."
+      "guide": "👉 Bài này yêu cầu tìm số cái áo có <b>cả hai đặc điểm</b> 'màu đỏ' và 'màu xanh'.<br/>📌 Có 21 cái áo tất cả.<br/>📌 19 cái áo có 'màu đỏ', 21 cái áo có 'màu xanh'.<br/>➡️ Tổng cộng có thể bị tính lặp những cái áo có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (19 + 21) - 21 = ...<br/>✅ Vậy có ... cái áo vừa có 'màu đỏ' vừa có 'màu xanh'."
     },
     {
       "question": "Có 15 chiếc bánh, trong đó 14 chiếc bánh có đặc điểm 'nhân socola' và 11 chiếc bánh có đặc điểm 'nhân dâu'. Hỏi có bao nhiêu chiếc bánh vừa có đặc điểm 'nhân socola' vừa có đặc điểm 'nhân dâu'?",
@@ -511,7 +511,7 @@
         "10"
       ],
       "answer": 2,
-      "guide": "👉 Bài này yêu cầu tìm số chiếc bánh có **cả hai đặc điểm** 'nhân socola' và 'nhân dâu'.<br/>📌 Có 15 chiếc bánh tất cả.<br/>📌 14 chiếc bánh có 'nhân socola', 11 chiếc bánh có 'nhân dâu'.<br/>➡️ Tổng cộng có thể bị tính lặp những chiếc bánh có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (14 + 11) - 15 = 10<br/>✅ Vậy có ... chiếc bánh vừa có 'nhân socola' vừa có 'nhân dâu'."
+      "guide": "👉 Bài này yêu cầu tìm số chiếc bánh có <b>cả hai đặc điểm</b> 'nhân socola' và 'nhân dâu'.<br/>📌 Có 15 chiếc bánh tất cả.<br/>📌 14 chiếc bánh có 'nhân socola', 11 chiếc bánh có 'nhân dâu'.<br/>➡️ Tổng cộng có thể bị tính lặp những chiếc bánh có cả hai đặc điểm.<br/>🎯 Áp dụng công thức: (14 + 11) - 15 = ...<br/>✅ Vậy có ... chiếc bánh vừa có 'nhân socola' vừa có 'nhân dâu'."
     }
   ]
 }

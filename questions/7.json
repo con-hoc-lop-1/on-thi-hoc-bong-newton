@@ -314,7 +314,7 @@
       "guide": "👉 Bài toán cho biết có 9 đối tượng ở phía trước và đang đứng thứ 7 từ dưới lên. ➡️ Con hãy lấy 9 + 7 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
     },
     {
-      "question": "cuốn đang nằm sau 9 quyển sách và nếu đếm ngược từ cuối dãy đang xếp trên giá thì nó ở vị trí thứ 8. Có tất cả bao nhiêu quyển sách trong dãy?",
+      "question": "Cuốn sách cần tìm đang nằm sau 9 quyển sách và nếu đếm ngược từ cuối dãy đang xếp trên giá thì nó ở vị trí thứ 8. Có tất cả bao nhiêu quyển sách trong dãy?",
       "options": [
         "19",
         "15",
@@ -464,7 +464,7 @@
       "guide": "👉 Bài toán cho biết có 5 đối tượng ở phía trước và đang đứng thứ 7 từ dưới lên. ➡️ Con hãy lấy 5 + 7 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
     },
     {
-      "question": "cuốn đang nằm sau 7 quyển sách và nếu đếm ngược từ cuối dãy đang xếp trên giá thì nó ở vị trí thứ 6. Có tất cả bao nhiêu quyển sách trong dãy?",
+      "question": "Cuốn sách cần tìm đang nằm sau 7 quyển sách và nếu đếm ngược từ cuối dãy đang xếp trên giá thì nó ở vị trí thứ 6. Có tất cả bao nhiêu quyển sách trong dãy?",
       "options": [
         "13",
         "12",
@@ -494,7 +494,7 @@
       "guide": "👉 Bài toán cho biết có 10 đối tượng ở phía trước và đang đứng thứ 3 từ dưới lên. ➡️ Con hãy lấy 10 + 3 = ... ✅ Vậy có tất cả ... đối tượng trong dãy."
     },
     {
-      "question": "cuốn được đặt sau 2 quyển sách trong khi đang xếp trên giá. Nếu tính từ cuối lên thì cuốn đứng thứ 7. Hỏi dãy đó có tất cả bao nhiêu quyển sách?",
+      "question": "Cuốn sách cần tìm được đặt sau 2 quyển sách trong khi đang xếp trên giá. Nếu tính từ cuối lên thì cuốn sách cần tìm đứng thứ 7. Hỏi dãy đó có tất cả bao nhiêu quyển sách?",
       "options": [
         "11",
         "12",
