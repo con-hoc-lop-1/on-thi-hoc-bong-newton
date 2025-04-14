@@ -4,12 +4,6 @@ import DrawBalance from "./DrawBalance";
 import ReactDOMServer from 'react-dom/server';
 
 export default function App() {
-    const q1 = 1;
-    const q2 = 15;
-    const question_per_file = 2;
-    const question_per_exercise = 20;
-    const question_sort_random = true;
-
     const [current, setCurrent] = useState(0);
     const [score, setScore] = useState(0);
     const [showResult, setShowResult] = useState(false);
@@ -33,26 +27,42 @@ export default function App() {
     const [timeLeft, setTimeLeft] = useState(20 * 60); // 20 phút
     const [timeSpent, setTimeSpent] = useState(0);
     const [timerInterval, setTimerInterval] = useState(null);
+    const [chosenTopicId, setChosenTopicId] = useState(null);
 
-    useEffect(() => {
-        if (quizStarted && useTimer && timeLeft > 0) {
-            const interval = setInterval(() => {
-                setTimeLeft(prev => prev - 1);
-                setTimeSpent(prev => prev + 1);
-            }, 1000);
-            setTimerInterval(interval);
-            return () => clearInterval(interval);
-        }
-        if (timeLeft === 0) {
-            clearInterval(timerInterval);
-            setShowResult(true);
-        }
-    }, [
-        quizStarted,
-        useTimer,
-        timeLeft
-    ]);
+    const fetchQuestionsFromSQLite = async () => {
+        const SQL = await initSqlJs({locateFile: file => `https://sql.js.org/dist/${file}`});
+        const res = await fetch("/react-on-tap-toan-lop-1/questions.db");
+        const buf = await res.arrayBuffer();
+        const db = new SQL.Database(new Uint8Array(buf));
 
+        const allTopics = db.exec("SELECT id, questions FROM topic")[0].values;
+        const lastUsed = localStorage.getItem("lastTopicId");
+        const available = lastUsed ? allTopics.filter(([id]) => `${id}` !== lastUsed) : allTopics;
+
+        if (available.length === 0) return alert("Hết bộ đề hoặc cần xoá bộ đã dùng!");
+
+        const [fileNum, questionIdsStr] = available[Math.floor(Math.random() * available.length)];
+        const questionIds = questionIdsStr.split(",").map(id => `'${id}'`).join(",");
+
+        const result = db.exec(`SELECT *
+                                FROM questions
+                                WHERE id IN (${questionIds})`)[0];
+        const columns = result.columns;
+        const values = result.values;
+        const parsedQuestions = values.map(row => Object.fromEntries(row.map((v, i) => [
+            columns[i],
+            columns[i] === 'balance' || columns[i] === 'diagram' || columns[i] === 'options' || columns[i] === 'signal' || columns[i] === 'special' ? JSON.parse(v) : v
+        ])));
+        setChosenTopicId(fileNum);
+        setQuestions(parsedQuestions);
+        setReady(true);
+    };
+
+    const saveLastTopic = () => {
+        if (chosenTopicId) {
+            localStorage.setItem("lastTopicId", chosenTopicId);
+        }
+    };
     const renderSVG = (Component, props) => {
         try {
             return ReactDOMServer.renderToStaticMarkup(<Component {...props} />);
@@ -91,7 +101,7 @@ export default function App() {
 
         const html = `<html lang="vi-VN">
       <head>
-        <title>Ôn tập toán lớp 1</title>
+        <title>Ôn tập toán lớp 1 - Bộ đề số ${chosenTopicId}</title>
         <style>
           body { font-family: Arial,sans-serif; padding: 24px; }
           h3 { margin-top: 0; }
@@ -127,6 +137,20 @@ export default function App() {
             `).join("")}
           </div>
         `).join("")}
+        ${!showInfo.multiChoice ? `
+          <div class="page" style="page-break-after: always">
+          <h1>Đáp án</h1>
+            ${grouped.map(group => `
+                ${group.map((q, idx) => `
+                  <div class="question">
+                    <div class="question-item">
+                      <div><b>Câu ${questions.indexOf(q) + 1}</b>: Đáp án là <b>${q.options[q.answer]}</b></div>
+                    </div>
+                  </div>
+                  ${idx < group.length - 1 ? '<hr/>' : ''}
+                `).join("")}
+            `).join("")}` : ``}
+          </div>
         <script>
         const imgs = document.images;
         let loaded = 0;
@@ -183,51 +207,6 @@ export default function App() {
         if (timerInterval) clearInterval(timerInterval);
     };
 
-    const fetchQuestions = async () => {
-        const promises = [];
-        for (let i = q1; i <= q2; i++) {
-            promises.push(
-                fetch(`/react-on-tap-toan-lop-1/questions/${i}.json`)
-                    .then(response => response.json())
-                    .then((result) => {
-                        let data
-                        if (question_sort_random) {
-                            data = result.data.sort(() => 0.5 - Math.random()).slice(0, question_per_file);
-                        } else {
-                            data = result.data.slice(0, question_per_file);
-                        }
-                        data = data.map(item => ({
-                            ...item,
-                            name: result.name,
-                            type: result.type,
-                            special: result.special,
-                            signal: result.signal,
-                            suggest: result.suggest
-                        }));
-                        return data;
-                    })
-            );
-        }
-        const questions = await Promise.all(promises);
-        if (question_sort_random) {
-            return questions.flat().sort(() => 0.5 - Math.random()).slice(0, question_per_exercise);
-        } else {
-            return questions.flat().slice(0, question_per_exercise);
-        }
-    };
-
-    useEffect(() => {
-        if (!ready)
-            fetchQuestions().then((data) => {
-                setQuestions(data);
-                setReady(true);
-            });
-    }, []);
-
-    useEffect(() => {
-        localStorage.setItem("showInfo", JSON.stringify(showInfo));
-    }, [showInfo]);
-
     const questionCounts = questions.reduce((acc, q) => {
         acc[q.name] = (acc[q.name] || 0) + 1;
         return acc;
@@ -239,11 +218,39 @@ export default function App() {
         return `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
     }
 
+    useEffect(() => {
+        if (!ready)
+            fetchQuestionsFromSQLite()
+    }, []);
+
+    useEffect(() => {
+        localStorage.setItem("showInfo", JSON.stringify(showInfo));
+    }, [showInfo]);
+
+    useEffect(() => {
+        if (quizStarted && useTimer && timeLeft > 0) {
+            const interval = setInterval(() => {
+                setTimeLeft(prev => prev - 1);
+                setTimeSpent(prev => prev + 1);
+            }, 1000);
+            setTimerInterval(interval);
+            return () => clearInterval(interval);
+        }
+        if (timeLeft === 0) {
+            clearInterval(timerInterval);
+            setShowResult(true);
+        }
+    }, [
+        quizStarted,
+        useTimer,
+        timeLeft
+    ]);
+
     return (
         <div style={{maxWidth: 800, margin: '0 auto', padding: 24}}>
             {!quizStarted && ready && (
                 <div>
-                    <h2>📚 Thông tin bộ đề</h2>
+                    <h2>📚 Thông tin bộ đề số {chosenTopicId}</h2>
                     <p>Tổng số câu hỏi: <b>{questions.length} câu</b></p>
                     <ul>
                         {Object.entries(questionCounts).map(([name, count]) => (
@@ -285,10 +292,16 @@ export default function App() {
                         )}
                     </div>
                     <div className="mt-4">
-                        <button className="btn btn-success mr-2" onClick={() => setQuizStarted(true)}>🚀 Bắt đầu làm
+                        <button className="btn btn-success mr-2" onClick={() => {
+                            setQuizStarted(true);
+                            saveLastTopic();
+                        }}>🚀 Bắt đầu làm
                             bài
                         </button>
-                        <button className="btn btn-secondary" onClick={() => printQuestion(questions, showInfo)}>🖨️ In
+                        <button className="btn btn-secondary" onClick={() => {
+                            printQuestion(questions, showInfo);
+                            saveLastTopic();
+                        }}>🖨️ In
                             bài ra giấy
                         </button>
                     </div>
@@ -298,7 +311,7 @@ export default function App() {
             {quizStarted && !showResult && ready && (
                 <Fragment>
                     <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
-                        <h2>Câu {current + 1}/{question_per_exercise}:</h2>
+                        <h2>Câu {current + 1}/{questions.length}:</h2>
                         {useTimer &&
                             <h3 style={{color: timeLeft < 30 ? 'red' : undefined}}>⏱️ {formatTime(timeLeft)}</h3>}
                     </div>
@@ -370,7 +383,7 @@ export default function App() {
                     {score === 20 && <p>🏆 Con thật tuyệt vời! Đạt điểm tối đa!</p>}
                     {score >= 10 && score < 20 && <p>👍 Con đã làm rất tốt! Cố thêm chút nữa nhé!</p>}
                     {score < 10 && <p>💪 Không sao cả, mình cùng ôn lại và chơi lại nhé!</p>}
-                    <button onClick={handleRestart}>Chơi lại</button>
+                    <button className='btn btn-primary' onClick={handleRestart}>Chơi lại</button>
                 </div>
             )}
         </div>
