@@ -1,5 +1,4 @@
 import React, {Fragment, useEffect, useState} from "react";
-import DrawDiagram from "./DrawDiagram";
 import DrawBalance from "./DrawBalance";
 import ReactDOMServer from 'react-dom/server';
 
@@ -51,7 +50,7 @@ export default function App() {
         const values = result.values;
         const parsedQuestions = values.map(row => Object.fromEntries(row.map((v, i) => [
             columns[i],
-            columns[i] === 'balance' || columns[i] === 'diagram' || columns[i] === 'options' || columns[i] === 'signal' || columns[i] === 'special' ? JSON.parse(v) : v
+            columns[i] === 'balance' || columns[i] === 'options' || columns[i] === 'signal' || columns[i] === 'special' ? JSON.parse(v) : v
         ])));
         const parsedQuestionsShuffled = [...parsedQuestions].sort(() => 0.5 - Math.random());
         setChosenTopicId(fileNum);
@@ -127,7 +126,7 @@ export default function App() {
                 <h3>Câu ${questions.indexOf(q) + 1}</h3>
                 <div class="question-item">
                   <div>${q.question}</div>
-                  ${q.diagram ? `${renderSVG(DrawDiagram, {diagram: q.diagram})}` : ""}
+                  ${q.diagram ? `${q.diagram}` : ""}
                   ${q.balance ? `${renderSVG(DrawBalance, {balance: q.balance})}` : ""}
                   ${showInfo.multiChoice ? `<div class="options">
                     ${q.options.map((opt, idx) => `<div>${String.fromCharCode(65 + idx)}. ${opt}</div>`).join("")}
@@ -323,7 +322,9 @@ export default function App() {
                     </div>
 
                     <p dangerouslySetInnerHTML={{__html: questions[current].question}}/>
-                    {questions[current].diagram && <DrawDiagram diagram={questions[current].diagram}/>}
+                    {questions[current].diagram &&
+                        <div dangerouslySetInnerHTML={{__html: questions[current].diagram}}></div>
+                    }
                     {questions[current].balance && <DrawBalance balance={questions[current].balance}/>}
                     {showInfo.multiChoice && (
                         <div style={{marginTop: 20}}>

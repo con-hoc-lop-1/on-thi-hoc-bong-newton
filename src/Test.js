@@ -1,5 +1,4 @@
 import React, {Fragment, useEffect, useState} from "react";
-import DrawDiagram from "./DrawDiagram";
 import DrawBalance from "./DrawBalance";
 import ReactDOMServer from 'react-dom/server';
 
@@ -27,7 +26,7 @@ export default function Test() {
     const [timeLeft, setTimeLeft] = useState(20 * 60); // 20 phút
     const [timeSpent, setTimeSpent] = useState(0);
     const [timerInterval, setTimerInterval] = useState(null);
-    const chosenTopicId = 8;
+    const chosenTopicId = 16;
     const fetchQuestionsFromSQLite = async () => {
         const SQL = await initSqlJs({locateFile: file => `https://sql.js.org/dist/${file}`});
         const res = await fetch("/react-on-tap-toan-lop-1/questions.db");
@@ -46,16 +45,6 @@ export default function Test() {
         setQuestions(parsedQuestions);
         setReady(true);
     };
-    const drawSVG = (svg) => {
-        const parser = new DOMParser();
-        const doc = parser.parseFromString(svg, "text/xml");
-        const svgElement = doc.querySelector("svg");
-        svgElement.setAttribute("width", "100%");
-        svgElement.setAttribute("height", "100%");
-        svgElement.setAttribute("viewBox", "0 0 100 100");
-        return ReactDOMServer.renderToStaticMarkup(svgElement);
-    };
-
     const renderSVG = (Component, props) => {
         try {
             return ReactDOMServer.renderToStaticMarkup(<Component {...props} />);
@@ -114,7 +103,7 @@ export default function Test() {
                 <h3>Câu ${questions.indexOf(q) + 1}</h3>
                 <div class="question-item">
                   <div>${q.question}</div>
-                  ${q.diagram ? `${drawSVG(DrawDiagram, {diagram: q.diagram})}` : ""}
+                  ${q.diagram ? `${q.diagram}` : ""}
                   ${q.balance ? `${renderSVG(DrawBalance, {balance: q.balance})}` : ""}
                   ${showInfo.multiChoice ? `<div class="options">
                     ${q.options.map((opt, idx) => `<div>${String.fromCharCode(65 + idx)}. ${opt}</div>`).join("")}
@@ -150,7 +139,7 @@ export default function Test() {
         if (imgs.length === 0){
           window.print()
           setTimeout(() => {
-            window.close()
+            // window.close()
           }, 100)
         } else {
             for (let i = 0; i < imgs.length; i++) {
@@ -159,7 +148,7 @@ export default function Test() {
                   if (loaded === imgs.length) {
                     setTimeout(() => {
                       window.print()
-                      window.close()
+                      // window.close()
                   }, 100)
                 }
               };
