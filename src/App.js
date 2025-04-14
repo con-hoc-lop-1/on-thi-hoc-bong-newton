@@ -71,7 +71,7 @@ export default function App() {
             "suggest",
             "multiChoice"
         ].filter(k => showInfo[k]).length;
-        let perPage = 1;
+        let perPage;
         if (showInfo.multiChoice) {
             if (extraCount > 1) {
                 perPage = 1;

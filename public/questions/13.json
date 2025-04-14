@@ -44,7 +44,7 @@
       "guide": "👉 Có 7 quả bóng được xếp thẳng hàng.<br/>📌 Mỗi khoảng cách nằm giữa hai quả bóng liên tiếp.<br/>➡️ Số khoảng cách = Số quả bóng - 1 = 7 - 1 = ..."
     },
     {
-      "question": "Có 7 chiếc xe máy được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa các chiếc xe máy đó?",
+      "question": "Có 7 chiếc xe máy được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa những chiếc xe máy đó?",
       "options": [
         "4",
         "5",
@@ -84,7 +84,7 @@
       "guide": "👉 Có 6 cái cây được xếp thẳng hàng.<br/>📌 Mỗi khoảng cách nằm giữa hai cái cây liên tiếp.<br/>➡️ Số khoảng cách = Số cái cây - 1 = 6 - 1 = ..."
     },
     {
-      "question": "Có 8 chiếc ghế được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa các chiếc ghế đó?",
+      "question": "Có 8 chiếc ghế được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa những chiếc ghế đó?",
       "options": [
         "6",
         "5",
@@ -134,7 +134,7 @@
       "guide": "👉 Có 5 lồng đèn được xếp thẳng hàng.<br/>📌 Mỗi khoảng cách nằm giữa hai lồng đèn liên tiếp.<br/>➡️ Số khoảng cách = Số lồng đèn - 1 = 5 - 1 = ..."
     },
     {
-      "question": "Có 9 chiếc xe máy được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa các chiếc xe máy đó?",
+      "question": "Có 9 chiếc xe máy được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa những chiếc xe máy đó?",
       "options": [
         "7",
         "8",
@@ -154,7 +154,7 @@
       "guide": "👉 Có 10 bạn đứng xếp hàng được xếp thẳng hàng.<br/>📌 Mỗi khoảng cách nằm giữa hai bạn đứng xếp hàng liên tiếp.<br/>➡️ Số khoảng cách = Số bạn đứng xếp hàng - 1 = 10 - 1 = ..."
     },
     {
-      "question": "Có 10 chiếc xe máy được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa các chiếc xe máy đó?",
+      "question": "Có 10 chiếc xe máy được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa những chiếc xe máy đó?",
       "options": [
         "9",
         "8",
@@ -184,7 +184,7 @@
       "guide": "👉 Có 7 bạn đứng xếp hàng được xếp thẳng hàng.<br/>📌 Mỗi khoảng cách nằm giữa hai bạn đứng xếp hàng liên tiếp.<br/>➡️ Số khoảng cách = Số bạn đứng xếp hàng - 1 = 7 - 1 = ..."
     },
     {
-      "question": "Có 5 chiếc ghế được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa các chiếc ghế đó?",
+      "question": "Có 5 chiếc ghế được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa những chiếc ghế đó?",
       "options": [
         "3",
         "2",
@@ -204,7 +204,7 @@
       "guide": "👉 Có 10 đèn giao thông được xếp thẳng hàng.<br/>📌 Mỗi khoảng cách nằm giữa hai đèn giao thông liên tiếp.<br/>➡️ Số khoảng cách = Số đèn giao thông - 1 = 10 - 1 = ..."
     },
     {
-      "question": "Có 4 chiếc xe máy được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa các chiếc xe máy đó?",
+      "question": "Có 4 chiếc xe máy được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa những chiếc xe máy đó?",
       "options": [
         "1",
         "2",
@@ -244,7 +244,7 @@
       "guide": "👉 Có 12 bạn đứng xếp hàng được xếp thẳng hàng.<br/>📌 Mỗi khoảng cách nằm giữa hai bạn đứng xếp hàng liên tiếp.<br/>➡️ Số khoảng cách = Số bạn đứng xếp hàng - 1 = 12 - 1 = ..."
     },
     {
-      "question": "Có 11 chiếc xe máy được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa các chiếc xe máy đó?",
+      "question": "Có 11 chiếc xe máy được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa những chiếc xe máy đó?",
       "options": [
         "10",
         "8",
@@ -254,7 +254,7 @@
       "guide": "👉 Có 11 chiếc xe máy được xếp thẳng hàng.<br/>📌 Mỗi khoảng cách nằm giữa hai chiếc xe máy liên tiếp.<br/>➡️ Số khoảng cách = Số chiếc xe máy - 1 = 11 - 1 = ..."
     },
     {
-      "question": "Có 10 chiếc xe máy được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa các chiếc xe máy đó?",
+      "question": "Có 10 chiếc xe máy được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa những chiếc xe máy đó?",
       "options": [
         "9",
         "8",
@@ -264,7 +264,7 @@
       "guide": "👉 Có 10 chiếc xe máy được xếp thẳng hàng.<br/>📌 Mỗi khoảng cách nằm giữa hai chiếc xe máy liên tiếp.<br/>➡️ Số khoảng cách = Số chiếc xe máy - 1 = 10 - 1 = ..."
     },
     {
-      "question": "Có 9 chiếc ghế được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa các chiếc ghế đó?",
+      "question": "Có 9 chiếc ghế được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa những chiếc ghế đó?",
       "options": [
         "7",
         "6",
@@ -284,7 +284,7 @@
       "guide": "👉 Có 6 đèn giao thông được xếp thẳng hàng.<br/>📌 Mỗi khoảng cách nằm giữa hai đèn giao thông liên tiếp.<br/>➡️ Số khoảng cách = Số đèn giao thông - 1 = 6 - 1 = ..."
     },
     {
-      "question": "Có 12 chiếc xe máy được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa các chiếc xe máy đó?",
+      "question": "Có 12 chiếc xe máy được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa những chiếc xe máy đó?",
       "options": [
         "11",
         "9",
@@ -304,7 +304,7 @@
       "guide": "👉 Có 10 quả bóng được xếp thẳng hàng.<br/>📌 Mỗi khoảng cách nằm giữa hai quả bóng liên tiếp.<br/>➡️ Số khoảng cách = Số quả bóng - 1 = 10 - 1 = ..."
     },
     {
-      "question": "Có 7 chiếc xe máy được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa các chiếc xe máy đó?",
+      "question": "Có 7 chiếc xe máy được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa những chiếc xe máy đó?",
       "options": [
         "4",
         "6",
@@ -334,7 +334,7 @@
       "guide": "👉 Có 4 đèn giao thông được xếp thẳng hàng.<br/>📌 Mỗi khoảng cách nằm giữa hai đèn giao thông liên tiếp.<br/>➡️ Số khoảng cách = Số đèn giao thông - 1 = 4 - 1 = ..."
     },
     {
-      "question": "Có 5 chiếc xe máy được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa các chiếc xe máy đó?",
+      "question": "Có 5 chiếc xe máy được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa những chiếc xe máy đó?",
       "options": [
         "3",
         "4",
@@ -344,7 +344,7 @@
       "guide": "👉 Có 5 chiếc xe máy được xếp thẳng hàng.<br/>📌 Mỗi khoảng cách nằm giữa hai chiếc xe máy liên tiếp.<br/>➡️ Số khoảng cách = Số chiếc xe máy - 1 = 5 - 1 = ..."
     },
     {
-      "question": "Có 6 chiếc xe máy được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa các chiếc xe máy đó?",
+      "question": "Có 6 chiếc xe máy được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa những chiếc xe máy đó?",
       "options": [
         "4",
         "3",
@@ -384,7 +384,7 @@
       "guide": "👉 Có 6 cái cây được xếp thẳng hàng.<br/>📌 Mỗi khoảng cách nằm giữa hai cái cây liên tiếp.<br/>➡️ Số khoảng cách = Số cái cây - 1 = 6 - 1 = ..."
     },
     {
-      "question": "Có 6 chiếc xe máy được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa các chiếc xe máy đó?",
+      "question": "Có 6 chiếc xe máy được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa những chiếc xe máy đó?",
       "options": [
         "4",
         "3",
@@ -394,7 +394,7 @@
       "guide": "👉 Có 6 chiếc xe máy được xếp thẳng hàng.<br/>📌 Mỗi khoảng cách nằm giữa hai chiếc xe máy liên tiếp.<br/>➡️ Số khoảng cách = Số chiếc xe máy - 1 = 6 - 1 = ..."
     },
     {
-      "question": "Có 12 chiếc ghế được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa các chiếc ghế đó?",
+      "question": "Có 12 chiếc ghế được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa những chiếc ghế đó?",
       "options": [
         "10",
         "11",
@@ -454,7 +454,7 @@
       "guide": "👉 Có 7 quả bóng được xếp thẳng hàng.<br/>📌 Mỗi khoảng cách nằm giữa hai quả bóng liên tiếp.<br/>➡️ Số khoảng cách = Số quả bóng - 1 = 7 - 1 = ..."
     },
     {
-      "question": "Có 9 chiếc xe máy được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa các chiếc xe máy đó?",
+      "question": "Có 9 chiếc xe máy được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa những chiếc xe máy đó?",
       "options": [
         "6",
         "8",
@@ -494,7 +494,7 @@
       "guide": "👉 Có 4 bạn đứng xếp hàng được xếp thẳng hàng.<br/>📌 Mỗi khoảng cách nằm giữa hai bạn đứng xếp hàng liên tiếp.<br/>➡️ Số khoảng cách = Số bạn đứng xếp hàng - 1 = 4 - 1 = ..."
     },
     {
-      "question": "Có 11 chiếc ghế được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa các chiếc ghế đó?",
+      "question": "Có 11 chiếc ghế được xếp cách đều thành một hàng thẳng. Hỏi có bao nhiêu khoảng cách giữa những chiếc ghế đó?",
       "options": [
         "9",
         "8",
