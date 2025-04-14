@@ -3,7 +3,7 @@ import DrawDiagram from "./DrawDiagram";
 import DrawBalance from "./DrawBalance";
 import ReactDOMServer from 'react-dom/server';
 
-export default function App() {
+export default function Test() {
     const [current, setCurrent] = useState(0);
     const [score, setScore] = useState(0);
     const [showResult, setShowResult] = useState(false);
@@ -27,48 +27,35 @@ export default function App() {
     const [timeLeft, setTimeLeft] = useState(20 * 60); // 20 phút
     const [timeSpent, setTimeSpent] = useState(0);
     const [timerInterval, setTimerInterval] = useState(null);
-    const [chosenTopicId, setChosenTopicId] = useState(null);
-
+    const chosenTopicId = 8;
     const fetchQuestionsFromSQLite = async () => {
         const SQL = await initSqlJs({locateFile: file => `https://sql.js.org/dist/${file}`});
         const res = await fetch("/react-on-tap-toan-lop-1/questions.db");
         const buf = await res.arrayBuffer();
         const db = new SQL.Database(new Uint8Array(buf));
 
-        const allTopics = db.exec("SELECT id, questions FROM topic")[0].values;
-        const history = JSON.parse(localStorage.getItem("lastTopicHistory") || "[]");
-        const available = allTopics.filter(([id]) => !history.includes(id));
-
-        if (available.length === 0) return alert("Hết bộ đề hoặc cần xoá bộ đã dùng!");
-
-        const [fileNum, questionIdsStr] = available[Math.floor(Math.random() * available.length)];
-        const questionIds = questionIdsStr.split(",").map(id => `'${id}'`).join(",");
-
         const result = db.exec(`SELECT *
                                 FROM questions
-                                WHERE id IN (${questionIds})`)[0];
+                                WHERE file_number = ${chosenTopicId}`)[0];
         const columns = result.columns;
         const values = result.values;
         const parsedQuestions = values.map(row => Object.fromEntries(row.map((v, i) => [
             columns[i],
-            columns[i] === 'balance' || columns[i] === 'diagram' || columns[i] === 'options' || columns[i] === 'signal' || columns[i] === 'special' ? JSON.parse(v) : v
+            columns[i] === 'balance' || columns[i] === 'options' || columns[i] === 'signal' || columns[i] === 'special' ? JSON.parse(v) : v
         ])));
-        const parsedQuestionsShuffled = [...parsedQuestions].sort(() => 0.5 - Math.random());
-        setChosenTopicId(fileNum);
-        setQuestions(parsedQuestionsShuffled);
+        setQuestions(parsedQuestions);
         setReady(true);
     };
-
-    const saveLastTopic = () => {
-        if (chosenTopicId) {
-            const history = JSON.parse(localStorage.getItem("lastTopicHistory") || "[]");
-            const newHistory = [
-                chosenTopicId,
-                ...history.filter(id => id !== chosenTopicId)
-            ].slice(0, 60);
-            localStorage.setItem("lastTopicHistory", JSON.stringify(newHistory));
-        }
+    const drawSVG = (svg) => {
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(svg, "text/xml");
+        const svgElement = doc.querySelector("svg");
+        svgElement.setAttribute("width", "100%");
+        svgElement.setAttribute("height", "100%");
+        svgElement.setAttribute("viewBox", "0 0 100 100");
+        return ReactDOMServer.renderToStaticMarkup(svgElement);
     };
+
     const renderSVG = (Component, props) => {
         try {
             return ReactDOMServer.renderToStaticMarkup(<Component {...props} />);
@@ -127,7 +114,7 @@ export default function App() {
                 <h3>Câu ${questions.indexOf(q) + 1}</h3>
                 <div class="question-item">
                   <div>${q.question}</div>
-                  ${q.diagram ? `${renderSVG(DrawDiagram, {diagram: q.diagram})}` : ""}
+                  ${q.diagram ? `${drawSVG(DrawDiagram, {diagram: q.diagram})}` : ""}
                   ${q.balance ? `${renderSVG(DrawBalance, {balance: q.balance})}` : ""}
                   ${showInfo.multiChoice ? `<div class="options">
                     ${q.options.map((opt, idx) => `<div>${String.fromCharCode(65 + idx)}. ${opt}</div>`).join("")}
@@ -300,13 +287,11 @@ export default function App() {
                     <div className="mt-4">
                         <button className="btn btn-success mr-2" onClick={() => {
                             setQuizStarted(true);
-                            saveLastTopic();
                         }}>🚀 Bắt đầu làm
                             bài
                         </button>
                         <button className="btn btn-secondary" onClick={() => {
                             printQuestion(questions, showInfo);
-                            saveLastTopic();
                         }}>🖨️ In
                             bài ra giấy
                         </button>
@@ -323,7 +308,8 @@ export default function App() {
                     </div>
 
                     <p dangerouslySetInnerHTML={{__html: questions[current].question}}/>
-                    {questions[current].diagram && <DrawDiagram diagram={questions[current].diagram}/>}
+                    {questions[current].diagram &&
+                        <div dangerouslySetInnerHTML={{__html: questions[current].diagram}}></div>}
                     {questions[current].balance && <DrawBalance balance={questions[current].balance}/>}
                     {showInfo.multiChoice && (
                         <div style={{marginTop: 20}}>
