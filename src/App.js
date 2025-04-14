@@ -36,8 +36,8 @@ export default function App() {
         const db = new SQL.Database(new Uint8Array(buf));
 
         const allTopics = db.exec("SELECT id, questions FROM topic")[0].values;
-        const lastUsed = localStorage.getItem("lastTopicId");
-        const available = lastUsed ? allTopics.filter(([id]) => `${id}` !== lastUsed) : allTopics;
+        const history = JSON.parse(localStorage.getItem("lastTopicHistory") || "[]");
+        const available = allTopics.filter(([file_number]) => !history.includes(file_number));
 
         if (available.length === 0) return alert("Hết bộ đề hoặc cần xoá bộ đã dùng!");
 
@@ -53,14 +53,20 @@ export default function App() {
             columns[i],
             columns[i] === 'balance' || columns[i] === 'diagram' || columns[i] === 'options' || columns[i] === 'signal' || columns[i] === 'special' ? JSON.parse(v) : v
         ])));
+        const parsedQuestionsShuffled = [...parsedQuestions].sort(() => 0.5 - Math.random());
         setChosenTopicId(fileNum);
-        setQuestions(parsedQuestions);
+        setQuestions(parsedQuestionsShuffled);
         setReady(true);
     };
 
     const saveLastTopic = () => {
         if (chosenTopicId) {
-            localStorage.setItem("lastTopicId", chosenTopicId);
+            const history = JSON.parse(localStorage.getItem("lastTopicHistory") || "[]");
+            const newHistory = [
+                chosenTopicId,
+                ...history.filter(id => id !== chosenTopicId)
+            ].slice(0, 60);
+            localStorage.setItem("lastTopicHistory", JSON.stringify(newHistory));
         }
     };
     const renderSVG = (Component, props) => {
