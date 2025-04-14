@@ -14,7 +14,7 @@
   "suggest": "Dùng que tính, viên sỏi, hoặc hình ảnh kẹo chia đều vào các cốc/hộp thật Dùng cách đếm nhẩm theo bảng cửu chương: “7 nhân mấy thì ra 56?” Cho bé diễn vai chủ thể đối tượng chia đồ chơi, bánh cho bạn",
   "data": [
     {
-      "question": "Bác nông dân thu hoạch 56 chiếc kẹo và chia đều lên 7 hộp. Hỏi mỗi hộp được bao nhiêu chiếc kẹo?",
+      "question": "Bác nông dân có 56 chiếc kẹo và chia đều vào 7 hộp. Hỏi mỗi hộp được bao nhiêu chiếc kẹo?",
       "options": [
         "7",
         "8",
@@ -44,7 +44,7 @@
       "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
     },
     {
-      "question": "Bác nông dân thu hoạch 32 chai nước và chia đều lên 8 người bạn. Hỏi mỗi người bạn được bao nhiêu chai nước?",
+      "question": "Bác nông dân có 32 chai nước và chia đều cho 8 người bạn. Hỏi mỗi người bạn được bao nhiêu chai nước?",
       "options": [
         "2",
         "1",
@@ -274,7 +274,7 @@
       "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
     },
     {
-      "question": "Bác nông dân thu hoạch 32 chai nước và chia đều lên 4 người bạn. Hỏi mỗi người bạn được bao nhiêu chai nước?",
+      "question": "Bác nông dân có 32 chai nước và chia đều cho 4 người bạn. Hỏi mỗi người bạn được bao nhiêu chai nước?",
       "options": [
         "11",
         "8",
@@ -304,7 +304,7 @@
       "guide": "👉 Con hãy đọc kỹ đề, xác định phép tính cần làm và thực hiện từng bước để tìm đáp án nhé!"
     },
     {
-      "question": "Một cửa hàng xếp đều 60 chiếc bánh vào 2 em nhỏ để trưng bày. Hỏi mỗi em nhỏ có bao nhiêu chiếc bánh?",
+      "question": "Một cửa hàng xếp đều 60 chiếc bánh vào 2 hộp đựng để trưng bày. Hỏi mỗi hộp đựng có bao nhiêu chiếc bánh?",
       "options": [
         "27",
         "30",
@@ -374,7 +374,7 @@
       "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
     },
     {
-      "question": "Bác nông dân thu hoạch 48 chiếc xe đồ chơi và chia đều lên 8 kệ. Hỏi mỗi kệ được bao nhiêu chiếc xe đồ chơi?",
+      "question": "Bác nông dân có 48 chiếc xe đồ chơi và chia đều lên 8 kệ. Hỏi mỗi kệ được bao nhiêu chiếc xe đồ chơi?",
       "options": [
         "6",
         "4",
@@ -384,7 +384,7 @@
       "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
     },
     {
-      "question": "Bác nông dân thu hoạch 42 chiếc xe đồ chơi và chia đều lên 2 kệ. Hỏi mỗi kệ được bao nhiêu chiếc xe đồ chơi?",
+      "question": "Bác nông dân có 42 chiếc xe đồ chơi và chia đều lên 2 kệ. Hỏi mỗi kệ được bao nhiêu chiếc xe đồ chơi?",
       "options": [
         "20",
         "22",
@@ -454,7 +454,7 @@
       "guide": "👉 Đây là dạng bài chia đều. Con hãy lấy tổng chia cho số nhóm để tìm ra mỗi nhóm có bao nhiêu nhé!"
     },
     {
-      "question": "Bác nông dân thu hoạch 32 hộp bút màu và chia đều lên 4 bàn học. Hỏi mỗi bàn học được bao nhiêu hộp bút màu?",
+      "question": "Bác nông dân có 32 hộp bút màu và chia đều lên 4 bàn học. Hỏi mỗi bàn học được bao nhiêu hộp bút màu?",
       "options": [
         "11",
         "8",
