@@ -251,9 +251,9 @@ export default function App() {
     ]);
 
     return (
-        <Fragment>
-            <div style={{maxWidth: 800, margin: '0 auto', padding: 24}}>
-                {!quizStarted && ready && (
+        <div style={{maxWidth: 800, margin: '0 auto', padding: 24}}>
+            {!quizStarted && ready && (
+                <Fragment>
                     <div>
                         <h2>📚 Thông tin bộ đề số {chosenTopicId}</h2>
                         <p>Tổng số câu hỏi: <b>{questions.length} câu</b></p>
@@ -321,133 +321,135 @@ export default function App() {
                             </button>
                         </div>
                     </div>
-                )}
-
-                {quizStarted && !showResult && ready && (
-                    <Fragment>
-                        <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
-                            <h2>Câu {current + 1}/{questions.length}:</h2>
-                            {useTimer &&
-                                <h3 style={{color: timeLeft < 30 ? 'red' : undefined}}>⏱️ {formatTime(timeLeft)}</h3>}
-                        </div>
-
-                        <p dangerouslySetInnerHTML={{__html: questions[current].question}}/>
-                        {questions[current].diagram &&
-                            <div dangerouslySetInnerHTML={{__html: questions[current].diagram}}></div>
-                        }
-                        {questions[current].balance && <DrawBalance balance={questions[current].balance}/>}
-                        {showInfo.multiChoice && (
-                            <div style={{marginTop: 20}}>
-                                {questions[current].options.map((option, idx) => (
-                                    <button
-                                        className={`btn d-flex mt-2 btn-${selected !== null && idx === questions[current].answer ? 'success' : idx === selected ? 'danger' : 'secondary'}`}
-                                        key={idx}
-                                        disabled={selected !== null}
-                                        onClick={() => handleAnswer(idx)}
-                                    >
-                                        {String.fromCharCode(65 + idx)}. {option}
-                                    </button>
-                                ))}
+                    <hr/>
+                    <div id="more-info-accordian" role="tablist" aria-multiselectable="true">
+                        <div className="card">
+                            <div className="card-header" role="tab" id="more-info-header">
+                                <h5 className="mb-0">
+                                    <a data-toggle="collapse" data-parent="#more-info-accordian"
+                                       href="#more-info-content"
+                                       aria-expanded="true" aria-controls="more-info-content">
+                                        Thông tin thêm
+                                    </a>
+                                </h5>
                             </div>
-                        )}
-                        {!showInfo.multiChoice &&
-                            <button className="btn btn-primary mt-4" onClick={handleNext}>Câu tiếp theo</button>
-                        }
-                        {selected !== null && (
-                            <Fragment>
-                                <hr/>
-                                <div className="mt-4">
-                                    <p><strong>Đáp án
-                                        đúng:</strong> {String.fromCharCode(65 + questions[current].answer)}. {questions[current].options[questions[current].answer]}
-                                    </p>
-                                    <button className="btn btn-primary mt-4" onClick={handleNext}>Câu tiếp theo</button>
+                            <div id="more-info-content" className="collapse in" role="tabpanel"
+                                 aria-labelledby="more-info-header">
+                                <div className="card-body">
+                                    <ul>
+                                        <li>
+                                            <b>82 bộ đề</b> gồm <b>852 câu hỏi</b> thuộc <b>18 dạng đề</b> khác nhau
+                                            dành
+                                            cho học sinh
+                                            giỏi lớp 1
+                                        </li>
+                                        <li>
+                                            Sản phẩm được lập trình 70% bởi ChatGPT-4.5
+                                        </li>
+                                        <li>
+                                            90% câu hỏi và đáp án được tạo bởi ChatGPT-4o, đã kiểm tra lại, vẫn có thể
+                                            có
+                                            sai sót
+                                        </li>
+                                        <li>
+                                            Bộ đề không lặp lại ít nhất 60 lần làm bài
+                                        </li>
+                                    </ul>
                                 </div>
-                            </Fragment>
-                        )}
-                        <hr/>
-                        <div className='guide'>
-                            <div className='mt-4'>
-                                {showInfo.guide && <Fragment>
-                                    <p><strong>Hướng dẫn:</strong><br/>
-                                        <span dangerouslySetInnerHTML={{__html: questions[current].guide}}/>
-                                    </p>
-                                </Fragment>}
-                                {showInfo.name && <p><strong>Dạng đề:</strong> {questions[current].name}</p>}
-                                {showInfo.special && <div><strong>Đặc điểm trong bài:</strong>
-                                    <ul>
-                                        {questions[current].special.map((item, index) => (
-                                            <li key={index}>{item}</li>
-                                        ))}
-                                    </ul>
-                                </div>}
-                                {showInfo.signal && <div><strong>Dấu hiệu nhận biết:</strong>
-                                    <ul>
-                                        {questions[current].signal.map((item, index) => (
-                                            <li key={index}>{item}</li>
-                                        ))}
-                                    </ul>
-                                </div>}
-                                {showInfo.suggest && <div><strong>Gợi ý:</strong>
-                                    <div dangerouslySetInnerHTML={{__html: questions[current].suggest}}/>
-                                </div>}
                             </div>
                         </div>
-                    </Fragment>
-                )}
-
-                {showResult && (
-                    <div style={{textAlign: 'center'}}>
-                        <h2>🎉 Tổng kết</h2>
-                        {showInfo.multiChoice ?
-                            <Fragment>
-                                <p>Con đã trả lời đúng {score} / {questions.length} câu hỏi.</p>
-                                {useTimer && <p>⏱️ Thời gian đã làm: {formatTime(timeSpent)}</p>}
-                                {score === 20 && <p>🏆 Con thật tuyệt vời! Đạt điểm tối đa!</p>}
-                                {score >= 10 && score < 20 && <p>👍 Con đã làm rất tốt! Cố thêm chút nữa nhé!</p>}
-                                {score < 10 && <p>💪 Không sao cả, mình cùng ôn lại và chơi lại nhé!</p>}
-                            </Fragment> :
-                            <p>Con hãy đưa bài giải cho bố mẹ kiểm tra nhé.</p>
-                        }
-                        <button className='btn btn-primary' onClick={handleRestart}>Chơi lại</button>
                     </div>
-                )}
-                <hr/>
-                <div id="more-info-accordian" role="tablist" aria-multiselectable="true">
-                    <div className="card">
-                        <div className="card-header" role="tab" id="more-info-header">
-                            <h5 className="mb-0">
-                                <a data-toggle="collapse" data-parent="#more-info-accordian" href="#more-info-content"
-                                   aria-expanded="true" aria-controls="more-info-content">
-                                    Thông tin thêm
-                                </a>
-                            </h5>
+                </Fragment>)}
+
+            {quizStarted && !showResult && ready && (
+                <Fragment>
+                    <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
+                        <h2>Câu {current + 1}/{questions.length}:</h2>
+                        {useTimer &&
+                            <h3 style={{color: timeLeft < 30 ? 'red' : undefined}}>⏱️ {formatTime(timeLeft)}</h3>}
+                    </div>
+
+                    <p dangerouslySetInnerHTML={{__html: questions[current].question}}/>
+                    {questions[current].diagram &&
+                        <div dangerouslySetInnerHTML={{__html: questions[current].diagram}}></div>
+                    }
+                    {questions[current].balance && <DrawBalance balance={questions[current].balance}/>}
+                    {showInfo.multiChoice && (
+                        <div style={{marginTop: 20}}>
+                            {questions[current].options.map((option, idx) => (
+                                <button
+                                    className={`btn d-flex mt-2 btn-${selected !== null && idx === questions[current].answer ? 'success' : idx === selected ? 'danger' : 'secondary'}`}
+                                    key={idx}
+                                    disabled={selected !== null}
+                                    onClick={() => handleAnswer(idx)}
+                                >
+                                    {String.fromCharCode(65 + idx)}. {option}
+                                </button>
+                            ))}
                         </div>
-                        <div id="more-info-content" className="collapse in" role="tabpanel"
-                             aria-labelledby="more-info-header">
-                            <div className="card-body">
+                    )}
+                    {!showInfo.multiChoice &&
+                        <button className="btn btn-primary mt-4" onClick={handleNext}>Câu tiếp theo</button>
+                    }
+                    {selected !== null && (
+                        <Fragment>
+                            <hr/>
+                            <div className="mt-4">
+                                <p><strong>Đáp án
+                                    đúng:</strong> {String.fromCharCode(65 + questions[current].answer)}. {questions[current].options[questions[current].answer]}
+                                </p>
+                                <button className="btn btn-primary mt-4" onClick={handleNext}>Câu tiếp theo</button>
+                            </div>
+                        </Fragment>
+                    )}
+                    <hr/>
+                    <div className='guide'>
+                        <div className='mt-4'>
+                            {showInfo.guide && <Fragment>
+                                <p><strong>Hướng dẫn:</strong><br/>
+                                    <span dangerouslySetInnerHTML={{__html: questions[current].guide}}/>
+                                </p>
+                            </Fragment>}
+                            {showInfo.name && <p><strong>Dạng đề:</strong> {questions[current].name}</p>}
+                            {showInfo.special && <div><strong>Đặc điểm trong bài:</strong>
                                 <ul>
-                                    <li>
-                                        <b>82 bộ đề</b> gồm <b>852 câu hỏi</b> thuộc <b>18 dạng đề</b> khác nhau dành
-                                        cho học sinh
-                                        giỏi lớp 1
-                                    </li>
-                                    <li>
-                                        Sản phẩm được lập trình 70% bởi ChatGPT-4.5
-                                    </li>
-                                    <li>
-                                        90% câu hỏi và đáp án được tạo bởi ChatGPT-4o, đã kiểm tra lại, vẫn có thể có
-                                        sai sót
-                                    </li>
-                                    <li>
-                                        Bộ đề không lặp lại ít nhất 60 lần làm bài
-                                    </li>
+                                    {questions[current].special.map((item, index) => (
+                                        <li key={index}>{item}</li>
+                                    ))}
                                 </ul>
-                            </div>
+                            </div>}
+                            {showInfo.signal && <div><strong>Dấu hiệu nhận biết:</strong>
+                                <ul>
+                                    {questions[current].signal.map((item, index) => (
+                                        <li key={index}>{item}</li>
+                                    ))}
+                                </ul>
+                            </div>}
+                            {showInfo.suggest && <div><strong>Gợi ý:</strong>
+                                <div dangerouslySetInnerHTML={{__html: questions[current].suggest}}/>
+                            </div>}
                         </div>
                     </div>
-                </div>
-            </div>
+                </Fragment>
+            )}
 
-        </Fragment>
+            {showResult && (
+                <div style={{textAlign: 'center'}}>
+                    <h2>🎉 Tổng kết</h2>
+                    {showInfo.multiChoice ?
+                        <Fragment>
+                            <p>Con đã trả lời đúng {score} / {questions.length} câu hỏi.</p>
+                            {useTimer && <p>⏱️ Thời gian đã làm: {formatTime(timeSpent)}</p>}
+                            {score === 20 && <p>🏆 Con thật tuyệt vời! Đạt điểm tối đa!</p>}
+                            {score >= 10 && score < 20 && <p>👍 Con đã làm rất tốt! Cố thêm chút nữa nhé!</p>}
+                            {score < 10 && <p>💪 Không sao cả, mình cùng ôn lại và chơi lại nhé!</p>}
+                        </Fragment> :
+                        <p>Con hãy đưa bài giải cho bố mẹ kiểm tra nhé.</p>
+                    }
+                    <button className='btn btn-primary' onClick={handleRestart}>Chơi lại</button>
+                </div>
+            )}
+        </div>
+
     );
 }
