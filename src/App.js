@@ -108,7 +108,7 @@ export default function App() {
       <head>
         <title>Ôn tập toán lớp 1 - Bộ đề số ${chosenTopicId}</title>
         <style>
-          body { font-family: Arial,sans-serif; padding: 24px; }
+          body { font-family: Arial,sans-serif; font-size: 14pt; padding: 24px; }
           h3 { margin-top: 0; }
           .page { page-break-after: always; margin-bottom: 48px; }
           .question { margin: 20px 0}
@@ -147,7 +147,7 @@ export default function App() {
           <h1>Đáp án</h1>
             ${grouped.map(group => `
                 ${group.map((q, _idx) => `
-                  <div class="question">
+                  <div class="question" style="font-size:12px">
                     <div class="question-item">
                       <div><b>Câu ${questions.indexOf(q) + 1}</b>: Đáp án là <b>${q.options[q.answer]}</b></div>
                     </div>
@@ -161,7 +161,7 @@ export default function App() {
         if (imgs.length === 0){
           window.print()
           setTimeout(() => {
-            window.close()
+            // window.close()
           }, 100)
         } else {
             for (let i = 0; i < imgs.length; i++) {
@@ -170,7 +170,7 @@ export default function App() {
                   if (loaded === imgs.length) {
                     setTimeout(() => {
                       window.print()
-                      window.close()
+                      // window.close()
                   }, 100)
                 }
               };
