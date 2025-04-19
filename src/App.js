@@ -93,10 +93,8 @@ export default function App() {
             } else {
                 perPage = 2;
             }
-        } else if (extraCount > 1) {
-            perPage = 1;
         } else {
-            perPage = 2;
+            perPage = 1;
         }
 
         const grouped = [];
@@ -115,7 +113,8 @@ export default function App() {
           .question-item {  margin-left: 20px; }
           .options { margin-top: 8px; margin-left: 10px }
           .options div { margin-bottom: 4px; }
-          .draft-box {border: 1px dashed;height: 320px;margin: 20px 0;font-size: 20pt;color: #ddd;display: flex;justify-content: center;align-items: center;}
+          .answer-box {border: 1px dashed;padding: 5px;height: 70px;margin: 20px 0;font-size: 10pt;color: #000;display: flex;justify-content: flex-start;align-items: flex-start;}
+          .draft-box {padding: 5px;margin: 20px 0;font-size: 10pt;color: #000;display: flex;justify-content: flex-start;align-items: flex-start;}
         </style>
       </head>
       <body>
@@ -130,7 +129,7 @@ export default function App() {
                   ${q.balance ? `${renderSVG(DrawBalance, {balance: q.balance})}` : ""}
                   ${showInfo.multiChoice ? `<div class="options">
                     ${q.options.map((opt, idx) => `<div>${String.fromCharCode(65 + idx)}. ${opt}</div>`).join("")}
-                  </div>` : `<div class="draft-box"></div>`}
+                  </div>` : `<div class="answer-box">Trả lời:</div><div class="draft-box">Nháp</div>`}
                   ${showInfo.guide ? `<p><strong>Hướng dẫn:</strong><br/>${q.guide}</p>` : ""}
                   ${showInfo.name ? `<p><strong>Dạng bài:</strong> ${q.name}</p>` : ""}
                   ${showInfo.special ? `<p><strong>Đặc điểm:</strong><ul>${q.special.map(s => `<li>${s}</li>`).join("")}</ul></p>` : ""}

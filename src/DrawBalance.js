@@ -11,7 +11,7 @@ export default function DrawBalance({balance}) {
         padding: "6px",
         boxShadow: "0 2px 8px rgba(0,0,0,0.1)",
         position: "relative",
-        height: "180px"
+        height: "165px"
     };
 
     const style2 = {
@@ -26,7 +26,7 @@ export default function DrawBalance({balance}) {
     const style3 = {
         position: "absolute",
         zIndex: 0,
-        bottom: 15
+        bottom: 30
     };
 
     return (
