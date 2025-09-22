@@ -30,7 +30,7 @@ export default function App() {
 
     const fetchQuestionsFromSQLite = async () => {
         const SQL = await initSqlJs({locateFile: file => `https://sql.js.org/dist/${file}`});
-        const res = await fetch("/react-on-tap-toan-lop-1/questions.db");
+        const res = await fetch("/react-on-thi-hoc-bong-newton-lop-1/questions.db");
         const buf = await res.arrayBuffer();
         const db = new SQL.Database(new Uint8Array(buf));
 
