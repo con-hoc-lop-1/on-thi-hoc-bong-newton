@@ -1,8 +1,8 @@
 {
-  "name": "react-on-tap-toan-lop-1",
+  "name": "react-on-thi-hoc-bong-newton-lop-1",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://phuongdev89.github.io/react-on-tap-toan-lop-1",
+  "homepage": "https://phuongdev89.github.io/react-on-thi-hoc-bong-newton-lop-1",
   "dependencies": {
     "fs": "^0.0.1-security",
     "react": "^18.2.0",
