@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/on-thi-hoc-bong-newton/static/js/main.c4f6ceab.js",
+    "main.js": "/on-thi-hoc-bong-newton/static/js/main.b2c9215b.js",
     "index.html": "/on-thi-hoc-bong-newton/index.html",
-    "main.c4f6ceab.js.map": "/on-thi-hoc-bong-newton/static/js/main.c4f6ceab.js.map"
+    "main.b2c9215b.js.map": "/on-thi-hoc-bong-newton/static/js/main.b2c9215b.js.map"
   },
   "entrypoints": [
-    "static/js/main.c4f6ceab.js"
+    "static/js/main.b2c9215b.js"
   ]
 }
