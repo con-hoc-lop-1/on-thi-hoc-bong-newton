@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/react-on-thi-hoc-bong-newton-lop-1/static/js/main.c4f6ceab.js",
-    "index.html": "/react-on-thi-hoc-bong-newton-lop-1/index.html",
-    "main.c4f6ceab.js.map": "/react-on-thi-hoc-bong-newton-lop-1/static/js/main.c4f6ceab.js.map"
+    "main.js": "/on-thi-hoc-bong-newton/static/js/main.c4f6ceab.js",
+    "index.html": "/on-thi-hoc-bong-newton/index.html",
+    "main.c4f6ceab.js.map": "/on-thi-hoc-bong-newton/static/js/main.c4f6ceab.js.map"
   },
   "entrypoints": [
     "static/js/main.c4f6ceab.js"
