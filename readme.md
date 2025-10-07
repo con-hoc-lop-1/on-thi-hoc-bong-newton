@@ -4,4 +4,4 @@
 - Mỗi bộ đề gồm 20 câu không lặp lại
 - Lập trình 70% bởi ChatGPT
 
-[Bắt đầu làm](https://phuongdev89.github.io/react-on-thi-hoc-bong-newton-lop-1)
+[Bắt đầu làm](https://con-hoc-lop-1.github.io/on-thi-hoc-bong-newton)
